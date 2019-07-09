@@ -4,7 +4,7 @@ module.exports = VodadoneTestOneHandler = {
 				&& handlerInput.requestEnvelope.request.intent.name === 'vodadoneTestOne';
 	},
 	handle(handlerInput) {
-		const speechText = 'Tenemos muchas tarifas!!!';
+		const speechText = 'Tenemos muchas tarifas buenas!!!';
 
 		return handlerInput.responseBuilder
 				.speak(speechText)
