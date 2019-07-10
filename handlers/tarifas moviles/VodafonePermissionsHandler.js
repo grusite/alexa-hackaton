@@ -42,7 +42,7 @@ module.exports = LaunchRequestHandler = {
             const response = await fetch(url);
             const json = await response.json();
             console.log(json);
-            return responseBuilder.speak('Te estamos llamando al <say-as interpret-as="digits">'+mobile.phoneNumber+'</say-as>').getResponse();
+            return responseBuilder.speak('<speak>Te estamos llamando al <say-as interpret-as="digits">'+mobile.phoneNumber+'</say-as></speak>').getResponse();
         } catch (error) {
             if (error.name !== 'ServiceError') {
                 const response = responseBuilder.speak("hay un error"+error).getResponse();
