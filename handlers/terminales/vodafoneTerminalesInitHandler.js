@@ -105,6 +105,7 @@ const vodafoneInteresSiIntentHandler = {
       .speak(
         "Genial! Un asesor de Vodafone se pondrá en contacto contigo en unos instantes"
       )
+      .addElicitSlotDirective("interes")
       .getResponse();
   }
 };
@@ -136,11 +137,12 @@ const vodafoneInteresNoIntentHandler = {
     return handlerInput.responseBuilder
       .speak(text)
       .reprompt(text)
+      .addElicitSlotDirective("interes")
       .getResponse();
   }
 };
 
-const vodafonesegundoInteresSiIntentHandler = {
+const vodafoneSegundoInteresSiIntentHandler = {
   canHandle(handlerInput) {
     return (
       handlerInput.requestEnvelope.request.type === "IntentRequest" &&
@@ -162,11 +164,12 @@ const vodafonesegundoInteresSiIntentHandler = {
       .speak(
         "Genial! Un asesor de Vodafone se pondrá en contacto contigo en unos instantes"
       )
+      .addElicitSlotDirective("segundoInteres")
       .getResponse();
   }
 };
 
-const vodafonesegundoInteresNoIntentHandler = {
+const vodafoneSegundoInteresNoIntentHandler = {
   canHandle(handlerInput) {
     return (
       handlerInput.requestEnvelope.request.type === "IntentRequest" &&
@@ -188,6 +191,7 @@ const vodafonesegundoInteresNoIntentHandler = {
       .speak(
         "No pasa nada! Un asesor de Vodafone se pondrá en contacto contigo para encontrar el móvil más adecuado"
       )
+      .addElicitSlotDirective("segundoInteres")
       .getResponse();
   }
 };
@@ -199,6 +203,6 @@ module.exports = [
   vodafoneModeloIntentHandler,
   vodafoneInteresSiIntentHandler,
   vodafoneInteresNoIntentHandler,
-  vodafonesegundoInteresSiIntentHandler,
-  vodafonesegundoInteresNoIntentHandler
+  vodafoneSegundoInteresSiIntentHandler,
+  vodafoneSegundoInteresNoIntentHandler
 ];
