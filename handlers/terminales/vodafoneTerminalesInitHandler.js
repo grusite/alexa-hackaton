@@ -166,7 +166,7 @@ const vodafonesegundoInteresSiIntentHandler = {
   }
 };
 
-const vodafonesegundoInteresSiIntentHandler = {
+const vodafonesegundoInteresNoIntentHandler = {
   canHandle(handlerInput) {
     return (
       handlerInput.requestEnvelope.request.type === "IntentRequest" &&
@@ -180,7 +180,7 @@ const vodafonesegundoInteresSiIntentHandler = {
       handlerInput.requestEnvelope.request.intent.slots.interes.value ===
         "no" &&
       handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value ===
-        "si"
+        "no"
     );
   },
   handle(handlerInput) {
