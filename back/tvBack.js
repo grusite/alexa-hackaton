@@ -192,7 +192,7 @@ search = slot => {
 	  return 'okey mackey';
 	  // response.data;
     } catch (error) {
-		return error;
+		return 'erroraco del dragón';
       console.log(error);
     }
   };
