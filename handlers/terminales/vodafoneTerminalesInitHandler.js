@@ -70,10 +70,11 @@ const vodafoneModeloIntentHandler = {
     let marca = handlerInput.requestEnvelope.request.intent.slots.marca.value;
     let modelo = handlerInput.requestEnvelope.request.intent.slots.modelo.value;
     const query = terminales.getTerminals(marca,modelo);
-
+    const terminal = query[0];
+    const text = `He encontrado el terminal ${terminal.marca} ${terminal.modelo} a un precio de ${terminal.cuotaMensualConIva}`;
     return handlerInput.responseBuilder
-            .speak(`He encontrado el ${query[0].toString()}`)
-            .reprompt(`He encontrado el ${query[0].toString()}`)
+            .speak(text)
+            .reprompt(text)
             .getResponse();
   }
 };

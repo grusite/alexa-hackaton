@@ -32,8 +32,7 @@ class Terminales{
 					marca: x.marca,
 					modelo: x.modelo,
 					cuotaMensualConIva: x.cuotaMensualConIva,
-					pagoAlContadoConIva: x.pagoAlContadoConIva,
-					toString: () => this.marca + " " + this.modelo + " por el precio de " + this.cuotaMensualConIva
+					pagoAlContadoConIva: x.pagoAlContadoConIva
 		}))
 	}
 }
