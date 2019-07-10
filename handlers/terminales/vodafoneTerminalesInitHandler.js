@@ -81,7 +81,7 @@ const vodafoneModeloIntentHandler = {
     return handlerInput.responseBuilder
       .speak(text)
       .reprompt(text)
-      .addElicitSlotDirective("modelo")
+      .addElicitSlotDirective("interes")
       .getResponse();
   }
 };
@@ -105,7 +105,6 @@ const vodafoneInteresSiIntentHandler = {
       .speak(
         "Genial! Un asesor de Vodafone se pondrá en contacto contigo en unos instantes"
       )
-      .addElicitSlotDirective("interes")
       .getResponse();
   }
 };
@@ -137,7 +136,7 @@ const vodafoneInteresNoIntentHandler = {
     return handlerInput.responseBuilder
       .speak(text)
       .reprompt(text)
-      .addElicitSlotDirective("interes")
+      .addElicitSlotDirective("segundoInteres")
       .getResponse();
   }
 };
@@ -164,7 +163,6 @@ const vodafoneSegundoInteresSiIntentHandler = {
       .speak(
         "Genial! Un asesor de Vodafone se pondrá en contacto contigo en unos instantes"
       )
-      .addElicitSlotDirective("segundoInteres")
       .getResponse();
   }
 };
@@ -191,7 +189,6 @@ const vodafoneSegundoInteresNoIntentHandler = {
       .speak(
         "No pasa nada! Un asesor de Vodafone se pondrá en contacto contigo para encontrar el móvil más adecuado"
       )
-      .addElicitSlotDirective("segundoInteres")
       .getResponse();
   }
 };
