@@ -47,6 +47,6 @@ exports.handler = skillBuilder
     CancelAndStopIntentHandler,
     SessionEndedRequestHandler,
     DefaultOneHandler
-  )
+  ).withApiClient(new Alexa.DefaultApiClient())
   .addErrorHandlers(ErrorHandler)
   .lambda();
