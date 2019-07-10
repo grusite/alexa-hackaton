@@ -11,11 +11,11 @@ module.exports = vodafoneTerminalesInitHandler = {
 
     return handlerInput.responseBuilder
       .speak(speechText)
-      .withSimpleCard("Hello World", speechText)
       .getResponse();
   }
 };
 
+/*
 module.exports = vodafoneTerminalesMarcaHandler = {
   canHandle(handlerInput) {
     return (
@@ -40,3 +40,4 @@ module.exports = vodafoneTerminalesMarcaHandler = {
 				.getResponse();
   }
 }
+*/
