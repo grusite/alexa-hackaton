@@ -10,11 +10,13 @@ module.exports = parrillaTipoContentHandler = {
 		const slots = handlerInput.requestEnvelope.request.intent.slots;
 		let searchResult, speechText;
 
-		searchResult = search(slots);
+		speechText = 'pos ok.';
+
+		/*searchResult = search(slots);
 		speechText = searchResult.length > 0 ? 'Tenemos el siguiente resultado: ' : 'No hemos encontrado nada';
 		searchResult.forEach(pos => {
 			speechText += `${pos.title} en ${pos.canal}, `;
-		});
+		});*/
 
 		return handlerInput.responseBuilder
 			.speak(speechText)
