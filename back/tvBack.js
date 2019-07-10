@@ -187,12 +187,12 @@ search = slot => {
   const jsonFile = dateFile(dateView);
   const getData = async url => {
     try {
-	  const response = await axios.get(url);
-	  // main(response.data);
-	  return 'okey mackey';
+	  	const response = await axios.get(url);
+	   	main(response.data);
+	  //return 'okey mackey';
 	  // response.data;
     } catch (error) {
-		return 'erroraco del dragón';
+		return 'Erroraco del dragón';
       console.log(error);
     }
   };
@@ -209,7 +209,7 @@ search = slot => {
 		)(data);
 		return result[0].title;
 	};
-	getData(url+jsonFile);
+	getData(url+jsonFile).then(searchResult => searchResult);
 	//return 'oka';
 };
 
