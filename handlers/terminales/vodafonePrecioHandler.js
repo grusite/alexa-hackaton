@@ -84,14 +84,14 @@ const vodafonePrecioHandler = {
         sessionAttributes.intentos = sessionAttributes.intentos ? sessionAttributes.intentos + 1 : 1
         if(interes == "si") {
             return handlerInput.responseBuilder
-                .speak("Me alegro que te interese esta tarifa.")
-                .reprompt("Me alegro que te interese esta tarifa.")
+                .speak("¡Genial! En unos instantes un asesor de Vodafone se pondrá en contacto contigo. Pero mientras... ¡disfruta!")
+                .reprompt("¡Genial! En unos instantes un asesor de Vodafone se pondrá en contacto contigo. Pero mientras... ¡disfruta!")
                 .getResponse();
         } else {
             const query = terminales.getTerminalsByPrice(parseFloat(precio));
             if(query.length > sessionAttributes.intentos) {
                 const terminal = query[sessionAttributes.intentos];
-                const text = `${sessionAttributes.intentos} He encontrado el terminal ${terminal.marca} ${terminal.modelo} 
+                const text = `He encontrado el terminal ${terminal.marca} ${terminal.modelo} 
                 a un precio de ${terminal.cuotaMensualConIva} euros, con la tarifa ${terminal.nombreTarifa}, ¿te interesa?`;
                 return handlerInput.responseBuilder
                     .speak(text)
@@ -101,9 +101,8 @@ const vodafonePrecioHandler = {
             }
             else{
                 return handlerInput.responseBuilder
-                        .speak('Lo siento, no tengo más telefonos con ese criterio')
-                        .reprompt('Lo siento, no tengo más telefonos con ese criterio')
-                        .addElicitSlotDirective("interes")
+                        .speak('Un asesor de Vodafone se pondrá en contacto contigo. Pero mientras... ¡disfruta!')
+                        .reprompt('Un asesor de Vodafone se pondrá en contacto contigo. Pero mientras... ¡disfruta!')
                         .getResponse();
             }
         }
