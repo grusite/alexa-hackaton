@@ -10,8 +10,8 @@ module.exports = vodafoneMarcaIntentHandler = {
   },
   handle(handlerInput) {
     return handlerInput.responseBuilder
-      .speak("¿Qué marca te gusta?")
-      .reprompt("¿Qué marca te gusta?")
+      .speak("Tienes alguna marca en mente? Apple, Samsung")
+      .reprompt("Tienes alguna marca en mente? Apple, Samsung")
       .addElicitSlotDirective("marca")
       .getResponse();
   }
