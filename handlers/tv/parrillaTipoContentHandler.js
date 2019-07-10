@@ -17,6 +17,12 @@ module.exports = parrillaTipoContentHandler = {
 				speechText += `${pos.title} en ${pos.canal}, `;
 		});
 
+		searchResult.splice(0, 3);
+
+		if(searchResult.length > 3) {
+			speechText += 'quieres ver mas?';
+		}
+
 		//handlerInput.attributesManager.setSessionAttributes({searchResult});
 
 		return handlerInput.responseBuilder
