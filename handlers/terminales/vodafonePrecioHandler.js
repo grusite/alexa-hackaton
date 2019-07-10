@@ -77,7 +77,11 @@ const vodafonePrecioHandler = {
     handle(handlerInput) {
         const interes = handlerInput.requestEnvelope.request.intent.slots.interes.value;
         let precio = handlerInput.requestEnvelope.request.intent.slots.precio.value;
-        
+
+        const attributesManager = handlerInput.attributesManager;
+
+        const sessionAttributes = attributesManager.getSessionAttributes()
+        sessionAttributes.intentos = sessionAttributes.intentos ? sessionAttributes.intentos + 1 : 1
         if(interes == "si") {
             return handlerInput.responseBuilder
                 .speak("Me alegro que te interese esta tarifa.")
@@ -85,15 +89,22 @@ const vodafonePrecioHandler = {
                 .getResponse();
         } else {
             const query = terminales.getTerminalsByPrice(parseFloat(precio));
-            if(query.length > 1) {
-                const terminal = query[1];
-                const text = `He encontrado el terminal ${terminal.marca} ${terminal.modelo} 
+            if(query.length > sessionAttributes.intentos) {
+                const terminal = query[sessionAttributes.intentos];
+                const text = `${sessionAttributes.intentos} He encontrado el terminal ${terminal.marca} ${terminal.modelo} 
                 a un precio de ${terminal.cuotaMensualConIva} euros, con la tarifa ${terminal.nombreTarifa}, ¿te interesa?`;
                 return handlerInput.responseBuilder
                     .speak(text)
                     .reprompt(text)
                     .addElicitSlotDirective("interes")
                     .getResponse();
+            }
+            else{
+                return handlerInput.responseBuilder
+                        .speak('Lo siento, no tengo más telefonos con ese criterio')
+                        .reprompt('Lo siento, no tengo más telefonos con ese criterio')
+                        .addElicitSlotDirective("interes")
+                        .getResponse();
             }
         }
     }

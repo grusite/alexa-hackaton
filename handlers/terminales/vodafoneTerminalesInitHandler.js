@@ -80,7 +80,6 @@ const vodafoneModeloIntentHandler = {
        ¿Te interesa?`;
     return handlerInput.responseBuilder
       .speak(text)
-      .reprompt(text)
       .addElicitSlotDirective("interes")
       .getResponse();
   }
