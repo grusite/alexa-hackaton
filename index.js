@@ -21,6 +21,12 @@ const parrillaHandler = require("./handlers/parrillaHandler");
 const vodafoneTarifasMovilesInitHandler = require("./handlers/tarifas moviles/VodafoneTarifasMovilesInitHandler");
 const vodafonePermisosHandler = require("./handlers/tarifas moviles/VodafonePermissionsHandler");
 const vodafoneJuegaOnlineIntentHandler = require("./handlers/tarifas moviles/VodafoneJuegaOnlineIntentHandler");
+const vodafoneNoJuegaOnlineIntentHandler = require("./handlers/tarifas moviles/VodafoneNoJuegaOnlineIntentHandler");
+const vodafoneUsoDatosIntentHandler = require("./handlers/tarifas moviles/VodafoneUsoDatosIntentHandler");
+const vodafoneNoUsoDatosIntentHandler = require("./handlers/tarifas moviles/VodafoneNoUsoDatosIntentHandler");
+const vodafoneLlamadasSeisMinutosIntentHandler = require("./handlers/tarifas moviles/VodafoneLlamadasSeisMinutosIntentHandler");
+const vodafoneNoLlamadasSeisMinutosIntentHandler = require("./handlers/tarifas moviles/VodafoneNoLlamadasSeisMinutosIntentHandler");
+const vodafoneTarifasMovilesOrderIntentHandler = require("./handlers/tarifas moviles/VodafoneTarifasMovilesOrderIntentHandler");
 
 // Default one
 const DefaultOneHandler = require("./handlers/DefaultOneHandler");
@@ -38,12 +44,18 @@ exports.handler = skillBuilder
     LaunchRequestHandler,
     parrillaHandler,
     vodafoneTerminalesInitHandler,
-    vodafoneTarifasMovilesInitHandler,
     vodafonePermisosHandler,
+    vodafoneTarifasMovilesInitHandler,
     vodafoneJuegaOnlineIntentHandler,
+    vodafoneNoJuegaOnlineIntentHandler,
+    vodafoneUsoDatosIntentHandler,
+    vodafoneNoUsoDatosIntentHandler,
+    vodafoneLlamadasSeisMinutosIntentHandler,
+    vodafoneNoLlamadasSeisMinutosIntentHandler,
     ...vodafoneMarcaIntentHandler,
     vodafonePrecioIntentHandler,
     vodafoneModeloIntentHandler,
+    vodafoneTarifasMovilesOrderIntentHandler, //Completed Order Tarifas Moviles
     HelpIntentHandler,
     CancelAndStopIntentHandler,
     SessionEndedRequestHandler,
