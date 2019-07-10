@@ -8,7 +8,6 @@ const LaunchRequestHandler = require("./handlers/LaunchRequestHandler");
 
 // Terminales Handler
 const vodafoneTerminalesInitHandler = require("./handlers/terminales/vodafoneTerminalesInitHandler");
-const vodafoneMarcaIntentHandler = require("./handlers/terminales/vodafoneMarcaIntentHandler");
 const vodafonePrecioIntentHandler = require("./handlers/terminales/vodafonePrecioIntentHandler");
 const vodafoneModeloIntentHandler = require("./handlers/terminales/vodafoneModeloIntentHandler");
 const vodafoneModeloContentHandler = require("./handlers/terminales/vodafoneModeloContentHandler");
@@ -43,7 +42,8 @@ exports.handler = skillBuilder
   .addRequestHandlers(
     LaunchRequestHandler,
     parrillaHandler,
-    vodafoneTerminalesInitHandler,
+    ...vodafoneTerminalesInitHandler,
+    vodafoneTarifasMovilesInitHandler,
     vodafonePermisosHandler,
     vodafoneTarifasMovilesInitHandler,
     vodafoneJuegaOnlineIntentHandler,

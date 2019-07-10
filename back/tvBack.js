@@ -187,8 +187,9 @@ search = async slot => {
   const jsonFile = dateFile(dateView);
   const getData = async url => {
     try {
-      const response = await axios.get(url);
+     // const response = await axios.get(url);
       //return main(response.data);
+      return await "DESPUES DE AXIOS"
     } catch (error) {
       return 'Erroraco del dragón';
       console.log(error);
@@ -205,12 +206,12 @@ search = async slot => {
         subGenderType(subGender),
         // orderBy(orderField)
     )(data);
-    return result;
+    return result[0].title;
     // console.log(result)
   };
 
-  // return getData(url+jsonFile);
-  return "jande more 22"
+   return await getData(url+jsonFile);
+
 };
 
 
