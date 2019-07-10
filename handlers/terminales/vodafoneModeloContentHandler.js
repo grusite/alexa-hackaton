@@ -1,4 +1,4 @@
-module.exports = vodafoneMarcaIntentHandler = {
+module.exports = vodafoneModeloContentHandler = {
     canHandle(handlerInput) {
       return (
         handlerInput.requestEnvelope.request.type === "IntentRequest" &&
