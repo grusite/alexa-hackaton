@@ -22,7 +22,6 @@ const skillBuilder = Alexa.SkillBuilders.custom();
 exports.handler = skillBuilder
   .addRequestHandlers(
     LaunchRequestHandler,
-    VodadoneTestOneHandler,
     ParrillaHandler,
     vodafoneTerminalesInitHandler,
     HelpIntentHandler,
