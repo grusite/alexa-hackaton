@@ -1,6 +1,6 @@
 const search = require('./tvBack');
 
-const slots =  {
+const slots =   {
   "tipo": {
     "name": "tipo",
         "value": "cine",
@@ -57,7 +57,27 @@ const slots =  {
   },
   "subgenre": {
     "name": "subgenre",
-        "confirmationStatus": "NONE"
+        "value": "drama",
+        "resolutions": {
+      "resolutionsPerAuthority": [
+        {
+          "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.622539e6-dd41-4503-a4fe-e53ef9db4f80.subgenre",
+          "status": {
+            "code": "ER_SUCCESS_MATCH"
+          },
+          "values": [
+            {
+              "value": {
+                "name": "drama",
+                "id": "cd672af2314970abf37b948f5b3af622"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "confirmationStatus": "NONE",
+        "source": "USER"
   },
   "tiempo": {
     "name": "tiempo",
@@ -65,7 +85,8 @@ const slots =  {
         "confirmationStatus": "NONE",
         "source": "USER"
   }
-};
+}
+
 
 const result = search(slots)
 
