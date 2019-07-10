@@ -1,4 +1,4 @@
-module.export = VodafoneJuegaOnlineIntentHandler = {
+module.export = VodafoneNoJuegaOnlineIntentHandler = {
   canHandle(handlerInput) {
     return (
       handlerInput.requestEnvelope.request.type === "IntentRequest" &&
@@ -6,17 +6,17 @@ module.export = VodafoneJuegaOnlineIntentHandler = {
         "vodafoneTarifasMovilesInit" &&
       handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value &&
       handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value ===
-        "si"
+        "no"
     );
   },
   handle(handlerInput) {
 
-    const text = "Como buen Gamer, creo que la tarifa que más se adapta es la Ilimitada Movil Total porque lleva la fibra con un 1Gbps simétrico para todos tus dispositivos y datos ilimitados 5G para jugar con la Switch donde queráis"
+    const text = "De media la gente suele pasar 3h al día en redes sociales. ¿Es tu caso o te fundes los datos?"
 
     return handlerInput.responseBuilder
       .speak(text)
       .reprompt(text)
-      .addElicitSlotDirective("juegasOnline")
+      .addElicitSlotDirective("usoDatos")
       .getResponse();
   }
 };
