@@ -3,9 +3,14 @@
 
 const Alexa = require("ask-sdk-core");
 
-const DefaultOneHandler = require("./handlers/DefaultOneHandler");
+// Intro app
 const LaunchRequestHandler = require("./handlers/LaunchRequestHandler");
-const VodadoneTestOneHandler = require("./handlers/VodafoneTestOnerHandler");
+
+// Nuestros Handler
+const vodafoneTerminalesInitHandler = require("./handlers/vodafoneTerminalesInitHandler");
+const DefaultOneHandler = require("./handlers/DefaultOneHandler");
+
+// Built-in core
 const HelpIntentHandler = require("./handlers/HelpIntentHandler");
 const CancelAndStopIntentHandler = require("./handlers/CancelAndStopIntentHandler");
 const SessionEndedRequestHandler = require("./handlers/SessionEndedRequestHandler");
@@ -15,12 +20,12 @@ const skillBuilder = Alexa.SkillBuilders.custom();
 
 exports.handler = skillBuilder
   .addRequestHandlers(
-    DefaultOneHandler,
     LaunchRequestHandler,
-    VodadoneTestOneHandler,
+    vodafoneTerminalesInitHandler,
     HelpIntentHandler,
     CancelAndStopIntentHandler,
-    SessionEndedRequestHandler
+    SessionEndedRequestHandler,
+    DefaultOneHandler
   )
   .addErrorHandlers(ErrorHandler)
   .lambda();

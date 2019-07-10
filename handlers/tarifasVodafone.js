@@ -1,10 +1,10 @@
-module.exports = VodadoneTestOneHandler = {
+module.exports = tarifasVodafoneHandler = {
 	canHandle(handlerInput) {
 		return handlerInput.requestEnvelope.request.type === 'IntentRequest'
 				&& handlerInput.requestEnvelope.request.intent.name === 'vodadoneTestOne';
 	},
 	handle(handlerInput) {
-		const speechText = 'Tenemos muchas tarifas buenas!!!';
+		const speechText = 'Tenemos las mejores tarifas';
 
 		return handlerInput.responseBuilder
 				.speak(speechText)

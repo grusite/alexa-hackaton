@@ -1,0 +1,2380 @@
+{
+    "tarifas": {
+        "particulares": {
+
+            "convergente": 
+                [
+                    {
+                        "ID": "01",
+                        "tipo": "particulares",
+                        "nombre": "Vodafone One Mini",
+                        "movil": {
+                            "datos": {
+                                "velocidadDescarga": null,
+                                "velocidadSubida": null,
+                                "cap": {
+                                    "cantidad": "3",
+                                    "unidades": "GB"
+                                },
+                                "casosDeUso": [
+                                    {
+                                        "nombre": null,
+                                        "disponibilidad": null
+                                    }
+                                ],
+                                "masInfo": "",
+                                "descripcion": null
+                            },
+                            "llamadas": {
+                                "cantidad": "200",
+                                "unidades": "minutos",
+                                "masInfo": null
+                            },
+                            "llamadasInternacionalesMovil": null,
+                            "llamadasInternacionalesFijo": null,
+                            "asistenciaTecnica": false
+                        },
+                        "fibra": {
+                            "velocidadDescarga": "100Mbps",
+                            "velocidadSubida": "100Mbps",
+                            "masInfo": null
+                        },
+                        "precioConIva": "47,99",
+                        "precioSinIva": null,
+                        "ofertas": {
+                            "duración": null,
+                            "unidad": null,
+                            "preciofinal": {
+                                "conIva": null,
+                                "sinIva": null
+                            },
+                            "descuento": null,
+                            "masInfo": null
+                        },
+                        "permanencia": null,
+                        "URLcompra": null
+                    },
+                    {
+                        "ID": "02",
+                        "tipo": "particulares",
+                        "nombre": "Vodafone One Extra",
+                        "movil": {
+                            "datos": {
+                                "velocidadDescarga": null,
+                                "velocidadSubida": null,
+                                "cap": {
+                                    "cantidad": "6",
+                                    "unidades": "GB"
+                                },
+                                "casosDeUso": [
+                                    {
+                                        "nombre": null,
+                                        "disponibilidad": null
+                                    }
+                                ],
+                                "masInfo": "",
+                                "descripcion": null
+                            },
+                            "llamadas": {
+                                "cantidad": "Llam ilimitadas",
+                                "unidades": null,
+                                "masInfo": null
+                            },
+                            "llamadasInternacionalesMovil": null,
+                            "llamadasInternacionalesFijo": null,
+                            "asistenciaTecnica": false
+                        },
+                        "fibra": {
+                            "velocidadDescarga": "100Mbps",
+                            "velocidadSubida": "100Mbps",
+                            "masInfo": null
+                        },
+                        "precioConIva": "57,99",
+                        "precioSinIva": null,
+                        "ofertas": {
+                            "duración": null,
+                            "unidad": null,
+                            "preciofinal": {
+                                "conIva": null,
+                                "sinIva": null
+                            },
+                            "descuento": null,
+                            "masInfo": null
+                        },
+                        "permanencia": null,
+                        "URLcompra": null
+                    },
+                    {
+                        "ID": "03",
+                        "tipo": "particulares",
+                        "nombre": "Vodafone One ilimitada",
+                        "movil": {
+                            "datos": {
+                                "velocidadDescarga": "2Mbps",
+                                "velocidadSubida": null,
+                                "cap": {
+                                    "cantidad": "ilimitados",
+                                    "unidades": null
+                                },
+                                "casosDeUso": [
+                                    {
+                                        "nombre": "Chat",
+                                        "disponibilidad": true
+                                    },
+                                    {
+                                        "nombre": "Redes sociales",
+                                        "disponibilidad": true
+                                    },
+                                    {
+                                        "nombre": "Email",
+                                        "disponibilidad": true
+                                    },
+                                    {
+                                        "nombre": "Vídeos",
+                                        "disponibilidad": false
+                                    },
+                                    {
+                                        "nombre": "Música",
+                                        "disponibilidad": false
+                                    },
+                                    {
+                                        "nombre": "Mapas",
+                                        "disponibilidad": false
+                                    },
+                                    {
+                                        "nombre": "Vídeos alta calidad",
+                                        "disponibilidad": false
+                                    },
+                                    {
+                                        "nombre": "Juegos",
+                                        "disponibilidad": false
+                                    },
+                                    {
+                                        "nombre": "Descargar y subir archivos",
+                                        "disponibilidad": false
+                                    }
+                                ],
+                                "masInfo": "",
+                                "descripcion": null
+                            },
+                            "llamadas": {
+                                "cantidad": "llamadas ilimitadas",
+                                "unidades": null,
+                                "masInfo": null
+                            },
+                            "llamadasInternacionalesMovil": null,
+                            "llamadasInternacionalesFijo": null,
+                            "asistenciaTecnica": false
+                        },
+                        "fibra": {
+                            "velocidadDescarga": "100Mbps",
+                            "velocidadSubida": "100Mbps",
+                            "masInfo": null
+                        },
+                        "precioConIva": "31,99",
+                        "precioSinIva": null,
+                        "ofertas": {
+                            "duración": null,
+                            "unidad": null,
+                            "preciofinal": {
+                                "conIva": null,
+                                "sinIva": null
+                            },
+                            "descuento": null,
+                            "masInfo": null
+                        },
+                        "permanencia": null,
+                        "URLcompra": null
+                    },
+                    {
+                        "ID": "04",
+                        "tipo": "particulares",
+                        "nombre": "Vodafone One ilimitada Súper",
+                        "movil": {
+                            "datos": {
+                                "velocidadDescarga": "10Mbps",
+                                "velocidadSubida": null,
+                                "cap": {
+                                    "cantidad": "ilimitados",
+                                    "unidades": null
+                                },
+                                "casosDeUso": [
+                                    {
+                                        "nombre": "Chat",
+                                        "disponibilidad": true
+                                    },
+                                    {
+                                        "nombre": "Redes sociales",
+                                        "disponibilidad": true
+                                    },
+                                    {
+                                        "nombre": "Email",
+                                        "disponibilidad": true
+                                    },
+                                    {
+                                        "nombre": "Vídeos",
+                                        "disponibilidad": true
+                                    },
+                                    {
+                                        "nombre": "Música",
+                                        "disponibilidad": true
+                                    },
+                                    {
+                                        "nombre": "Mapas",
+                                        "disponibilidad": true
+                                    },
+                                    {
+                                        "nombre": "Vídeos alta calidad",
+                                        "disponibilidad": false
+                                    },
+                                    {
+                                        "nombre": "Juegos",
+                                        "disponibilidad": false
+                                    },
+                                    {
+                                        "nombre": "Descargar y subir archivos",
+                                        "disponibilidad": false
+                                    }
+                                ],
+                                "masInfo": "",
+                                "descripcion": null
+                            },
+                            "llamadas": {
+                                "cantidad": "Llamadas ilimitadas",
+                                "unidades": null,
+                                "masInfo": null
+                            },
+                            "llamadasInternacionalesMovil": null,
+                            "llamadasInternacionalesFijo": null,
+                            "asistenciaTecnica": false
+                        },
+                        "fibra": {
+                            "velocidadDescarga": "600Mbps",
+                            "velocidadSubida": "600Mbps",
+                            "masInfo": null
+                        },
+                        "precioConIva": "41,99",
+                        "precioSinIva": null,
+                        "ofertas": {
+                            "duración": null,
+                            "unidad": null,
+                            "preciofinal": {
+                                "conIva": null,
+                                "sinIva": null
+                            },
+                            "descuento": null,
+                            "masInfo": null
+                        },
+                        "permanencia": null,
+                        "URLcompra": null
+                    },
+                    {
+                        "ID": "05",
+                        "tipo": "particulares",
+                        "nombre": "Vodafone One ilimitada Total",
+                        "movil": {
+                            "datos": {
+                                "velocidadDescarga": "Velocidad Máxima",
+                                "velocidadSubida": null,
+                                "cap": {
+                                    "cantidad": "ilimitados",
+                                    "unidades": null
+                                },
+                                "casosDeUso": [
+                                    {
+                                        "nombre": "Chat",
+                                        "disponibilidad": true
+                                    },
+                                    {
+                                        "nombre": "Redes sociales",
+                                        "disponibilidad": true
+                                    },
+                                    {
+                                        "nombre": "Email",
+                                        "disponibilidad": true
+                                    },
+                                    {
+                                        "nombre": "Vídeos",
+                                        "disponibilidad": true
+                                    },
+                                    {
+                                        "nombre": "Música",
+                                        "disponibilidad": true
+                                    },
+                                    {
+                                        "nombre": "Mapas",
+                                        "disponibilidad": true
+                                    },
+                                    {
+                                        "nombre": "Vídeos alta calidad",
+                                        "disponibilidad": true
+                                    },
+                                    {
+                                        "nombre": "Juegos",
+                                        "disponibilidad": true
+                                    },
+                                    {
+                                        "nombre": "Descargar y subir archivos",
+                                        "disponibilidad": true
+                                    }
+                                ],
+                                "masInfo": "",
+                                "descripcion": null
+                            },
+                            "llamadas": {
+                                "cantidad": "Llamadas ilimitadas",
+                                "unidades": null,
+                                "masInfo": null
+                            },
+                            "llamadasInternacionalesMovil": null,
+                            "llamadasInternacionalesFijo": null,
+                            "asistenciaTecnica": true
+                        },
+                        "fibra": {
+                            "velocidadDescarga": "1Gbps",
+                            "velocidadSubida": "1Gbps",
+                            "masInfo": null
+                        },
+                        "precioConIva": "54,99",
+                        "precioSinIva": null,
+                        "ofertas": {
+                            "duración": null,
+                            "unidad": null,
+                            "preciofinal": {
+                                "conIva": null,
+                                "sinIva": null
+                            },
+                            "descuento": null,
+                            "masInfo": null
+                        },
+                        "permanencia": null,
+                        "URLcompra": null
+                    }
+                    
+                ],
+
+            "movil": 
+            [
+                {
+                    "ID": "01",
+                    "tipo": "particulares",
+                    "nombre": "Tarifa Móvil Mini",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": null,
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad": "3",
+                                "unidades": "GB"
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": null,
+                                    "disponibilidad": null
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": "200",
+                            "unidades": "minutos",
+                            "masInfo": null
+                        },
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": null,
+                        "velocidadSubida": null,
+                        "masInfo": null
+                    },
+                    "precioConIva": "19,99",
+                    "precioSinIva": null,
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                },
+                {
+                    "ID": "02",
+                    "tipo": "particulares",
+                    "nombre": "Tarifa Móvil Extra",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": null,
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad": "6",
+                                "unidades": "GB"
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": null,
+                                    "disponibilidad": null
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": "Llam ilimitadas",
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": null,
+                        "velocidadSubida": null,
+                        "masInfo": null
+                    },
+                    "precioConIva": "29,99",
+                    "precioSinIva": null,
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                },
+                {
+                    "ID": "03",
+                    "tipo": "particulares",
+                    "nombre": "Tarifa Móvil Ilimitada",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": "2Mbps",
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad": "ilimitados",
+                                "unidades": null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": "Chat",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Redes sociales",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Email",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Vídeos",
+                                    "disponibilidad": false
+                                },
+                                {
+                                    "nombre": "Música",
+                                    "disponibilidad": false
+                                },
+                                {
+                                    "nombre": "Mapas",
+                                    "disponibilidad": false
+                                },
+                                {
+                                    "nombre": "Vídeos alta calidad",
+                                    "disponibilidad": false
+                                },
+                                {
+                                    "nombre": "Juegos",
+                                    "disponibilidad": false
+                                },
+                                {
+                                    "nombre": "Descargar y subir archivos",
+                                    "disponibilidad": false
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": "ilimitadas",
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": null,
+                        "velocidadSubida": null,
+                        "masInfo": null
+                    },
+                    "precioConIva": "40,99",
+                    "precioSinIva": null,
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                },
+                {
+                    "ID": "04",
+                    "tipo": "particulares",
+                    "nombre": "Tarifa Móvil Ilimitada Súper",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": "10Mbps",
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad": "ilimitados",
+                                "unidades": null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": "Chat",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Redes sociales",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Email",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Vídeos",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Música",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Mapas",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Vídeos alta calidad",
+                                    "disponibilidad": false
+                                },
+                                {
+                                    "nombre": "Juegos",
+                                    "disponibilidad": false
+                                },
+                                {
+                                    "nombre": "Descargar y subir archivos",
+                                    "disponibilidad": false
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": "ilimitadas",
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": null,
+                        "velocidadSubida": null,
+                        "masInfo": null
+                    },
+                    "precioConIva": "45,99",
+                    "precioSinIva": null,
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                },
+                {
+                    "ID": "05",
+                    "tipo": "particulares",
+                    "nombre": "Tarifa Móvil Ilimitada Total",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": "Velocidad Máxima",
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad": "ilimitados",
+                                "unidades": null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": "Chat",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Redes sociales",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Email",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Vídeos",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Música",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Mapas",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Vídeos alta calidad",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Juegos",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Descargar y subir archivos",
+                                    "disponibilidad": true
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": "ilimitadas",
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": true
+                    },
+                    "fibra": {
+                        "velocidadDescarga": null,
+                        "velocidadSubida": null,
+                        "masInfo": null
+                    },
+                    "precioConIva": "49,99",
+                    "precioSinIva": null,
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                }
+            ],
+
+            "fibra": 
+            [
+                {
+                    "ID": "01",
+                    "tipo": "particulares",
+                    "nombre": "Fibra 100Mbps",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": null,
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad":  null,
+                                "unidades":  null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": null,
+                                    "disponibilidad": null
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+
+                    "fijo": {
+                        "llamadas": {
+                            "cantidad": "ilimitado",
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": "100Mbps",
+                        "velocidadSubida": "100Mbps",
+                        "masInfo": null
+                    },
+                    "precioConIva": "12,84",
+                    "cuotaLinea": "18,15",
+                    "precioSinIva": null,
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": "24 meses",
+                    "URLcompra": null
+                },
+                {
+                    "ID": "02",
+                    "tipo": "particulares",
+                    "nombre": "Fibra 600Mbps",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": null,
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad":  null,
+                                "unidades":  null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": null,
+                                    "disponibilidad": null
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+
+                    "fijo": {
+                        "llamadas": {
+                            "cantidad": "ilimitado",
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": "600Mbps",
+                        "velocidadSubida": "600Mbps",
+                        "masInfo": null
+                    },
+                    "precioConIva": "24,84",
+                    "cuotaLinea": "18,15",
+                    "precioSinIva": null,
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": "24 meses",
+                    "URLcompra": null
+                }
+                ,
+                {
+                    "ID": "03",
+                    "tipo": "particulares",
+                    "nombre": "Fibra 1Gbps",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": null,
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad":  null,
+                                "unidades":  null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": null,
+                                    "disponibilidad": null
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+
+                    "fijo": {
+                        "llamadas": {
+                            "cantidad": "ilimitado",
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": "1Gbps",
+                        "velocidadSubida": "1Gbps",
+                        "masInfo": null
+                    },
+                    "precioConIva": "37,84",
+                    "cuotaLinea": "18,15",
+                    "precioSinIva": null,
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": "24 meses",
+                    "URLcompra": null
+                }
+                
+            ],
+            "tv": 
+            [
+                {
+                    "ID": "01",
+                    "tipo": "particulares",
+                    "nombre": "Pack Seriefans",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": null,
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad":  null,
+                                "unidades":  null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": null,
+                                    "disponibilidad": null
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+
+                    "fijo": {
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": "100Mbps",
+                        "velocidadSubida": "100Mbps",
+                        "masInfo": null
+                    },
+                    "precioConIva": "10",
+                    "cuotaLinea": null,
+                    "precioSinIva": null,
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                },
+                {
+                    "ID": "02",
+                    "tipo": "particulares",
+                    "nombre": "Pack Serielovers",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": null,
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad":  null,
+                                "unidades":  null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": null,
+                                    "disponibilidad": null
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+
+                    "fijo": {
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": null,
+                        "velocidadSubida": null,
+                        "masInfo": null
+                    },
+                    "precioConIva": "16",
+                    "cuotaLinea": null,
+                    "precioSinIva": null,
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                }
+                ,
+                {
+                    "ID": "03",
+                    "tipo": "particulares",
+                    "nombre": "Pack Cinefans",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": null,
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad":  null,
+                                "unidades":  null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": null,
+                                    "disponibilidad": null
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+
+                    "fijo": {
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": null,
+                        "velocidadSubida": null,
+                        "masInfo": null
+                    },
+                    "precioConIva": "12",
+                    "cuotaLinea": null,
+                    "precioSinIva": null,
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                },
+                {
+                    "ID": "04",
+                    "tipo": "particulares",
+                    "nombre": "Pack Documentales",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": null,
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad":  null,
+                                "unidades":  null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": null,
+                                    "disponibilidad": null
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+
+                    "fijo": {
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": null,
+                        "velocidadSubida": null,
+                        "masInfo": null
+                    },
+                    "precioConIva": "8",
+                    "cuotaLinea": null,
+                    "precioSinIva": null,
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                },
+                {
+                    "ID": "05",
+                    "tipo": "particulares",
+                    "nombre": "Pack Peques",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": null,
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad":  null,
+                                "unidades":  null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": null,
+                                    "disponibilidad": null
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+
+                    "fijo": {
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": null,
+                        "velocidadSubida": null,
+                        "masInfo": null
+                    },
+                    "precioConIva": "5",
+                    "cuotaLinea": null,
+                    "precioSinIva": null,
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                }
+                
+            ]
+
+        },
+
+        "empresas": {
+
+            "convergente": 
+            [
+                {
+                    "ID": "01",
+                    "tipo": "empresas",
+                    "nombre": "Vodafone One Mini",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": null,
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad": "3",
+                                "unidades": "GB"
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": null,
+                                    "disponibilidad": null
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": "200",
+                            "unidades": "minutos",
+                            "masInfo": null
+                        },
+                        "llamadasInternacionalesMovil": "N/A",
+                        "llamadasInternacionalesFijo": "N/A",
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": "100Mb",
+                        "velocidadSubida": "100Mb",
+                        "masInfo": null
+                    },
+                    "precioConIva": "47,99",
+                    "precioSinIva": "39,66",
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                },
+                {
+                    "ID": "02",
+                    "tipo": "empresas",
+                    "nombre": "Vodafone One Extra",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": null,
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad": "6",
+                                "unidades": "GB"
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": null,
+                                    "disponibilidad": null
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": "Llam ilimitadas",
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        "llamadasInternacionalesMovil": "N/A",
+                        "llamadasInternacionalesFijo": "N/A",
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": "100Mbps",
+                        "velocidadSubida": "100Mbps",
+                        "masInfo": null
+                    },
+                    "precioConIva": "57,99",
+                    "precioSinIva": "47,93",
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                },
+                {
+                    "ID": "03",
+                    "tipo": "empresas",
+                    "nombre": "Vodafone One ilimitada",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": "2Mbps",
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad": "ilimitados",
+                                "unidades": null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": "Chats",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Redes sociales",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Email",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Vídeos",
+                                    "disponibilidad": false
+                                },
+                                {
+                                    "nombre": "Descarga ficheros",
+                                    "disponibilidad": false
+                                },
+                                {
+                                    "nombre": "Navegación",
+                                    "disponibilidad": false
+                                },
+                                {
+                                    "nombre": "Música",
+                                    "disponibilidad": false
+                                },
+                                {
+                                    "nombre": "Videos alta calidad",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Videollamadas",
+                                    "disponibilidad": false
+                                },
+                                {
+                                    "nombre": "Descargar y subir archivos grandes",
+                                    "disponibilidad": false
+                                }
+
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": "Llamadas ilimitadas",
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        "llamadasInternacionalesMovil": "N/A",
+                        "llamadasInternacionalesFijo": "N/A",
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": "100Mbps",
+                        "velocidadSubida": "100Mbps",
+                        "masInfo": null
+                    },
+                    "precioConIva": "31,99",
+                    "precioSinIva": "26,44",
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                },
+                {
+                    "ID": "04",
+                    "tipo": "empresas",
+                    "nombre": "Vodafone One ilimitada Súper",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": "10Mbps",
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad": "ilimitados",
+                                "unidades": null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": "Chats",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Redes sociales",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Email",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Vídeos",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Descarga ficheros",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Navegación",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Música",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Videos alta calidad",
+                                    "disponibilidad": false
+                                },
+                                {
+                                    "nombre": "Videollamadas",
+                                    "disponibilidad": false
+                                },
+                            
+                                {
+                                    "nombre": "Descargar y subir archivos grandes",
+                                    "disponibilidad": false
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": "Llamadas ilimitadas",
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        "llamadasInternacionalesMovil": "100min.",
+                        "llamadasInternacionalesFijo": "1000min.",
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": "600Mbps",
+                        "velocidadSubida": "600Mbps",
+                        "masInfo": null
+                    },
+                    "precioConIva": "41,99",
+                    "precioSinIva": "34,70",
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                },
+                {
+                    "ID": "05",
+                    "tipo": "empresas",
+                    "nombre": "Vodafone One ilimitada Total",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": "Velocidad Máxima",
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad": "ilimitados",
+                                "unidades": null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": "Chats",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Redes sociales",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Email",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Vídeos",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Descarga ficheros",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Navegación",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Música",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Videos alta calidad",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Videollamadas",
+                                    "disponibilidad": true
+                                },
+                                
+                                {
+                                    "nombre": "Descargar y subir archivos grandes",
+                                    "disponibilidad": true
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": "Llamadas ilimitadas",
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        "llamadasInternacionalesMovil": "1000min.",
+                        "llamadasInternacionalesFijo": "1000min.",
+                        "asistenciaTecnica": true
+                    },
+                    "fibra": {
+                        "velocidadDescarga": "600Mbps",
+                        "velocidadSubida": "600Mbps",
+                        "masInfo": null
+                    },
+                    "precioConIva": "49,99",
+                    "precioSinIva": "41,31",
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                },
+                {
+                    "ID": "06",
+                    "tipo": "empresas",
+                    "nombre": "Vodafone One ilimitada Súper",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": "10Mbps",
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad": "ilimitados",
+                                "unidades": null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": "Chats",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Redes sociales",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Email",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Vídeos",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Descarga ficheros",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Navegación",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Música",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Videos alta calidad",
+                                    "disponibilidad": false
+                                },
+                                {
+                                    "nombre": "Videollamadas",
+                                    "disponibilidad": false
+                                },
+                            
+                                {
+                                    "nombre": "Descargar y subir archivos grandes",
+                                    "disponibilidad": false
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": "Llamadas ilimitadas",
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        "llamadasInternacionalesMovil": "100min.",
+                        "llamadasInternacionalesFijo": "1000min.",
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": "100Mbps",
+                        "velocidadSubida": "100Mbps",
+                        "masInfo": null
+                    },
+                    "precioConIva": "36,99",
+                    "precioSinIva": "30,57",
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                }
+            ],
+            "movil": 
+            [
+                {
+                    "ID": "01",
+                    "tipo": "empresas",
+                    "nombre": "Tarifa Móvil Mini",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": null,
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad": "3",
+                                "unidades": "GB"
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": null,
+                                    "disponibilidad": null
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": "200",
+                            "unidades": "minutos",
+                            "masInfo": null
+                        },
+                        "llamadasInternacionalesMovil": "N/A",
+                        "llamadasInternacionalesFijo": "N/A",
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": null,
+                        "velocidadSubida": null,
+                        "masInfo": null
+                    },
+                    "precioConIva": "19,99",
+                    "precioSinIva": "16,52",
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                },
+                {
+                    "ID": "02",
+                    "tipo": "empresas",
+                    "nombre": "Tarifa Móvil Extra",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": null,
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad": "6",
+                                "unidades": "GB"
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": null,
+                                    "disponibilidad": null
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": "ilimitadas",
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        "llamadasInternacionalesMovil": "N/A",
+                        "llamadasInternacionalesFijo": "N/A",
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": null,
+                        "velocidadSubida": null,
+                        "masInfo": null
+                    },
+                    "precioConIva": "29,99",
+                    "precioSinIva": "24,79",
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                },
+                {
+                    "ID": "03",
+                    "tipo": "empresas",
+                    "nombre": "Tarifa Móvil Ilimitada",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": "2Mbps",
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad": "ilimitados",
+                                "unidades": null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": "Chats",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Redes sociales",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Email",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Vídeos",
+                                    "disponibilidad": false
+                                },
+                                {
+                                    "nombre": "Descarga ficheros",
+                                    "disponibilidad": false
+                                },
+                                {
+                                    "nombre": "Navegación",
+                                    "disponibilidad": false
+                                },
+                                {
+                                    "nombre": "Música",
+                                    "disponibilidad": false
+                                },
+                                {
+                                    "nombre": "Videos alta calidad",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Videollamadas",
+                                    "disponibilidad": false
+                                },
+                                {
+                                    "nombre": "Descargar y subir archivos grandes",
+                                    "disponibilidad": false
+                                }
+
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": "Llamadas ilimitadas",
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        "llamadasInternacionalesMovil": "N/A",
+                        "llamadasInternacionalesFijo": "N/A",
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": null,
+                        "velocidadSubida": null,
+                        "masInfo": null
+                    },
+                    "precioConIva": "40,99",
+                    "precioSinIva": "33,88",
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                },
+                {
+                    "ID": "04",
+                    "tipo": "empresas",
+                    "nombre": "Tarifa Móvil Ilimitada Súper",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": "10Mbps",
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad": "ilimitados",
+                                "unidades": null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": "Chats",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Redes sociales",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Email",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Vídeos",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Descarga ficheros",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Navegación",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Música",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Videos alta calidad",
+                                    "disponibilidad": false
+                                },
+                                {
+                                    "nombre": "Videollamadas",
+                                    "disponibilidad": false
+                                },
+                            
+                                {
+                                    "nombre": "Descargar y subir archivos grandes",
+                                    "disponibilidad": false
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": "Llamadas ilimitadas",
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        "llamadasInternacionalesMovil": "100min.",
+                        "llamadasInternacionalesFijo": "1000min.",
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": null,
+                        "velocidadSubida": null,
+                        "masInfo": null
+                    },
+                    "precioConIva": "45,99",
+                    "precioSinIva": "38,00",
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                },
+                {
+                    "ID": "05",
+                    "tipo": "empresas",
+                    "nombre": "Tarifa Móvil Ilimitada Total",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": "Velocidad Máxima",
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad": "ilimitados",
+                                "unidades": null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": "Chats",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Redes sociales",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Email",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Vídeos",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Descarga ficheros",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Navegación",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Música",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Videos alta calidad",
+                                    "disponibilidad": true
+                                },
+                                {
+                                    "nombre": "Videollamadas",
+                                    "disponibilidad": true
+                                },
+                                
+                                {
+                                    "nombre": "Descargar y subir archivos grandes",
+                                    "disponibilidad": true
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": "Llamadas ilimitadas",
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        "llamadasInternacionalesMovil": "1000min.",
+                        "llamadasInternacionalesFijo": "1000min.",
+                        "asistenciaTecnica": true
+                    },
+                    "fibra": {
+                        "velocidadDescarga": null,
+                        "velocidadSubida": null,
+                        "masInfo": null
+                    },
+                    "precioConIva": "49,99",
+                    "precioSinIva": "41,31",
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                }
+            ],
+            "tv": 
+            [
+                {
+                    "ID": "01",
+                    "tipo": "empresas",
+                    "nombre": "Pack Seriefans",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": null,
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad":  null,
+                                "unidades":  null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": null,
+                                    "disponibilidad": null
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+
+                    "fijo": {
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": "100Mbps",
+                        "velocidadSubida": "100Mbps",
+                        "masInfo": null
+                    },
+                    "precioConIva": "10",
+                    "cuotaLinea": null,
+                    "precioSinIva": null,
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                },
+                {
+                    "ID": "02",
+                    "tipo": "empresas",
+                    "nombre": "Pack Serielovers",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": null,
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad":  null,
+                                "unidades":  null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": null,
+                                    "disponibilidad": null
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+
+                    "fijo": {
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": null,
+                        "velocidadSubida": null,
+                        "masInfo": null
+                    },
+                    "precioConIva": "16",
+                    "cuotaLinea": null,
+                    "precioSinIva": null,
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                }
+                ,
+                {
+                    "ID": "03",
+                    "tipo": "empresas",
+                    "nombre": "Pack Cinefans",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": null,
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad":  null,
+                                "unidades":  null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": null,
+                                    "disponibilidad": null
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+
+                    "fijo": {
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": null,
+                        "velocidadSubida": null,
+                        "masInfo": null
+                    },
+                    "precioConIva": "12",
+                    "cuotaLinea": null,
+                    "precioSinIva": null,
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                },
+                {
+                    "ID": "04",
+                    "tipo": "empresas",
+                    "nombre": "Pack Documentales",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": null,
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad":  null,
+                                "unidades":  null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": null,
+                                    "disponibilidad": null
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+
+                    "fijo": {
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": null,
+                        "velocidadSubida": null,
+                        "masInfo": null
+                    },
+                    "precioConIva": "8",
+                    "cuotaLinea": null,
+                    "precioSinIva": null,
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                },
+                {
+                    "ID": "05",
+                    "tipo": "empresas",
+                    "nombre": "Pack Peques",
+                    "movil": {
+                        "datos": {
+                            "velocidadDescarga": null,
+                            "velocidadSubida": null,
+                            "cap": {
+                                "cantidad":  null,
+                                "unidades":  null
+                            },
+                            "casosDeUso": [
+                                {
+                                    "nombre": null,
+                                    "disponibilidad": null
+                                }
+                            ],
+                            "masInfo": "",
+                            "descripcion": null
+                        },
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+
+                    "fijo": {
+                        "llamadas": {
+                            "cantidad": null,
+                            "unidades": null,
+                            "masInfo": null
+                        },
+                        
+                        "llamadasInternacionalesMovil": null,
+                        "llamadasInternacionalesFijo": null,
+                        "asistenciaTecnica": false
+                    },
+                    "fibra": {
+                        "velocidadDescarga": null,
+                        "velocidadSubida": null,
+                        "masInfo": null
+                    },
+                    "precioConIva": "5",
+                    "cuotaLinea": null,
+                    "precioSinIva": null,
+                    "ofertas": {
+                        "duración": null,
+                        "unidad": null,
+                        "preciofinal": {
+                            "conIva": null,
+                            "sinIva": null
+                        },
+                        "descuento": null,
+                        "masInfo": null
+                    },
+                    "permanencia": null,
+                    "URLcompra": null
+                }
+                
+            ]
+
+
+        }
+
+
+
+    }
+}
