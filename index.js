@@ -7,7 +7,7 @@ const Alexa = require("ask-sdk-core");
 const LaunchRequestHandler = require("./handlers/LaunchRequestHandler");
 
 // Nuestros Handler
-const VodadoneTestOneHandler = require("./handlers/VodafoneTestOnerHandler");
+const vodafoneTerminalesInitHandler = require("./handlers/vodafoneTerminalesInitHandler");
 const DefaultOneHandler = require("./handlers/DefaultOneHandler");
 const ParrillaHandler = require("./handlers/parrillaHandler");
 
@@ -24,6 +24,7 @@ exports.handler = skillBuilder
     LaunchRequestHandler,
     VodadoneTestOneHandler,
     ParrillaHandler,
+    vodafoneTerminalesInitHandler,
     HelpIntentHandler,
     CancelAndStopIntentHandler,
     SessionEndedRequestHandler,
