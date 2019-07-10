@@ -35,7 +35,7 @@ module.exports = LaunchRequestHandler = {
             console.log('name', name);
             //console.log('email',email);
             //console.log('mobile',mobile);
-            return responseBuilder.speak('tu nombre es '+name+'. Tu email es: '+email+'. Y tu móvil es: '+mobile).getResponse();
+            return responseBuilder.speak('tu nombre es '+name+'. Tu email es: '+email+'. Y tu móvil es: '+mobile[0]).getResponse();
         } catch (error) {
             if (error.name !== 'ServiceError') {
                 const response = responseBuilder.speak("hay un error"+error).getResponse();
