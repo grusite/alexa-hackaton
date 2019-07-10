@@ -20,7 +20,7 @@ module.export = VodafoneJuegaOnlineIntentHandler = {
     return handlerInput.responseBuilder
       .speak(text)
       .reprompt(text)
-      //.addElicitSlotDirective("juegasOnline")
+      .addElicitSlotDirective("contratarTarifa")
       .getResponse();
   }
 };
