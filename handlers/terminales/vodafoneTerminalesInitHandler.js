@@ -1,4 +1,4 @@
-const terminales = require('./terminales');
+const terminales = require('../../terminales');
 
 const vodafoneTerminalesInitHandler = {
   canHandle(handlerInput) {

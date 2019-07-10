@@ -52,7 +52,6 @@ exports.handler = skillBuilder
     vodafoneNoUsoDatosIntentHandler,
     vodafoneLlamadasSeisMinutosIntentHandler,
     vodafoneNoLlamadasSeisMinutosIntentHandler,
-    ...vodafoneMarcaIntentHandler,
     vodafonePrecioIntentHandler,
     vodafoneModeloIntentHandler,
     vodafoneTarifasMovilesOrderIntentHandler, //Completed Order Tarifas Moviles
