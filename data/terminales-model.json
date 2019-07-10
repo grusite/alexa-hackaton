@@ -1,0 +1,142 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "vodafone",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "vodafoneTerminalesInit",
+          "slots": [
+            {
+              "name": "marca",
+              "type": "marca"
+            },
+            {
+              "name": "precio",
+              "type": "precio"
+            }
+          ],
+          "samples": ["necesito un movil nuevo"]
+        }
+      ],
+      "types": [
+        {
+          "name": "marca",
+          "values": [
+            {
+              "name": {
+                "value": "xiaomi"
+              }
+            },
+            {
+              "name": {
+                "value": "one plus"
+              }
+            },
+            {
+              "name": {
+                "value": "huawei"
+              }
+            },
+            {
+              "name": {
+                "value": "iPhone",
+                "synonyms": ["ios", "apple"]
+              }
+            },
+            {
+              "name": {
+                "value": "samsung"
+              }
+            },
+            {
+              "name": {
+                "value": "lg"
+              }
+            }
+          ]
+        },
+        {
+          "name": "precio",
+          "values": [
+            {
+              "name": {
+                "value": "1000"
+              }
+            },
+            {
+              "name": {
+                "value": "700"
+              }
+            },
+            {
+              "name": {
+                "value": "500"
+              }
+            },
+            {
+              "name": {
+                "value": "400"
+              }
+            },
+            {
+              "name": {
+                "value": "300"
+              }
+            },
+            {
+              "name": {
+                "value": "200"
+              }
+            }
+          ]
+        },
+        {
+          "name": "modelo",
+          "values": [
+            {
+              "name": {
+                "value": "A2"
+              }
+            },
+            {
+              "name": {
+                "value": "P20 lite"
+              }
+            },
+            {
+              "name": {
+                "value": "P20"
+              }
+            },
+            {
+              "name": {
+                "value": "XS"
+              }
+            },
+            {
+              "name": {
+                "value": "S10"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
