@@ -16,7 +16,9 @@ module.exports = parrillaHandler = {
 			"noche" => ['2100', '0600']
 		*/
 
-		speechText = search(slots);
+		speechText = 'Hasta los webinskis';
+
+		//speechText = search(slots);
 
 		/*searchResult = search(slots);
 
