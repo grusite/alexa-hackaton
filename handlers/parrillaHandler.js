@@ -14,16 +14,9 @@ module.exports = parrillaHandler = {
 			"tarde" => ['1300', '2059']
 			"noche" => ['2100', '0600']
 		*/
-
-		return handlerInput.responseBuilder
-		.speak('hola holita')
-		.withSimpleCard('Hello World', speechText)
-		.getResponse();
-
-
 		search(slots).then(resp => {
 			return handlerInput.responseBuilder
-					.speak('hola holita')
+					.speak(resp)
 					.withSimpleCard('Hello World', speechText)
 					.getResponse();
 		}).catch(error => {
