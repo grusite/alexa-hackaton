@@ -2,22 +2,22 @@
 
 const search = require('./tvBack');
 
-const slots = {
+const slots =  {
   "tipo": {
     "name": "tipo",
-    "value": "cine",
-    "resolutions": {
+        "value": "cine",
+        "resolutions": {
       "resolutionsPerAuthority": [
         {
-          "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.b904acd8-832e-4fb6-b64e-b95281ea5174.tipo",
+          "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.622539e6-dd41-4503-a4fe-e53ef9db4f80.tipo",
           "status": {
             "code": "ER_SUCCESS_MATCH"
           },
           "values": [
             {
               "value": {
-                "name": "películas",
-                "id": "67e2f736c61ac518fe9ddbcb924882eb"
+                "name": "cine",
+                "id": "23a1c740ff145d7962d469ec2153bf06"
               }
             }
           ]
@@ -25,15 +25,15 @@ const slots = {
       ]
     },
     "confirmationStatus": "NONE",
-    "source": "USER"
+        "source": "USER"
   },
   "orden": {
     "name": "orden",
-    "value": "echan",
-    "resolutions": {
+        "value": "echan",
+        "resolutions": {
       "resolutionsPerAuthority": [
         {
-          "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.b904acd8-832e-4fb6-b64e-b95281ea5174.orden",
+          "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.622539e6-dd41-4503-a4fe-e53ef9db4f80.orden",
           "status": {
             "code": "ER_SUCCESS_MATCH"
           },
@@ -49,42 +49,23 @@ const slots = {
       ]
     },
     "confirmationStatus": "NONE",
-    "source": "USER"
+        "source": "USER"
   },
   "horario": {
     "name": "horario",
-    "value": "22:00",
-    "confirmationStatus": "NONE",
-    "source": "USER"
+        "value": "22:00",
+        "confirmationStatus": "NONE",
+        "source": "USER"
   },
   "subgenre": {
     "name": "subgenre",
-    "resolutions": {
-      "resolutionsPerAuthority": [
-        {
-          "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.b904acd8-832e-4fb6-b64e-b95281ea5174.subgenre",
-          "status": {
-            "code": "ER_SUCCESS_MATCH"
-          },
-          "values": [
-            {
-              "value": {
-                "name": "suspense",
-                "id": "3ffb737bae5f1eb69420ba226b1a2083"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    "confirmationStatus": "NONE",
-    "source": "USER"
+        "confirmationStatus": "NONE"
   },
   "tiempo": {
     "name": "tiempo",
-    "value": "2019-07-10",
-    "confirmationStatus": "NONE",
-    "source": "USER"
+        "value": "2019-07-10",
+        "confirmationStatus": "NONE",
+        "source": "USER"
   }
 };
 
