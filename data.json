@@ -1,0 +1,4192 @@
+{
+  "ordenacionPorDefecto": 1,
+  "items": [
+    {
+      "type": "G",
+      "orden": 1,
+      "id": 76609216,
+      "nombre": "Apple iPhone XS",
+      "ordenPagoInicial": 320.65,
+      "ordenCuotaMensual": 29.04,
+      "listTerminals": [
+        {
+          "ordenGrupo": 0,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 18
+            },
+            {
+              "typeOrder": 0,
+              "position": 9
+            }
+          ],
+          "idTerminal": 76609162,
+          "idTipoTerminal": 3,
+          "idGrupo": 76609216,
+          "sap": "313500",
+          "color": "Oro",
+          "codigoColor": "#bfb193",
+          "capacidad": "64GB",
+          "capacidadValorUnidad": {
+            "valor": "64",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435656265567/Mobile-Frontal-Apple-iPhone-XS-Oro/",
+          "textoImagenListado": "Apple iPhone XS Oro 64GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Apple",
+              "imagenIcono": "/c/tienda/tol/img/1435594590574/icono_apple/"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus/"
+            }
+          ],
+          "modelo": "iPhone XS",
+          "so": "IOS",
+          "altImagenSo": "IOS",
+          "marca": "Apple",
+          "idMarca": 3,
+          "idPrecio": 191121867,
+          "pagoAlContadoConIva": 1017.61,
+          "pagoAlContadoSinIva": 841,
+          "cuotaMensualConIva": 29.04,
+          "cuotaMensualSinIva": 24,
+          "pagoInicialConIva": 320.65,
+          "pagoInicialSinIva": 265,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        },
+        {
+          "ordenGrupo": 2,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 16
+            },
+            {
+              "typeOrder": 0,
+              "position": 7
+            }
+          ],
+          "idTerminal": 76609186,
+          "idTipoTerminal": 3,
+          "idGrupo": 76609216,
+          "sap": "313497",
+          "color": "Plata",
+          "codigoColor": "#c9c9c9",
+          "capacidad": "64GB",
+          "capacidadValorUnidad": {
+            "valor": "64",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435656990797/mobile-frontal-xs-plata/",
+          "textoImagenListado": "iPhone XS Plata 64GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Apple",
+              "imagenIcono": "/c/tienda/tol/img/1435594590574/icono_apple/"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus/"
+            }
+          ],
+          "modelo": "iPhone XS",
+          "so": "IOS",
+          "altImagenSo": "IOS",
+          "marca": "Apple",
+          "idMarca": 3,
+          "idPrecio": 191121865,
+          "pagoAlContadoConIva": 1017.61,
+          "pagoAlContadoSinIva": 841,
+          "cuotaMensualConIva": 29.04,
+          "cuotaMensualSinIva": 24,
+          "pagoInicialConIva": 320.65,
+          "pagoInicialSinIva": 265,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        },
+        {
+          "ordenGrupo": 3,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 13
+            },
+            {
+              "typeOrder": 0,
+              "position": 4
+            }
+          ],
+          "idTerminal": 76609167,
+          "idTipoTerminal": 3,
+          "idGrupo": 76609216,
+          "sap": "313501",
+          "color": "Gris Espacial",
+          "codigoColor": "#484848",
+          "capacidad": "256GB",
+          "capacidadValorUnidad": {
+            "valor": "256",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435658231123/mobile-frontal-xs-gris-espacial/",
+          "textoImagenListado": "iPhone XS Gris Espacial  256GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Apple",
+              "imagenIcono": "/c/tienda/tol/img/1435594590574/icono_apple"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            }
+          ],
+          "modelo": "iPhone XS",
+          "so": "IOS",
+          "altImagenSo": "IOS",
+          "marca": "Apple",
+          "idMarca": 3,
+          "idPrecio": 191122388,
+          "pagoAlContadoConIva": 1220.89,
+          "pagoAlContadoSinIva": 1009,
+          "cuotaMensualConIva": 36.3,
+          "cuotaMensualSinIva": 30,
+          "pagoInicialConIva": 349.69,
+          "pagoInicialSinIva": 289,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443580,
+          "nombreTarifa": "Mini"
+        },
+        {
+          "ordenGrupo": 4,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 17
+            },
+            {
+              "typeOrder": 0,
+              "position": 8
+            }
+          ],
+          "idTerminal": 76609175,
+          "idTipoTerminal": 3,
+          "idGrupo": 76609216,
+          "sap": "313498",
+          "color": "Gris Espacial",
+          "codigoColor": "#484848",
+          "capacidad": "64GB",
+          "capacidadValorUnidad": {
+            "valor": "64",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435658231123/mobile-frontal-xs-gris-espacial/",
+          "textoImagenListado": "iPhone XS Gris Espacial 64GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Apple",
+              "imagenIcono": "/c/tienda/tol/img/1435594590574/icono_apple"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            }
+          ],
+          "modelo": "iPhone XS",
+          "so": "IOS",
+          "altImagenSo": "IOS",
+          "marca": "Apple",
+          "idMarca": 3,
+          "idPrecio": 191121866,
+          "pagoAlContadoConIva": 1017.61,
+          "pagoAlContadoSinIva": 841,
+          "cuotaMensualConIva": 29.04,
+          "cuotaMensualSinIva": 24,
+          "pagoInicialConIva": 320.65,
+          "pagoInicialSinIva": 265,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "G",
+      "orden": 2,
+      "id": 4586642,
+      "nombre": "Apple iPhone X",
+      "ordenPagoInicial": 277.09,
+      "ordenCuotaMensual": 26.62,
+      "listTerminals": [
+        {
+          "ordenGrupo": 0,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 8
+            },
+            {
+              "typeOrder": 0,
+              "position": 10
+            }
+          ],
+          "idTerminal": 4586251,
+          "idTipoTerminal": 3,
+          "idGrupo": 4586642,
+          "sap": "313273",
+          "color": "Gris Espacial",
+          "codigoColor": "#000000",
+          "capacidad": "64GB",
+          "capacidadValorUnidad": {
+            "valor": "64",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435654823006/Mobile-Frontal-iPhone-X-Space-Grey/",
+          "textoImagenListado": "iPhone X Gris Espacial 64GB",
+          "listaIconos": [
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            },
+            {
+              "textoIcono": "Apple",
+              "imagenIcono": "/c/tienda/tol/img/1435594590574/icono_apple"
+            }
+          ],
+          "modelo": "iPhone X",
+          "so": "IOS",
+          "altImagenSo": "IOS",
+          "marca": "Apple",
+          "idMarca": 3,
+          "idPrecio": 191121855,
+          "pagoAlContadoConIva": 915.97,
+          "pagoAlContadoSinIva": 757,
+          "cuotaMensualConIva": 26.62,
+          "cuotaMensualSinIva": 22,
+          "pagoInicialConIva": 277.09,
+          "pagoInicialSinIva": 229,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "G",
+      "orden": 3,
+      "id": 92982718,
+      "nombre": "Apple iPhone XR",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 30.25,
+      "listTerminals": [
+        {
+          "ordenGrupo": 0,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 5
+            },
+            {
+              "typeOrder": 0,
+              "position": 13
+            }
+          ],
+          "idTerminal": 92864662,
+          "idTipoTerminal": 3,
+          "idGrupo": 92982718,
+          "sap": "313518",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "64GB",
+          "capacidadValorUnidad": {
+            "valor": "64",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435658299870/mobile-frontal-xr-negro/",
+          "textoImagenListado": "iPhone XR 64GB Negro",
+          "listaIconos": [
+            {
+              "textoIcono": "Apple",
+              "imagenIcono": "/c/tienda/tol/img/1435594590574/icono_apple"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc"
+            }
+          ],
+          "modelo": "iPhone XR",
+          "so": "IOS",
+          "altImagenSo": "IOS",
+          "marca": "Apple",
+          "idMarca": 3,
+          "idPrecio": 191121874,
+          "pagoAlContadoConIva": 726,
+          "pagoAlContadoSinIva": 600,
+          "cuotaMensualConIva": 30.25,
+          "cuotaMensualSinIva": 25,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        },
+        {
+          "ordenGrupo": 2,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 6
+            },
+            {
+              "typeOrder": 0,
+              "position": 14
+            }
+          ],
+          "idTerminal": 92864692,
+          "idTipoTerminal": 3,
+          "idGrupo": 92982718,
+          "sap": "313514",
+          "color": "Blanco",
+          "codigoColor": "#ffffff",
+          "capacidad": "64GB",
+          "capacidadValorUnidad": {
+            "valor": "64",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435658319103/mobile-frontal-xr-blanco/",
+          "textoImagenListado": "iPhone XR Blanco 64GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Apple",
+              "imagenIcono": "/c/tienda/tol/img/1435594590574/icono_apple"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc"
+            }
+          ],
+          "modelo": "iPhone XR",
+          "so": "IOS",
+          "altImagenSo": "IOS",
+          "marca": "Apple",
+          "idMarca": 3,
+          "idPrecio": 191121873,
+          "pagoAlContadoConIva": 726,
+          "pagoAlContadoSinIva": 600,
+          "cuotaMensualConIva": 30.25,
+          "cuotaMensualSinIva": 25,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        },
+        {
+          "ordenGrupo": 3,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 4
+            },
+            {
+              "typeOrder": 0,
+              "position": 12
+            }
+          ],
+          "idTerminal": 92864702,
+          "idTipoTerminal": 3,
+          "idGrupo": 92982718,
+          "sap": "313525",
+          "color": "Blanco",
+          "codigoColor": "#ffffff",
+          "capacidad": "256GB",
+          "capacidadValorUnidad": {
+            "valor": "256",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435658319103/mobile-frontal-xr-blanco/",
+          "textoImagenListado": "iPhone XR Blanco 256GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Apple",
+              "imagenIcono": "/c/tienda/tol/img/1435594590574/icono_apple"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc"
+            }
+          ],
+          "modelo": "iPhone XR",
+          "so": "IOS",
+          "altImagenSo": "IOS",
+          "marca": "Apple",
+          "idMarca": 3,
+          "idPrecio": 191121876,
+          "pagoAlContadoConIva": 923.23,
+          "pagoAlContadoSinIva": 763,
+          "cuotaMensualConIva": 25.41,
+          "cuotaMensualSinIva": 21,
+          "pagoInicialConIva": 313.39,
+          "pagoInicialSinIva": 259,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        },
+        {
+          "ordenGrupo": 4,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 7
+            },
+            {
+              "typeOrder": 0,
+              "position": 15
+            }
+          ],
+          "idTerminal": 92864709,
+          "idTipoTerminal": 3,
+          "idGrupo": 92982718,
+          "sap": "313522",
+          "color": "Amarillo",
+          "codigoColor": "#f9d045",
+          "capacidad": "64GB",
+          "capacidadValorUnidad": {
+            "valor": "64",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435658321994/mobile-frontal-iphone-xr-amarillo/",
+          "textoImagenListado": "iPhone XR Amarillo 64GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Apple",
+              "imagenIcono": "/c/tienda/tol/img/1435594590574/icono_apple"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc"
+            }
+          ],
+          "modelo": "iPhone XR",
+          "so": "IOS",
+          "altImagenSo": "IOS",
+          "marca": "Apple",
+          "idMarca": 3,
+          "idPrecio": 191121875,
+          "pagoAlContadoConIva": 726,
+          "pagoAlContadoSinIva": 600,
+          "cuotaMensualConIva": 30.25,
+          "cuotaMensualSinIva": 25,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        },
+        {
+          "ordenGrupo": 8,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 3
+            },
+            {
+              "typeOrder": 0,
+              "position": 11
+            }
+          ],
+          "idTerminal": 92864402,
+          "idTipoTerminal": 3,
+          "idGrupo": 92982718,
+          "sap": "313526",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "256GB",
+          "capacidadValorUnidad": {
+            "valor": "256",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435658299870/mobile-frontal-xr-negro/",
+          "textoImagenListado": "iPhone XR 256GB Negro",
+          "listaIconos": [
+            {
+              "textoIcono": "Apple",
+              "imagenIcono": "/c/tienda/tol/img/1435594590574/icono_apple"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc"
+            }
+          ],
+          "modelo": "iPhone XR",
+          "so": "IOS",
+          "altImagenSo": "IOS",
+          "marca": "Apple",
+          "idMarca": 3,
+          "idPrecio": 191121877,
+          "pagoAlContadoConIva": 911.13,
+          "pagoAlContadoSinIva": 753,
+          "cuotaMensualConIva": 25.41,
+          "cuotaMensualSinIva": 21,
+          "pagoInicialConIva": 301.29,
+          "pagoInicialSinIva": 249,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "G",
+      "orden": 4,
+      "id": 3603480,
+      "nombre": "Apple iPhone 8",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 24.2,
+      "listTerminals": [
+        {
+          "ordenGrupo": 2,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 2
+            },
+            {
+              "typeOrder": 0,
+              "position": 16
+            }
+          ],
+          "idTerminal": 6241963,
+          "idTipoTerminal": 3,
+          "idGrupo": 3603480,
+          "sap": "313263",
+          "color": "Gris Espacial",
+          "codigoColor": "#707070",
+          "capacidad": "64GB",
+          "capacidadValorUnidad": {
+            "valor": "64",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435658383174/mobile-frontal-iphone-8-gris/",
+          "textoImagenListado": "iPhone 8 Gris Espacial 64GB",
+          "listaIconos": [
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            },
+            {
+              "textoIcono": "Apple",
+              "imagenIcono": "/c/tienda/tol/img/1435594590574/icono_apple"
+            }
+          ],
+          "modelo": "iPhone 8",
+          "so": "IOS",
+          "altImagenSo": "IOS",
+          "marca": "Apple",
+          "idMarca": 3,
+          "idPrecio": 191121854,
+          "pagoAlContadoConIva": 580.8,
+          "pagoAlContadoSinIva": 480,
+          "cuotaMensualConIva": 24.2,
+          "cuotaMensualSinIva": 20,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "G",
+      "orden": 6,
+      "id": 62892693,
+      "nombre": "Samsung Galaxy Note9",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 45.98,
+      "listTerminals": [
+        {
+          "ordenGrupo": 0,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 24
+            },
+            {
+              "typeOrder": 0,
+              "position": 20
+            }
+          ],
+          "idTerminal": 62892686,
+          "idTipoTerminal": 3,
+          "idGrupo": 62892693,
+          "sap": "313483",
+          "color": "Azul",
+          "codigoColor": "#4e678c",
+          "capacidad": "512GB",
+          "capacidadValorUnidad": {
+            "valor": "512",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435658442854/mobile-frontal-note-9-azul/",
+          "textoImagenListado": "Samsung Galaxy Note9 Azul 512GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            }
+          ],
+          "modelo": "Galaxy Note9",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Samsung",
+          "idMarca": 1,
+          "idPrecio": 191121863,
+          "pagoAlContadoConIva": 1103.52,
+          "pagoAlContadoSinIva": 912,
+          "cuotaMensualConIva": 45.98,
+          "cuotaMensualSinIva": 38,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "G",
+      "orden": 7,
+      "id": 151943813,
+      "nombre": "Samsung Galaxy S10+",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 32.67,
+      "listTerminals": [
+        {
+          "ordenGrupo": 0,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 22
+            },
+            {
+              "typeOrder": 0,
+              "position": 21
+            }
+          ],
+          "idTerminal": 149218543,
+          "idTipoTerminal": 3,
+          "idGrupo": 151943813,
+          "sap": "313594",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "128GB",
+          "capacidadValorUnidad": {
+            "valor": "128",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435675045857/mobile-frontal-s10-plus/",
+          "textoImagenListado": "Samsung Galaxy S10 Plus Negro 128GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android/"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc/"
+            },
+            {
+              "textoIcono": "4G Plus",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus/"
+            }
+          ],
+          "modelo": "Galaxy S10 Plus",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Samsung",
+          "idMarca": 1,
+          "idPrecio": 191121887,
+          "pagoAlContadoConIva": 784.08,
+          "pagoAlContadoSinIva": 648,
+          "cuotaMensualConIva": 32.67,
+          "cuotaMensualSinIva": 27,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 0,
+          "canonSinIva": 0,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        },
+        {
+          "ordenGrupo": 1,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 21
+            },
+            {
+              "typeOrder": 0,
+              "position": 19
+            }
+          ],
+          "idTerminal": 151943204,
+          "idTipoTerminal": 3,
+          "idGrupo": 151943813,
+          "sap": "313606",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "512GB",
+          "capacidadValorUnidad": {
+            "valor": "512",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435675045857/mobile-frontal-s10-plus/",
+          "textoImagenListado": "Samsung Galaxy S10 Plus Negro 512GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android/"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc/"
+            },
+            {
+              "textoIcono": "4G Plus",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus/"
+            }
+          ],
+          "modelo": "Galaxy S10 Plus",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Samsung",
+          "idMarca": 1,
+          "idPrecio": 191121890,
+          "pagoAlContadoConIva": 1045.44,
+          "pagoAlContadoSinIva": 864,
+          "cuotaMensualConIva": 43.56,
+          "cuotaMensualSinIva": 36,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 0,
+          "canonSinIva": 0,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        },
+        {
+          "ordenGrupo": 2,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 20
+            },
+            {
+              "typeOrder": 0,
+              "position": 18
+            }
+          ],
+          "idTerminal": 147996305,
+          "idTipoTerminal": 3,
+          "idGrupo": 151943813,
+          "sap": "313595",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "1TB",
+          "capacidadValorUnidad": {
+            "valor": "1",
+            "unidad": "TB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435675045857/mobile-frontal-s10-plus/",
+          "textoImagenListado": "Samsung Galaxy S10 Plus Negro 1TB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android/"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc/"
+            },
+            {
+              "textoIcono": "4G Plus",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus/"
+            }
+          ],
+          "modelo": "Galaxy S10 Plus",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Samsung",
+          "idMarca": 1,
+          "idPrecio": 191121888,
+          "pagoAlContadoConIva": 1349.15,
+          "pagoAlContadoSinIva": 1115,
+          "cuotaMensualConIva": 41.14,
+          "cuotaMensualSinIva": 34,
+          "pagoInicialConIva": 361.79,
+          "pagoInicialSinIva": 299,
+          "canonConIva": 0,
+          "canonSinIva": 0,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 10,
+      "id": 147996314,
+      "nombre": "Samsung Galaxy S10",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 31.46,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 9
+            },
+            {
+              "typeOrder": 0,
+              "position": 23
+            }
+          ],
+          "idTerminal": 147996314,
+          "idTipoTerminal": 3,
+          "sap": "313593",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "128GB",
+          "capacidadValorUnidad": {
+            "valor": "128",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435675052315/mobile-frontal-s10/",
+          "textoImagenListado": "Samsung Galaxy S10 Negro 128GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android/"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc/"
+            },
+            {
+              "textoIcono": "4G Plus",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus/"
+            }
+          ],
+          "modelo": "Galaxy S10",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Samsung",
+          "idMarca": 1,
+          "idPrecio": 191121886,
+          "pagoAlContadoConIva": 755.04,
+          "pagoAlContadoSinIva": 624,
+          "cuotaMensualConIva": 31.46,
+          "cuotaMensualSinIva": 26,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 0,
+          "canonSinIva": 0,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "G",
+      "orden": 21,
+      "id": 88254761,
+      "nombre": "Huawei Mate 20 Pro",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 26.62,
+      "listTerminals": [
+        {
+          "ordenGrupo": 1,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 33
+            },
+            {
+              "typeOrder": 0,
+              "position": 31
+            }
+          ],
+          "idTerminal": 88254729,
+          "idTipoTerminal": 3,
+          "idGrupo": 88254761,
+          "sap": "313532",
+          "color": "Azul",
+          "codigoColor": "#4e678c",
+          "capacidad": "128GB",
+          "capacidadValorUnidad": {
+            "valor": "128",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435658075588/mobile-frontal-mate-20-pro-azul/",
+          "textoImagenListado": "Huawei Mate 20 Pro Azul 128GB",
+          "listaIconos": [
+            {
+              "textoIcono": "4G Plus",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc"
+            },
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            }
+          ],
+          "modelo": "Mate 20 Pro",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Huawei",
+          "idMarca": 319302,
+          "idPrecio": 191121878,
+          "pagoAlContadoConIva": 638.88,
+          "pagoAlContadoSinIva": 528,
+          "cuotaMensualConIva": 26.62,
+          "cuotaMensualSinIva": 22,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "G",
+      "orden": 22,
+      "id": 76608663,
+      "nombre": "Huawei P20 Pro",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 18.15,
+      "listTerminals": [
+        {
+          "ordenGrupo": 1,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 28
+            },
+            {
+              "typeOrder": 0,
+              "position": 34
+            }
+          ],
+          "idTerminal": 17172785,
+          "idTipoTerminal": 3,
+          "idGrupo": 76608663,
+          "sap": "313351",
+          "color": "Azul",
+          "codigoColor": "#4e678c",
+          "capacidad": "128GB",
+          "capacidadValorUnidad": {
+            "valor": "128",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435658079510/mobile-frontal-p20-pro-azul/",
+          "textoImagenListado": "Huawei P20 Pro Azul 128GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc"
+            },
+            {
+              "textoIcono": "4G",
+              "imagenIcono": "/c/tienda/tol/img/1435594589638/icono_4g"
+            }
+          ],
+          "modelo": "P20 Pro",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Huawei",
+          "idMarca": 319302,
+          "idPrecio": 191121857,
+          "pagoAlContadoConIva": 435.6,
+          "pagoAlContadoSinIva": 360,
+          "cuotaMensualConIva": 18.15,
+          "cuotaMensualSinIva": 15,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 30,
+      "id": 26508323,
+      "nombre": "Sony Xperia XZ2 con Sony Smart TV",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 33.88,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 0,
+              "position": 38
+            }
+          ],
+          "idTerminal": 26508323,
+          "idTipoTerminal": 3,
+          "sap": "313405",
+          "color": "Azul",
+          "codigoColor": "#4e678c",
+          "capacidad": "64GB",
+          "capacidadValorUnidad": {
+            "valor": "64",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435657964355/mobile-frontal-xperia-xz2/",
+          "textoImagenListado": "Xperia XZ2 con Sony Smart TV Azul 64GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            }
+          ],
+          "modelo": "Xperia XZ2 con Sony Smart TV",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Sony",
+          "idMarca": 319281,
+          "idPrecio": 191121860,
+          "pagoAlContadoConIva": 813.12,
+          "pagoAlContadoSinIva": 672,
+          "cuotaMensualConIva": 33.88,
+          "cuotaMensualSinIva": 28,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper",
+          "listaPromos": [
+            {
+              "id": 440207
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 32,
+      "id": 17320034,
+      "nombre": "Sony Xperia XZ2",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 25.41,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 0,
+              "position": 41
+            }
+          ],
+          "idTerminal": 17320034,
+          "idTipoTerminal": 3,
+          "sap": "313382",
+          "color": "Azul",
+          "codigoColor": "#4e678c",
+          "capacidad": "64GB",
+          "capacidadValorUnidad": {
+            "valor": "64",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435657964355/mobile-frontal-xperia-xz2/",
+          "textoImagenListado": "Sony Xperia XZ2 Azul 64GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            }
+          ],
+          "modelo": "Xperia XZ2",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Sony",
+          "idMarca": 319281,
+          "idPrecio": 191121858,
+          "pagoAlContadoConIva": 609.84,
+          "pagoAlContadoSinIva": 504,
+          "cuotaMensualConIva": 25.41,
+          "cuotaMensualSinIva": 21,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 35,
+      "id": 102251102,
+      "nombre": "Motorola One",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 7.26,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 0,
+              "position": 45
+            }
+          ],
+          "idTerminal": 102251102,
+          "idTipoTerminal": 3,
+          "sap": "313545",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "64GB",
+          "capacidadValorUnidad": {
+            "valor": "64",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435661354036/Mobile-Frontal-Motorola-One-Negro/",
+          "textoImagenListado": "Motorola One 64GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            }
+          ],
+          "modelo": "One",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Motorola",
+          "idMarca": 102251086,
+          "idPrecio": 191121880,
+          "pagoAlContadoConIva": 174.24,
+          "pagoAlContadoSinIva": 144,
+          "cuotaMensualConIva": 7.26,
+          "cuotaMensualSinIva": 6,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 40,
+      "id": 75452843,
+      "nombre": "LG K9",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 2.42,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 0,
+              "position": 50
+            }
+          ],
+          "idTerminal": 75452843,
+          "idTipoTerminal": 3,
+          "sap": "313428",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "16GB",
+          "capacidadValorUnidad": {
+            "valor": "16",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435657984661/mobile-frontal-lg-k9/",
+          "textoImagenListado": "LG K9 Negro 16GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            }
+          ],
+          "modelo": "K9",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "LG",
+          "idMarca": 6,
+          "idPrecio": 191121861,
+          "pagoAlContadoConIva": 58.08,
+          "pagoAlContadoSinIva": 48,
+          "cuotaMensualConIva": 2.42,
+          "cuotaMensualSinIva": 2,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 41,
+      "id": 117504665,
+      "nombre": "Palm Phone",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 13.31,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 0,
+              "position": 51
+            }
+          ],
+          "idTerminal": 117504665,
+          "idTipoTerminal": 3,
+          "sap": "313564",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "32GB",
+          "capacidadValorUnidad": {
+            "valor": "32",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435663476722/mobile-frontal-palm/",
+          "textoImagenListado": "Palm Negro 32GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "Wifi",
+              "imagenIcono": "/c/tienda/tol/img/1435596618219/icono_wifi"
+            }
+          ],
+          "modelo": "Phone",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Palm",
+          "idMarca": 117504662,
+          "idPrecio": 191121882,
+          "pagoAlContadoConIva": 319.44,
+          "pagoAlContadoSinIva": 264,
+          "cuotaMensualConIva": 13.31,
+          "cuotaMensualSinIva": 11,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 43,
+      "id": 91785465,
+      "nombre": "Xiaomi Redmi S2",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 4.84,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 0,
+              "position": 53
+            }
+          ],
+          "idTerminal": 91785465,
+          "idTipoTerminal": 3,
+          "sap": "313548",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "32GB",
+          "capacidadValorUnidad": {
+            "valor": "32",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435657667398/mobile-frontal-redmi-s2/",
+          "textoImagenListado": "Xiaomi Redmi S2 Negro 32GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            }
+          ],
+          "modelo": "Redmi S2",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Xiaomi",
+          "idMarca": 30375461,
+          "idPrecio": 191121881,
+          "pagoAlContadoConIva": 116.16,
+          "pagoAlContadoSinIva": 96,
+          "cuotaMensualConIva": 4.84,
+          "cuotaMensualSinIva": 4,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 44,
+      "id": 131322562,
+      "nombre": "Blackberry KEY 2 Lite Edition",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 12.1,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 0,
+              "position": 54
+            }
+          ],
+          "idTerminal": 131322562,
+          "idTipoTerminal": 3,
+          "sap": "313488",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "32GB",
+          "capacidadValorUnidad": {
+            "valor": "32",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435667817289/mobile-frontal-Key-2-Lite-Edition/",
+          "textoImagenListado": "Blackberry Key 2 Lite Edition Negro 32GB",
+          "listaIconos": [
+            {
+              "textoIcono": "4G",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            },
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "Wallet",
+              "imagenIcono": "/c/tienda/tol/img/1435594589672/icono_wallet"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc"
+            }
+          ],
+          "modelo": "KEY 2 Lite Edition",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Blackberry",
+          "idMarca": 319401,
+          "idPrecio": 191121864,
+          "pagoAlContadoConIva": 290.4,
+          "pagoAlContadoSinIva": 240,
+          "cuotaMensualConIva": 12.1,
+          "cuotaMensualSinIva": 10,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 47,
+      "id": 39311883,
+      "nombre": "Wiko Tommy 3",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 2.42,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 0,
+              "position": 58
+            }
+          ],
+          "idTerminal": 39311883,
+          "idTipoTerminal": 3,
+          "sap": "313388",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "16GB",
+          "capacidadValorUnidad": {
+            "valor": "16",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435665288660/mobile-bodegon-wiko-tommy-3/",
+          "textoImagenListado": "Wiko Tommy 3 Negro 16GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "4G",
+              "imagenIcono": "/c/tienda/tol/img/1435594589638/icono_4g"
+            },
+            {
+              "textoIcono": "Wifi",
+              "imagenIcono": "/c/tienda/tol/img/1435596618219/icono_wifi"
+            }
+          ],
+          "modelo": "Tommy 3",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Wiko",
+          "idMarca": 39311901,
+          "idPrecio": 191121859,
+          "pagoAlContadoConIva": 58.08,
+          "pagoAlContadoSinIva": 48,
+          "cuotaMensualConIva": 2.42,
+          "cuotaMensualSinIva": 2,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper",
+          "listaPromos": [
+            {
+              "id": 440165
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 49,
+      "id": 101081625,
+      "nombre": "Nokia 7.1",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 8.47,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 0,
+              "position": 59
+            }
+          ],
+          "idTerminal": 101081625,
+          "idTipoTerminal": 3,
+          "sap": "313543",
+          "color": "Azul",
+          "codigoColor": "#4e678c",
+          "capacidad": "32GB",
+          "capacidadValorUnidad": {
+            "valor": "32",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435659299741/listado-7-1/",
+          "textoImagenListado": "Nokia 7.1 Azul 32GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            }
+          ],
+          "modelo": "7.1",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Nokia",
+          "idMarca": 6823508,
+          "idPrecio": 191121879,
+          "pagoAlContadoConIva": 203.28,
+          "pagoAlContadoSinIva": 168,
+          "cuotaMensualConIva": 8.47,
+          "cuotaMensualSinIva": 7,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 50,
+      "id": 6823528,
+      "nombre": "Nokia 3310",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 0,
+      "listTerminals": [
+        {
+          "idTerminal": 6823528,
+          "idTipoTerminal": 3,
+          "sap": "313208",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "16MB",
+          "capacidadValorUnidad": {
+            "valor": "16",
+            "unidad": "MB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435658068702/mobile-frontal-3310/",
+          "textoImagenListado": "Nokia 3310 Negro 16MB",
+          "modelo": "3310",
+          "so": "No aplica",
+          "marca": "Nokia",
+          "idMarca": 6823508,
+          "idPrecio": 191256407,
+          "pagoAlContadoConIva": 0,
+          "pagoAlContadoSinIva": 0,
+          "cuotaMensualConIva": 0,
+          "cuotaMensualSinIva": 0,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 0,
+          "catalogOffer": 168443575,
+          "nombreTarifa": "Extra"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 52,
+      "id": 142685522,
+      "nombre": "Alcatel 2053",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 0,
+      "listTerminals": [
+        {
+          "idTerminal": 142685522,
+          "idTipoTerminal": 3,
+          "sap": "313551",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "4MB",
+          "capacidadValorUnidad": {
+            "valor": "4",
+            "unidad": "MB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435672417254/Mobile-frontal-alcatel-2053-Negro/",
+          "textoImagenListado": "Alcatel 2053 Negro 4MB",
+          "modelo": "2053",
+          "so": "No aplica",
+          "marca": "Alcatel",
+          "idMarca": 323563,
+          "idPrecio": 191256575,
+          "pagoAlContadoConIva": 0,
+          "pagoAlContadoSinIva": 0,
+          "cuotaMensualConIva": 0,
+          "cuotaMensualSinIva": 0,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 0,
+          "catalogOffer": 168443580,
+          "nombreTarifa": "Mini"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 54,
+      "id": 6823478,
+      "nombre": "Alcatel 2008G",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 0,
+      "listTerminals": [
+        {
+          "idTerminal": 6823478,
+          "idTipoTerminal": 3,
+          "sap": "313032",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "16GB",
+          "capacidadValorUnidad": {
+            "valor": "16",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435657742294/mobile-frontal-alcatel-2008g/",
+          "textoImagenListado": "Alcatel 2008G Negro 16GB",
+          "modelo": "2008G",
+          "so": "No aplica",
+          "marca": "Alcatel",
+          "idMarca": 323563,
+          "idPrecio": 191256564,
+          "pagoAlContadoConIva": 0,
+          "pagoAlContadoSinIva": 0,
+          "cuotaMensualConIva": 0,
+          "cuotaMensualSinIva": 0,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 0,
+          "catalogOffer": 168443580,
+          "nombreTarifa": "Mini"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 55,
+      "id": 139948242,
+      "nombre": "Alcatel 2003",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 0,
+      "listTerminals": [
+        {
+          "idTerminal": 139948242,
+          "idTipoTerminal": 3,
+          "sap": "313445",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "4MB",
+          "capacidadValorUnidad": {
+            "valor": "4",
+            "unidad": "MB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435671148494/mobile-frontal-Alcatel-2003-Negro/",
+          "textoImagenListado": "Alcatel 2003 Negro 4MB",
+          "modelo": "2003",
+          "so": "No aplica",
+          "marca": "Alcatel",
+          "idMarca": 323563,
+          "idPrecio": 191256571,
+          "pagoAlContadoConIva": 0,
+          "pagoAlContadoSinIva": 0,
+          "cuotaMensualConIva": 0,
+          "cuotaMensualSinIva": 0,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 0,
+          "canonSinIva": 0,
+          "textoNoCobroCanon": "true",
+          "numMeses": 0,
+          "catalogOffer": 168443580,
+          "nombreTarifa": "Mini"
+        }
+      ]
+    },
+    {
+      "type": "G",
+      "orden": 62,
+      "id": 164389203,
+      "nombre": "Huawei P30 Pro",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 32.67,
+      "listTerminals": [
+        {
+          "ordenGrupo": 0,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 26
+            },
+            {
+              "typeOrder": 0,
+              "position": 33
+            }
+          ],
+          "idTerminal": 164389152,
+          "idTipoTerminal": 3,
+          "idGrupo": 164389203,
+          "sap": "313623",
+          "color": "Aurora",
+          "codigoColor": "#7964bc",
+          "capacidad": "256GB",
+          "capacidadValorUnidad": {
+            "valor": "256",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500008093550/mobile-frontal-p30-pro-aurora/",
+          "textoImagenListado": "Huawei P30 Pro Aurora 128GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android/"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc/"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus/"
+            }
+          ],
+          "modelo": "P30 Pro",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Huawei",
+          "idMarca": 319302,
+          "idPrecio": 191121897,
+          "pagoAlContadoConIva": 784.08,
+          "pagoAlContadoSinIva": 648,
+          "cuotaMensualConIva": 32.67,
+          "cuotaMensualSinIva": 27,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 0,
+          "canonSinIva": 0,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 66,
+      "id": 165885862,
+      "nombre": "Samsung Galaxy A50",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 10.89,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 19
+            },
+            {
+              "typeOrder": 0,
+              "position": 26
+            }
+          ],
+          "idTerminal": 165885862,
+          "idTipoTerminal": 3,
+          "sap": "313608",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "128GB",
+          "capacidadValorUnidad": {
+            "valor": "128",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500010670260/mobile-frontal-galaxy-a50-negro/",
+          "textoImagenListado": "Samsung Galaxy A50 Negro 128GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc"
+            }
+          ],
+          "modelo": "Galaxy A50",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Samsung",
+          "idMarca": 1,
+          "idPrecio": 191121892,
+          "pagoAlContadoConIva": 261.36,
+          "pagoAlContadoSinIva": 216,
+          "cuotaMensualConIva": 10.89,
+          "cuotaMensualSinIva": 9,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 68,
+      "id": 165885623,
+      "nombre": "Huawei Y6 2019",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 2.42,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 0,
+              "position": 37
+            }
+          ],
+          "idTerminal": 165885623,
+          "idTipoTerminal": 3,
+          "sap": "313609",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "32GB",
+          "capacidadValorUnidad": {
+            "valor": "32",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500011117986/Mobile-frontal-Huawei-Y6-2019/",
+          "textoImagenListado": "Huawei Y6 2019 Negro 32GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "4G",
+              "imagenIcono": "/c/tienda/tol/img/1435594589638/icono_4g"
+            },
+            {
+              "textoIcono": "Wifi",
+              "imagenIcono": "/c/tienda/tol/img/1435596618219/icono_wifi"
+            }
+          ],
+          "modelo": "Y6 2019",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Huawei",
+          "idMarca": 319302,
+          "idPrecio": 191121893,
+          "pagoAlContadoConIva": 58.08,
+          "pagoAlContadoSinIva": 48,
+          "cuotaMensualConIva": 2.42,
+          "cuotaMensualSinIva": 2,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 68,
+      "id": 161427904,
+      "nombre": "Sony Xperia L3",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 3.63,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 0,
+              "position": 44
+            }
+          ],
+          "idTerminal": 161427904,
+          "idTipoTerminal": 3,
+          "sap": "313587",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "32GB",
+          "capacidadValorUnidad": {
+            "valor": "32",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500006691615/mobile-frontal-Xperia-L3/",
+          "textoImagenListado": "Sony Xperia L3 Negro 32GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android/"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc/"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus/"
+            }
+          ],
+          "modelo": "Xperia L3",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Sony",
+          "idMarca": 319281,
+          "idPrecio": 191121884,
+          "pagoAlContadoConIva": 87.12,
+          "pagoAlContadoSinIva": 72,
+          "cuotaMensualConIva": 3.63,
+          "cuotaMensualSinIva": 3,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 0,
+          "canonSinIva": 0,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 68,
+      "id": 159998743,
+      "nombre": "Sony Xperia 10",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 9.68,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 0,
+              "position": 42
+            }
+          ],
+          "idTerminal": 159998743,
+          "idTipoTerminal": 3,
+          "sap": "313604",
+          "color": "Azul",
+          "codigoColor": "#4e678c",
+          "capacidad": "64GB",
+          "capacidadValorUnidad": {
+            "valor": "64",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500006579212/mobile-frontal-xperia10/",
+          "textoImagenListado": "Sony Xperia 10 Azul 64GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android/"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc/"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus/"
+            }
+          ],
+          "modelo": "Xperia 10",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Sony",
+          "idMarca": 319281,
+          "idPrecio": 191121889,
+          "pagoAlContadoConIva": 232.32,
+          "pagoAlContadoSinIva": 192,
+          "cuotaMensualConIva": 9.68,
+          "cuotaMensualSinIva": 8,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 0,
+          "canonSinIva": 0,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 69,
+      "id": 167218462,
+      "nombre": "LG K40",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 3.63,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 0,
+              "position": 49
+            }
+          ],
+          "idTerminal": 167218462,
+          "idTipoTerminal": 3,
+          "sap": "313615",
+          "color": "Azul",
+          "codigoColor": "#4e678c",
+          "capacidad": "32GB",
+          "capacidadValorUnidad": {
+            "valor": "32",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500010545610/mobile-frontal-lg-k40-azul/",
+          "textoImagenListado": "LG K40 Azul 32GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc"
+            },
+            {
+              "imagenIcono": "/c/tienda/tol/img/1435596618219/icono_wifi"
+            }
+          ],
+          "modelo": "K40",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "LG",
+          "idMarca": 6,
+          "idPrecio": 191121894,
+          "pagoAlContadoConIva": 87.12,
+          "pagoAlContadoSinIva": 72,
+          "cuotaMensualConIva": 3.63,
+          "cuotaMensualSinIva": 3,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 70,
+      "id": 10485030,
+      "nombre": "Sony Xperia XA2",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 7.26,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 0,
+              "position": 43
+            }
+          ],
+          "idTerminal": 10485030,
+          "idTipoTerminal": 3,
+          "sap": "313345",
+          "color": "Plata",
+          "codigoColor": "#c9c9c9",
+          "capacidad": "32GB",
+          "capacidadValorUnidad": {
+            "valor": "32",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435657866924/mobile-frontal-xa2/",
+          "textoImagenListado": "Sony Xperia XA2 Plata 32GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            }
+          ],
+          "modelo": "Xperia XA2",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Sony",
+          "idMarca": 319281,
+          "idPrecio": 191121856,
+          "pagoAlContadoConIva": 174.24,
+          "pagoAlContadoSinIva": 144,
+          "cuotaMensualConIva": 7.26,
+          "cuotaMensualSinIva": 6,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "G",
+      "orden": 72,
+      "id": 76609231,
+      "nombre": "Apple iPhone XS MAX",
+      "ordenPagoInicial": 361.79,
+      "ordenCuotaMensual": 37.5,
+      "listTerminals": [
+        {
+          "ordenGrupo": 1,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 12
+            },
+            {
+              "typeOrder": 0,
+              "position": 3
+            }
+          ],
+          "idTerminal": 76609171,
+          "idTipoTerminal": 3,
+          "idGrupo": 76609231,
+          "sap": "313508",
+          "color": "Gris Espacial",
+          "codigoColor": "#484848",
+          "capacidad": "256GB",
+          "capacidadValorUnidad": {
+            "valor": "256",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435656273228/Mobile-Frontal-Apple-iPhone-XS-MAX-Gris-Espacial/",
+          "textoImagenListado": "Apple iPhone XS MAX Gris Espacial 256GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Apple",
+              "imagenIcono": "/c/tienda/tol/img/1435594590574/icono_apple/"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus/"
+            }
+          ],
+          "modelo": "iPhone XS MAX",
+          "so": "IOS",
+          "altImagenSo": "IOS",
+          "marca": "Apple",
+          "idMarca": 3,
+          "idPrecio": 191121871,
+          "pagoAlContadoConIva": 1262.03,
+          "pagoAlContadoSinIva": 1043,
+          "cuotaMensualConIva": 37.5,
+          "cuotaMensualSinIva": 31,
+          "pagoInicialConIva": 361.79,
+          "pagoInicialSinIva": 299,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        },
+        {
+          "ordenGrupo": 2,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 14
+            },
+            {
+              "typeOrder": 0,
+              "position": 5
+            }
+          ],
+          "idTerminal": 76609179,
+          "idTipoTerminal": 3,
+          "idGrupo": 76609231,
+          "sap": "313505",
+          "color": "Gris Espacial",
+          "codigoColor": "#484848",
+          "capacidad": "64GB",
+          "capacidadValorUnidad": {
+            "valor": "64",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435656273228/Mobile-Frontal-Apple-iPhone-XS-MAX-Gris-Espacial/",
+          "textoImagenListado": "Apple iPhone XS MAX Gris Espacial 64GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Apple",
+              "imagenIcono": "/c/tienda/tol/img/1435594590574/icono_apple/"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus/"
+            }
+          ],
+          "modelo": "iPhone XS MAX",
+          "so": "IOS",
+          "altImagenSo": "IOS",
+          "marca": "Apple",
+          "idMarca": 3,
+          "idPrecio": 191121869,
+          "pagoAlContadoConIva": 1116.83,
+          "pagoAlContadoSinIva": 923,
+          "cuotaMensualConIva": 31.46,
+          "cuotaMensualSinIva": 26,
+          "pagoInicialConIva": 361.79,
+          "pagoInicialSinIva": 299,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        },
+        {
+          "ordenGrupo": 3,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 11
+            },
+            {
+              "typeOrder": 0,
+              "position": 2
+            }
+          ],
+          "idTerminal": 76609203,
+          "idTipoTerminal": 3,
+          "idGrupo": 76609231,
+          "sap": "313510",
+          "color": "Gris Espacial",
+          "codigoColor": "#484848",
+          "capacidad": "512GB",
+          "capacidadValorUnidad": {
+            "valor": "512",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435656273228/Mobile-Frontal-Apple-iPhone-XS-MAX-Gris-Espacial/",
+          "textoImagenListado": "Apple iPhone XS MAX Gris Espacial 512GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Apple",
+              "imagenIcono": "/c/tienda/tol/img/1435594590574/icono_apple/"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus/"
+            }
+          ],
+          "modelo": "iPhone XS MAX",
+          "so": "IOS",
+          "altImagenSo": "IOS",
+          "marca": "Apple",
+          "idMarca": 3,
+          "idPrecio": 191121872,
+          "pagoAlContadoConIva": 1462.89,
+          "pagoAlContadoSinIva": 1209,
+          "cuotaMensualConIva": 36.3,
+          "cuotaMensualSinIva": 30,
+          "pagoInicialConIva": 591.69,
+          "pagoInicialSinIva": 489,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        },
+        {
+          "ordenGrupo": 4,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 15
+            },
+            {
+              "typeOrder": 0,
+              "position": 6
+            }
+          ],
+          "idTerminal": 76609223,
+          "idTipoTerminal": 3,
+          "idGrupo": 76609231,
+          "sap": "313506",
+          "color": "Oro",
+          "codigoColor": "#bfb193",
+          "capacidad": "64GB",
+          "capacidadValorUnidad": {
+            "valor": "64",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435658262868/mobile-frontal-iphone-xs-max-oro/",
+          "textoImagenListado": "iPhone XS MAX Oro 64GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Apple",
+              "imagenIcono": "/c/tienda/tol/img/1435594590574/icono_apple/"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus/"
+            }
+          ],
+          "modelo": "iPhone XS MAX",
+          "so": "IOS",
+          "altImagenSo": "IOS",
+          "marca": "Apple",
+          "idMarca": 3,
+          "idPrecio": 191121870,
+          "pagoAlContadoConIva": 1116.83,
+          "pagoAlContadoSinIva": 923,
+          "cuotaMensualConIva": 31.46,
+          "cuotaMensualSinIva": 26,
+          "pagoInicialConIva": 361.79,
+          "pagoInicialSinIva": 299,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 73,
+      "id": 108782070,
+      "nombre": "Samsung Galaxy A8 Enterprise Edition",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 8.47,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 32
+            },
+            {
+              "typeOrder": 0,
+              "position": 27
+            }
+          ],
+          "idTerminal": 108782070,
+          "idTipoTerminal": 3,
+          "sap": "313433",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "32GB",
+          "capacidadValorUnidad": {
+            "valor": "32",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435658687132/mobile-frontal-a8/",
+          "textoImagenListado": "Samsung Galaxy A8 Enterprise Edition (Dual Sim) Negro 32GB",
+          "listaIconos": [
+            {
+              "textoIcono": "4gmplus",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            },
+            {
+              "textoIcono": "android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "wallet",
+              "imagenIcono": "/c/tienda/tol/img/1435594589672/icono_wallet"
+            },
+            {
+              "textoIcono": "nfc",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc"
+            }
+          ],
+          "modelo": "Galaxy A8 Enterprise Edition",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Samsung",
+          "idMarca": 1,
+          "idPrecio": 191121862,
+          "pagoAlContadoConIva": 203.28,
+          "pagoAlContadoSinIva": 168,
+          "cuotaMensualConIva": 8.47,
+          "cuotaMensualSinIva": 7,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 0,
+          "canonSinIva": 0,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "G",
+      "orden": 74,
+      "id": 168914027,
+      "nombre": "Samsung Galaxy A40",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 6.05,
+      "listTerminals": [
+        {
+          "ordenGrupo": 0,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 30
+            },
+            {
+              "typeOrder": 0,
+              "position": 29
+            }
+          ],
+          "idTerminal": 168912526,
+          "idTipoTerminal": 3,
+          "idGrupo": 168914027,
+          "sap": "313627",
+          "color": "Azul",
+          "codigoColor": "#4e678c",
+          "capacidad": "64GB",
+          "capacidadValorUnidad": {
+            "valor": "64",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500009929353/Mobile-frontal-Galaxy-A40-Azul/",
+          "textoImagenListado": "Samsung Galaxy A40 Azul 64GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android/"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc/"
+            }
+          ],
+          "modelo": "Galaxy A40",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Samsung",
+          "idMarca": 1,
+          "idPrecio": 191121900,
+          "pagoAlContadoConIva": 145.2,
+          "pagoAlContadoSinIva": 120,
+          "cuotaMensualConIva": 6.05,
+          "cuotaMensualSinIva": 5,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        },
+        {
+          "ordenGrupo": 1,
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 29
+            },
+            {
+              "typeOrder": 0,
+              "position": 28
+            }
+          ],
+          "idTerminal": 168912562,
+          "idTipoTerminal": 3,
+          "idGrupo": 168914027,
+          "sap": "313607",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "64GB",
+          "capacidadValorUnidad": {
+            "valor": "64",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500009888792/Mobile-frontal-Galaxy-A40-Negro/",
+          "textoImagenListado": "Samsung Galaxy A40 Negro 64GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android/"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc/"
+            }
+          ],
+          "modelo": "Galaxy A40",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Samsung",
+          "idMarca": 1,
+          "idPrecio": 191121891,
+          "pagoAlContadoConIva": 145.2,
+          "pagoAlContadoSinIva": 120,
+          "cuotaMensualConIva": 6.05,
+          "cuotaMensualSinIva": 5,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 74,
+      "id": 149218561,
+      "nombre": "Samsung Galaxy S10e",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 25.41,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 27
+            },
+            {
+              "typeOrder": 0,
+              "position": 24
+            }
+          ],
+          "idTerminal": 149218561,
+          "idTipoTerminal": 3,
+          "sap": "313592",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "128GB",
+          "capacidadValorUnidad": {
+            "valor": "128",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435675055796/mobile-frontal-s10e/",
+          "textoImagenListado": "Samsung Galaxy S10e Negro 128GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android/"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc/"
+            },
+            {
+              "textoIcono": "4G Plus",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus/"
+            }
+          ],
+          "modelo": "Galaxy S10e",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Samsung",
+          "idMarca": 1,
+          "idPrecio": 191121885,
+          "pagoAlContadoConIva": 609.84,
+          "pagoAlContadoSinIva": 504,
+          "cuotaMensualConIva": 25.41,
+          "cuotaMensualSinIva": 21,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 0,
+          "canonSinIva": 0,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 76,
+      "id": 176824969,
+      "nombre": "Motorola G7 Play",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 2.42,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 0,
+              "position": 46
+            }
+          ],
+          "idTerminal": 176824969,
+          "idTipoTerminal": 3,
+          "sap": "313629",
+          "color": "Azul",
+          "codigoColor": "#4b0082",
+          "capacidad": "32GB",
+          "capacidadValorUnidad": {
+            "valor": "32",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500016232703/Mobile-frontal-Motorola-G7-Play-Azul/",
+          "textoImagenListado": "Motorola G7 Play Azul 32GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            }
+          ],
+          "modelo": "G7 Play",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Motorola",
+          "idMarca": 102251086,
+          "idPrecio": 191121902,
+          "pagoAlContadoConIva": 58.08,
+          "pagoAlContadoSinIva": 48,
+          "cuotaMensualConIva": 2.42,
+          "cuotaMensualSinIva": 2,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 79,
+      "id": 176452603,
+      "nombre": "Huawei P30 Lite",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 12.1,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 36
+            },
+            {
+              "typeOrder": 0,
+              "position": 36
+            }
+          ],
+          "idTerminal": 176452603,
+          "idTipoTerminal": 3,
+          "sap": "313620",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "128GB",
+          "capacidadValorUnidad": {
+            "valor": "128",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500018935530/Mobile-frontal-Huawei-P30-Lite-Negro-bodegon/",
+          "textoImagenListado": "Huawei P30 Lite Negro 128GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android/"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc/"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus/"
+            }
+          ],
+          "modelo": "P30 Lite",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Huawei",
+          "idMarca": 319302,
+          "idPrecio": 191121896,
+          "pagoAlContadoConIva": 290.4,
+          "pagoAlContadoSinIva": 240,
+          "cuotaMensualConIva": 12.1,
+          "cuotaMensualSinIva": 10,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 80,
+      "id": 176825003,
+      "nombre": "Vodafone Smart E9",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 0,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 0,
+              "position": 57
+            }
+          ],
+          "idTerminal": 176825003,
+          "idTipoTerminal": 3,
+          "sap": "313584",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "8GB",
+          "capacidadValorUnidad": {
+            "valor": "8",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500009175903/Mobile-frontal-Vodafone-Smart-E9/",
+          "textoImagenListado": "Vodafone Smart E9 Negro 8GB",
+          "listaIconos": [
+            {
+              "textoIcono": "4G",
+              "imagenIcono": "/c/tienda/tol/img/1435594589638/icono_4g"
+            },
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            }
+          ],
+          "modelo": "Smart E9",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Vodafone",
+          "idMarca": 331072,
+          "idPrecio": 191121883,
+          "pagoAlContadoConIva": 0,
+          "pagoAlContadoSinIva": 0,
+          "cuotaMensualConIva": 0,
+          "cuotaMensualSinIva": 0,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 0,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 80,
+      "id": 165884542,
+      "nombre": "Xiaomi Mi 8 Lite",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 7.26,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 0,
+              "position": 52
+            }
+          ],
+          "idTerminal": 165884542,
+          "idTipoTerminal": 3,
+          "sap": "313645",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "64GB",
+          "capacidadValorUnidad": {
+            "valor": "64",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500008537478/mobile-frontal-Xiaomi-Mi-8-Lite-Negro/",
+          "textoImagenListado": "Xiaomi Mi 8 Lite Negro 64GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            }
+          ],
+          "modelo": "Mi 8 Lite",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Xiaomi",
+          "idMarca": 30375461,
+          "idPrecio": 191121904,
+          "pagoAlContadoConIva": 174.24,
+          "pagoAlContadoSinIva": 144,
+          "cuotaMensualConIva": 7.26,
+          "cuotaMensualSinIva": 6,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 80,
+      "id": 176824904,
+      "nombre": "Huawei P30 Lite",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 12.1,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 35
+            },
+            {
+              "typeOrder": 0,
+              "position": 35
+            }
+          ],
+          "idTerminal": 176824904,
+          "idTipoTerminal": 3,
+          "sap": "313635",
+          "color": "Azul",
+          "codigoColor": "#4e678c",
+          "capacidad": "128GB",
+          "capacidadValorUnidad": {
+            "valor": "128",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500018934075/Mobile-frontal-Huawei-P30-Lite-Azul-bodegon/",
+          "textoImagenListado": "Huawei P30 Lite Azul 128GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android/"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc/"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus/"
+            }
+          ],
+          "modelo": "P30 Lite",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Huawei",
+          "idMarca": 319302,
+          "idPrecio": 191121903,
+          "pagoAlContadoConIva": 290.4,
+          "pagoAlContadoSinIva": 240,
+          "cuotaMensualConIva": 12.1,
+          "cuotaMensualSinIva": 10,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 81,
+      "id": 182497143,
+      "nombre": "Samsung Galaxy A40 Enterprise Edition",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 6.05,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 31
+            },
+            {
+              "typeOrder": 0,
+              "position": 30
+            }
+          ],
+          "idTerminal": 182497143,
+          "idTipoTerminal": 3,
+          "sap": "313662",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "64GB",
+          "capacidadValorUnidad": {
+            "valor": "64",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500009888792/Mobile-frontal-Galaxy-A40-Negro/",
+          "textoImagenListado": "Samsung Galaxy A40 Enterprise Edition Negro 64GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android/"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc/"
+            }
+          ],
+          "modelo": "Galaxy A40 Enterprise Edition",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Samsung",
+          "idMarca": 1,
+          "idPrecio": 191121911,
+          "pagoAlContadoConIva": 145.2,
+          "pagoAlContadoSinIva": 120,
+          "cuotaMensualConIva": 6.05,
+          "cuotaMensualSinIva": 5,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 0,
+          "canonSinIva": 0,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 81,
+      "id": 176824963,
+      "nombre": "Samsung Galaxy A70",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 12.1,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 25
+            },
+            {
+              "typeOrder": 0,
+              "position": 25
+            }
+          ],
+          "idTerminal": 176824963,
+          "idTipoTerminal": 3,
+          "sap": "313654",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "128GB",
+          "capacidadValorUnidad": {
+            "valor": "128",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500016193638/Mobile-Frontal-Samsung-Galaxy-A70-Negro/",
+          "textoImagenListado": "Samsung Galaxy A70 Negro 128GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc"
+            }
+          ],
+          "modelo": "Galaxy A70",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Samsung",
+          "idMarca": 1,
+          "idPrecio": 191121906,
+          "pagoAlContadoConIva": 290.4,
+          "pagoAlContadoSinIva": 240,
+          "cuotaMensualConIva": 12.1,
+          "cuotaMensualSinIva": 10,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 82,
+      "id": 183744923,
+      "nombre": "Alcatel 1X 2019",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 1.21,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 0,
+              "position": 60
+            }
+          ],
+          "idTerminal": 183744923,
+          "idTipoTerminal": 3,
+          "sap": "313628",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "16GB",
+          "capacidadValorUnidad": {
+            "valor": "16",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500020574956/mobile-frontal-alcatel-1X-2019/",
+          "textoImagenListado": "Alcatel 1X 2019 Negro 16GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "4g plus",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            }
+          ],
+          "modelo": "1X 2019",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Alcatel",
+          "idMarca": 323563,
+          "idPrecio": 191121901,
+          "pagoAlContadoConIva": 29.04,
+          "pagoAlContadoSinIva": 24,
+          "cuotaMensualConIva": 1.21,
+          "cuotaMensualSinIva": 1,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 83,
+      "id": 172912685,
+      "nombre": "Samsung Galaxy S10 Plus",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 32.67,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 23
+            },
+            {
+              "typeOrder": 0,
+              "position": 22
+            }
+          ],
+          "idTerminal": 172912685,
+          "idTipoTerminal": 3,
+          "sap": "313626",
+          "color": "Blanco",
+          "codigoColor": "#FFFFFF",
+          "capacidad": "128GB",
+          "capacidadValorUnidad": {
+            "valor": "128",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500013750846/mobile-frontal-s10-plus_white/",
+          "textoImagenListado": "Samsung Galaxy S10+ Blanco 128GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android/"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc/"
+            },
+            {
+              "textoIcono": "4G Plus",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus/"
+            }
+          ],
+          "modelo": "Galaxy S10 Plus",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Samsung",
+          "idMarca": 1,
+          "idPrecio": 191121899,
+          "pagoAlContadoConIva": 784.08,
+          "pagoAlContadoSinIva": 648,
+          "cuotaMensualConIva": 32.67,
+          "cuotaMensualSinIva": 27,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 84,
+      "id": 183282683,
+      "nombre": "LG V50 ThinQ",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 38.72,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 1
+            },
+            {
+              "typeOrder": 0,
+              "position": 1
+            }
+          ],
+          "idTerminal": 183282683,
+          "idTipoTerminal": 3,
+          "sap": "313656",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "128GB",
+          "capacidadValorUnidad": {
+            "valor": "128",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500023902408/Mobile-frontal-LG-V50--thing-dual-screen/",
+          "textoImagenListado": "LG V50 ThinQ Negro 128GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc"
+            },
+            {
+              "textoIcono": "5G",
+              "imagenIcono": "/c/tienda/tol/img/1500020470256/icono_5g/"
+            }
+          ],
+          "modelo": "V50 ThinQ",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "LG",
+          "idMarca": 6,
+          "idPrecio": 191121907,
+          "pagoAlContadoConIva": 929.28,
+          "pagoAlContadoSinIva": 768,
+          "cuotaMensualConIva": 38.72,
+          "cuotaMensualSinIva": 32,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper",
+          "listaPromos": [
+            {
+              "id": 440454
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 85,
+      "id": 183282583,
+      "nombre": "Xiaomi Mi MIX 3 5G",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 29.04,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 0
+            },
+            {
+              "typeOrder": 0,
+              "position": 0
+            }
+          ],
+          "idTerminal": 183282583,
+          "idTipoTerminal": 3,
+          "sap": "313660",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "128GB",
+          "capacidadValorUnidad": {
+            "valor": "128",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500021120887/mobile-frontal-promo-audiculares-xiaomi-mi-mix-3/",
+          "textoImagenListado": "Xioami Mi MIX 3 128GB Negro",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android/"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc/"
+            },
+            {
+              "textoIcono": "5G",
+              "imagenIcono": "/c/tienda/tol/img/1500020470256/icono_5g/"
+            }
+          ],
+          "modelo": "Mi MIX 3 5G",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Xiaomi",
+          "idMarca": 30375461,
+          "idPrecio": 191121909,
+          "pagoAlContadoConIva": 696.96,
+          "pagoAlContadoSinIva": 576,
+          "cuotaMensualConIva": 29.04,
+          "cuotaMensualSinIva": 24,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper",
+          "listaPromos": [
+            {
+              "id": 440372
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 1000,
+      "id": 184508283,
+      "nombre": "Vodafone Smart N10",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 1.21,
+      "listTerminals": [
+        {
+          "idTerminal": 184508283,
+          "idTipoTerminal": 3,
+          "sap": "313624",
+          "color": "Azul",
+          "codigoColor": "#0080FF",
+          "capacidad": "16GB",
+          "capacidadValorUnidad": {
+            "valor": "16",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500021233022/mobile-frontal-vodafone-smart-n10-azul/",
+          "textoImagenListado": "Vodafone Smart N10 16GB Azul",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android/"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc/"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus/"
+            }
+          ],
+          "modelo": "Smart N10",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Vodafone",
+          "idMarca": 331072,
+          "idPrecio": 191121898,
+          "pagoAlContadoConIva": 29.04,
+          "pagoAlContadoSinIva": 24,
+          "cuotaMensualConIva": 1.21,
+          "cuotaMensualSinIva": 1,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 1000,
+      "id": 185001166,
+      "nombre": "Vodafone Smart V10",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 2.42,
+      "listTerminals": [
+        {
+          "idTerminal": 185001166,
+          "idTipoTerminal": 3,
+          "sap": "313618",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "32GB",
+          "capacidadValorUnidad": {
+            "valor": "32",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500021380621/mobile-frontal-Vodafone-Smart-V10-Negro/",
+          "textoImagenListado": "Vodafone Smart V10 Negro 32GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "Wifi",
+              "imagenIcono": "/c/tienda/tol/img/1435596618219/icono_wifi"
+            },
+            {
+              "textoIcono": "4G",
+              "imagenIcono": "/c/tienda/tol/img/1435594589638/icono_4g"
+            }
+          ],
+          "modelo": "Smart V10",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Vodafone",
+          "idMarca": 331072,
+          "idPrecio": 191121895,
+          "pagoAlContadoConIva": 58.08,
+          "pagoAlContadoSinIva": 48,
+          "cuotaMensualConIva": 2.42,
+          "cuotaMensualSinIva": 2,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 0,
+          "canonSinIva": 0,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper",
+          "exclusivoVodafone": 1
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 1000,
+      "id": 188492229,
+      "nombre": "Samsung Galaxy A10",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 2.42,
+      "listTerminals": [
+        {
+          "idTerminal": 188492229,
+          "idTipoTerminal": 3,
+          "sap": "313676",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "32GB",
+          "capacidadValorUnidad": {
+            "valor": "32",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500023274060/mobile-frontal-galaxy-a10/",
+          "textoImagenListado": "Samsung Galaxy A10 32GB Negro",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "4g plus",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            }
+          ],
+          "modelo": "Galaxy A10",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Samsung",
+          "idMarca": 1,
+          "idPrecio": 191121915,
+          "pagoAlContadoConIva": 58.08,
+          "pagoAlContadoSinIva": 48,
+          "cuotaMensualConIva": 2.42,
+          "cuotaMensualSinIva": 2,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 1000,
+      "id": 188492223,
+      "nombre": "Xiaomi Redmi 7",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 2.42,
+      "listTerminals": [
+        {
+          "idTerminal": 188492223,
+          "idTipoTerminal": 3,
+          "sap": "313685",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "32GB",
+          "capacidadValorUnidad": {
+            "valor": "32",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500022949693/mobile-frontal-redmi-7/",
+          "textoImagenListado": "Xioami Redmi 7 32GB Negro",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "4g plus",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            }
+          ],
+          "modelo": "Redmi 7",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Xiaomi",
+          "idMarca": 30375461,
+          "idPrecio": 191121918,
+          "pagoAlContadoConIva": 58.08,
+          "pagoAlContadoSinIva": 48,
+          "cuotaMensualConIva": 2.42,
+          "cuotaMensualSinIva": 2,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 1000,
+      "id": 181644243,
+      "nombre": "LG Q60",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 3.63,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 1,
+              "position": 38
+            },
+            {
+              "typeOrder": 0,
+              "position": 48
+            }
+          ],
+          "idTerminal": 181644243,
+          "idTipoTerminal": 3,
+          "sap": "313667",
+          "color": "Azul",
+          "codigoColor": "#4e678c",
+          "capacidad": "64GB",
+          "capacidadValorUnidad": {
+            "valor": "64",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500020333824/mobile-frontal-promo-cupon-lg-q60-azul/",
+          "textoImagenListado": "LG Q60 Azul 64GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc"
+            },
+            {
+              "textoIcono": "4G+",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            }
+          ],
+          "modelo": "Q60",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "LG",
+          "idMarca": 6,
+          "idPrecio": 191121912,
+          "pagoAlContadoConIva": 87.12,
+          "pagoAlContadoSinIva": 72,
+          "cuotaMensualConIva": 3.63,
+          "cuotaMensualSinIva": 3,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper",
+          "listaPromos": [
+            {
+              "id": 440291
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 1000,
+      "id": 178689903,
+      "nombre": "Samsung Galaxy A20e",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 4.84,
+      "listTerminals": [
+        {
+          "idTerminal": 178689903,
+          "idTipoTerminal": 3,
+          "sap": "313653",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "32GB",
+          "capacidadValorUnidad": {
+            "valor": "32",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500017798695/resp-frontal-galaxy-a20-negro/",
+          "textoImagenListado": "Samsung Galaxy A20e negro 32GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "4g plus",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            }
+          ],
+          "modelo": "Galaxy A20e",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Samsung",
+          "idMarca": 1,
+          "idPrecio": 191121905,
+          "pagoAlContadoConIva": 116.16,
+          "pagoAlContadoSinIva": 96,
+          "cuotaMensualConIva": 4.84,
+          "cuotaMensualSinIva": 4,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 1000,
+      "id": 188492048,
+      "nombre": "LG G8s ThinQ",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 25.41,
+      "listTerminals": [
+        {
+          "idTerminal": 188492048,
+          "idTipoTerminal": 3,
+          "sap": "313668",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "128GB",
+          "capacidadValorUnidad": {
+            "valor": "128",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500021563419/Mobile-frontal-LG-G8s-Negro/",
+          "textoImagenListado": "LG G8s ThinQ Negro 128GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc"
+            }
+          ],
+          "modelo": "G8s ThinQ",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "LG",
+          "idMarca": 6,
+          "idPrecio": 191121913,
+          "pagoAlContadoConIva": 609.84,
+          "pagoAlContadoSinIva": 504,
+          "cuotaMensualConIva": 25.41,
+          "cuotaMensualSinIva": 21,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 1000,
+      "id": 189393348,
+      "nombre": "Samsung Galaxy S10 Enterprise Edition",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 31.46,
+      "listTerminals": [
+        {
+          "idTerminal": 189393348,
+          "idTipoTerminal": 3,
+          "sap": "313678",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "128GB",
+          "capacidadValorUnidad": {
+            "valor": "128",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1435675052315/mobile-frontal-s10/",
+          "textoImagenListado": "Samsung Galaxy S10 Enterprise Edition Negro 128GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android/"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc/"
+            },
+            {
+              "textoIcono": "4G Plus",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus/"
+            }
+          ],
+          "modelo": "Galaxy S10 Enterprise Edition",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Samsung",
+          "idMarca": 1,
+          "idPrecio": 191121916,
+          "pagoAlContadoConIva": 755.04,
+          "pagoAlContadoSinIva": 624,
+          "cuotaMensualConIva": 31.46,
+          "cuotaMensualSinIva": 26,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 1000,
+      "id": 185001243,
+      "nombre": "Sony Xperia 1",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 33.88,
+      "listTerminals": [
+        {
+          "ordenTerminal": [
+            {
+              "typeOrder": 0,
+              "position": 39
+            }
+          ],
+          "idTerminal": 185001243,
+          "idTipoTerminal": 3,
+          "sap": "313674",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "128GB",
+          "capacidadValorUnidad": {
+            "valor": "128",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500021478222/mobile-promo-sony-xperia-1-Negro/",
+          "textoImagenListado": "Sony Xperia 1 128GB Negro",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android"
+            },
+            {
+              "textoIcono": "4g plus",
+              "imagenIcono": "/c/tienda/tol/img/1435594589637/icono_4g_plus"
+            }
+          ],
+          "modelo": "Xperia 1",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Sony",
+          "idMarca": 319281,
+          "idPrecio": 191121914,
+          "pagoAlContadoConIva": 813.12,
+          "pagoAlContadoSinIva": 672,
+          "cuotaMensualConIva": 33.88,
+          "cuotaMensualSinIva": 28,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 1.33,
+          "canonSinIva": 1.1,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper",
+          "listaPromos": [
+            {
+              "id": 441060
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "T",
+      "orden": 1000,
+      "id": 183282645,
+      "nombre": "Samsung Galaxy S10 5G",
+      "ordenPagoInicial": 0,
+      "ordenCuotaMensual": 45.98,
+      "listTerminals": [
+        {
+          "idTerminal": 183282645,
+          "idTipoTerminal": 3,
+          "sap": "313657",
+          "color": "Negro",
+          "codigoColor": "#000000",
+          "capacidad": "256GB",
+          "capacidadValorUnidad": {
+            "valor": "256",
+            "unidad": "GB"
+          },
+          "imagenListado": "/c/tienda/tol/img/1500020063255/mobile-frontal-galaxy-s10-5g-partis/",
+          "textoImagenListado": "Samsung Galaxy S10 5G Negro 256GB",
+          "listaIconos": [
+            {
+              "textoIcono": "Android",
+              "imagenIcono": "/c/tienda/tol/img/1435594590575/icono_android/"
+            },
+            {
+              "textoIcono": "NFC",
+              "imagenIcono": "/c/tienda/tol/img/1435594589673/icono_nfc/"
+            },
+            {
+              "textoIcono": "5G",
+              "imagenIcono": "/c/tienda/tol/img/1500020470256/icono_5g/"
+            }
+          ],
+          "modelo": "Galaxy S10 5G",
+          "so": "ANDROID",
+          "altImagenSo": "ANDROID",
+          "marca": "Samsung",
+          "idMarca": 1,
+          "idPrecio": 191121908,
+          "pagoAlContadoConIva": 1103.52,
+          "pagoAlContadoSinIva": 912,
+          "cuotaMensualConIva": 45.98,
+          "cuotaMensualSinIva": 38,
+          "pagoInicialConIva": 0,
+          "pagoInicialSinIva": 0,
+          "canonConIva": 0,
+          "canonSinIva": 0,
+          "textoNoCobroCanon": "true",
+          "numMeses": 24,
+          "catalogOffer": 168443577,
+          "nombreTarifa": "Ilimitada Súper"
+        }
+      ]
+    }
+  ],
+  "promos": [
+    {
+      "added": false,
+      "type": "fee",
+      "id": 20094,
+      "internalName": "Descuento SIMO Micro",
+      "publicName": "Descuento SIM Cuota inicial",
+      "startDate": "2019-05-29T22:00:00Z",
+      "endDate": "2019-12-31T22:59:59Z",
+      "stateType": "1",
+      "flagRegional": false,
+      "manualProvision": false,
+      "discountClassType": "SIMO",
+      "discountType": "PERCENT",
+      "discountAmount": "100",
+      "applyTo": "INITIAL",
+      "linkedToCatalog": false,
+      "showEvenWithoutLink": true,
+      "flagIgnoreCRM": false,
+      "faresTableText": "<p style=\"color: green;\"><b>Dto. Exclusivo Online</b></p>",
+      "evaluationOrder": 2,
+      "longText": "<p><strong>Dto. exclusivo online:</strong> SIM gratis (ahorra 18€)</p>",
+      "basketText": "<p style=\"color: green;\"><b>Dto. Exclusivo Online</b></p>",
+      "confirmationText": "<p style=\"color: green;\"><b>Dto. Exclusivo Online</b></p>",
+      "emailText": "<p style=\"color: green;\"><b>Dto. Exclusivo Online</b></p>",
+      "fileRateText": "<p></p><p style=\"color: green;\"><b>Dto. Exclusivo Online</b></p><p></p>",
+      "longTextFicha": "Dto. exclusivo online: SIM gratis (ahorra 18€)"
+    },
+    {
+      "added": false,
+      "type": "device",
+      "id": 440165,
+      "internalName": "Wiko Tommy 3 + carcasa y funda",
+      "publicName": "Wiko Tommy 3 + carcasa y funda",
+      "startDate": "2018-06-30T22:00:00Z",
+      "endDate": "2019-12-31T22:59:59Z",
+      "stateType": "1",
+      "flagRegional": false,
+      "manualProvision": false,
+      "discountType": "PRESENT",
+      "tooltip": "Regalo carcasa y funda",
+      "evaluationOrder": 20,
+      "shortText": "<p>Al comprar un Wiko Tommy 3, te llevas una <b>carcasa extra de color bleen y una funda de silicona</b> ¡gratis y exclusiva en Vodafone!</p>",
+      "longText": "<p>Al comprar un Wiko Tommy 3, te llevas una <b>carcasa extra de color bleen y una funda de silicona</b> ¡gratis y exclusiva en Vodafone!</p>",
+      "ticketText": "<p>Al comprar un Wiko Tommy 3, te llevas una <b>carcasa extra de color bleen y una funda de silicona</b> ¡gratis y exclusiva en Vodafone!</p>",
+      "basketText": "<p>Al comprar un Wiko Tommy 3, te llevas una <b>carcasa extra de color bleen y una funda de silicona</b> ¡gratis y exclusiva en Vodafone!</p>",
+      "confirmationText": "<p>Al comprar un Wiko Tommy 3, te llevas una <b>carcasa extra de color bleen y una funda de silicona</b> ¡gratis y exclusiva en Vodafone!</p>",
+      "emailText": "<p>Al comprar un Wiko Tommy 3, te llevas una <b>carcasa extra de color bleen y una funda de silicona</b> ¡gratis y exclusiva en Vodafone!</p>",
+      "fileRateText": "<p>Al comprar un Wiko Tommy 3, te llevas una <b>carcasa extra de color bleen y una funda de silicona</b> ¡gratis y exclusiva en Vodafone!</p>",
+      "urlListImage": "/c/tienda/tol/img/1435639900728/regalo_exclusivo_VF",
+      "urlFileImage": "/c/tienda/tol/img/1500008038684/icono-regalo/",
+      "urlFileRateImage": "/c/tienda/tol/img/1435639900728/regalo_exclusivo_VF",
+      "altListImage": "Regalo carcasa y funda",
+      "altFileImage": "Regalo carcasa y funda",
+      "altFileRateImage": "Regalo carcasa y funda"
+    },
+    {
+      "added": false,
+      "type": "device",
+      "id": 440207,
+      "internalName": "SmartTV de regalo",
+      "publicName": "SmartTV de regalo",
+      "startDate": "2017-05-30T22:00:00Z",
+      "endDate": "2019-12-31T22:59:59Z",
+      "stateType": "1",
+      "flagRegional": false,
+      "manualProvision": false,
+      "discountType": "PRESENT",
+      "tooltip": "Regalo Smart TV 32\"",
+      "evaluationOrder": 11,
+      "shortText": "<p>Ahora con tu Sony Xperia XZ2 llévate una <b>TV Bravia de 32&#34;</b>. Oferta válida hasta fin de existencias.</p>",
+      "basketBannerText": "<p><span style=\"color: rgb(85, 85, 85);background-color: rgb(255, 255, 255);float: none;\"></span><br/></p>",
+      "urlListImage": "/c/tienda/tol/img/1435596714386/promocion_regalogris",
+      "urlListImageResponsive": "/c/tienda/tol/img/1435596714386/promocion_regalogris",
+      "urlFileImage": "/c/tienda/tol/img/1500008372721/icono-tv/",
+      "urlFileImageResponsive": "/c/tienda/tol/img/1435596714386/promocion_regalogris",
+      "urlTicketImage": "/c/tienda/tol/img/promotions_67x64_20dto%2C1",
+      "urlFileRateImage": "/c/tienda/tol/img/1435596714386/promocion_regalogris",
+      "urlFileRateImageResponsive": "/c/tienda/tol/img/1435596714386/promocion_regalogris",
+      "urlFileBannerImage": "/c/tienda/tol/img/1435596714386/promocion_regalogris",
+      "urlFileBannerImageResponsive": "/c/tienda/tol/img/1435596714386/promocion_regalogris",
+      "urlBasketBannerImage": "/c/tienda/tol/img/1435596714386/promocion_regalogris",
+      "urlBasketBannerImageResponsive": "/c/tienda/tol/img/1435596714386/promocion_regalogris",
+      "altListImage": "Regalo Smart TV 32\"",
+      "altFileImage": "Regalo Smart TV 32\"",
+      "altFileRateImage": "Regalo Smart TV 32\"",
+      "altFileBannerImage": "Regalo Smart TV 32\"",
+      "altBasketBannerImage": "Regalo Smart TV 32\""
+    },
+    {
+      "added": false,
+      "type": "device",
+      "id": 440454,
+      "internalName": "LG DUAL SCREEN, ¡de regalo!",
+      "publicName": "LG DUAL SCREEN, ¡de regalo!",
+      "startDate": "2019-06-10T22:00:00Z",
+      "endDate": "2019-08-31T21:59:59Z",
+      "stateType": "1",
+      "flagRegional": false,
+      "manualProvision": false,
+      "discountType": "PRESENT",
+      "evaluationOrder": 22,
+      "shortText": "<p><span>Al comprar un LG V50, llévate una LG DUAL SCREEN. Solo hasta el 31 de agosto. ¡Unidades limitadas!<br/>Más información <a href=\"https://www.vodafone.es/c/statics/bbll_promocion_regalo_dual_screen.pdf\" target=\"_blank\">aquí</a>.</span></p>",
+      "longText": "<p>Por la compra del Land Rover Explore, te llevas el <b>Adventure Pack ¡de regalo!</b> Valorado en 149 euros. Producto exclusivo de Vodafone.</p><p>El pack <b>incluye</b>: 3600 mAh de batería adicional, antena de GPS con parche de cerámica de 25x25 mm, funda protectora de TPU, mosquetón de acero inoxidable con correa de lona, IP68 y resistencia a caídas de hasta 1,8 metros de altura.</p>",
+      "ticketText": "<p><span>Adventure Pack ¡de regalo!</span></p>",
+      "basketText": "<p>Por la compra del Land Rover Explore, te llevas el <b>Adventure Pack ¡de regalo!</b> Valorado en 149 euros. Producto exclusivo de Vodafone.</p><p>El pack <b>incluye</b>: 3600 mAh de batería adicional, antena de GPS con parche de cerámica de 25x25 mm, funda protectora de TPU, mosquetón de acero inoxidable con correa de lona, IP68 y resistencia a caídas de hasta 1,8 metros de altura.</p>",
+      "confirmationText": "<p>Por la compra del Land Rover Explore, te llevas el <b>Adventure Pack ¡de regalo!</b> Valorado en 149 euros. Producto exclusivo de Vodafone.</p><p>El pack <b>incluye</b>: 3600 mAh de batería adicional, antena de GPS con parche de cerámica de 25x25 mm, funda protectora de TPU, mosquetón de acero inoxidable con correa de lona, IP68 y resistencia a caídas de hasta 1,8 metros de altura.</p>",
+      "emailText": "<p>Por la compra del Land Rover Explore, te llevas el <b>Adventure Pack ¡de regalo!</b> Valorado en 149 euros. Producto exclusivo de Vodafone.</p><p>El pack <b>incluye</b>: 3600 mAh de batería adicional, antena de GPS con parche de cerámica de 25x25 mm, funda protectora de TPU, mosquetón de acero inoxidable con correa de lona, IP68 y resistencia a caídas de hasta 1,8 metros de altura.</p>",
+      "fileRateText": "<p>Por la compra del Land Rover Explore, te llevas el <b>Adventure Pack ¡de regalo!</b> Valorado en 149 euros. Producto exclusivo de Vodafone.</p><p>El pack <b>incluye</b>: 3600 mAh de batería adicional, antena de GPS con parche de cerámica de 25x25 mm, funda protectora de TPU, mosquetón de acero inoxidable con correa de lona, IP68 y resistencia a caídas de hasta 1,8 metros de altura.</p>",
+      "urlFileImage": "/c/tienda/tol/img/1500008038684/icono-regalo/"
+    },
+    {
+      "added": false,
+      "type": "device",
+      "id": 440372,
+      "internalName": "Auriculares, ¡de regalo!",
+      "publicName": "Auriculares, ¡de regalo!",
+      "startDate": "2019-06-10T22:00:00Z",
+      "endDate": "2019-08-31T21:59:59Z",
+      "stateType": "1",
+      "flagRegional": false,
+      "manualProvision": false,
+      "discountType": "PRESENT",
+      "evaluationOrder": 22,
+      "shortText": "<p><span>Con tu Xiaomi Mi MIX 3, te llevas de regalo unos auriculares. ¡Unidades limitadas!</span></p>",
+      "longText": "<p>Por la compra del Land Rover Explore, te llevas el <b>Adventure Pack ¡de regalo!</b> Valorado en 149 euros. Producto exclusivo de Vodafone.</p><p>El pack <b>incluye</b>: 3600 mAh de batería adicional, antena de GPS con parche de cerámica de 25x25 mm, funda protectora de TPU, mosquetón de acero inoxidable con correa de lona, IP68 y resistencia a caídas de hasta 1,8 metros de altura.</p>",
+      "ticketText": "<p><span>Adventure Pack ¡de regalo!</span></p>",
+      "basketText": "<p>Por la compra del Land Rover Explore, te llevas el <b>Adventure Pack ¡de regalo!</b> Valorado en 149 euros. Producto exclusivo de Vodafone.</p><p>El pack <b>incluye</b>: 3600 mAh de batería adicional, antena de GPS con parche de cerámica de 25x25 mm, funda protectora de TPU, mosquetón de acero inoxidable con correa de lona, IP68 y resistencia a caídas de hasta 1,8 metros de altura.</p>",
+      "confirmationText": "<p>Por la compra del Land Rover Explore, te llevas el <b>Adventure Pack ¡de regalo!</b> Valorado en 149 euros. Producto exclusivo de Vodafone.</p><p>El pack <b>incluye</b>: 3600 mAh de batería adicional, antena de GPS con parche de cerámica de 25x25 mm, funda protectora de TPU, mosquetón de acero inoxidable con correa de lona, IP68 y resistencia a caídas de hasta 1,8 metros de altura.</p>",
+      "emailText": "<p>Por la compra del Land Rover Explore, te llevas el <b>Adventure Pack ¡de regalo!</b> Valorado en 149 euros. Producto exclusivo de Vodafone.</p><p>El pack <b>incluye</b>: 3600 mAh de batería adicional, antena de GPS con parche de cerámica de 25x25 mm, funda protectora de TPU, mosquetón de acero inoxidable con correa de lona, IP68 y resistencia a caídas de hasta 1,8 metros de altura.</p>",
+      "fileRateText": "<p>Por la compra del Land Rover Explore, te llevas el <b>Adventure Pack ¡de regalo!</b> Valorado en 149 euros. Producto exclusivo de Vodafone.</p><p>El pack <b>incluye</b>: 3600 mAh de batería adicional, antena de GPS con parche de cerámica de 25x25 mm, funda protectora de TPU, mosquetón de acero inoxidable con correa de lona, IP68 y resistencia a caídas de hasta 1,8 metros de altura.</p>",
+      "urlFileImage": "/c/tienda/tol/img/1500008038684/icono-regalo/"
+    },
+    {
+      "added": false,
+      "type": "device",
+      "id": 440291,
+      "internalName": "Cupón Hofmann, ¡de regalo!",
+      "publicName": "Cupón Hofmann, ¡de regalo!",
+      "startDate": "2019-06-10T22:00:00Z",
+      "endDate": "2019-08-31T21:59:59Z",
+      "stateType": "1",
+      "flagRegional": false,
+      "manualProvision": false,
+      "discountType": "PRESENT",
+      "evaluationOrder": 22,
+      "shortText": "<p><span>Ahora con tu LG Q60, te llevas de regalo un cupón Hofmann valorado en 25 euros. Válida hasta el 31 de agosto de 2019. Más información <a href=\"https://www.vodafone.es/c/statics/bll_promocion_regalo_cupon_hofmann.pdf\" target=\"_blank\">aquí</a>.</span></p>",
+      "longText": "<p>Por la compra del Land Rover Explore, te llevas el <b>Adventure Pack ¡de regalo!</b> Valorado en 149 euros. Producto exclusivo de Vodafone.</p><p>El pack <b>incluye</b>: 3600 mAh de batería adicional, antena de GPS con parche de cerámica de 25x25 mm, funda protectora de TPU, mosquetón de acero inoxidable con correa de lona, IP68 y resistencia a caídas de hasta 1,8 metros de altura.</p>",
+      "ticketText": "<p><span>Adventure Pack ¡de regalo!</span></p>",
+      "basketText": "<p>Por la compra del Land Rover Explore, te llevas el <b>Adventure Pack ¡de regalo!</b> Valorado en 149 euros. Producto exclusivo de Vodafone.</p><p>El pack <b>incluye</b>: 3600 mAh de batería adicional, antena de GPS con parche de cerámica de 25x25 mm, funda protectora de TPU, mosquetón de acero inoxidable con correa de lona, IP68 y resistencia a caídas de hasta 1,8 metros de altura.</p>",
+      "confirmationText": "<p>Por la compra del Land Rover Explore, te llevas el <b>Adventure Pack ¡de regalo!</b> Valorado en 149 euros. Producto exclusivo de Vodafone.</p><p>El pack <b>incluye</b>: 3600 mAh de batería adicional, antena de GPS con parche de cerámica de 25x25 mm, funda protectora de TPU, mosquetón de acero inoxidable con correa de lona, IP68 y resistencia a caídas de hasta 1,8 metros de altura.</p>",
+      "emailText": "<p>Por la compra del Land Rover Explore, te llevas el <b>Adventure Pack ¡de regalo!</b> Valorado en 149 euros. Producto exclusivo de Vodafone.</p><p>El pack <b>incluye</b>: 3600 mAh de batería adicional, antena de GPS con parche de cerámica de 25x25 mm, funda protectora de TPU, mosquetón de acero inoxidable con correa de lona, IP68 y resistencia a caídas de hasta 1,8 metros de altura.</p>",
+      "fileRateText": "<p>Por la compra del Land Rover Explore, te llevas el <b>Adventure Pack ¡de regalo!</b> Valorado en 149 euros. Producto exclusivo de Vodafone.</p><p>El pack <b>incluye</b>: 3600 mAh de batería adicional, antena de GPS con parche de cerámica de 25x25 mm, funda protectora de TPU, mosquetón de acero inoxidable con correa de lona, IP68 y resistencia a caídas de hasta 1,8 metros de altura.</p>",
+      "urlFileImage": "/c/tienda/tol/img/1500008038684/icono-regalo/"
+    },
+    {
+      "added": false,
+      "type": "device",
+      "id": 441060,
+      "internalName": "Regalo de  TV 50\" o una PS4",
+      "publicName": "Regalo TV 50\" o una PS4",
+      "startDate": "2019-06-11T22:00:00Z",
+      "endDate": "2019-12-31T22:59:59Z",
+      "stateType": "1",
+      "flagRegional": false,
+      "manualProvision": false,
+      "discountType": "PRESENT",
+      "evaluationOrder": 22,
+      "shortText": "<p>Llévate el Sony Xperia 1 y tendrás de regalo o una <b>TV de 50 pulgadas</b> o una <b>PS4</b>. ¡Unidades limitadas! <br/>Promoción válida desde el 7 de junio de 2019 hasta fin de existencias. Más información <a href=\"https://www.vodafone.es/c/statics/BBLL_vodafone_XPERIA_1.pdf\" target=\"_blank\">aquí</a>.<br/></p>",
+      "longText": "<p>Por la compra del Land Rover Explore, te llevas el <b>Adventure Pack ¡de regalo!</b> Valorado en 149 euros. Producto exclusivo de Vodafone.</p><p>El pack <b>incluye</b>: 3600 mAh de batería adicional, antena de GPS con parche de cerámica de 25x25 mm, funda protectora de TPU, mosquetón de acero inoxidable con correa de lona, IP68 y resistencia a caídas de hasta 1,8 metros de altura.</p>",
+      "ticketText": "<p><span>Adventure Pack ¡de regalo!</span></p>",
+      "basketText": "<p>Por la compra del Land Rover Explore, te llevas el <b>Adventure Pack ¡de regalo!</b> Valorado en 149 euros. Producto exclusivo de Vodafone.</p><p>El pack <b>incluye</b>: 3600 mAh de batería adicional, antena de GPS con parche de cerámica de 25x25 mm, funda protectora de TPU, mosquetón de acero inoxidable con correa de lona, IP68 y resistencia a caídas de hasta 1,8 metros de altura.</p>",
+      "confirmationText": "<p>Por la compra del Land Rover Explore, te llevas el <b>Adventure Pack ¡de regalo!</b> Valorado en 149 euros. Producto exclusivo de Vodafone.</p><p>El pack <b>incluye</b>: 3600 mAh de batería adicional, antena de GPS con parche de cerámica de 25x25 mm, funda protectora de TPU, mosquetón de acero inoxidable con correa de lona, IP68 y resistencia a caídas de hasta 1,8 metros de altura.</p>",
+      "emailText": "<p>Por la compra del Land Rover Explore, te llevas el <b>Adventure Pack ¡de regalo!</b> Valorado en 149 euros. Producto exclusivo de Vodafone.</p><p>El pack <b>incluye</b>: 3600 mAh de batería adicional, antena de GPS con parche de cerámica de 25x25 mm, funda protectora de TPU, mosquetón de acero inoxidable con correa de lona, IP68 y resistencia a caídas de hasta 1,8 metros de altura.</p>",
+      "fileRateText": "<p>Por la compra del Land Rover Explore, te llevas el <b>Adventure Pack ¡de regalo!</b> Valorado en 149 euros. Producto exclusivo de Vodafone.</p><p>El pack <b>incluye</b>: 3600 mAh de batería adicional, antena de GPS con parche de cerámica de 25x25 mm, funda protectora de TPU, mosquetón de acero inoxidable con correa de lona, IP68 y resistencia a caídas de hasta 1,8 metros de altura.</p>",
+      "urlFileImage": "/c/tienda/tol/img/1500008038684/icono-regalo/"
+    }
+  ]
+}
