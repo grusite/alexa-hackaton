@@ -7,8 +7,8 @@ module.exports = parrillaHandler = {
 				&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTv';
 	},
 	handle(handlerInput) {
-		const slots = handlerInput.requestEnvelope.request.intent.slots;
 		//const speechText = `Tipo: ${slots['tipo'].value}; Subgenre: ${slots['subgenre'].value}; Tiempo: ${slots['tiempo'].value}; Horario: ${slots['horario'].value}`;
+		const slots = handlerInput.requestEnvelope.request.intent.slots;
 		let searchResult, speechText;
 		/*
 			"mañana" => ['0601', '1259']
@@ -26,8 +26,8 @@ module.exports = parrillaHandler = {
 		});
 
 		return handlerInput.responseBuilder
-		.speak(speechText)
-		.withSimpleCard('Hello World', speechText)
-		.getResponse()
+			.speak(speechText)
+			.withSimpleCard('Hello World', speechText)
+			.getResponse()
 	},
 };
