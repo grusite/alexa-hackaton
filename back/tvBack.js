@@ -209,8 +209,8 @@ search = slot => {
 		)(data);
 		return result[0].title;
 	};
-	//getData(url+jsonFile);
-	return 'oka';
+	getData(url+jsonFile);
+	//return 'oka';
 };
 
 
