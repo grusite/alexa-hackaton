@@ -176,7 +176,7 @@ const startAt = hour => data => R.filter(filterBy('range')('schedule_air_time')(
 const rangeGap = hour => [parseInt(hour)-10, parseInt(hour)+10 ]
 
 
-search = slot => {
+search = async slot => {
 	const dateView = formatDate(slot.tiempo.value) || today();  //--> esto se ussarápara hacer la llamada al json
 	const timeView = formatTime(slot.horario.value) || '2100';
 	const rangeView = ['0200', '0455'];
@@ -209,7 +209,7 @@ search = slot => {
 		)(data);
 		return result[0].title;
 	};
-	return getData(url+jsonFile);
+	return await getData(url+jsonFile);
 	//return 'oka';
 };
 

@@ -16,7 +16,18 @@ module.exports = parrillaHandler = {
 			"noche" => ['2100', '0600']
 		*/
 
-		speechText = search(slots);
+		search(slots).then(resp => {
+			return handlerInput.responseBuilder
+					.speak(resp)
+					.withSimpleCard('Hello World', speechText)
+					.getResponse();
+
+		}).catch(error => {
+			return handlerInput.responseBuilder
+				.speak('Erroraco del dragón')
+				.withSimpleCard('Hello World', speechText)
+				.getResponse();
+		});
 
 		/*searchResult = search(slots);
 
@@ -27,10 +38,5 @@ module.exports = parrillaHandler = {
 		});*/
 
 		// "dime que {tipo} de {subgenre} {orden} {tiempo} a las {horario}"
-
-		return handlerInput.responseBuilder
-				.speak(speechText)
-				.withSimpleCard('Hello World', speechText)
-				.getResponse();
 	},
 };
