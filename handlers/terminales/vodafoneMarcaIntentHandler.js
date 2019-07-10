@@ -1,4 +1,4 @@
-module.exports = vodafoneMarcaIntentHandler = {
+const vodafoneMarcaIntentHandler = {
   canHandle(handlerInput) {
     return (
       handlerInput.requestEnvelope.request.type === "IntentRequest" &&
@@ -9,6 +9,7 @@ module.exports = vodafoneMarcaIntentHandler = {
     );
   },
   handle(handlerInput) {
+
     return handlerInput.responseBuilder
       .speak("Tienes alguna marca en mente? Apple, Samsung")
       .reprompt("Tienes alguna marca en mente? Apple, Samsung")
@@ -16,3 +17,24 @@ module.exports = vodafoneMarcaIntentHandler = {
       .getResponse();
   }
 };
+const vodafoneMarcaIntentHandler2 = {
+  canHandle(handlerInput) {
+    return (
+      handlerInput.requestEnvelope.request.type === "IntentRequest" &&
+      handlerInput.requestEnvelope.request.intent.name === "vodafoneTerminalesInit" &&
+      handlerInput.requestEnvelope.request.intent.slots.precioMarca.value &&
+      handlerInput.requestEnvelope.request.intent.slots.precioMarca.value === "marca" &&
+      !handlerInput.requestEnvelope.request.intent.slots.marca.value
+    );
+  },
+  handle(handlerInput) {
+
+    return handlerInput.responseBuilder
+      .speak("Tienes alguna marca en mente? Apple, Samsung")
+      .reprompt("Tienes alguna marca en mente? Apple, Samsung")
+      .addElicitSlotDirective("marca")
+      .getResponse();
+  }
+};
+
+module.exports = [vodafoneMarcaIntentHandler,vodafoneMarcaIntentHandler2]
