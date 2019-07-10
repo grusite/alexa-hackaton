@@ -29,6 +29,5 @@ module.exports = parrillaHandler = {
 		.speak(speechText)
 		.withSimpleCard('Hello World', speechText)
 		.getResponse()
-		// "dime que {tipo} de {subgenre} {orden} {tiempo} a las {horario}"
 	},
 };
