@@ -1,4 +1,6 @@
 
+const tarifasMoviles = require("../../tarifas moviles");
+
 const = VodafoneTarifasMovilesInitHandler = {
 	canHandle(handlerInput) {
 		console.log('Entro en VodafoneTarifasMovilesInitHandler');
