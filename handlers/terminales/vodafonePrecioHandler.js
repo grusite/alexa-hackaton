@@ -29,7 +29,7 @@ const vodafonePrecioHandler = {
     },
     handle(handlerInput) {
       let precio = handlerInput.requestEnvelope.request.intent.slots.precio.value;
-      const query = terminales.getTerminals(marca,modelo);
+      const query = terminales.getTerminalsByPrice(precio);
       const terminal = query[0];
       const text = `He encontrado el terminal ${terminal.marca} ${terminal.modelo} a un precio de ${terminal.cuotaMensualConIva} euros, 
       con la tarifa ${query.nombreTarifa}, te interesa?`;
@@ -40,8 +40,6 @@ const vodafonePrecioHandler = {
               .getResponse();
     }
   };
-
-
 
 module.exports = [vodafonePrecioHandler, vodafonePrecioMovilHandler]
 
