@@ -1,5 +1,6 @@
 module.export = VodafoneJuegaOnlineIntentHandler = {
   canHandle(handlerInput) {
+    console.log("Entro en JuegasOnline")
     return (
       handlerInput.requestEnvelope.request.type === "IntentRequest" &&
       handlerInput.requestEnvelope.request.intent.name ===
