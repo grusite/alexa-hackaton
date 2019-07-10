@@ -4,8 +4,8 @@ module.export = VodafoneJuegaOnlineIntentHandler = {
       handlerInput.requestEnvelope.request.type === "IntentRequest" &&
       handlerInput.requestEnvelope.request.intent.name ===
         "vodafoneTarifasMovilesInit" &&
-      handlerInput.requestEnvelope.request.intent.slots.juegaOnline.value &&
-      handlerInput.requestEnvelope.request.intent.slots.juegaOnline.value ===
+      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value &&
+      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value ===
         "si"
     );
   },
