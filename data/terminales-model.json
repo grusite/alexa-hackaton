@@ -38,9 +38,23 @@
             {
               "name": "modelo",
               "type": "modeloContent"
+            },
+            {
+              "name": "interes",
+              "type": "interes"
+            },
+            {
+              "name": "segundoInteres",
+              "type": "segundoInteres"
             }
           ],
-          "samples": ["necesito un movil nuevo"]
+          "samples": [
+            "ofertas de moviles en Vodafone",
+            "se me ha roto el movil y quiero uno nuevo",
+            "quiero cambiar de movil",
+            "quiero un nuevo movil",
+            "necesito un movil nuevo"
+          ]
         }
       ],
       "types": [
@@ -144,6 +158,36 @@
               }
             }
           ]
+        },
+        {
+          "name": "interes",
+          "values": [
+            {
+              "name": {
+                "value": "no"
+              }
+            },
+            {
+              "name": {
+                "value": "si"
+              }
+            }
+          ]
+        },
+        {
+          "name": "segundoInteres",
+          "values": [
+            {
+              "name": {
+                "value": "no"
+              }
+            },
+            {
+              "name": {
+                "value": "si"
+              }
+            }
+          ]
         }
       ]
     },
@@ -201,6 +245,32 @@
                   "prompt": "Slot.Validation.550635832351.1013727094752.679929708377"
                 }
               ]
+            },
+            {
+              "name": "interes",
+              "type": "interes",
+              "confirmationRequired": false,
+              "elicitationRequired": false,
+              "prompts": {},
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "Slot.Validation.1378702721901.1394293964289.453410997825"
+                }
+              ]
+            },
+            {
+              "name": "segundoInteres",
+              "type": "segundoInteres",
+              "confirmationRequired": false,
+              "elicitationRequired": false,
+              "prompts": {},
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "Slot.Validation.1484012625414.154837375765.893887070987"
+                }
+              ]
             }
           ]
         }
@@ -249,7 +319,25 @@
         "variations": [
           {
             "type": "PlainText",
-            "value": "Por favor, ciñete a lo modelos que te he ofrecido"
+            "value": "Por favor, ciñete a los modelos que te he ofrecido"
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.1378702721901.1394293964289.453410997825",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Por favor, ciñete a decir si o no"
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.1484012625414.154837375765.893887070987",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Por favor, ciñete a decir si o no"
           }
         ]
       }
