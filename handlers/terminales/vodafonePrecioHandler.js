@@ -5,7 +5,8 @@ const vodafonePrecioHandler = {
       return (handlerInput.requestEnvelope.request.type === "IntentRequest" &&
               handlerInput.requestEnvelope.request.intent.name === "vodafoneTerminalesInit" &&
               handlerInput.requestEnvelope.request.intent.slots.precioMarca.value &&
-              handlerInput.requestEnvelope.request.intent.slots.precioMarca.value === "precio"
+              handlerInput.requestEnvelope.request.intent.slots.precioMarca.value === "precio" &&
+              handlerInput.requestEnvelope.request.intent.slots.precio.value == null
       );
     },
 
