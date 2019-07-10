@@ -1,25 +1,5 @@
 const terminales = require("../../terminales");
 
-const VodafoneOrderIntentHandler = {
-  canHandle(handlerInput) {
-    return (
-        handlerInput.requestEnvelope.request.type === "IntentRequest" &&
-        handlerInput.requestEnvelope.request.intent.name === "vodafoneTerminalesInit" &&
-        handlerInput.requestEnvelope.request.intent.slots.precioMarca.value &&
-        handlerInput.requestEnvelope.request.intent.slots.interes.value === "si"
-    );
-  },
-  async handle(handlerInput){
-
-    await callToOwner(handlerInput);
-
-    return handlerInput.responseBuilder
-        .speak("<speak>Estamos poniendote en contacto con un agente, atento a tu móvil... <audio src=\"https://hackathon-vf.s3-eu-west-1.amazonaws.com/jingle.mp3\"></audio></speak>")
-        .addElicitSlotDirective("interes")
-        .getResponse();
-  }
-};
-
 const vodafoneTerminalesInitHandler = {
   canHandle(handlerInput) {
     return (
@@ -124,12 +104,12 @@ const vodafoneInteresSiIntentHandler = {
         null
     );
   },
-  handle(handlerInput) {
+  async handle(handlerInput) {
+    await callToOwner(handlerInput);
+
     return handlerInput.responseBuilder
-      .speak(
-        "Genial! Un asesor de Vodafone se pondrá en contacto contigo en unos instantes"
-      )
-      .getResponse();
+        .speak("<speak>Estamos poniendote en contacto con un agente, atento a tu móvil... <audio src=\"https://hackathon-vf.s3-eu-west-1.amazonaws.com/jingle.mp3\"></audio></speak>")
+        .getResponse();
   }
 };
 
@@ -187,12 +167,12 @@ const vodafoneSegundoInteresSiIntentHandler = {
         "si"
     );
   },
-  handle(handlerInput) {
+  async handle(handlerInput) {
+    await callToOwner(handlerInput);
+
     return handlerInput.responseBuilder
-      .speak(
-        "Genial! Un asesor de Vodafone se pondrá en contacto contigo en unos instantes"
-      )
-      .getResponse();
+        .speak("<speak>Estamos poniendote en contacto con un agente, atento a tu móvil... <audio src=\"https://hackathon-vf.s3-eu-west-1.amazonaws.com/jingle.mp3\"></audio></speak>")
+        .getResponse();
   }
 };
 
@@ -214,12 +194,12 @@ const vodafoneSegundoInteresNoIntentHandler = {
         "no"
     );
   },
-  handle(handlerInput) {
+  async handle(handlerInput) {
+    await callToOwner(handlerInput);
+
     return handlerInput.responseBuilder
-      .speak(
-        "No pasa nada! Un asesor de Vodafone se pondrá en contacto contigo para encontrar el móvil más adecuado"
-      )
-      .getResponse();
+        .speak("<speak>No pasa nada! Un asesor de Vodafone se pondrá en contacto contigo para encontrar el móvil más adecuado, atento a tu móvil... <audio src=\"https://hackathon-vf.s3-eu-west-1.amazonaws.com/jingle.mp3\"></audio></speak>")
+        .getResponse();
   }
 };
 
@@ -228,8 +208,7 @@ module.exports = [
   vodafoneMarcaIntentHandler,
   vodafoneMarcaContentHandler,
   vodafoneModeloIntentHandler,
-  VodafoneOrderIntentHandler,
-  //vodafoneInteresSiIntentHandler,
+  vodafoneInteresSiIntentHandler,
   vodafoneInteresNoIntentHandler,
   vodafoneSegundoInteresSiIntentHandler,
   vodafoneSegundoInteresNoIntentHandler
