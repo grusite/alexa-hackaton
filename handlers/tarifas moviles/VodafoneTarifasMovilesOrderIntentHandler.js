@@ -1,5 +1,6 @@
 module.export = VodafoneTarifasMovilesOrderIntentHandler = {
   canHandle(handlerInput) {
+    console.log("aquí está tu order")
     return handlerInput.requestEnvelope.request.type === "IntentRequest"
         && handlerInput.requestEnvelope.request.intent.name === "vodafoneTarifasMovilesInit"
         && handlerInput.requestEnvelope.request.dialogState === "COMPLETED";
