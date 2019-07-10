@@ -6,7 +6,7 @@ const VodafoneOrderIntentHandler = {
         return (
             handlerInput.requestEnvelope.request.type === "IntentRequest" &&
             handlerInput.requestEnvelope.request.intent.name === "vodafoneTerminalesInit" &&
-            handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value === "si"
+            handlerInput.requestEnvelope.request.intent.slots.interes.value === "si"
         );
     },
     async handle(handlerInput){
@@ -15,7 +15,7 @@ const VodafoneOrderIntentHandler = {
 
         return handlerInput.responseBuilder
             .speak("<speak>Estamos poniendote en contacto con un agente, atento a tu móvil... <audio src=\"https://hackathon-vf.s3-eu-west-1.amazonaws.com/jingle.mp3\"></audio></speak>")
-            .addElicitSlotDirective("contratarTarifa")
+            .addElicitSlotDirective("interes")
             .getResponse();
     }
 };
@@ -26,8 +26,7 @@ const vodafonePrecioHandler = {
               handlerInput.requestEnvelope.request.intent.name === "vodafoneTerminalesInit" &&
               handlerInput.requestEnvelope.request.intent.slots.precioMarca.value &&
               handlerInput.requestEnvelope.request.intent.slots.precioMarca.value === "precio" &&
-              handlerInput.requestEnvelope.request.intent.slots.precio.value === null &&
-              handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value === null
+              handlerInput.requestEnvelope.request.intent.slots.precio.value === null
       );
     },
 
@@ -48,7 +47,6 @@ const vodafonePrecioHandler = {
                 handlerInput.requestEnvelope.request.intent.slots.precioMarca.value === "precio" &&
                 handlerInput.requestEnvelope.request.intent.slots.precio.value &&
                 handlerInput.requestEnvelope.request.intent.slots.interes.value == null &&
-                handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value === null
         );
     },
     handle(handlerInput) {
@@ -64,7 +62,7 @@ const vodafonePrecioHandler = {
             return handlerInput.responseBuilder
                 .speak(text)
                 .reprompt(text)
-                .addElicitSlotDirective("contratarTarifa")
+                .addElicitSlotDirective("interes")
                 .getResponse();
         }
         else
@@ -93,8 +91,7 @@ const vodafonePrecioHandler = {
                 handlerInput.requestEnvelope.request.intent.slots.precioMarca.value &&
                 handlerInput.requestEnvelope.request.intent.slots.precioMarca.value === "precio" &&
                 handlerInput.requestEnvelope.request.intent.slots.precio.value &&
-                handlerInput.requestEnvelope.request.intent.slots.interes.value &&
-                handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value === null
+                handlerInput.requestEnvelope.request.intent.slots.interes.value
         );
     },
     handle(handlerInput) {
