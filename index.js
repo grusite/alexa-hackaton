@@ -18,6 +18,7 @@ const ParrillaHandler = require("./handlers/parrillaHandler");
 // Tarifas Moviles Handler
 const vodafoneTarifasMovilesInitHandler = require("./handlers/vodafoneTarifasMovilesInitHandler");
 const vodafoneJuegaOnlineIntentHandler = require("./handlers/vodafoneJuegaOnlineIntentHandler");
+const VodafoneTarifasMovilesInitHandler = require("./handlers/VodafoneTarifasMovilesInitHandler");
 
 // Default one
 const DefaultOneHandler = require("./handlers/DefaultOneHandler");
