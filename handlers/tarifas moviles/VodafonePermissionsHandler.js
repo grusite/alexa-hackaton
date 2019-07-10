@@ -77,6 +77,7 @@ module.exports = vodafonePermisosHandler = {
                 const response = responseBuilder.speak("hay un error"+error).getResponse();
                 return response;
             }else{
+                console.log("error", error);
                 return responseBuilder.speak("hay un error generico").getResponse();
             }
             //throw error;
