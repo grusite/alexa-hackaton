@@ -47,7 +47,6 @@ const VodafoneTarifasMovilesOrderIntentHandler = {
     return (
         handlerInput.requestEnvelope.request.type === "IntentRequest" &&
         handlerInput.requestEnvelope.request.intent.name === "vodafoneTarifasMovilesInit" &&
-        handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "si" &&
         handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value === "si"
     );
   },
@@ -90,12 +89,11 @@ const VodafoneUsoDatosIntentHandler = {
   canHandle(handlerInput) {
     return (
       handlerInput.requestEnvelope.request.type === "IntentRequest" &&
-      handlerInput.requestEnvelope.request.intent.name ===
-        "vodafoneTarifasMovilesInit" &&
+      handlerInput.requestEnvelope.request.intent.name === "vodafoneTarifasMovilesInit" &&
       handlerInput.requestEnvelope.request.intent.slots.usoDatos.value &&
-      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value ===
-        "si" &&
-      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value == "no" &&
+      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "si" &&
+      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "no" &&
+      handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value == null &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value == null
     );
   },
@@ -140,13 +138,12 @@ const VodafoneLlamadasSeisMinutosIntentHandler = {
   canHandle(handlerInput) {
     return (
       handlerInput.requestEnvelope.request.type === "IntentRequest" &&
-      handlerInput.requestEnvelope.request.intent.name ===
-        "vodafoneTarifasMovilesInit" &&
+      handlerInput.requestEnvelope.request.intent.name === "vodafoneTarifasMovilesInit" &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value &&
-      handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value ===
-        "si" &&
-      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value == "no" &&
-      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value == "no"
+      handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value === "si" &&
+      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "no" &&
+      handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value == null &&
+      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "no"
     );
   },
   handle(handlerInput) {
@@ -165,13 +162,12 @@ const VodafoneNoLlamadasSeisMinutosIntentHandler = {
   canHandle(handlerInput) {
     return (
       handlerInput.requestEnvelope.request.type === "IntentRequest" &&
-      handlerInput.requestEnvelope.request.intent.name ===
-        "vodafoneTarifasMovilesInit" &&
+      handlerInput.requestEnvelope.request.intent.name === "vodafoneTarifasMovilesInit" &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value &&
-      handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value ===
-        "no" &&
-      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value == "no" &&
-      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value == "no"
+      handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value === "no" &&
+      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "no" &&
+      handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value == null &&
+      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "no"
     );
   },
   handle(handlerInput) {
