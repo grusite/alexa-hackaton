@@ -6,15 +6,7 @@ class Terminales{
 	constructor(){
 
 	}
-	getTerminalsByPricesLessThan(amount){
-		return data.items[0].listTerminals.map(x => ({
-			marca: x.marca,
-			modelo: x.modelo,
-			cuotaMensualConIva: x.cuotaMensualConIva,
-			pagoAlContadoConIva: x.pagoAlContadoConIva
-		}))
-	}
-	getTerminalsByPricesGreaterThan(amount){
+	getTerminalsByPrices(amount){
 		return data.items[0].listTerminals.map(x => ({
 			marca: x.marca,
 			modelo: x.modelo,
@@ -32,7 +24,9 @@ class Terminales{
 					marca: x.marca,
 					modelo: x.modelo,
 					cuotaMensualConIva: x.cuotaMensualConIva,
-					pagoAlContadoConIva: x.pagoAlContadoConIva
+					pagoAlContadoConIva: x.pagoAlContadoConIva,
+					nombreTarifa: x.nombreTarifa
+
 		}))
 	}
 }

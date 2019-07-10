@@ -71,7 +71,7 @@ const vodafoneModeloIntentHandler = {
     let modelo = handlerInput.requestEnvelope.request.intent.slots.modelo.value;
     const query = terminales.getTerminals(marca,modelo);
     const terminal = query[0];
-    const text = `He encontrado el terminal ${terminal.marca} ${terminal.modelo} a un precio de ${terminal.cuotaMensualConIva}`;
+    const text = `He encontrado el terminal ${terminal.marca} ${terminal.modelo} a un precio de ${terminal.cuotaMensualConIva} euros`;
     return handlerInput.responseBuilder
             .speak(text)
             .reprompt(text)

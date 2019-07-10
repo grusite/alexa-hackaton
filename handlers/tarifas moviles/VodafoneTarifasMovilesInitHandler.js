@@ -1,5 +1,6 @@
 module.exports = VodafoneTarifasMovilesInitHandler = {
 	canHandle(handlerInput) {
+		console.log('VodafoneTarifasMovilesInitHandler');
 		return (handlerInput.requestEnvelope.request.type === 'IntentRequest'
 				&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTarifasMovilesInit' &&
       			handlerInput.requestEnvelope.request.dialogState !== "COMPLETED");
@@ -10,5 +11,5 @@ module.exports = VodafoneTarifasMovilesInitHandler = {
 		return handlerInput.responseBuilder
       			.addDelegateDirective()
       			.getResponse();	
-	},
+	}
 };
