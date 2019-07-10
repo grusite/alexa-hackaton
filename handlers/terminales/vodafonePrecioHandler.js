@@ -76,6 +76,8 @@ const vodafonePrecioHandler = {
     },
     handle(handlerInput) {
         const interes = handlerInput.requestEnvelope.request.intent.slots.interes.value;
+        let precio = handlerInput.requestEnvelope.request.intent.slots.precio.value;
+        
         if(interes == "si") {
             return handlerInput.responseBuilder
                 .speak("Me alegro que te interese esta tarifa.")
