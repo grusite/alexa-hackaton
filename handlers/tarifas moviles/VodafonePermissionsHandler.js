@@ -36,7 +36,7 @@ module.exports = vodafonePermisosHandler = {
             const reminderPayload = {
                 "trigger": {
                     "type": 'SCHEDULED_ABSOLUTE',
-                    "scheduledTime": '2019-07-10T18:40:00.672',
+                    "scheduledTime": '2019-07-10T18:58:00.672',
                     "timeZoneId": 'Europe/Madrid'
                 },
                 "alertInfo": {
