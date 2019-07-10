@@ -30,15 +30,37 @@ const vodafonePrecioHandler = {
     },
     handle(handlerInput) {
       let precio = handlerInput.requestEnvelope.request.intent.slots.precio.value;
-      const query = terminales.getTerminalsByPrice(parseFloat(precio));
-      const terminal = query[0];
-      const text = `He encontrado el terminal ${terminal.marca} ${terminal.modelo} a un precio de ${terminal.cuotaMensualConIva} euros, 
-      con la tarifa ${query.nombreTarifa}, te interesa?`;
-
-      return handlerInput.responseBuilder
-              .speak(text)
-              .reprompt(text)
-              .getResponse();
+      const text = `El precio seleccionado es: ${precio}`;
+      
+      try
+      {
+        var text = "";
+        const query = terminales.getTerminalsByPrice(parseFloat(precio));
+        if(query.length > 0) { 
+            const terminal = query[0];
+            const text = `He encontrado el terminal ${terminal.marca} ${terminal.modelo} 
+            a un precio de ${terminal.cuotaMensualConIva} euros, con la tarifa ${terminal.nombreTarifa}, te interesa?`;
+            return handlerInput.responseBuilder
+                .speak(text)
+                .reprompt(text)
+                .getResponse();
+        }
+        else
+        {
+            return handlerInput.responseBuilder
+                .speak("No he encontrado ningún movil a ese precio")
+                .reprompt("Dime otro precio al mes.")
+                .addElicitSlotDirective("precio")
+                .getResponse();
+        }
+      }
+      catch (e)
+      {
+        return handlerInput.responseBuilder
+        .speak(e.toString())
+        .reprompt(e.toString())
+        .getResponse();
+      }
     }
   };
 

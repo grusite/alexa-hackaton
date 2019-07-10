@@ -177,7 +177,7 @@ const rangeGap = hour => [parseInt(hour)-10, parseInt(hour)+10 ]
 
 
 search = slot => {
-  const dateView = formatDate(slot.tiempo.value) || today();  //--> esto se ussarápara hacer la llamada al json
+  const dateView = formatDate(slot.tiempo.value) || today();  //--> esto se ussará para hacer la llamada al json
   const timeView = formatTime(slot.horario.value) || '2100';
   const rangeView = ['0200', '0455'];
   const endView = '2359';
@@ -186,22 +186,20 @@ search = slot => {
   const orderField = 'year';
   const jsonFile = dateFile(dateView);
 
-  const main = data => {
-    const result = R.pipe(
-        objectFlatten,
-        startAt(rangeGap(timeView)),    // comienzo de hora exacta
-        // startAt(rangeView), // rango de horas
-        // endsBefore(endView), // termina antes de la hora indicada
-        genderType(toLowerCase(gender)), // hace una búsqueda con like
-        subGenderType(subGender),
-        // orderBy(orderField)
-    )(data);
-    return result;
-    // console.log(result)
-  };
+	const main = data => {
+		const result = R.pipe(
+			objectFlatten,
+			startAt(rangeGap(timeView)),    // comienzo de hora exacta
+			// startAt(rangeView), // rango de horas
+			// endsBefore(endView), // termina antes de la hora indicada
+			genderType(toLowerCase(gender)), // hace una búsqueda con like
+			subGenderType(subGender),
+			// orderBy(orderField)
+		)(data);
+		return result;
+	};
 
-  return  main(fakeData);
-
+	return  main(fakeData);
 };
 
 

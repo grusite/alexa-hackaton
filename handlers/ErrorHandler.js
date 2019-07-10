@@ -6,8 +6,8 @@ module.exports = ErrorHandler = {
 		console.log(`Error handled: ${error.message}`);
 
 		return handlerInput.responseBuilder
-				.speak('Sorry, I can\'t understand the command. Please say again.')
-				.reprompt('Sorry, I can\'t understand the command. Please say again.')
+				.speak('Tengo respuesta para muchas cosas, pero no para eso.')
+				.reprompt('Tengo respuesta para muchas cosas, pero no para eso.')
 				.getResponse();
 	},
 };

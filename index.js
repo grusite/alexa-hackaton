@@ -9,8 +9,8 @@ const LaunchRequestHandler = require("./handlers/LaunchRequestHandler");
 // Terminales Handler
 const vodafoneTerminalesInitHandler = require("./handlers/terminales/vodafoneTerminalesInitHandler");
 const vodafoneModeloIntentHandler = require("./handlers/terminales/vodafoneModeloIntentHandler");
-const vodafoneModeloContentHandler = require("./handlers/terminales/vodafoneModeloContentHandler");
-const vodafoneMarcaContentHandler = require("./handlers/terminales/vodafoneMarcaContentHandler");
+// const vodafoneModeloContentHandler = require("./handlers/terminales/vodafoneModeloContentHandler");
+// const vodafoneMarcaContentHandler = require("./handlers/terminales/vodafoneMarcaContentHandler");
 const vodafonePrecioHandler = require("./handlers/terminales/vodafonePrecioHandler");
 
 // TV Handlers
@@ -59,6 +59,7 @@ exports.handler = skillBuilder
     CancelAndStopIntentHandler,
     SessionEndedRequestHandler,
     DefaultOneHandler
-  ).withApiClient(new Alexa.DefaultApiClient())
+  )
+  .withApiClient(new Alexa.DefaultApiClient())
   .addErrorHandlers(ErrorHandler)
   .lambda();
