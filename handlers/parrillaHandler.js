@@ -5,7 +5,7 @@ module.exports = parrillaHandler = {
 		return handlerInput.requestEnvelope.request.type === 'IntentRequest'
 				&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTv';
 	},
-	handle(handlerInput) {
+	async handle(handlerInput) {
 		const slots = handlerInput.requestEnvelope.request.intent.slots;
 		//const speechText = `Tipo: ${slots['tipo'].value}; Subgenre: ${slots['subgenre'].value}; Tiempo: ${slots['tiempo'].value}; Horario: ${slots['horario'].value}`;
 		let searchResult, speechText;
@@ -14,14 +14,13 @@ module.exports = parrillaHandler = {
 			"tarde" => ['1300', '2059']
 			"noche" => ['2100', '0600']
 		*/
-		const kk = search(slots).then(
-				item => {
-					return handlerInput.responseBuilder
-					.speak(kk)
-					.withSimpleCard('Hello World', speechText)
-					.getResponse()
-				}
-		)
+
+		const kk = await search(slots);
+
+		return handlerInput.responseBuilder
+		.speak(kk)
+		.withSimpleCard('Hello World', speechText)
+		.getResponse()
 
 		/*searchResult = search(slots);
 		speechText = searchResult.length > 0 ? 'Tenemos el siguiente resultado: ' : 'No hemos encontrado nada';
