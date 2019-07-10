@@ -27,15 +27,15 @@ module.exports = LaunchRequestHandler = {
             const { deviceId } = requestEnvelope.context.System.device;
             const UpsServiceClient = serviceClientFactory.getUpsServiceClient();
             const name = await UpsServiceClient.getProfileGivenName();
-            //const email = await UpsServiceClient.getProfileEmail();
-            //const mobile = await UpsServiceClient.getProfileMobileNumber();
+            const email = await UpsServiceClient.getProfileEmail();
+            const mobile = await UpsServiceClient.getProfileMobileNumber();
 
 
             console.log('Ya tenemos sus datos');
             console.log('name', name);
             //console.log('email',email);
             //console.log('mobile',mobile);
-            return responseBuilder.speak('tu nombre es '+name).getResponse();
+            return responseBuilder.speak('tu nombre es '+name+'. Tu email es: '+email+'. Y tu móvil es: '+mobile).getResponse();
         } catch (error) {
             if (error.name !== 'ServiceError') {
                 const response = responseBuilder.speak("hay un error"+error).getResponse();
