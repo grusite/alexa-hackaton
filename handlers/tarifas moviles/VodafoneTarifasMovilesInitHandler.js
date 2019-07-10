@@ -1,4 +1,5 @@
-module.exports = VodafoneTarifasMovilesInitHandler = {
+
+const = VodafoneTarifasMovilesInitHandler = {
 	canHandle(handlerInput) {
 		console.log('Entro en VodafoneTarifasMovilesInitHandler');
 		return (handlerInput.requestEnvelope.request.type === 'IntentRequest'
