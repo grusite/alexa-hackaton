@@ -17,11 +17,11 @@ module.exports = parrillaTipoContentHandler = {
 			speechText += `${searchResult[i].title} en ${searchResult[i].canal}, `;
 		}
 
-		maxSplice = searchResult.length > 3 ? 3 : searchResult.length;
+		/*maxSplice = searchResult.length > 3 ? 3 : searchResult.length;
 
 		searchResult.splice(0, maxSplice);
 
-		handlerInput.attributesManager.setSessionAttributes({searchResult});
+		handlerInput.attributesManager.setSessionAttributes({searchResult});*/
 
 		return handlerInput.responseBuilder
 			.speak(speechText)
