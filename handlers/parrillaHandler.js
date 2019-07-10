@@ -14,7 +14,8 @@ module.exports = parrillaHandler = {
 			"tarde" => ['1300', '2059']
 			"noche" => ['2100', '0600']
 		*/
-		const kk = await search(slots)
+
+		const kk = await search(slots);
 
 		return handlerInput.responseBuilder
 		.speak(kk)

@@ -209,8 +209,8 @@ search = slot => {
     // console.log(result)
   };
 
-  // return getData(url+jsonFile);
-  return "jande more 22"
+   return getData(url+jsonFile);
+
 };
 
 
