@@ -15,18 +15,19 @@ module.exports = parrillaHandler = {
 			"noche" => ['2100', '0600']
 		*/
 
-		const kk =  search(slots);
+		//const kk =  search(slots);
 
-		return handlerInput.responseBuilder
-		.speak(kk)
-		.withSimpleCard('Hello World', speechText)
-		.getResponse()
-
-		/*searchResult = search(slots);
+		
+		searchResult = search(slots);
 		speechText = searchResult.length > 0 ? 'Tenemos el siguiente resultado: ' : 'No hemos encontrado nada';
 		searchResult.forEach(pos => {
 			speechText += pos.title + ', ';
-		});*/
+		});
+
+		return handlerInput.responseBuilder
+		.speak(speechText)
+		.withSimpleCard('Hello World', speechText)
+		.getResponse()
 		// "dime que {tipo} de {subgenre} {orden} {tiempo} a las {horario}"
 	},
 };
