@@ -15,3 +15,28 @@ module.exports = vodafoneTerminalesInitHandler = {
       .getResponse();
   }
 };
+
+module.exports = vodafoneTerminalesMarcaHandler = {
+  canHandle(handlerInput) {
+    return (
+      handlerInput.requestEnvelope.request.type === "IntentRequest" &&
+      handlerInput.requestEnvelope.request.intent.name ===
+        "vodafoneTerminalesMarca"
+    );
+  },
+
+  handle(handlerInput) {
+    const speechText = `El ${modelo} te sale por ${query.cuotaMensualConIva} con la tarifa Ilimitada`;
+    const reprontText = "¿Quieres cambiar de tarifa?";
+    const marca = handlerInput.attributesManager.getRequestAttributes("marca");
+    const modelo = handlerInput.attributesManager.getRequestAttributes("modelo");
+    const precio = handlerInput.attributesManager.getRequestAttributes("precio");
+    var query = Terminales.getTerminals(marca, modelo);
+
+    return handlerInput.responseBuilder
+				.speak(speechText)
+				.reprompt(reprontText)
+				.withSimpleCard(speechText)
+				.getResponse();
+  }
+}
