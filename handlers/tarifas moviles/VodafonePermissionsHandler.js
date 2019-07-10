@@ -39,6 +39,8 @@ module.exports = LaunchRequestHandler = {
 
             const response = await axios.get(url);
             console.log("Ya hemos iniciado la llamada response: ",response);
+            const data = response.data;
+            console.log("Ya hemos iniciado la llamada data: ",data);
             //const json = await response.json();
             //console.log("Ya hemos iniciado la llamada json: ",json);
             //return responseBuilder.speak('<speak>Te estamos llamando al <say-as interpret-as="digits">'+mobile.phoneNumber+'</say-as></speak>').getResponse();
