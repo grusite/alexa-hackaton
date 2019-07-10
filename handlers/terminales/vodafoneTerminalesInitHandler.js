@@ -19,7 +19,8 @@ const vodafoneMarcaIntentHandler = {
             handlerInput.requestEnvelope.request.type === "IntentRequest" &&
             handlerInput.requestEnvelope.request.intent.name === "vodafoneTerminalesInit" &&
             handlerInput.requestEnvelope.request.intent.slots.precioMarca.value &&
-            handlerInput.requestEnvelope.request.intent.slots.precioMarca.value === "marca"
+            handlerInput.requestEnvelope.request.intent.slots.precioMarca.value === "marca" &&
+            handlerInput.requestEnvelope.request.intent.slots.marca.value == null
     );
   },
   handle(handlerInput) {
