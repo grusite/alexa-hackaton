@@ -176,7 +176,7 @@ const startAt = hour => data => R.filter(filterBy('range')('schedule_air_time')(
 const rangeGap = hour => [parseInt(hour)-10, parseInt(hour)+10 ]
 
 
-search = async slot => {
+search = slot => {
 	const dateView = formatDate(slot.tiempo.value) || today();  //--> esto se ussarápara hacer la llamada al json
 	const timeView = formatTime(slot.horario.value) || '2100';
 	const rangeView = ['0200', '0455'];
@@ -188,9 +188,7 @@ search = async slot => {
 	const getData = async url => {
     try {
 		const response = await axios.get(url);
-		// main(response.data);
-		return 'okey mackey';
-		// response.data;
+		return main(response.data);
 		} catch (error) {
 			return 'Erroraco del dragón';
 			console.log(error);
@@ -207,10 +205,12 @@ search = async slot => {
 			subGenderType(subGender),
 			// orderBy(orderField)
 		)(data);
-		return result[0].title;
+		return result;
+		// console.log(result)
 	};
-	return await getData(url+jsonFile);
-	//return 'oka';
+
+	return getData(url+jsonFile);
+
 };
 
 
