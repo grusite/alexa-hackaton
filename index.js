@@ -55,7 +55,7 @@ exports.handler = skillBuilder
     //  vodafoneLlamadasSeisMinutosIntentHandler,
     //  vodafoneNoLlamadasSeisMinutosIntentHandler,
     vodafoneModeloIntentHandler,
-    vodafoneTarifasMovilesOrderIntentHandler, //Completed Order Tarifas Moviles
+    //vodafoneTarifasMovilesOrderIntentHandler, //Completed Order Tarifas Moviles
     HelpIntentHandler,
     CancelAndStopIntentHandler,
     SessionEndedRequestHandler,
