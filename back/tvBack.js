@@ -176,26 +176,26 @@ const startAt = hour => data => R.filter(filterBy('range')('schedule_air_time')(
 const rangeGap = hour => [parseInt(hour)-10, parseInt(hour)+10 ]
 
 
-search = slot => {
-  const dateView = formatDate(slot.tiempo.value) || today();  //--> esto se ussarápara hacer la llamada al json
-  const timeView = formatTime(slot.horario.value) || '2100';
-  const rangeView = ['0200', '0455'];
-  const endView = '2359';
-  const gender = slot.tipo.value;
-  const subGender = slot.subgenre.value ;
-  const orderField = 'year';
-  const jsonFile = dateFile(dateView);
-  const getData = async url => {
+search = async slot => {
+	const dateView = formatDate(slot.tiempo.value) || today();  //--> esto se ussarápara hacer la llamada al json
+	const timeView = formatTime(slot.horario.value) || '2100';
+	const rangeView = ['0200', '0455'];
+	const endView = '2359';
+	const gender = slot.tipo.value;
+	const subGender = slot.subgenre.value ;
+	const orderField = 'year';
+	const jsonFile = dateFile(dateView);
+	const getData = async url => {
     try {
-	  	const response = await axios.get(url);
-	   	// main(response.data);
-	   	return 'okey mackey';
-	  // response.data;
-    } catch (error) {
-		return 'Erroraco del dragón';
-      console.log(error);
-    }
-  };
+		const response = await axios.get(url);
+		// main(response.data);
+		return 'okey mackey';
+		// response.data;
+		} catch (error) {
+			return 'Erroraco del dragón';
+			console.log(error);
+		}
+	};
 
 	const main = data => {
 		const result = R.pipe(
@@ -209,7 +209,7 @@ search = slot => {
 		)(data);
 		return result[0].title;
 	};
-	getData(url+jsonFile).then(searchResult => searchResult);
+	return await getData(url+jsonFile);
 	//return 'oka';
 };
 
