@@ -364,6 +364,7 @@
                 },
                 {
                     "name": "vodafoneTerminalesInit",
+                    "delegationStrategy": "SKILL_RESPONSE",
                     "confirmationRequired": false,
                     "prompts": {},
                     "slots": [
@@ -433,13 +434,7 @@
                             "type": "segundoInteres",
                             "confirmationRequired": false,
                             "elicitationRequired": false,
-                            "prompts": {},
-                            "validations": [
-                                {
-                                    "type": "hasEntityResolutionMatch",
-                                    "prompt": "Slot.Validation.1484012625414.154837375765.893887070987"
-                                }
-                            ]
+                            "prompts": {}
                         }
                     ]
                 }
@@ -521,15 +516,6 @@
             },
             {
                 "id": "Slot.Validation.1378702721901.1394293964289.453410997825",
-                "variations": [
-                    {
-                        "type": "PlainText",
-                        "value": "Por favor, ciñete a decir si o no"
-                    }
-                ]
-            },
-            {
-                "id": "Slot.Validation.1484012625414.154837375765.893887070987",
                 "variations": [
                     {
                         "type": "PlainText",
