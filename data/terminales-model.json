@@ -49,6 +49,16 @@
           "values": [
             {
               "name": {
+                "value": "nolose"
+              }
+            },
+            {
+              "name": {
+                "value": "otra"
+              }
+            },
+            {
+              "name": {
                 "value": "xiaomi"
               }
             },
@@ -203,7 +213,7 @@
         "variations": [
           {
             "type": "PlainText",
-            "value": "Cuando buscas un nuevo movil en que te fijas, en el precio o en la marca?"
+            "value": "Has elegido el mejor momento para cambiar de movil, por donde empezamos, por precio o por marca?"
           }
         ]
       },
