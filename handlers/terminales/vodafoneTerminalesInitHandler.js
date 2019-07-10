@@ -1,3 +1,5 @@
+const terminales = require('./terminales');
+
 const vodafoneTerminalesInitHandler = {
   canHandle(handlerInput) {
     return (
@@ -52,4 +54,28 @@ const vodafoneMarcaContentHandler = {
             .getResponse();
   }
 };
-module.exports = [vodafoneTerminalesInitHandler,vodafoneMarcaIntentHandler,vodafoneMarcaContentHandler]
+const vodafoneModeloIntentHandler = {
+  canHandle(handlerInput) {
+    return (
+            handlerInput.requestEnvelope.request.type === "IntentRequest" &&
+            handlerInput.requestEnvelope.request.intent.name === "vodafoneTerminalesInit" &&
+            handlerInput.requestEnvelope.request.intent.slots.precioMarca.value &&
+            handlerInput.requestEnvelope.request.intent.slots.precioMarca.value === "marca" &&
+            handlerInput.requestEnvelope.request.intent.slots.marca.value &&
+            handlerInput.requestEnvelope.request.intent.slots.modelo.value
+    );
+  },
+  handle(handlerInput) {
+
+    let marca = handlerInput.requestEnvelope.request.intent.slots.marca.value;
+    let modelo = handlerInput.requestEnvelope.request.intent.slots.modelo.value;
+    const query = terminales.getTerminals(marca,modelo);
+
+    return handlerInput.responseBuilder
+            .speak(`He encontrado el ${query[0].toString()}`)
+            .reprompt(`He encontrado el ${query[0].toString()}`)
+            .getResponse();
+  }
+};
+
+module.exports = [vodafoneTerminalesInitHandler,vodafoneMarcaIntentHandler,vodafoneMarcaContentHandler, vodafoneModeloIntentHandler]
