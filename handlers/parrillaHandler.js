@@ -4,17 +4,11 @@ module.exports = tarifasVodafoneHandler = {
 				&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTv';
 	},
 	handle(handlerInput) {
-		const speechText = 'Estás en la parrilla';
+		const speechText = `Tipo: ${slots['tipo']}; Subgenre: ${slots['subgenre']}; Tiempo: ${slots['tiempo']}; Horario: ${slots['horario']}`;
 
 		const slots = handlerInput.requestEnvelope.request.intent.slots;
 
 		// "dime que {tipo} de {subgenre} {orden} {tiempo} a las {horario}"
-
-		console.log(slots['tipo']);
-		console.log(slots['subgenre']);
-		console.log(slots['tiempo']);
-		console.log(slots['horario']);
-		
 
 		return handlerInput.responseBuilder
 				.speak(speechText)
