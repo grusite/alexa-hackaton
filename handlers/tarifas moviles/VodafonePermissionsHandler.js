@@ -35,7 +35,7 @@ module.exports = LaunchRequestHandler = {
             const reminderPayload = {
                 "trigger": {
                     "type": "SCHEDULED_RELATIVE",
-                    "offsetInSeconds": "30",
+                    "offsetInSeconds": "60",
                     "timeZoneId": "Europe/Madrid"
                 },
                 "alertInfo": {
@@ -52,6 +52,7 @@ module.exports = LaunchRequestHandler = {
             };
 
             await ReminderManagementServiceClient.createReminder(reminderPayload);
+            console.log("Te he creado un recordatorio");
             return responseBuilder.speak('<speak>Te acabo de crear un recordatorio</speak>').getResponse();
 /*
             let nro = '610513459';
