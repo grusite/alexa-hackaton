@@ -101,12 +101,12 @@ const VodafoneUsoDatosIntentHandler = {
   },
   handle(handlerInput) {
 
-    const text = "Lo tengo, vas a disfrutar de manera ilimitada con la tarifa móvil Ilimitada Super";
+    const text = "Lo tengo, vas a disfrutar de manera ilimitada con la tarifa móvil Ilimitada Super. ¿Quieres contratarla?";
 
     return handlerInput.responseBuilder
       .speak(text)
       .reprompt(text)
-      .addElicitSlotDirective("usoDatos")
+      .addElicitSlotDirective("contratarTarifa")
       .getResponse();
   }
 };
@@ -151,12 +151,12 @@ const VodafoneLlamadasSeisMinutosIntentHandler = {
   },
   handle(handlerInput) {
 
-    const text = "Tenemos la tarifa que mejor se adapta a ti. La tarifa Movil Ilimitada";
+    const text = "Tenemos la tarifa que mejor se adapta a ti. La tarifa Movil Ilimitada. ¿Quieres que te llamemos para contratarla?";
 
     return handlerInput.responseBuilder
       .speak(text)
       .reprompt(text)
-      .addElicitSlotDirective("isLlamadasMasSeisMinutos")
+      .addElicitSlotDirective("contratarTarifa")
       .getResponse();
   }
 };
@@ -176,12 +176,12 @@ const VodafoneNoLlamadasSeisMinutosIntentHandler = {
   },
   handle(handlerInput) {
 
-    const text = "Tenemos la tarifa que mejor se adapta a ti. La tarifa móvil Mini con 200 minutos de llamadas al mes y 3GB de datos para navegar y Chat Pass para usar apps de mensajería sin gastar datos de tu tarifa";
+    const text = "Tenemos la tarifa que mejor se adapta a ti. La tarifa móvil Mini con 200 minutos de llamadas al mes y 3GB de datos para navegar y Chat Pass para usar apps de mensajería sin gastar datos de tu tarifa. ¿Quieres que te llamemos para contratarla?";
 
     return handlerInput.responseBuilder
       .speak(text)
       .reprompt(text)
-      .addElicitSlotDirective("isLlamadasMasSeisMinutos")
+      .addElicitSlotDirective("contratarTarifa")
       .getResponse();
   }
 };
