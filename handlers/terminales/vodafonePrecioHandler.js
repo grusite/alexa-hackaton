@@ -26,7 +26,8 @@ const vodafonePrecioHandler = {
               handlerInput.requestEnvelope.request.intent.name === "vodafoneTerminalesInit" &&
               handlerInput.requestEnvelope.request.intent.slots.precioMarca.value &&
               handlerInput.requestEnvelope.request.intent.slots.precioMarca.value === "precio" &&
-              handlerInput.requestEnvelope.request.intent.slots.precio.value == null
+              handlerInput.requestEnvelope.request.intent.slots.precio.value === null &&
+              handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value === null
       );
     },
 
@@ -46,7 +47,8 @@ const vodafonePrecioHandler = {
                 handlerInput.requestEnvelope.request.intent.slots.precioMarca.value &&
                 handlerInput.requestEnvelope.request.intent.slots.precioMarca.value === "precio" &&
                 handlerInput.requestEnvelope.request.intent.slots.precio.value &&
-                handlerInput.requestEnvelope.request.intent.slots.interes.value == null
+                handlerInput.requestEnvelope.request.intent.slots.interes.value == null &&
+                handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value === null
         );
     },
     handle(handlerInput) {
@@ -91,7 +93,8 @@ const vodafonePrecioHandler = {
                 handlerInput.requestEnvelope.request.intent.slots.precioMarca.value &&
                 handlerInput.requestEnvelope.request.intent.slots.precioMarca.value === "precio" &&
                 handlerInput.requestEnvelope.request.intent.slots.precio.value &&
-                handlerInput.requestEnvelope.request.intent.slots.interes.value
+                handlerInput.requestEnvelope.request.intent.slots.interes.value &&
+                handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value === null
         );
     },
     handle(handlerInput) {
