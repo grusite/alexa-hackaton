@@ -37,6 +37,10 @@
                         {
                             "name": "isLlamadasMasSeisMinutos",
                             "type": "isLlamadasMasSeisMinutos"
+                        },
+                        {
+                            "name": "contratarTarifa",
+                            "type": "interes"
                         }
                     ],
                     "samples": [
@@ -342,6 +346,19 @@
                             "confirmationRequired": false,
                             "elicitationRequired": false,
                             "prompts": {}
+                        },
+                        {
+                            "name": "contratarTarifa",
+                            "type": "interes",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {},
+                            "validations": [
+                                {
+                                    "type": "hasEntityResolutionMatch",
+                                    "prompt": "Slot.Validation.585268145324.589160704831.1227499814466"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -517,6 +534,24 @@
                     {
                         "type": "PlainText",
                         "value": "Por favor, ciñete a decir si o no"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.585268145324.589160704831",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Perfecto, ¿quieres que te llamemos para contratar esta tarifa?"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.585268145324.589160704831.1227499814466",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Sí o no?"
                     }
                 ]
             }
