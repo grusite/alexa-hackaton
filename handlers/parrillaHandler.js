@@ -1,4 +1,4 @@
-const {search} = require('../back/tvBack');
+const search = require('../back/tvBack');
 
 module.exports = parrillaHandler = {
 	canHandle(handlerInput) {
