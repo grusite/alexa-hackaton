@@ -66,7 +66,8 @@ const vodafoneModeloIntentHandler = {
       handlerInput.requestEnvelope.request.intent.slots.precioMarca.value ===
         "marca" &&
       handlerInput.requestEnvelope.request.intent.slots.marca.value &&
-      handlerInput.requestEnvelope.request.intent.slots.modelo.value
+      handlerInput.requestEnvelope.request.intent.slots.modelo.value &&
+      handlerInput.requestEnvelope.request.intent.slots.interes.value == null
     );
   },
   handle(handlerInput) {
@@ -96,7 +97,11 @@ const vodafoneInteresSiIntentHandler = {
         "marca" &&
       handlerInput.requestEnvelope.request.intent.slots.marca.value &&
       handlerInput.requestEnvelope.request.intent.slots.modelo.value &&
-      handlerInput.requestEnvelope.request.intent.slots.interes.value === "si"
+      handlerInput.requestEnvelope.request.intent.slots.interes.value &&
+      handlerInput.requestEnvelope.request.intent.slots.interes.value ===
+        "si" &&
+      handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value ==
+        null
     );
   },
   handle(handlerInput) {
@@ -119,7 +124,11 @@ const vodafoneInteresNoIntentHandler = {
         "marca" &&
       handlerInput.requestEnvelope.request.intent.slots.marca.value &&
       handlerInput.requestEnvelope.request.intent.slots.modelo.value &&
-      handlerInput.requestEnvelope.request.intent.slots.interes.value === "no"
+      handlerInput.requestEnvelope.request.intent.slots.interes.value &&
+      handlerInput.requestEnvelope.request.intent.slots.interes.value ===
+        "no" &&
+      handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value ==
+        null
     );
   },
   handle(handlerInput) {
@@ -153,6 +162,7 @@ const vodafoneSegundoInteresSiIntentHandler = {
       handlerInput.requestEnvelope.request.intent.slots.modelo.value &&
       handlerInput.requestEnvelope.request.intent.slots.interes.value ===
         "no" &&
+      handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value &&
       handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value ===
         "si"
     );
@@ -179,6 +189,7 @@ const vodafoneSegundoInteresNoIntentHandler = {
       handlerInput.requestEnvelope.request.intent.slots.modelo.value &&
       handlerInput.requestEnvelope.request.intent.slots.interes.value ===
         "no" &&
+      handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value &&
       handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value ===
         "no"
     );
