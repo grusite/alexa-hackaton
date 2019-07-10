@@ -21,7 +21,7 @@ module.exports = parrillaHandler = {
 		searchResult = search(slots);
 		speechText = searchResult.length > 0 ? 'Tenemos el siguiente resultado: ' : 'No hemos encontrado nada';
 		searchResult.forEach(pos => {
-			speechText += pos.title + ', ';
+			speechText += `${pos.title} en el canal ${channelData[pos.channel]}`;
 		});
 
 		return handlerInput.responseBuilder
