@@ -6,11 +6,18 @@ const Alexa = require("ask-sdk-core");
 // Intro app
 const LaunchRequestHandler = require("./handlers/LaunchRequestHandler");
 
-// Nuestros Handler
-const vodafoneTerminalesInitHandler = require("./handlers/vodafoneTerminalesInitHandler");
-const DefaultOneHandler = require("./handlers/DefaultOneHandler");
+// Terminales Handler
+const vodafoneTerminalesInitHandler = require("./handlers/terminales/vodafoneTerminalesInitHandler");
+const vodafoneMarcaIntentHandler = require("./handlers/terminales/vodafoneMarcaIntentHandler");
+const vodafonePrecioIntentHandler = require("./handlers/terminales/vodafonePrecioIntentHandler");
+const vodafoneModeloIntentHandler = require("./handlers/terminales/vodafoneModeloIntentHandler");
+
+// TV Handlers
 const ParrillaHandler = require("./handlers/parrillaHandler");
 const vodafoneTarifasMovilesInitHandler = require("./handlers/vodafoneTarifasMovilesInitHandler");
+
+// Default one
+const DefaultOneHandler = require("./handlers/DefaultOneHandler");
 
 // Built-in core
 const HelpIntentHandler = require("./handlers/HelpIntentHandler");
@@ -26,6 +33,9 @@ exports.handler = skillBuilder
     ParrillaHandler,
     vodafoneTerminalesInitHandler,
     VodafoneTarifasMovilesInitHandler,
+    vodafoneMarcaIntentHandler,
+    vodafonePrecioIntentHandler,
+    vodafoneModeloIntentHandler,
     HelpIntentHandler,
     CancelAndStopIntentHandler,
     SessionEndedRequestHandler,
