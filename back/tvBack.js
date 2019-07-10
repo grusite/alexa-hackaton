@@ -187,10 +187,12 @@ search = slot => {
   const jsonFile = dateFile(dateView);
   const getData = async url => {
     try {
-      const response = await axios.get(url);
-      main(response.data);
-      // return response.data;
+	  const response = await axios.get(url);
+	  // main(response.data);
+	  return 'okey mackey';
+	  // response.data;
     } catch (error) {
+		return error;
       console.log(error);
     }
   };
