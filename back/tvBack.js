@@ -181,8 +181,8 @@ search = slot => {
   const timeView = formatTime(slot.horario.value) || '2100';
   const rangeView = ['0200', '0455'];
   const endView = '2359';
-  const gender = slot.tipo.value;
-  const subGender = slot.subgenre.value ;
+  const gender = slot.tipo.value || '';
+  const subGender = slot.subgenre.value || '' ;
   const orderField = 'year';
   const jsonFile = dateFile(dateView);
 

@@ -59,7 +59,6 @@ const slots = {
   },
   "subgenre": {
     "name": "subgenre",
-    "value": "drama",
     "resolutions": {
       "resolutionsPerAuthority": [
         {
@@ -89,4 +88,6 @@ const slots = {
   }
 };
 
-const result = search(slots).then( r => console.log(r))
+const result = search(slots)
+
+console.log(result)
