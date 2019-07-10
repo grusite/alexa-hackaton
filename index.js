@@ -10,6 +10,7 @@ const LaunchRequestHandler = require("./handlers/LaunchRequestHandler");
 const vodafoneTerminalesInitHandler = require("./handlers/vodafoneTerminalesInitHandler");
 const DefaultOneHandler = require("./handlers/DefaultOneHandler");
 const ParrillaHandler = require("./handlers/parrillaHandler");
+const vodafoneTarifasMovilesInitHandler = require("./handlers/vodafoneTarifasMovilesInitHandler");
 
 // Built-in core
 const HelpIntentHandler = require("./handlers/HelpIntentHandler");
@@ -22,9 +23,9 @@ const skillBuilder = Alexa.SkillBuilders.custom();
 exports.handler = skillBuilder
   .addRequestHandlers(
     LaunchRequestHandler,
-    VodafoneTarifasMovilesHandler,
     ParrillaHandler,
     vodafoneTerminalesInitHandler,
+    VodafoneTarifasMovilesInitHandler,
     HelpIntentHandler,
     CancelAndStopIntentHandler,
     SessionEndedRequestHandler,

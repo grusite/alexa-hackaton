@@ -1,4 +1,4 @@
-module.exports = VodafoneTarifasMovilesHandler = {
+module.exports = VodafoneTarifasMovilesInitHandler = {
 	canHandle(handlerInput) {
 		return handlerInput.requestEnvelope.request.type === 'IntentRequest'
 				&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTarifasMoviles';
