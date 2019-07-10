@@ -7,7 +7,8 @@ const PERMISSIONS = [
 module.exports = LaunchRequestHandler = {
     canHandle(handlerInput) {
         const { request } = handlerInput.requestEnvelope;
-        return handlerInput.requestEnvelope.request.type === 'LaunchRequest';
+        return handlerInput.requestEnvelope.request.type === 'IntentRequest'
+            && handlerInput.requestEnvelope.request.intent.name === 'vodafonePermissions';
     },
     async handle(handlerInput) {
         //let accessToken = this.event.context.System.apiAccessToken;
