@@ -3,6 +3,7 @@ const path = require('path');
 const R = require('ramda');
 const axios = require("axios");
 
+const fakeData = require('../data/20190709.json');
 // que {echan} {tiempo} a la {horario} de {genero}
 
 /** ======================= CARGA DE DATOS ====================================================>**/
@@ -14,16 +15,15 @@ const fileDir = path.join(__dirname);
 
 // FILE SYSTEM
 // -----------
-/*
+
 const systemFile = () =>  fs.readFile(fileDir + file, 'utf8', function(err, contents) {
   if (!err) {
-    // TODO
-    main(JSON.parse(contents));
+    return JSON.parse(contents);
   } else {
     console.log('ERRROR');
   }
 });
-*/
+
 
 
 // AXIOS
@@ -176,7 +176,7 @@ const startAt = hour => data => R.filter(filterBy('range')('schedule_air_time')(
 const rangeGap = hour => [parseInt(hour)-10, parseInt(hour)+10 ]
 
 
-search = async slot => {
+search = slot => {
   const dateView = formatDate(slot.tiempo.value) || today();  //--> esto se ussarápara hacer la llamada al json
   const timeView = formatTime(slot.horario.value) || '2100';
   const rangeView = ['0200', '0455'];
@@ -185,16 +185,6 @@ search = async slot => {
   const subGender = slot.subgenre.value ;
   const orderField = 'year';
   const jsonFile = dateFile(dateView);
-  const getData = async url => {
-    try {
-     // const response = await axios.get(url);
-      //return main(response.data);
-      return await "DESPUES DE AXIOS"
-    } catch (error) {
-      return 'Erroraco del dragón';
-      console.log(error);
-    }
-  };
 
   const main = data => {
     const result = R.pipe(
@@ -210,7 +200,7 @@ search = async slot => {
     // console.log(result)
   };
 
-   return await getData(url+jsonFile);
+  return  main(fakeData);
 
 };
 
