@@ -81,7 +81,7 @@ const vodafonePrecioHandler = {
         const attributesManager = handlerInput.attributesManager;
 
         const sessionAttributes = attributesManager.getSessionAttributes()
-        sessionAttributes.intentos = sessionAttributes.intentos ? sessionAttributes.intentos++ : 1
+        sessionAttributes.intentos = sessionAttributes.intentos ? sessionAttributes.intentos + 1 : 1
         if(interes == "si") {
             return handlerInput.responseBuilder
                 .speak("Me alegro que te interese esta tarifa.")
@@ -91,7 +91,7 @@ const vodafonePrecioHandler = {
             const query = terminales.getTerminalsByPrice(parseFloat(precio));
             if(query.length > sessionAttributes.intentos) {
                 const terminal = query[sessionAttributes.intentos];
-                const text = `He encontrado el terminal ${terminal.marca} ${terminal.modelo} 
+                const text = `${sessionAttributes.intentos} He encontrado el terminal ${terminal.marca} ${terminal.modelo} 
                 a un precio de ${terminal.cuotaMensualConIva} euros, con la tarifa ${terminal.nombreTarifa}, ¿te interesa?`;
                 return handlerInput.responseBuilder
                     .speak(text)
