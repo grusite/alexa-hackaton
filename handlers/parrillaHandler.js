@@ -16,9 +16,6 @@ module.exports = parrillaHandler = {
 			"noche" => ['2100', '0600']
 		*/
 
-		//const kk =  search(slots);
-
-		
 		searchResult = search(slots);
 		speechText = searchResult.length > 0 ? 'Tenemos el siguiente resultado: ' : 'No hemos encontrado nada';
 		searchResult.forEach(pos => {
