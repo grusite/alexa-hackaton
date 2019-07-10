@@ -1,10 +1,10 @@
 module.exports = VodafoneTarifasMovilesInitHandler = {
 	canHandle(handlerInput) {
 		return handlerInput.requestEnvelope.request.type === 'IntentRequest'
-				&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTarifasMoviles';
+				&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTarifasMovilesInit';
 	},
 	handle(handlerInput) {
-		const speechText = 'Tenemos las mejores tarifas';
+		const speechText = 'Genial. Vamos a ver qué tarifa móvil se adapta mejor a ti. ¿Sueles jugar cada día online?';
 
 		return handlerInput.responseBuilder
 				.speak(speechText)
