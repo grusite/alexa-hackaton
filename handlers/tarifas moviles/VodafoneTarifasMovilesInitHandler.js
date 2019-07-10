@@ -51,7 +51,9 @@ const VodafoneNoJuegaOnlineIntentHandler = {
         "vodafoneTarifasMovilesInit" &&
       handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value &&
       handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value ===
-        "no"
+        "no" && 
+      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value == null &&
+      handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value == null
     );
   },
   handle(handlerInput) {
@@ -74,7 +76,9 @@ const VodafoneUsoDatosIntentHandler = {
         "vodafoneTarifasMovilesInit" &&
       handlerInput.requestEnvelope.request.intent.slots.usoDatos.value &&
       handlerInput.requestEnvelope.request.intent.slots.usoDatos.value ===
-        "si"
+        "si" &&
+      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value == null &&
+      handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value == null
     );
   },
   handle(handlerInput) {
@@ -97,7 +101,9 @@ const VodafoneNoUsoDatosIntentHandler = {
         "vodafoneTarifasMovilesInit" &&
       handlerInput.requestEnvelope.request.intent.slots.usoDatos.value &&
       handlerInput.requestEnvelope.request.intent.slots.usoDatos.value ===
-        "no"
+        "no" &&
+      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value == null &&
+      handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value == null
     );
   },
   handle(handlerInput) {
@@ -120,7 +126,9 @@ const VodafoneLlamadasSeisMinutosIntentHandler = {
         "vodafoneTarifasMovilesInit" &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value ===
-        "si"
+        "si" &&
+      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value == null &&
+      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value == null
     );
   },
   handle(handlerInput) {
@@ -143,7 +151,9 @@ const VodafoneNoLlamadasSeisMinutosIntentHandler = {
         "vodafoneTarifasMovilesInit" &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value ===
-        "no"
+        "no" &&
+      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value == null &&
+      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value == null
     );
   },
   handle(handlerInput) {
