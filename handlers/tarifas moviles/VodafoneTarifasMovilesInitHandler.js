@@ -10,5 +10,5 @@ module.exports = VodafoneTarifasMovilesInitHandler = {
 		return handlerInput.responseBuilder
       			.addDelegateDirective()
       			.getResponse();	
-	},
+	}
 };
