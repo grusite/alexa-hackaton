@@ -1,17 +1,19 @@
 const PERMISSIONS = [
     'alexa::profile:given_name:read', // Permisos para pedirle acceso al nombre
     'alexa::profile:email:read', // Permisos para pedirle acceso al email
-    'alexa::profile:mobile_number:read' // Permisos para pedirle acceso al numero de móvil
+    'alexa::profile:mobile_number:read', // Permisos para pedirle acceso al numero de móvil
+    'alexa::alerts:reminders:skill:readwrite' // permisos para los reminders
 ];
 const axios = require("axios");
 
-module.exports = LaunchRequestHandler = {
+module.exports = vodafonePermisosHandler = {
     canHandle(handlerInput) {
         const { request } = handlerInput.requestEnvelope;
         return handlerInput.requestEnvelope.request.type === 'IntentRequest'
             && handlerInput.requestEnvelope.request.intent.name === 'vodafonePermissions';
     },
     async handle(handlerInput) {
+        console.log("vodafonePermisosHandler");
         //let accessToken = this.event.context.System.apiAccessToken;
         const speechText = 'Bienvenido a Vodafone Skill';
         const { requestEnvelope, serviceClientFactory, responseBuilder } = handlerInput;
@@ -30,7 +32,30 @@ module.exports = LaunchRequestHandler = {
             const name = await UpsServiceClient.getProfileGivenName();
             const email = await UpsServiceClient.getProfileEmail();
             const mobile = await UpsServiceClient.getProfileMobileNumber();
+            const ReminderManagementServiceClient = serviceClientFactory.getReminderManagementServiceClient();
+            const reminderPayload = {
+                "trigger": {
+                    "type": 'SCHEDULED_ABSOLUTE',
+                    "scheduledTime": '2019-07-10T18:35:00.672',
+                    "timeZoneId": 'Europe/Madrid'
+                },
+                "alertInfo": {
+                    "spokenInfo": {
+                        "content": [{
+                            "locale": 'en-US',
+                            "text": 'time to get up and dance',
+                        }]
+                    }
+                },
+                "pushNotification": {
+                    "status": "ENABLED"
+                }
+            };
 
+            await ReminderManagementServiceClient.createReminder(reminderPayload);
+            console.log("Te he creado un recordatorio");
+            return responseBuilder.speak('<speak>Te acabo de crear un recordatorio</speak>').getResponse();
+/*
             let nro = '610513459';
             console.log("Iniciamos llamada al "+nro);
             //console.log("Iniciamos llamada al "+mobile.phoneNumber);
@@ -45,11 +70,14 @@ module.exports = LaunchRequestHandler = {
             //console.log("Ya hemos iniciado la llamada json: ",json);
             //return responseBuilder.speak('<speak>Te estamos llamando al <say-as interpret-as="digits">'+mobile.phoneNumber+'</say-as></speak>').getResponse();
             return responseBuilder.speak('<speak>Te estamos llamando al <say-as interpret-as="digits">'+nro+'</say-as></speak>').getResponse();
+
+            */
         } catch (error) {
             if (error.name !== 'ServiceError') {
                 const response = responseBuilder.speak("hay un error"+error).getResponse();
                 return response;
             }else{
+                console.log("error", error);
                 return responseBuilder.speak("hay un error generico").getResponse();
             }
             //throw error;

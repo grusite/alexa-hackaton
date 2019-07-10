@@ -80,8 +80,7 @@ const vodafoneModeloIntentHandler = {
        ¿Te interesa?`;
     return handlerInput.responseBuilder
       .speak(text)
-      .reprompt(text)
-      .addElicitSlotDirective("modelo")
+      .addElicitSlotDirective("interes")
       .getResponse();
   }
 };
@@ -103,9 +102,6 @@ const vodafoneInteresSiIntentHandler = {
   handle(handlerInput) {
     return handlerInput.responseBuilder
       .speak(
-        "Genial! Un asesor de Vodafone se pondrá en contacto contigo en unos instantes"
-      )
-      .reprompt(
         "Genial! Un asesor de Vodafone se pondrá en contacto contigo en unos instantes"
       )
       .getResponse();
@@ -139,6 +135,59 @@ const vodafoneInteresNoIntentHandler = {
     return handlerInput.responseBuilder
       .speak(text)
       .reprompt(text)
+      .addElicitSlotDirective("segundoInteres")
+      .getResponse();
+  }
+};
+
+const vodafoneSegundoInteresSiIntentHandler = {
+  canHandle(handlerInput) {
+    return (
+      handlerInput.requestEnvelope.request.type === "IntentRequest" &&
+      handlerInput.requestEnvelope.request.intent.name ===
+        "vodafoneTerminalesInit" &&
+      handlerInput.requestEnvelope.request.intent.slots.precioMarca.value &&
+      handlerInput.requestEnvelope.request.intent.slots.precioMarca.value ===
+        "marca" &&
+      handlerInput.requestEnvelope.request.intent.slots.marca.value &&
+      handlerInput.requestEnvelope.request.intent.slots.modelo.value &&
+      handlerInput.requestEnvelope.request.intent.slots.interes.value ===
+        "no" &&
+      handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value ===
+        "si"
+    );
+  },
+  handle(handlerInput) {
+    return handlerInput.responseBuilder
+      .speak(
+        "Genial! Un asesor de Vodafone se pondrá en contacto contigo en unos instantes"
+      )
+      .getResponse();
+  }
+};
+
+const vodafoneSegundoInteresNoIntentHandler = {
+  canHandle(handlerInput) {
+    return (
+      handlerInput.requestEnvelope.request.type === "IntentRequest" &&
+      handlerInput.requestEnvelope.request.intent.name ===
+        "vodafoneTerminalesInit" &&
+      handlerInput.requestEnvelope.request.intent.slots.precioMarca.value &&
+      handlerInput.requestEnvelope.request.intent.slots.precioMarca.value ===
+        "marca" &&
+      handlerInput.requestEnvelope.request.intent.slots.marca.value &&
+      handlerInput.requestEnvelope.request.intent.slots.modelo.value &&
+      handlerInput.requestEnvelope.request.intent.slots.interes.value ===
+        "no" &&
+      handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value ===
+        "no"
+    );
+  },
+  handle(handlerInput) {
+    return handlerInput.responseBuilder
+      .speak(
+        "No pasa nada! Un asesor de Vodafone se pondrá en contacto contigo para encontrar el móvil más adecuado"
+      )
       .getResponse();
   }
 };
@@ -149,5 +198,7 @@ module.exports = [
   vodafoneMarcaContentHandler,
   vodafoneModeloIntentHandler,
   vodafoneInteresSiIntentHandler,
-  vodafoneInteresNoIntentHandler
+  vodafoneInteresNoIntentHandler,
+  vodafoneSegundoInteresSiIntentHandler,
+  vodafoneSegundoInteresNoIntentHandler
 ];

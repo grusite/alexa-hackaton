@@ -10,14 +10,14 @@ class Terminales{
 		const thresold = 5;
 		return data.items
 				.reduce((accumulator, currentValue) => accumulator.concat(currentValue.listTerminals),[])
-				.filter(x => x.cuotaMensualConIva >= amount - thresold && x <= x.cuotaMensualConIva <= amount)
+				.filter(x => x.cuotaMensualConIva >= amount - thresold && x.cuotaMensualConIva <= amount + thresold)
+				.sort( (a,b) => Math.abs(amount-a.cuotaMensualConIva) - Math.abs(amount-b.cuotaMensualConIva) )
 				.map(x => ({
 					marca: x.marca,
 					modelo: x.modelo,
 					cuotaMensualConIva: x.cuotaMensualConIva,
 					pagoAlContadoConIva: x.pagoAlContadoConIva,
 					nombreTarifa: x.nombreTarifa
-
 				}))
 	}
 	getTerminals(brand,model){
