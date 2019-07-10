@@ -210,7 +210,7 @@ search = async slot => {
   };
 
   // return getData(url+jsonFile);
-  return await "jande more 22"
+  return "jande more 22"
 };
 
 
