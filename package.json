@@ -12,6 +12,7 @@
     "ask-sdk-core": "^2.0.0",
     "ask-sdk-model": "^1.0.0",
     "axios": "^0.19.0",
+    "node-fetch": "^2.6.0",
     "ramda": "^0.26.1"
   }
 }
