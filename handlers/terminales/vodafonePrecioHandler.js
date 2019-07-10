@@ -1,4 +1,24 @@
 const terminales = require('../../terminales');
+const callToOwner = require("../../utils/callToOwner");
+
+const VodafoneOrderIntentHandler = {
+    canHandle(handlerInput) {
+        return (
+            handlerInput.requestEnvelope.request.type === "IntentRequest" &&
+            handlerInput.requestEnvelope.request.intent.name === "vodafoneTerminalesInit" &&
+            handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value === "si"
+        );
+    },
+    async handle(handlerInput){
+
+        await callToOwner(handlerInput);
+
+        return handlerInput.responseBuilder
+            .speak("<speak>Estamos poniendote en contacto con un agente, atento a tu móvil... <audio src=\"https://hackathon-vf.s3-eu-west-1.amazonaws.com/jingle.mp3\"></audio></speak>")
+            .addElicitSlotDirective("contratarTarifa")
+            .getResponse();
+    }
+};
 
 const vodafonePrecioHandler = {
     canHandle(handlerInput) {
@@ -42,7 +62,7 @@ const vodafonePrecioHandler = {
             return handlerInput.responseBuilder
                 .speak(text)
                 .reprompt(text)
-                .addElicitSlotDirective("interes")
+                .addElicitSlotDirective("contratarTarifa")
                 .getResponse();
         }
         else
@@ -96,7 +116,7 @@ const vodafonePrecioHandler = {
                 return handlerInput.responseBuilder
                     .speak(text)
                     .reprompt(text)
-                    .addElicitSlotDirective("interes")
+                    .addElicitSlotDirective("contratarTarifa")
                     .getResponse();
             }
             else{
@@ -109,5 +129,5 @@ const vodafonePrecioHandler = {
     }
 };
 
-module.exports = [vodafonePrecioHandler, vodafonePrecioMovilHandler, vodafoneInteresHandler]
+module.exports = [vodafonePrecioHandler, vodafonePrecioMovilHandler, vodafoneInteresHandler, VodafoneOrderIntentHandler]
 
