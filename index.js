@@ -22,6 +22,7 @@ exports.handler = skillBuilder
   .addRequestHandlers(
     LaunchRequestHandler,
     VodadoneTestOneHandler,
+    TarifasMovilesVodafoneHandler,
     HelpIntentHandler,
     CancelAndStopIntentHandler,
     SessionEndedRequestHandler,
