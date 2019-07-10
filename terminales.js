@@ -6,13 +6,19 @@ class Terminales{
 	constructor(){
 
 	}
-	getTerminalsByPrices(amount){
-		return data.items[0].listTerminals.map(x => ({
-			marca: x.marca,
-			modelo: x.modelo,
-			cuotaMensualConIva: x.cuotaMensualConIva,
-			pagoAlContadoConIva: x.pagoAlContadoConIva
-		}))
+	getTerminalsByPrice(amount){
+		const thresold = 5;
+		return data.items
+				.reduce((accumulator, currentValue) => accumulator.concat(currentValue.listTerminals),[])
+				.filter(x => x.cuotaMensualConIva >= amount - thresold && x <= x.cuotaMensualConIva <= amount)
+				.map(x => ({
+					marca: x.marca,
+					modelo: x.modelo,
+					cuotaMensualConIva: x.cuotaMensualConIva,
+					pagoAlContadoConIva: x.pagoAlContadoConIva,
+					nombreTarifa: x.nombreTarifa
+
+				}))
 	}
 	getTerminals(brand,model){
 		return data.items
