@@ -30,11 +30,9 @@ const vodafonePrecioHandler = {
     },
     handle(handlerInput) {
       let precio = handlerInput.requestEnvelope.request.intent.slots.precio.value;
-      const text = `El precio seleccionado es: ${precio}`;
-      
+
       try
       {
-        var text = "";
         const query = terminales.getTerminalsByPrice(parseFloat(precio));
         if(query.length > 0) { 
             const terminal = query[0];

@@ -1,7 +1,8 @@
 const PERMISSIONS = [
     'alexa::profile:given_name:read', // Permisos para pedirle acceso al nombre
     'alexa::profile:email:read', // Permisos para pedirle acceso al email
-    'alexa::profile:mobile_number:read' // Permisos para pedirle acceso al numero de móvil
+    'alexa::profile:mobile_number:read', // Permisos para pedirle acceso al numero de móvil
+    'alexa::alerts:reminders:skill:readwrite' // permisos para los reminders
 ];
 const axios = require("axios");
 
@@ -30,7 +31,30 @@ module.exports = LaunchRequestHandler = {
             const name = await UpsServiceClient.getProfileGivenName();
             const email = await UpsServiceClient.getProfileEmail();
             const mobile = await UpsServiceClient.getProfileMobileNumber();
+            const ReminderManagementServiceClient = serviceClientFactory.getReminderManagementServiceClient();
+            const reminderPayload = {
+                "trigger": {
+                    "type": "SCHEDULED_RELATIVE",
+                    "offsetInSeconds": "60",
+                    "timeZoneId": "Europe/Madrid"
+                },
+                "alertInfo": {
+                    "spokenInfo": {
+                        "content": [{
+                            "locale": "es-ES",
+                            "text": "Oye! Que echan la peli esa que te gusta con el calvo y el sofá en Pornhub!"
+                        }]
+                    }
+                },
+                "pushNotification": {
+                    "status": "ENABLED"
+                }
+            };
 
+            await ReminderManagementServiceClient.createReminder(reminderPayload);
+            console.log("Te he creado un recordatorio");
+            return responseBuilder.speak('<speak>Te acabo de crear un recordatorio</speak>').getResponse();
+/*
             let nro = '610513459';
             console.log("Iniciamos llamada al "+nro);
             //console.log("Iniciamos llamada al "+mobile.phoneNumber);
@@ -45,6 +69,8 @@ module.exports = LaunchRequestHandler = {
             //console.log("Ya hemos iniciado la llamada json: ",json);
             //return responseBuilder.speak('<speak>Te estamos llamando al <say-as interpret-as="digits">'+mobile.phoneNumber+'</say-as></speak>').getResponse();
             return responseBuilder.speak('<speak>Te estamos llamando al <say-as interpret-as="digits">'+nro+'</say-as></speak>').getResponse();
+
+            */
         } catch (error) {
             if (error.name !== 'ServiceError') {
                 const response = responseBuilder.speak("hay un error"+error).getResponse();
