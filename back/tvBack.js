@@ -188,7 +188,8 @@ search = slot => {
   const getData = async url => {
     try {
       const response = await axios.get(url);
-      return main(response.data);
+      //return main(response.data);
+      return "DESPUES DE AXIOS"
     } catch (error) {
       return 'Erroraco del dragón';
       console.log(error);
@@ -209,7 +210,7 @@ search = slot => {
     // console.log(result)
   };
 
-   return getData(url+jsonFile);
+   return await getData(url+jsonFile);
 
 };
 
