@@ -205,10 +205,9 @@ search = slot => {
 			subGenderType(subGender),
 			// orderBy(orderField)
 		)(data);
-		return result;
+		return result[0].title;
 	};
-	//getData(url+jsonFile);
-	return slot;
+	getData(url+jsonFile);
 };
 
 
