@@ -8,7 +8,7 @@ module.exports = LaunchRequestHandler = {
 		const speechText = 'Bienvenido a Vodafone Skill';
 		const { responseBuilder } = handlerInput;
 
-		return responseBuilder.speak(speechText).getResponse();
+		return responseBuilder.speak(speechText).reprompt(speechText).getResponse();
 
 	},
 };
