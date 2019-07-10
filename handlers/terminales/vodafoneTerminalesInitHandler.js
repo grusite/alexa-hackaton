@@ -1,5 +1,25 @@
 const terminales = require("../../terminales");
 
+const VodafoneOrderIntentHandler = {
+  canHandle(handlerInput) {
+    return (
+        handlerInput.requestEnvelope.request.type === "IntentRequest" &&
+        handlerInput.requestEnvelope.request.intent.name === "vodafoneTerminalesInit" &&
+        handlerInput.requestEnvelope.request.intent.slots.precioMarca.value &&
+        handlerInput.requestEnvelope.request.intent.slots.interes.value === "si"
+    );
+  },
+  async handle(handlerInput){
+
+    await callToOwner(handlerInput);
+
+    return handlerInput.responseBuilder
+        .speak("<speak>Estamos poniendote en contacto con un agente, atento a tu móvil... <audio src=\"https://hackathon-vf.s3-eu-west-1.amazonaws.com/jingle.mp3\"></audio></speak>")
+        .addElicitSlotDirective("interes")
+        .getResponse();
+  }
+};
+
 const vodafoneTerminalesInitHandler = {
   canHandle(handlerInput) {
     return (
@@ -208,7 +228,8 @@ module.exports = [
   vodafoneMarcaIntentHandler,
   vodafoneMarcaContentHandler,
   vodafoneModeloIntentHandler,
-  vodafoneInteresSiIntentHandler,
+  VodafoneOrderIntentHandler,
+  //vodafoneInteresSiIntentHandler,
   vodafoneInteresNoIntentHandler,
   vodafoneSegundoInteresSiIntentHandler,
   vodafoneSegundoInteresNoIntentHandler
