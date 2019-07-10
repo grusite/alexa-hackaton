@@ -14,17 +14,13 @@ module.exports = parrillaHandler = {
 			"tarde" => ['1300', '2059']
 			"noche" => ['2100', '0600']
 		*/
-		search(slots).then(resp => {
-			return handlerInput.responseBuilder
-					.speak(resp)
+		const kk = search(slots)
+
+		return handlerInput.responseBuilder
+					.speak(kk)
 					.withSimpleCard('Hello World', speechText)
 					.getResponse();
-		}).catch(error => {
-			return handlerInput.responseBuilder
-				.speak('Erroraco del dragón')
-				.withSimpleCard('Hello World', speechText)
-				.getResponse();
-		});
+
 
 		/*searchResult = search(slots);
 		speechText = searchResult.length > 0 ? 'Tenemos el siguiente resultado: ' : 'No hemos encontrado nada';
