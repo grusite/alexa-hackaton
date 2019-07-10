@@ -15,14 +15,14 @@ const vodafoneMarcaIntentHandler = {
   canHandle(handlerInput) {
     return handlerInput.requestEnvelope.request.type === "IntentRequest"
       && handlerInput.requestEnvelope.request.intent.name === "vodafoneTerminalesInit"
-      && handlerInput.requestEnvelope.request.intent.slots.marcaModelo.value 
-      && handlerInput.requestEnvelope.request.intent.slots.marcaModelo.value === 'marca'
+      && handlerInput.requestEnvelope.request.intent.slots.precioMarca.value 
+      && handlerInput.requestEnvelope.request.intent.slots.precioMarca.value === 'marca'
   },
   handle(handlerInput) {
     return handlerInput.responseBuilder
       .speak('¿Qué marca te gusta?')
       .reprompt('¿Qué marca te gusta?')
-      .addElicitSlotDirective('marcaContent')
+      .addElicitSlotDirective('marca')
       .getResponse();
   }
 };
@@ -31,14 +31,14 @@ const vodafonePrecioIntentHandler = {
   canHandle(handlerInput) {
     return handlerInput.requestEnvelope.request.type === "IntentRequest"
       && handlerInput.requestEnvelope.request.intent.name === "vodafoneTerminalesInit"
-      && handlerInput.requestEnvelope.request.intent.slots.marcaModelo.value 
-      && handlerInput.requestEnvelope.request.intent.slots.marcaModelo.value === 'precio'
+      && handlerInput.requestEnvelope.request.intent.slots.precioMarca.value 
+      && handlerInput.requestEnvelope.request.intent.slots.precioMarca.value === 'precio'
   },
   handle(handlerInput) {
     return handlerInput.responseBuilder
       .speak('¿Cuanto te quieres gastar?')
       .reprompt('¿Cuanto te quieres gastar?')
-      .addElicitSlotDirective('precioContent')
+      .addElicitSlotDirective('precio')
       .getResponse();
   }
 };
@@ -54,9 +54,7 @@ const vodafoneModeloIntentHandler = {
     return handlerInput.responseBuilder
       .speak('¿Qué modelo te gusta?')
       .reprompt('¿Qué modelo te gusta?')
-      .addElicitSlotDirective('modeloContent')
+      .addElicitSlotDirective('modelo')
       .getResponse();
   }
 };
-
-
