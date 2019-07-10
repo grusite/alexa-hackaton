@@ -188,7 +188,7 @@ search = slot => {
   const getData = async url => {
     try {
       const response = await axios.get(url);
-      //return main(response.data);
+      return main(response.data);
     } catch (error) {
       return 'Erroraco del dragón';
       console.log(error);
@@ -205,7 +205,7 @@ search = slot => {
         subGenderType(subGender),
         // orderBy(orderField)
     )(data);
-    return result;
+    return result[0].title;
     // console.log(result)
   };
 
