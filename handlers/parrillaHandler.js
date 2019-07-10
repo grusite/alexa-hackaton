@@ -18,7 +18,7 @@ module.exports = parrillaHandler = {
 
 		search(slots).then(resp => {
 			return handlerInput.responseBuilder
-					.speak(resp)
+					.speak(resp[0].title)
 					.withSimpleCard('Hello World', speechText)
 					.getResponse();
 

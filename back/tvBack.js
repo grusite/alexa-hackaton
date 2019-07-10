@@ -176,41 +176,41 @@ const startAt = hour => data => R.filter(filterBy('range')('schedule_air_time')(
 const rangeGap = hour => [parseInt(hour)-10, parseInt(hour)+10 ]
 
 
-search = async slot => {
-	const dateView = formatDate(slot.tiempo.value) || today();  //--> esto se ussarápara hacer la llamada al json
-	const timeView = formatTime(slot.horario.value) || '2100';
-	const rangeView = ['0200', '0455'];
-	const endView = '2359';
-	const gender = slot.tipo.value;
-	const subGender = slot.subgenre.value ;
-	const orderField = 'year';
-	const jsonFile = dateFile(dateView);
-	const getData = async url => {
+search = slot => {
+  const dateView = formatDate(slot.tiempo.value) || today();  //--> esto se ussarápara hacer la llamada al json
+  const timeView = formatTime(slot.horario.value) || '2100';
+  const rangeView = ['0200', '0455'];
+  const endView = '2359';
+  const gender = slot.tipo.value;
+  const subGender = slot.subgenre.value ;
+  const orderField = 'year';
+  const jsonFile = dateFile(dateView);
+  const getData = async url => {
     try {
-		const response = await axios.get(url);
-		// main(response.data);
-		return 'okey mackey';
-		// response.data;
-		} catch (error) {
-			return 'Erroraco del dragón';
-			console.log(error);
-		}
-	};
+      const response = await axios.get(url);
+      return main(response.data);
+    } catch (error) {
+      return 'Erroraco del dragón';
+      console.log(error);
+    }
+  };
 
-	const main = data => {
-		const result = R.pipe(
-			objectFlatten,
-			startAt(rangeGap(timeView)),    // comienzo de hora exacta
-			// startAt(rangeView), // rango de horas
-			// endsBefore(endView), // termina antes de la hora indicada
-			genderType(toLowerCase(gender)), // hace una búsqueda con like
-			subGenderType(subGender),
-			// orderBy(orderField)
-		)(data);
-		return result[0].title;
-	};
-	return await getData(url+jsonFile);
-	//return 'oka';
+  const main = data => {
+    const result = R.pipe(
+        objectFlatten,
+        startAt(rangeGap(timeView)),    // comienzo de hora exacta
+        // startAt(rangeView), // rango de horas
+        // endsBefore(endView), // termina antes de la hora indicada
+        genderType(toLowerCase(gender)), // hace una búsqueda con like
+        subGenderType(subGender),
+        // orderBy(orderField)
+    )(data);
+    return result;
+    // console.log(result)
+  };
+
+  return getData(url+jsonFile);
+
 };
 
 
