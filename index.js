@@ -47,7 +47,7 @@ exports.handler = skillBuilder
     vodafonePermisosHandler,
     ...vodafoneTerminalesInitHandler,
     ...vodafonePrecioHandler,
-    vodafoneTarifasMovilesInitHandler,
+    ...vodafoneTarifasMovilesInitHandler,
     //  vodafoneJuegaOnlineIntentHandler,
     //  vodafoneNoJuegaOnlineIntentHandler,
     //  vodafoneUsoDatosIntentHandler,
