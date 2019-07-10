@@ -187,30 +187,30 @@ search = slot => {
   const jsonFile = dateFile(dateView);
   const getData = async url => {
     try {
-	  const response = await axios.get(url);
-	  // main(response.data);
-	  return 'okey mackey';
-	  // response.data;
+      const response = await axios.get(url);
+      return main(response.data);
     } catch (error) {
-		return 'erroraco del dragón';
+      return 'Erroraco del dragón';
       console.log(error);
     }
   };
 
-	const main = data => {
-		const result = R.pipe(
-			objectFlatten,
-			startAt(rangeGap(timeView)),    // comienzo de hora exacta
-			// startAt(rangeView), // rango de horas
-			// endsBefore(endView), // termina antes de la hora indicada
-			genderType(toLowerCase(gender)), // hace una búsqueda con like
-			subGenderType(subGender),
-			// orderBy(orderField)
-		)(data);
-		return result[0].title;
-	};
-	getData(url+jsonFile);
-	//return 'oka';
+  const main = data => {
+    const result = R.pipe(
+        objectFlatten,
+        startAt(rangeGap(timeView)),    // comienzo de hora exacta
+        // startAt(rangeView), // rango de horas
+        // endsBefore(endView), // termina antes de la hora indicada
+        genderType(toLowerCase(gender)), // hace una búsqueda con like
+        subGenderType(subGender),
+        // orderBy(orderField)
+    )(data);
+    return result;
+    // console.log(result)
+  };
+
+  return getData(url+jsonFile);
+
 };
 
 

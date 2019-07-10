@@ -19,7 +19,7 @@ const parrillaHandler = require("./handlers/parrillaHandler");
 // Tarifas Moviles Handler
 const vodafoneTarifasMovilesInitHandler = require("./handlers/tarifas moviles/VodafoneTarifasMovilesInitHandler");
 const vodafonePermisosHandler = require("./handlers/tarifas moviles/VodafonePermissionsHandler");
-//const vodafoneJuegaOnlineIntentHandler = require("./handlers/vodafoneJuegaOnlineIntentHandler");
+const vodafoneJuegaOnlineIntentHandler = require("./handlers/tarifas moviles/VodafoneJuegaOnlineIntentHandler");
 
 // Default one
 const DefaultOneHandler = require("./handlers/DefaultOneHandler");
@@ -47,6 +47,6 @@ exports.handler = skillBuilder
     CancelAndStopIntentHandler,
     SessionEndedRequestHandler,
     DefaultOneHandler
-  )
+  ).withApiClient(new Alexa.DefaultApiClient())
   .addErrorHandlers(ErrorHandler)
   .lambda();
