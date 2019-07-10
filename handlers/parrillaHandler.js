@@ -16,14 +16,15 @@ module.exports = parrillaHandler = {
 			"noche" => ['2100', '0600']
 		*/
 
+		speechText = search(slots);
 
-		searchResult = search(slots);
+		/*searchResult = search(slots);
 
 		speechText = searchResult.length > 0 ? 'Tenemos el siguiente resultado: ' : 'No hemos encontrado nada';
 
 		searchResult.forEach(pos => {
 			speechText += pos.title + ', ';
-		});
+		});*/
 
 		// "dime que {tipo} de {subgenre} {orden} {tiempo} a las {horario}"
 
