@@ -11,7 +11,7 @@ module.exports = parrillaTipoContentHandler = {
 		let searchResult, speechText;
 
 		searchResult = search(slots);
-		speechText = searchResult.length > 0 ? 'Tenemos el siguiente resultado: ' : 'No hemos encontrado nada';
+		speechText = searchResult && searchResult.length > 0 ? 'Tenemos el siguiente resultado: ' : 'No hemos encontrado nada';
 		searchResult.forEach(pos => {
 			speechText += `${pos.title} en ${pos.canal}, `;
 		});
