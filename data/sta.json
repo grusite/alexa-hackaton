@@ -1,1 +1,1436 @@
-{"447":{"name":"Telecinco HD","shortname":"T5","genres":"","dial":5},"448":{"name":"Antena 3 HD","shortname":"A3","genres":"","dial":3},"449":{"name":"Telemadrid HD","shortname":"TM","genres":"","dial":0},"450":{"name":"La Sexta HD","shortname":"SEXT","genres":"","dial":6},"454":{"name":"Cuatro HD","shortname":"CUAT","genres":"","dial":4},"455":{"name":"La Otra","shortname":"OTRA","genres":"","dial":0},"456":{"name":"TV3","shortname":"TV3","genres":"","dial":0},"457":{"name":"Canal 33","shortname":"C33","genres":"","dial":0},"461":{"name":"IB3","shortname":"IB3","genres":"","dial":0},"462":{"name":"CSUR","shortname":"CSUR","genres":"","dial":0},"463":{"name":"Canal Sur 2 Andalucía","shortname":"C2AN","genres":"","dial":0},"464":{"name":"Castilla-La Mancha Media HD","shortname":"TVCM","genres":"","dial":0},"465":{"name":"Clan HD","shortname":"CLAN","genres":"infantil","dial":73},"466":{"name":"Neox HD","shortname":"NEOX","genres":"","dial":155},"467":{"name":"Nova HD","shortname":"NOVA","genres":"","dial":156},"470":{"name":"FDF","shortname":"FDF","genres":"","dial":154},"471":{"name":"Intereconomía TV","shortname":"IECO","genres":"informativos","dial":201},"472":{"name":"Canal 24 Horas","shortname":"24H","genres":"informativos","dial":200},"480":{"name":"TELX","shortname":"TELX","genres":"","dial":0},"489":{"name":"VH1 Classic","shortname":"VH1C","genres":"musica","dial":189},"490":{"name":"Mezzo","shortname":"MEZZ","genres":"musica","dial":190},"492":{"name":"TV3 Cat","shortname":"TV3C","genres":"","dial":903},"493":{"name":"Canal Sur Andalucía","shortname":"ANDA","genres":"","dial":904},"494":{"name":"TVG Sat","shortname":"TVGA","genres":"","dial":901},"495":{"name":"ETB SAT","shortname":"ETB","genres":"","dial":902},"497":{"name":"Bloomberg","shortname":"BLOO","genres":"informativos","dial":205},"500":{"name":"EWTN","shortname":"EWTN","genres":"","dial":212},"501":{"name":"BBC World HD","shortname":"BBCW","genres":"informativos","dial":206},"502":{"name":"CNBC","shortname":"CNBC","genres":"informativos","dial":204},"503":{"name":"Deutsche Welle","shortname":"DW","genres":"","dial":500},"504":{"name":"TV5 Monde","shortname":"TV5","genres":"","dial":501},"506":{"name":"Caracol TV Internacional","shortname":"CARA","genres":"","dial":453},"507":{"name":"TV Chile Internacional","shortname":"CHIL","genres":"","dial":455},"511":{"name":"La 2 HD","shortname":"LA2","genres":"","dial":2},"515":{"name":"Disney Junior","shortname":"DJNR","genres":"infantil","dial":75},"520":{"name":"Nickelodeon HD","shortname":"NICK","genres":"infantil","dial":72},"525":{"name":"Sol Música","shortname":"SOLM","genres":"musica","dial":180},"526":{"name":"MTV España","shortname":"MTV","genres":"","dial":153},"528":{"name":"VH1","shortname":"VH1","genres":"musica","dial":188},"530":{"name":"Canal Hollywood HD","shortname":"HOLL","genres":"cine","dial":50},"534":{"name":"Baby TV","shortname":"BABY","genres":"infantil","dial":79},"535":{"name":"Extreme Sports","shortname":"XPOR","genres":"deportes","dial":254},"536":{"name":"MTV Music","shortname":"MTVM","genres":"musica","dial":187},"537":{"name":"MTV Hits","shortname":"MTVH","genres":"musica","dial":185},"538":{"name":"MTV Dance","shortname":"MTVD","genres":"musica","dial":186},"539":{"name":"MTV Rocks","shortname":"MTVR","genres":"musica","dial":184},"541":{"name":"Nick Junior","shortname":"NIJR","genres":"infantil","dial":76},"542":{"name":"Canal Invitado","shortname":"INVI","genres":"","dial":22},"547":{"name":"Cazavisión HD","shortname":"CAZA","genres":"deportes","dial":255},"549":{"name":"TNT HD","shortname":"TNT","genres":"series,cine","dial":30},"552":{"name":"CNN International","shortname":"CNNI","genres":"informativos","dial":203},"553":{"name":"Ve Plus TV","shortname":"NOVE","genres":"","dial":451},"554":{"name":"Cubavisión Internacional","shortname":"CUBA","genres":"","dial":456},"555":{"name":"La 8 Valladolid","shortname":"CYL8","genres":"","dial":0},"556":{"name":"Pro TV International","shortname":"PROT","genres":"","dial":505},"557":{"name":"CYL7","shortname":"CYL7","genres":"","dial":0},"558":{"name":"Popular TV","shortname":"POPU","genres":"","dial":0},"559":{"name":"7 Región de Murcia HD","shortname":"7MUR","genres":"","dial":0},"560":{"name":"Al Jazeera","shortname":"ALJZ","genres":"informativos","dial":207},"561":{"name":"Canal Parlamentario","shortname":"PARL","genres":"informativos","dial":211},"563":{"name":"RTM","shortname":"RTM","genres":"","dial":503},"564":{"name":"TV Polonia","shortname":"TPOL","genres":"","dial":504},"567":{"name":"Odisea HD","shortname":"ODIS","genres":"documentales","dial":101},"569":{"name":"Historia HD","shortname":"HIST","genres":"documentales","dial":103},"571":{"name":"National Geographic HD","shortname":"NGEO","genres":"documentales","dial":104},"576":{"name":"Fox HD","shortname":"FOX","genres":"series,cine","dial":28},"579":{"name":"DARK RED","shortname":"BUZZ","genres":"cine","dial":400},"581":{"name":"Eurosport 1 HD","shortname":"EURO","genres":"deportes","dial":250},"584":{"name":"Cosmo HD","shortname":"COSM","genres":"series,cine","dial":32},"586":{"name":"Somos","shortname":"SOMO","genres":"cine","dial":56},"587":{"name":"Eurosport 2 HD","shortname":"EUR2","genres":"deportes","dial":251},"589":{"name":"AXN HD","shortname":"AXN","genres":"series,cine","dial":31},"1054":{"name":"La 1","shortname":"TVE1","genres":"","dial":0},"1070":{"name":"Euronews","shortname":"EURN","genres":"informativos","dial":202},"1078":{"name":"8TV","shortname":"8TV","genres":"","dial":0},"1082":{"name":"Boing","shortname":"BOIN","genres":"infantil","dial":74},"1084":{"name":"Aragon TV","shortname":"ARAG","genres":"","dial":0},"1085":{"name":"Canal 3/24","shortname":"C324","genres":"","dial":0},"1087":{"name":"RT Español HD","shortname":"RT","genres":"informativos","dial":209},"1090":{"name":"France 24 HD","shortname":"F24","genres":"informativos","dial":210},"1092":{"name":"TMV Valencia","shortname":"TMVV","genres":"","dial":0},"1109":{"name":"TRECE","shortname":"13TV","genres":"","dial":159},"1234":{"name":"Crimen + Investigación","shortname":"C&I","genres":"documentales","dial":122},"1419":{"name":"TVE HD","shortname":"TVEH","genres":"","dial":1},"1420":{"name":"Panda","shortname":"PAND","genres":"infantil","dial":78},"1422":{"name":"Divinity","shortname":"DIVI","genres":"","dial":157},"1427":{"name":"Esport3","shortname":"ESP3","genres":"","dial":0},"1431":{"name":"AXN White HD","shortname":"AXWH","genres":"series,cine","dial":36},"1433":{"name":"Pruebas TiVo 02","shortname":"TST2","genres":"","dial":0},"1434":{"name":"Pruebas TiVo 03","shortname":"TST3","genres":"","dial":0},"1435":{"name":"MTV Live HD","shortname":"MTHD","genres":"musica","dial":183},"1459":{"name":"Las Provincias","shortname":"PROV","genres":"","dial":0},"1461":{"name":"Canal 6","shortname":"CAN6","genres":"","dial":0},"1462":{"name":"TV Murcia","shortname":"TVMU","genres":"","dial":0},"1463":{"name":"Energy","shortname":"ENER","genres":"","dial":160},"1464":{"name":"TV32","shortname":"TV32","genres":"","dial":0},"1467":{"name":"La 8 Palencia","shortname":"CL82","genres":"","dial":0},"1469":{"name":"TV Alcoy","shortname":"TVA","genres":"","dial":0},"1471":{"name":"La 8 Burgos","shortname":"8BUR","genres":"","dial":0},"1474":{"name":"La 8 Salamanca","shortname":"8SAL","genres":"","dial":0},"1475":{"name":"La 8 Zamora","shortname":"8ZAM","genres":"","dial":0},"1476":{"name":"La 8 Soria","shortname":"8SOR","genres":"","dial":0},"1477":{"name":"La 8 León","shortname":"8LEO","genres":"","dial":0},"1478":{"name":"La 8 Ponferrada","shortname":"8PON","genres":"","dial":0},"1479":{"name":"La 8 Ávila","shortname":"8AVI","genres":"","dial":0},"1480":{"name":"La 8 Segovia","shortname":"8SEG","genres":"","dial":0},"1481":{"name":"Tele Sanlúcar","shortname":"SANL","genres":"","dial":0},"1482":{"name":"Onda Cádiz","shortname":"OCAD","genres":"","dial":0},"1483":{"name":"Onda Jerez","shortname":"JERZ","genres":"","dial":0},"1484":{"name":"Onda Luz","shortname":"OLUZ","genres":"","dial":0},"1485":{"name":"Huelva TV","shortname":"HUTV","genres":"","dial":0},"1490":{"name":"Paramount Channel","shortname":"PARC","genres":"cine","dial":57},"1494":{"name":"DMAX","shortname":"DMAX","genres":"","dial":163},"1495":{"name":"Discovery Channel HD","shortname":"DISH","genres":"documentales","dial":102},"1496":{"name":"CGTN Español","shortname":"CCTV","genres":"informativos","dial":208},"1497":{"name":"Nat Geo Wild HD","shortname":"NGEW","genres":"documentales","dial":105},"1498":{"name":"Viajar HD","shortname":"VIAJ","genres":"documentales","dial":106},"1502":{"name":"IB3 HD","shortname":"IB3H","genres":"","dial":0},"1503":{"name":"Mezzo Live HD","shortname":"MEZH","genres":"musica","dial":191},"1504":{"name":"Disney Channel HD","shortname":"DSHD","genres":"infantil","dial":70},"1507":{"name":"Real Madrid TV HD","shortname":"RMAD","genres":"deportes","dial":316},"1509":{"name":"Canal 7 Televalencia","shortname":"C7TV","genres":"","dial":0},"1511":{"name":"Onda Algeciras","shortname":"OALG","genres":"","dial":0},"1513":{"name":"TV Canaria","shortname":"CANL","genres":"","dial":0},"1517":{"name":"El Día TV","shortname":"DIAT","genres":"","dial":0},"1519":{"name":"ETB 1","shortname":"ETB1","genres":"","dial":0},"1521":{"name":"ETB 2","shortname":"ETB2","genres":"","dial":0},"1523":{"name":"Navarra Televisión","shortname":"NAVA","genres":"","dial":0},"1525":{"name":"Popular TV Rioja","shortname":"POPR","genres":"","dial":0},"1526":{"name":"TV Rioja","shortname":"TVRL","genres":"","dial":0},"1540":{"name":"XTRM HD","shortname":"EXTH","genres":"series,cine","dial":52},"1541":{"name":"Disney XD HD","shortname":"DIXH","genres":"infantil","dial":71},"1542":{"name":"Garage TV HD","shortname":"GARH","genres":"deportes","dial":390},"1545":{"name":"TCM HD","shortname":"TCMH","genres":"cine","dial":54},"1546":{"name":"AZ Corazón HD","shortname":"AZTC","genres":"","dial":452},"1547":{"name":"El Trece Internacional HD","shortname":"TREC","genres":"","dial":450},"1548":{"name":"Canal Cocina HD","shortname":"COCH","genres":"documentales","dial":120},"1551":{"name":"Canal Decasa HD","shortname":"CASH","genres":"documentales","dial":123},"1557":{"name":"Calle 13 HD","shortname":"C13H","genres":"series,cine","dial":34},"1558":{"name":"Syfy HD","shortname":"SYFH","genres":"series,cine","dial":35},"1560":{"name":"Canal Galería HD","shortname":"GALE","genres":"","dial":126},"1568":{"name":"Teledeporte HD","shortname":"TDPH","genres":"deportes","dial":252},"1569":{"name":"TeleRibera","shortname":"TLRB","genres":"","dial":0},"1570":{"name":"ETB3","shortname":"ETB3","genres":"","dial":0},"1577":{"name":"Myzen TV HD","shortname":"MYZH","genres":"","dial":124},"1578":{"name":"Comedy Central HD","shortname":"CCHD","genres":"series,cine","dial":33},"1579":{"name":"Canal 24 horas (Cataluña)","shortname":"24HC","genres":"","dial":0},"1580":{"name":"Fight Sports HD","shortname":"FIGH","genres":"deportes","dial":253},"1581":{"name":"Sundance Channel HD","shortname":"SUHD","genres":"series,cine","dial":55},"1582":{"name":"Fox Life HD","shortname":"FOXL","genres":"cine","dial":29},"1583":{"name":"Blaze HD","shortname":"AE","genres":"documentales","dial":107},"1584":{"name":"Fashion One HD","shortname":"FASH","genres":"","dial":0},"1585":{"name":"AMC HD","shortname":"AMC","genres":"series,cine","dial":51},"1588":{"name":"Navarramundovisión","shortname":"NAMV","genres":"","dial":0},"1589":{"name":"Andalucia TV","shortname":"SURH","genres":"","dial":0},"1590":{"name":"La 8 Mediterraneo","shortname":"MEDI","genres":"","dial":0},"1592":{"name":"Vodafone TV te recomienda HD","shortname":"VODA","genres":"","dial":0},"1595":{"name":"Extremadura Sat","shortname":"EXTV","genres":"","dial":0},"1596":{"name":"Mega HD","shortname":"MEGA","genres":"","dial":158},"1604":{"name":"LaLiga TV Multi 1 (BAR)","shortname":"AF1B","genres":"deportes","dial":351},"1613":{"name":"Netflix","shortname":"FLIX","genres":"","dial":0},"1616":{"name":"TPA7","shortname":"TPA7","genres":"","dial":0},"1617":{"name":"TPA8","shortname":"TPA8","genres":"","dial":0},"1619":{"name":"Canal Extremadura","shortname":"XTRM","genres":"","dial":0},"1620":{"name":"TVG","shortname":"TVG","genres":"","dial":0},"1621":{"name":"G2","shortname":"G2","genres":"","dial":0},"1622":{"name":"ETB 4","shortname":"ETB4","genres":"","dial":0},"1624":{"name":"Atreseries HD","shortname":"A3SE","genres":"","dial":161},"1625":{"name":"TEN","shortname":"D10","genres":"","dial":165},"1626":{"name":"DKISS","shortname":"DKIS","genres":"","dial":164},"1627":{"name":"30TV","shortname":"30TV","genres":"","dial":0},"1628":{"name":"BE MAD HD","shortname":"BMAD","genres":"","dial":162},"1629":{"name":"Eurosport 360/1 HD","shortname":"EUM1","genres":"deportes","dial":261},"1630":{"name":"Eurosport 360/2 HD","shortname":"EUM2","genres":"deportes","dial":262},"1631":{"name":"Eurosport 360/3 HD","shortname":"EUM3","genres":"deportes","dial":263},"1632":{"name":"Eurosport 360/4 HD","shortname":"EUM4","genres":"deportes","dial":264},"1633":{"name":"Eurosport 360/5 HD","shortname":"EUM5","genres":"deportes","dial":265},"1634":{"name":"Eurosport 360/6 HD","shortname":"EUM6","genres":"deportes","dial":266},"1635":{"name":"Eurosport 360/7 HD","shortname":"EUM7","genres":"deportes","dial":267},"1636":{"name":"Eurosport 360/8 HD","shortname":"EUM8","genres":"deportes","dial":268},"1639":{"name":"LaLiga TV (BAR)","shortname":"LIGA","genres":"deportes","dial":350},"1640":{"name":"beIN LaLiga","shortname":"BLIG","genres":"deportes","dial":302},"1644":{"name":"LaLiga 1|2|3 Multi 4","shortname":"BLG4","genres":"deportes","dial":324},"1645":{"name":"LaLiga 1|2|3 Multi 1","shortname":"BLG5","genres":"deportes","dial":321},"1646":{"name":"LaLiga 1|2|3 Multi 2","shortname":"BLG6","genres":"deportes","dial":322},"1647":{"name":"LaLiga 1|2|3 Multi 3","shortname":"BLG7","genres":"deportes","dial":323},"1650":{"name":"LaLiga TV Multi 2 (BAR)","shortname":"LIG2","genres":"deportes","dial":352},"1651":{"name":"LaLiga TV Multi 3 (BAR)","shortname":"LIG3","genres":"deportes","dial":353},"1652":{"name":"LaLiga TV Multi 4 (BAR)","shortname":"LIG4","genres":"deportes","dial":354},"1653":{"name":"LaLiga TV Multi 5 (BAR)","shortname":"LIG5","genres":"deportes","dial":355},"1654":{"name":"LaLiga TV Multi 6 (BAR)","shortname":"LIG6","genres":"deportes","dial":356},"1655":{"name":"LaLiga TV Multi 7 (BAR)","shortname":"LIG7","genres":"deportes","dial":357},"1656":{"name":"LaLiga TV Multi 8 (BAR)","shortname":"LIG8","genres":"deportes","dial":358},"1658":{"name":"LaLiga TV 4K","shortname":"LI4K","genres":"","dial":0},"1660":{"name":"GOL","shortname":"GOLT","genres":"deportes","dial":315},"1661":{"name":"LaLiga 1|2|3","shortname":"L123","genres":"deportes","dial":320},"1662":{"name":"My nickjr","shortname":"MYNI","genres":"","dial":0},"1664":{"name":"Pruebas 4K","shortname":"TST4","genres":"","dial":0},"1665":{"name":"Pruebas 4K 2","shortname":"TST5","genres":"","dial":0},"1666":{"name":"HBO España","shortname":"HBO","genres":"","dial":0},"1671":{"name":"Odisea 4K","shortname":"ODI4","genres":"","dial":0},"1672":{"name":"Slow Channel","shortname":"SLW4","genres":"","dial":0},"1673":{"name":"Insight UHD","shortname":"INS4","genres":"","dial":0},"1674":{"name":"Festival 4K","shortname":"FES4","genres":"","dial":0},"1675":{"name":"Funbox UHD","shortname":"FUN4","genres":"","dial":0},"1689":{"name":"Iberalia","shortname":"IBER","genres":"deportes","dial":256},"1693":{"name":"VIVID TV EUROPE","shortname":"VIVE","genres":"","dial":0},"1698":{"name":"Placer TV","shortname":"PLAC","genres":"","dial":0},"1699":{"name":"LaLiga 1|2|3 Multi 5","shortname":"LGM5","genres":"deportes","dial":325},"1700":{"name":"LaLiga 1|2|3 Multi 6","shortname":"LGM6","genres":"deportes","dial":326},"1701":{"name":"LaLiga 123 Multi7","shortname":"LGM7","genres":"","dial":0},"1704":{"name":"Betis TV","shortname":"BETI","genres":"deportes","dial":317},"1705":{"name":"Decasa 4K","shortname":"DC4K","genres":"","dial":0},"1706":{"name":"Canal Cocina 4K","shortname":"CO4K","genres":"","dial":0},"1709":{"name":"Riberavision","shortname":"NAVL","genres":"","dial":0},"1735":{"name":"LaLiga TV 4K (BAR)","shortname":"L4KB","genres":"","dial":0},"1738":{"name":"Filmin","shortname":"FILM","genres":"","dial":0},"1752":{"name":"Informacion TV","shortname":"INFR","genres":"","dial":0},"1753":{"name":"Levante TV","shortname":"LEVA","genres":"","dial":0},"1754":{"name":"Sevilla FC TV","shortname":"SEFC","genres":"deportes","dial":318},"1755":{"name":"Surf Channel","shortname":"SURF","genres":"deportes","dial":370},"1756":{"name":"HIT TV","shortname":"HITV","genres":"musica","dial":181},"1757":{"name":"M. Estrenos","shortname":"MEST","genres":"cine","dial":58},"1758":{"name":"M. Series","shortname":"MSER","genres":"series","dial":37},"1759":{"name":"A Punt","shortname":"APUN","genres":"","dial":0},"1773":{"name":"MyMTV","shortname":"MMTV","genres":"","dial":0},"1776":{"name":"LaLiga TV Multi 1 (APU)","shortname":"LIA1","genres":"","dial":0},"1777":{"name":"LaLiga TV Multi 2 (APU)","shortname":"LIA2","genres":"","dial":0},"1778":{"name":"LaLiga TV Multi 3 (APU)","shortname":"LIA3","genres":"","dial":0},"1779":{"name":"LaLiga TV Multi 4 (APU)","shortname":"LIA4","genres":"","dial":0},"1780":{"name":"LaLiga TV Multi 5 (APU)","shortname":"LIA5","genres":"","dial":0},"1781":{"name":"LaLiga TV Multi 6 (APU)","shortname":"LIA6","genres":"","dial":0},"1782":{"name":"LaLiga TV Multi 7 (APU)","shortname":"LIA7","genres":"","dial":0},"1783":{"name":"LaLiga TV Multi 8 (APU)","shortname":"LIA8","genres":"","dial":0},"1784":{"name":"LaLiga TV (APU)","shortname":"LIAT","genres":"","dial":0},"1787":{"name":"LaLiga TV 4K (APU)","shortname":"LIAK","genres":"","dial":0},"1788":{"name":"VIVID RED","shortname":"VIRE","genres":"","dial":0},"1789":{"name":"DARK 24 H","shortname":"DARN","genres":"","dial":0},"1790":{"name":"Canal Invitado 2","shortname":"INV2","genres":"","dial":0}}
+{
+  "447": {
+    "name": "Telecinco HD",
+    "shortname": "T5",
+    "genres": "",
+    "dial": 5
+  },
+  "448": {
+    "name": "Antena 3 HD",
+    "shortname": "A3",
+    "genres": "",
+    "dial": 3
+  },
+  "449": {
+    "name": "Telemadrid HD",
+    "shortname": "TM",
+    "genres": "",
+    "dial": 0
+  },
+  "450": {
+    "name": "La Sexta HD",
+    "shortname": "SEXT",
+    "genres": "",
+    "dial": 6
+  },
+  "454": {
+    "name": "Cuatro HD",
+    "shortname": "CUAT",
+    "genres": "",
+    "dial": 4
+  },
+  "455": {
+    "name": "La Otra",
+    "shortname": "OTRA",
+    "genres": "",
+    "dial": 0
+  },
+  "456": {
+    "name": "TV3",
+    "shortname": "TV3",
+    "genres": "",
+    "dial": 0
+  },
+  "457": {
+    "name": "Canal 33",
+    "shortname": "C33",
+    "genres": "",
+    "dial": 0
+  },
+  "461": {
+    "name": "IB3",
+    "shortname": "IB3",
+    "genres": "",
+    "dial": 0
+  },
+  "462": {
+    "name": "CSUR",
+    "shortname": "CSUR",
+    "genres": "",
+    "dial": 0
+  },
+  "463": {
+    "name": "Canal Sur 2 Andalucía",
+    "shortname": "C2AN",
+    "genres": "",
+    "dial": 0
+  },
+  "464": {
+    "name": "Castilla-La Mancha Media HD",
+    "shortname": "TVCM",
+    "genres": "",
+    "dial": 0
+  },
+  "465": {
+    "name": "Clan HD",
+    "shortname": "CLAN",
+    "genres": "infantil",
+    "dial": 73
+  },
+  "466": {
+    "name": "Neox HD",
+    "shortname": "NEOX",
+    "genres": "",
+    "dial": 155
+  },
+  "467": {
+    "name": "Nova HD",
+    "shortname": "NOVA",
+    "genres": "",
+    "dial": 156
+  },
+  "470": {
+    "name": "FDF",
+    "shortname": "FDF",
+    "genres": "",
+    "dial": 154
+  },
+  "471": {
+    "name": "Intereconomía TV",
+    "shortname": "IECO",
+    "genres": "informativos",
+    "dial": 201
+  },
+  "472": {
+    "name": "Canal 24 Horas",
+    "shortname": "24H",
+    "genres": "informativos",
+    "dial": 200
+  },
+  "480": {
+    "name": "TELX",
+    "shortname": "TELX",
+    "genres": "",
+    "dial": 0
+  },
+  "489": {
+    "name": "VH1 Classic",
+    "shortname": "VH1C",
+    "genres": "musica",
+    "dial": 189
+  },
+  "490": {
+    "name": "Mezzo",
+    "shortname": "MEZZ",
+    "genres": "musica",
+    "dial": 190
+  },
+  "492": {
+    "name": "TV3 Cat",
+    "shortname": "TV3C",
+    "genres": "",
+    "dial": 903
+  },
+  "493": {
+    "name": "Canal Sur Andalucía",
+    "shortname": "ANDA",
+    "genres": "",
+    "dial": 904
+  },
+  "494": {
+    "name": "TVG Sat",
+    "shortname": "TVGA",
+    "genres": "",
+    "dial": 901
+  },
+  "495": {
+    "name": "ETB SAT",
+    "shortname": "ETB",
+    "genres": "",
+    "dial": 902
+  },
+  "497": {
+    "name": "Bloomberg",
+    "shortname": "BLOO",
+    "genres": "informativos",
+    "dial": 205
+  },
+  "500": {
+    "name": "EWTN",
+    "shortname": "EWTN",
+    "genres": "",
+    "dial": 212
+  },
+  "501": {
+    "name": "BBC World HD",
+    "shortname": "BBCW",
+    "genres": "informativos",
+    "dial": 206
+  },
+  "502": {
+    "name": "CNBC",
+    "shortname": "CNBC",
+    "genres": "informativos",
+    "dial": 204
+  },
+  "503": {
+    "name": "Deutsche Welle",
+    "shortname": "DW",
+    "genres": "",
+    "dial": 500
+  },
+  "504": {
+    "name": "TV5 Monde",
+    "shortname": "TV5",
+    "genres": "",
+    "dial": 501
+  },
+  "506": {
+    "name": "Caracol TV Internacional",
+    "shortname": "CARA",
+    "genres": "",
+    "dial": 453
+  },
+  "507": {
+    "name": "TV Chile Internacional",
+    "shortname": "CHIL",
+    "genres": "",
+    "dial": 455
+  },
+  "511": {
+    "name": "La 2 HD",
+    "shortname": "LA2",
+    "genres": "",
+    "dial": 2
+  },
+  "515": {
+    "name": "Disney Junior",
+    "shortname": "DJNR",
+    "genres": "infantil",
+    "dial": 75
+  },
+  "520": {
+    "name": "Nickelodeon HD",
+    "shortname": "NICK",
+    "genres": "infantil",
+    "dial": 72
+  },
+  "525": {
+    "name": "Sol Música",
+    "shortname": "SOLM",
+    "genres": "musica",
+    "dial": 180
+  },
+  "526": {
+    "name": "MTV España",
+    "shortname": "MTV",
+    "genres": "",
+    "dial": 153
+  },
+  "528": {
+    "name": "VH1",
+    "shortname": "VH1",
+    "genres": "musica",
+    "dial": 188
+  },
+  "530": {
+    "name": "Canal Hollywood HD",
+    "shortname": "HOLL",
+    "genres": "cine",
+    "dial": 50
+  },
+  "534": {
+    "name": "Baby TV",
+    "shortname": "BABY",
+    "genres": "infantil",
+    "dial": 79
+  },
+  "535": {
+    "name": "Extreme Sports",
+    "shortname": "XPOR",
+    "genres": "deportes",
+    "dial": 254
+  },
+  "536": {
+    "name": "MTV Music",
+    "shortname": "MTVM",
+    "genres": "musica",
+    "dial": 187
+  },
+  "537": {
+    "name": "MTV Hits",
+    "shortname": "MTVH",
+    "genres": "musica",
+    "dial": 185
+  },
+  "538": {
+    "name": "MTV Dance",
+    "shortname": "MTVD",
+    "genres": "musica",
+    "dial": 186
+  },
+  "539": {
+    "name": "MTV Rocks",
+    "shortname": "MTVR",
+    "genres": "musica",
+    "dial": 184
+  },
+  "541": {
+    "name": "Nick Junior",
+    "shortname": "NIJR",
+    "genres": "infantil",
+    "dial": 76
+  },
+  "542": {
+    "name": "Canal Invitado",
+    "shortname": "INVI",
+    "genres": "",
+    "dial": 22
+  },
+  "547": {
+    "name": "Cazavisión HD",
+    "shortname": "CAZA",
+    "genres": "deportes",
+    "dial": 255
+  },
+  "549": {
+    "name": "TNT HD",
+    "shortname": "TNT",
+    "genres": "series,cine",
+    "dial": 30
+  },
+  "552": {
+    "name": "CNN International",
+    "shortname": "CNNI",
+    "genres": "informativos",
+    "dial": 203
+  },
+  "553": {
+    "name": "Ve Plus TV",
+    "shortname": "NOVE",
+    "genres": "",
+    "dial": 451
+  },
+  "554": {
+    "name": "Cubavisión Internacional",
+    "shortname": "CUBA",
+    "genres": "",
+    "dial": 456
+  },
+  "555": {
+    "name": "La 8 Valladolid",
+    "shortname": "CYL8",
+    "genres": "",
+    "dial": 0
+  },
+  "556": {
+    "name": "Pro TV International",
+    "shortname": "PROT",
+    "genres": "",
+    "dial": 505
+  },
+  "557": {
+    "name": "CYL7",
+    "shortname": "CYL7",
+    "genres": "",
+    "dial": 0
+  },
+  "558": {
+    "name": "Popular TV",
+    "shortname": "POPU",
+    "genres": "",
+    "dial": 0
+  },
+  "559": {
+    "name": "7 Región de Murcia HD",
+    "shortname": "7MUR",
+    "genres": "",
+    "dial": 0
+  },
+  "560": {
+    "name": "Al Jazeera",
+    "shortname": "ALJZ",
+    "genres": "informativos",
+    "dial": 207
+  },
+  "561": {
+    "name": "Canal Parlamentario",
+    "shortname": "PARL",
+    "genres": "informativos",
+    "dial": 211
+  },
+  "563": {
+    "name": "RTM",
+    "shortname": "RTM",
+    "genres": "",
+    "dial": 503
+  },
+  "564": {
+    "name": "TV Polonia",
+    "shortname": "TPOL",
+    "genres": "",
+    "dial": 504
+  },
+  "567": {
+    "name": "Odisea HD",
+    "shortname": "ODIS",
+    "genres": "documentales",
+    "dial": 101
+  },
+  "569": {
+    "name": "Historia HD",
+    "shortname": "HIST",
+    "genres": "documentales",
+    "dial": 103
+  },
+  "571": {
+    "name": "National Geographic HD",
+    "shortname": "NGEO",
+    "genres": "documentales",
+    "dial": 104
+  },
+  "576": {
+    "name": "Fox HD",
+    "shortname": "FOX",
+    "genres": "series,cine",
+    "dial": 28
+  },
+  "579": {
+    "name": "DARK RED",
+    "shortname": "BUZZ",
+    "genres": "cine",
+    "dial": 400
+  },
+  "581": {
+    "name": "Eurosport 1 HD",
+    "shortname": "EURO",
+    "genres": "deportes",
+    "dial": 250
+  },
+  "584": {
+    "name": "Cosmo HD",
+    "shortname": "COSM",
+    "genres": "series,cine",
+    "dial": 32
+  },
+  "586": {
+    "name": "Somos",
+    "shortname": "SOMO",
+    "genres": "cine",
+    "dial": 56
+  },
+  "587": {
+    "name": "Eurosport 2 HD",
+    "shortname": "EUR2",
+    "genres": "deportes",
+    "dial": 251
+  },
+  "589": {
+    "name": "AXN HD",
+    "shortname": "AXN",
+    "genres": "series,cine",
+    "dial": 31
+  },
+  "1054": {
+    "name": "La 1",
+    "shortname": "TVE1",
+    "genres": "",
+    "dial": 0
+  },
+  "1070": {
+    "name": "Euronews",
+    "shortname": "EURN",
+    "genres": "informativos",
+    "dial": 202
+  },
+  "1078": {
+    "name": "8TV",
+    "shortname": "8TV",
+    "genres": "",
+    "dial": 0
+  },
+  "1082": {
+    "name": "Boing",
+    "shortname": "BOIN",
+    "genres": "infantil",
+    "dial": 74
+  },
+  "1084": {
+    "name": "Aragon TV",
+    "shortname": "ARAG",
+    "genres": "",
+    "dial": 0
+  },
+  "1085": {
+    "name": "Canal 3/24",
+    "shortname": "C324",
+    "genres": "",
+    "dial": 0
+  },
+  "1087": {
+    "name": "RT Español HD",
+    "shortname": "RT",
+    "genres": "informativos",
+    "dial": 209
+  },
+  "1090": {
+    "name": "France 24 HD",
+    "shortname": "F24",
+    "genres": "informativos",
+    "dial": 210
+  },
+  "1092": {
+    "name": "TMV Valencia",
+    "shortname": "TMVV",
+    "genres": "",
+    "dial": 0
+  },
+  "1109": {
+    "name": "TRECE",
+    "shortname": "13TV",
+    "genres": "",
+    "dial": 159
+  },
+  "1234": {
+    "name": "Crimen + Investigación",
+    "shortname": "C&I",
+    "genres": "documentales",
+    "dial": 122
+  },
+  "1419": {
+    "name": "TVE HD",
+    "shortname": "TVEH",
+    "genres": "",
+    "dial": 1
+  },
+  "1420": {
+    "name": "Panda",
+    "shortname": "PAND",
+    "genres": "infantil",
+    "dial": 78
+  },
+  "1422": {
+    "name": "Divinity",
+    "shortname": "DIVI",
+    "genres": "",
+    "dial": 157
+  },
+  "1427": {
+    "name": "Esport3",
+    "shortname": "ESP3",
+    "genres": "",
+    "dial": 0
+  },
+  "1431": {
+    "name": "AXN White HD",
+    "shortname": "AXWH",
+    "genres": "series,cine",
+    "dial": 36
+  },
+  "1433": {
+    "name": "Pruebas TiVo 02",
+    "shortname": "TST2",
+    "genres": "",
+    "dial": 0
+  },
+  "1434": {
+    "name": "Pruebas TiVo 03",
+    "shortname": "TST3",
+    "genres": "",
+    "dial": 0
+  },
+  "1435": {
+    "name": "MTV Live HD",
+    "shortname": "MTHD",
+    "genres": "musica",
+    "dial": 183
+  },
+  "1459": {
+    "name": "Las Provincias",
+    "shortname": "PROV",
+    "genres": "",
+    "dial": 0
+  },
+  "1461": {
+    "name": "Canal 6",
+    "shortname": "CAN6",
+    "genres": "",
+    "dial": 0
+  },
+  "1462": {
+    "name": "TV Murcia",
+    "shortname": "TVMU",
+    "genres": "",
+    "dial": 0
+  },
+  "1463": {
+    "name": "Energy",
+    "shortname": "ENER",
+    "genres": "",
+    "dial": 160
+  },
+  "1464": {
+    "name": "TV32",
+    "shortname": "TV32",
+    "genres": "",
+    "dial": 0
+  },
+  "1467": {
+    "name": "La 8 Palencia",
+    "shortname": "CL82",
+    "genres": "",
+    "dial": 0
+  },
+  "1469": {
+    "name": "TV Alcoy",
+    "shortname": "TVA",
+    "genres": "",
+    "dial": 0
+  },
+  "1471": {
+    "name": "La 8 Burgos",
+    "shortname": "8BUR",
+    "genres": "",
+    "dial": 0
+  },
+  "1474": {
+    "name": "La 8 Salamanca",
+    "shortname": "8SAL",
+    "genres": "",
+    "dial": 0
+  },
+  "1475": {
+    "name": "La 8 Zamora",
+    "shortname": "8ZAM",
+    "genres": "",
+    "dial": 0
+  },
+  "1476": {
+    "name": "La 8 Soria",
+    "shortname": "8SOR",
+    "genres": "",
+    "dial": 0
+  },
+  "1477": {
+    "name": "La 8 León",
+    "shortname": "8LEO",
+    "genres": "",
+    "dial": 0
+  },
+  "1478": {
+    "name": "La 8 Ponferrada",
+    "shortname": "8PON",
+    "genres": "",
+    "dial": 0
+  },
+  "1479": {
+    "name": "La 8 Ávila",
+    "shortname": "8AVI",
+    "genres": "",
+    "dial": 0
+  },
+  "1480": {
+    "name": "La 8 Segovia",
+    "shortname": "8SEG",
+    "genres": "",
+    "dial": 0
+  },
+  "1481": {
+    "name": "Tele Sanlúcar",
+    "shortname": "SANL",
+    "genres": "",
+    "dial": 0
+  },
+  "1482": {
+    "name": "Onda Cádiz",
+    "shortname": "OCAD",
+    "genres": "",
+    "dial": 0
+  },
+  "1483": {
+    "name": "Onda Jerez",
+    "shortname": "JERZ",
+    "genres": "",
+    "dial": 0
+  },
+  "1484": {
+    "name": "Onda Luz",
+    "shortname": "OLUZ",
+    "genres": "",
+    "dial": 0
+  },
+  "1485": {
+    "name": "Huelva TV",
+    "shortname": "HUTV",
+    "genres": "",
+    "dial": 0
+  },
+  "1490": {
+    "name": "Paramount Channel",
+    "shortname": "PARC",
+    "genres": "cine",
+    "dial": 57
+  },
+  "1494": {
+    "name": "DMAX",
+    "shortname": "DMAX",
+    "genres": "",
+    "dial": 163
+  },
+  "1495": {
+    "name": "Discovery Channel HD",
+    "shortname": "DISH",
+    "genres": "documentales",
+    "dial": 102
+  },
+  "1496": {
+    "name": "CGTN Español",
+    "shortname": "CCTV",
+    "genres": "informativos",
+    "dial": 208
+  },
+  "1497": {
+    "name": "Nat Geo Wild HD",
+    "shortname": "NGEW",
+    "genres": "documentales",
+    "dial": 105
+  },
+  "1498": {
+    "name": "Viajar HD",
+    "shortname": "VIAJ",
+    "genres": "documentales",
+    "dial": 106
+  },
+  "1502": {
+    "name": "IB3 HD",
+    "shortname": "IB3H",
+    "genres": "",
+    "dial": 0
+  },
+  "1503": {
+    "name": "Mezzo Live HD",
+    "shortname": "MEZH",
+    "genres": "musica",
+    "dial": 191
+  },
+  "1504": {
+    "name": "Disney Channel HD",
+    "shortname": "DSHD",
+    "genres": "infantil",
+    "dial": 70
+  },
+  "1507": {
+    "name": "Real Madrid TV HD",
+    "shortname": "RMAD",
+    "genres": "deportes",
+    "dial": 316
+  },
+  "1509": {
+    "name": "Canal 7 Televalencia",
+    "shortname": "C7TV",
+    "genres": "",
+    "dial": 0
+  },
+  "1511": {
+    "name": "Onda Algeciras",
+    "shortname": "OALG",
+    "genres": "",
+    "dial": 0
+  },
+  "1513": {
+    "name": "TV Canaria",
+    "shortname": "CANL",
+    "genres": "",
+    "dial": 0
+  },
+  "1517": {
+    "name": "El Día TV",
+    "shortname": "DIAT",
+    "genres": "",
+    "dial": 0
+  },
+  "1519": {
+    "name": "ETB 1",
+    "shortname": "ETB1",
+    "genres": "",
+    "dial": 0
+  },
+  "1521": {
+    "name": "ETB 2",
+    "shortname": "ETB2",
+    "genres": "",
+    "dial": 0
+  },
+  "1523": {
+    "name": "Navarra Televisión",
+    "shortname": "NAVA",
+    "genres": "",
+    "dial": 0
+  },
+  "1525": {
+    "name": "Popular TV Rioja",
+    "shortname": "POPR",
+    "genres": "",
+    "dial": 0
+  },
+  "1526": {
+    "name": "TV Rioja",
+    "shortname": "TVRL",
+    "genres": "",
+    "dial": 0
+  },
+  "1540": {
+    "name": "XTRM HD",
+    "shortname": "EXTH",
+    "genres": "series,cine",
+    "dial": 52
+  },
+  "1541": {
+    "name": "Disney XD HD",
+    "shortname": "DIXH",
+    "genres": "infantil",
+    "dial": 71
+  },
+  "1542": {
+    "name": "Garage TV HD",
+    "shortname": "GARH",
+    "genres": "deportes",
+    "dial": 390
+  },
+  "1545": {
+    "name": "TCM HD",
+    "shortname": "TCMH",
+    "genres": "cine",
+    "dial": 54
+  },
+  "1546": {
+    "name": "AZ Corazón HD",
+    "shortname": "AZTC",
+    "genres": "",
+    "dial": 452
+  },
+  "1547": {
+    "name": "El Trece Internacional HD",
+    "shortname": "TREC",
+    "genres": "",
+    "dial": 450
+  },
+  "1548": {
+    "name": "Canal Cocina HD",
+    "shortname": "COCH",
+    "genres": "documentales",
+    "dial": 120
+  },
+  "1551": {
+    "name": "Canal Decasa HD",
+    "shortname": "CASH",
+    "genres": "documentales",
+    "dial": 123
+  },
+  "1557": {
+    "name": "Calle 13 HD",
+    "shortname": "C13H",
+    "genres": "series,cine",
+    "dial": 34
+  },
+  "1558": {
+    "name": "Syfy HD",
+    "shortname": "SYFH",
+    "genres": "series,cine",
+    "dial": 35
+  },
+  "1560": {
+    "name": "Canal Galería HD",
+    "shortname": "GALE",
+    "genres": "",
+    "dial": 126
+  },
+  "1568": {
+    "name": "Teledeporte HD",
+    "shortname": "TDPH",
+    "genres": "deportes",
+    "dial": 252
+  },
+  "1569": {
+    "name": "TeleRibera",
+    "shortname": "TLRB",
+    "genres": "",
+    "dial": 0
+  },
+  "1570": {
+    "name": "ETB3",
+    "shortname": "ETB3",
+    "genres": "",
+    "dial": 0
+  },
+  "1577": {
+    "name": "Myzen TV HD",
+    "shortname": "MYZH",
+    "genres": "",
+    "dial": 124
+  },
+  "1578": {
+    "name": "Comedy Central HD",
+    "shortname": "CCHD",
+    "genres": "series,cine",
+    "dial": 33
+  },
+  "1579": {
+    "name": "Canal 24 horas (Cataluña)",
+    "shortname": "24HC",
+    "genres": "",
+    "dial": 0
+  },
+  "1580": {
+    "name": "Fight Sports HD",
+    "shortname": "FIGH",
+    "genres": "deportes",
+    "dial": 253
+  },
+  "1581": {
+    "name": "Sundance Channel HD",
+    "shortname": "SUHD",
+    "genres": "series,cine",
+    "dial": 55
+  },
+  "1582": {
+    "name": "Fox Life HD",
+    "shortname": "FOXL",
+    "genres": "cine",
+    "dial": 29
+  },
+  "1583": {
+    "name": "Blaze HD",
+    "shortname": "AE",
+    "genres": "documentales",
+    "dial": 107
+  },
+  "1584": {
+    "name": "Fashion One HD",
+    "shortname": "FASH",
+    "genres": "",
+    "dial": 0
+  },
+  "1585": {
+    "name": "AMC HD",
+    "shortname": "AMC",
+    "genres": "series,cine",
+    "dial": 51
+  },
+  "1588": {
+    "name": "Navarramundovisión",
+    "shortname": "NAMV",
+    "genres": "",
+    "dial": 0
+  },
+  "1589": {
+    "name": "Andalucia TV",
+    "shortname": "SURH",
+    "genres": "",
+    "dial": 0
+  },
+  "1590": {
+    "name": "La 8 Mediterraneo",
+    "shortname": "MEDI",
+    "genres": "",
+    "dial": 0
+  },
+  "1592": {
+    "name": "Vodafone TV te recomienda HD",
+    "shortname": "VODA",
+    "genres": "",
+    "dial": 0
+  },
+  "1595": {
+    "name": "Extremadura Sat",
+    "shortname": "EXTV",
+    "genres": "",
+    "dial": 0
+  },
+  "1596": {
+    "name": "Mega HD",
+    "shortname": "MEGA",
+    "genres": "",
+    "dial": 158
+  },
+  "1604": {
+    "name": "LaLiga TV Multi 1 (BAR)",
+    "shortname": "AF1B",
+    "genres": "deportes",
+    "dial": 351
+  },
+  "1613": {
+    "name": "Netflix",
+    "shortname": "FLIX",
+    "genres": "",
+    "dial": 0
+  },
+  "1616": {
+    "name": "TPA7",
+    "shortname": "TPA7",
+    "genres": "",
+    "dial": 0
+  },
+  "1617": {
+    "name": "TPA8",
+    "shortname": "TPA8",
+    "genres": "",
+    "dial": 0
+  },
+  "1619": {
+    "name": "Canal Extremadura",
+    "shortname": "XTRM",
+    "genres": "",
+    "dial": 0
+  },
+  "1620": {
+    "name": "TVG",
+    "shortname": "TVG",
+    "genres": "",
+    "dial": 0
+  },
+  "1621": {
+    "name": "G2",
+    "shortname": "G2",
+    "genres": "",
+    "dial": 0
+  },
+  "1622": {
+    "name": "ETB 4",
+    "shortname": "ETB4",
+    "genres": "",
+    "dial": 0
+  },
+  "1624": {
+    "name": "Atreseries HD",
+    "shortname": "A3SE",
+    "genres": "",
+    "dial": 161
+  },
+  "1625": {
+    "name": "TEN",
+    "shortname": "D10",
+    "genres": "",
+    "dial": 165
+  },
+  "1626": {
+    "name": "DKISS",
+    "shortname": "DKIS",
+    "genres": "",
+    "dial": 164
+  },
+  "1627": {
+    "name": "30TV",
+    "shortname": "30TV",
+    "genres": "",
+    "dial": 0
+  },
+  "1628": {
+    "name": "BE MAD HD",
+    "shortname": "BMAD",
+    "genres": "",
+    "dial": 162
+  },
+  "1629": {
+    "name": "Eurosport 360/1 HD",
+    "shortname": "EUM1",
+    "genres": "deportes",
+    "dial": 261
+  },
+  "1630": {
+    "name": "Eurosport 360/2 HD",
+    "shortname": "EUM2",
+    "genres": "deportes",
+    "dial": 262
+  },
+  "1631": {
+    "name": "Eurosport 360/3 HD",
+    "shortname": "EUM3",
+    "genres": "deportes",
+    "dial": 263
+  },
+  "1632": {
+    "name": "Eurosport 360/4 HD",
+    "shortname": "EUM4",
+    "genres": "deportes",
+    "dial": 264
+  },
+  "1633": {
+    "name": "Eurosport 360/5 HD",
+    "shortname": "EUM5",
+    "genres": "deportes",
+    "dial": 265
+  },
+  "1634": {
+    "name": "Eurosport 360/6 HD",
+    "shortname": "EUM6",
+    "genres": "deportes",
+    "dial": 266
+  },
+  "1635": {
+    "name": "Eurosport 360/7 HD",
+    "shortname": "EUM7",
+    "genres": "deportes",
+    "dial": 267
+  },
+  "1636": {
+    "name": "Eurosport 360/8 HD",
+    "shortname": "EUM8",
+    "genres": "deportes",
+    "dial": 268
+  },
+  "1639": {
+    "name": "LaLiga TV (BAR)",
+    "shortname": "LIGA",
+    "genres": "deportes",
+    "dial": 350
+  },
+  "1640": {
+    "name": "beIN LaLiga",
+    "shortname": "BLIG",
+    "genres": "deportes",
+    "dial": 302
+  },
+  "1644": {
+    "name": "LaLiga 1|2|3 Multi 4",
+    "shortname": "BLG4",
+    "genres": "deportes",
+    "dial": 324
+  },
+  "1645": {
+    "name": "LaLiga 1|2|3 Multi 1",
+    "shortname": "BLG5",
+    "genres": "deportes",
+    "dial": 321
+  },
+  "1646": {
+    "name": "LaLiga 1|2|3 Multi 2",
+    "shortname": "BLG6",
+    "genres": "deportes",
+    "dial": 322
+  },
+  "1647": {
+    "name": "LaLiga 1|2|3 Multi 3",
+    "shortname": "BLG7",
+    "genres": "deportes",
+    "dial": 323
+  },
+  "1650": {
+    "name": "LaLiga TV Multi 2 (BAR)",
+    "shortname": "LIG2",
+    "genres": "deportes",
+    "dial": 352
+  },
+  "1651": {
+    "name": "LaLiga TV Multi 3 (BAR)",
+    "shortname": "LIG3",
+    "genres": "deportes",
+    "dial": 353
+  },
+  "1652": {
+    "name": "LaLiga TV Multi 4 (BAR)",
+    "shortname": "LIG4",
+    "genres": "deportes",
+    "dial": 354
+  },
+  "1653": {
+    "name": "LaLiga TV Multi 5 (BAR)",
+    "shortname": "LIG5",
+    "genres": "deportes",
+    "dial": 355
+  },
+  "1654": {
+    "name": "LaLiga TV Multi 6 (BAR)",
+    "shortname": "LIG6",
+    "genres": "deportes",
+    "dial": 356
+  },
+  "1655": {
+    "name": "LaLiga TV Multi 7 (BAR)",
+    "shortname": "LIG7",
+    "genres": "deportes",
+    "dial": 357
+  },
+  "1656": {
+    "name": "LaLiga TV Multi 8 (BAR)",
+    "shortname": "LIG8",
+    "genres": "deportes",
+    "dial": 358
+  },
+  "1658": {
+    "name": "LaLiga TV 4K",
+    "shortname": "LI4K",
+    "genres": "",
+    "dial": 0
+  },
+  "1660": {
+    "name": "GOL",
+    "shortname": "GOLT",
+    "genres": "deportes",
+    "dial": 315
+  },
+  "1661": {
+    "name": "LaLiga 1|2|3",
+    "shortname": "L123",
+    "genres": "deportes",
+    "dial": 320
+  },
+  "1662": {
+    "name": "My nickjr",
+    "shortname": "MYNI",
+    "genres": "",
+    "dial": 0
+  },
+  "1664": {
+    "name": "Pruebas 4K",
+    "shortname": "TST4",
+    "genres": "",
+    "dial": 0
+  },
+  "1665": {
+    "name": "Pruebas 4K 2",
+    "shortname": "TST5",
+    "genres": "",
+    "dial": 0
+  },
+  "1666": {
+    "name": "HBO España",
+    "shortname": "HBO",
+    "genres": "",
+    "dial": 0
+  },
+  "1671": {
+    "name": "Odisea 4K",
+    "shortname": "ODI4",
+    "genres": "",
+    "dial": 0
+  },
+  "1672": {
+    "name": "Slow Channel",
+    "shortname": "SLW4",
+    "genres": "",
+    "dial": 0
+  },
+  "1673": {
+    "name": "Insight UHD",
+    "shortname": "INS4",
+    "genres": "",
+    "dial": 0
+  },
+  "1674": {
+    "name": "Festival 4K",
+    "shortname": "FES4",
+    "genres": "",
+    "dial": 0
+  },
+  "1675": {
+    "name": "Funbox UHD",
+    "shortname": "FUN4",
+    "genres": "",
+    "dial": 0
+  },
+  "1689": {
+    "name": "Iberalia",
+    "shortname": "IBER",
+    "genres": "deportes",
+    "dial": 256
+  },
+  "1693": {
+    "name": "VIVID TV EUROPE",
+    "shortname": "VIVE",
+    "genres": "",
+    "dial": 0
+  },
+  "1698": {
+    "name": "Placer TV",
+    "shortname": "PLAC",
+    "genres": "",
+    "dial": 0
+  },
+  "1699": {
+    "name": "LaLiga 1|2|3 Multi 5",
+    "shortname": "LGM5",
+    "genres": "deportes",
+    "dial": 325
+  },
+  "1700": {
+    "name": "LaLiga 1|2|3 Multi 6",
+    "shortname": "LGM6",
+    "genres": "deportes",
+    "dial": 326
+  },
+  "1701": {
+    "name": "LaLiga 123 Multi7",
+    "shortname": "LGM7",
+    "genres": "",
+    "dial": 0
+  },
+  "1704": {
+    "name": "Betis TV",
+    "shortname": "BETI",
+    "genres": "deportes",
+    "dial": 317
+  },
+  "1705": {
+    "name": "Decasa 4K",
+    "shortname": "DC4K",
+    "genres": "",
+    "dial": 0
+  },
+  "1706": {
+    "name": "Canal Cocina 4K",
+    "shortname": "CO4K",
+    "genres": "",
+    "dial": 0
+  },
+  "1709": {
+    "name": "Riberavision",
+    "shortname": "NAVL",
+    "genres": "",
+    "dial": 0
+  },
+  "1735": {
+    "name": "LaLiga TV 4K (BAR)",
+    "shortname": "L4KB",
+    "genres": "",
+    "dial": 0
+  },
+  "1738": {
+    "name": "Filmin",
+    "shortname": "FILM",
+    "genres": "",
+    "dial": 0
+  },
+  "1752": {
+    "name": "Informacion TV",
+    "shortname": "INFR",
+    "genres": "",
+    "dial": 0
+  },
+  "1753": {
+    "name": "Levante TV",
+    "shortname": "LEVA",
+    "genres": "",
+    "dial": 0
+  },
+  "1754": {
+    "name": "Sevilla FC TV",
+    "shortname": "SEFC",
+    "genres": "deportes",
+    "dial": 318
+  },
+  "1755": {
+    "name": "Surf Channel",
+    "shortname": "SURF",
+    "genres": "deportes",
+    "dial": 370
+  },
+  "1756": {
+    "name": "HIT TV",
+    "shortname": "HITV",
+    "genres": "musica",
+    "dial": 181
+  },
+  "1757": {
+    "name": "M. Estrenos",
+    "shortname": "MEST",
+    "genres": "cine",
+    "dial": 58
+  },
+  "1758": {
+    "name": "M. Series",
+    "shortname": "MSER",
+    "genres": "series",
+    "dial": 37
+  },
+  "1759": {
+    "name": "A Punt",
+    "shortname": "APUN",
+    "genres": "",
+    "dial": 0
+  },
+  "1773": {
+    "name": "MyMTV",
+    "shortname": "MMTV",
+    "genres": "",
+    "dial": 0
+  },
+  "1776": {
+    "name": "LaLiga TV Multi 1 (APU)",
+    "shortname": "LIA1",
+    "genres": "",
+    "dial": 0
+  },
+  "1777": {
+    "name": "LaLiga TV Multi 2 (APU)",
+    "shortname": "LIA2",
+    "genres": "",
+    "dial": 0
+  },
+  "1778": {
+    "name": "LaLiga TV Multi 3 (APU)",
+    "shortname": "LIA3",
+    "genres": "",
+    "dial": 0
+  },
+  "1779": {
+    "name": "LaLiga TV Multi 4 (APU)",
+    "shortname": "LIA4",
+    "genres": "",
+    "dial": 0
+  },
+  "1780": {
+    "name": "LaLiga TV Multi 5 (APU)",
+    "shortname": "LIA5",
+    "genres": "",
+    "dial": 0
+  },
+  "1781": {
+    "name": "LaLiga TV Multi 6 (APU)",
+    "shortname": "LIA6",
+    "genres": "",
+    "dial": 0
+  },
+  "1782": {
+    "name": "LaLiga TV Multi 7 (APU)",
+    "shortname": "LIA7",
+    "genres": "",
+    "dial": 0
+  },
+  "1783": {
+    "name": "LaLiga TV Multi 8 (APU)",
+    "shortname": "LIA8",
+    "genres": "",
+    "dial": 0
+  },
+  "1784": {
+    "name": "LaLiga TV (APU)",
+    "shortname": "LIAT",
+    "genres": "",
+    "dial": 0
+  },
+  "1787": {
+    "name": "LaLiga TV 4K (APU)",
+    "shortname": "LIAK",
+    "genres": "",
+    "dial": 0
+  },
+  "1788": {
+    "name": "VIVID RED",
+    "shortname": "VIRE",
+    "genres": "",
+    "dial": 0
+  },
+  "1789": {
+    "name": "DARK 24 H",
+    "shortname": "DARN",
+    "genres": "",
+    "dial": 0
+  },
+  "1790": {
+    "name": "Canal Invitado 2",
+    "shortname": "INV2",
+    "genres": "",
+    "dial": 0
+  }
+}
