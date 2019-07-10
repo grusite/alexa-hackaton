@@ -35,15 +35,15 @@ module.exports = vodafonePermisosHandler = {
             const ReminderManagementServiceClient = serviceClientFactory.getReminderManagementServiceClient();
             const reminderPayload = {
                 "trigger": {
-                    "type": "SCHEDULED_RELATIVE",
-                    "offsetInSeconds": "60",
-                    "timeZoneId": "Europe/Madrid"
+                    "type": 'SCHEDULED_ABSOLUTE',
+                    "scheduledTime": '2019-07-10T18:40:00.672',
+                    "timeZoneId": 'Europe/Madrid'
                 },
                 "alertInfo": {
                     "spokenInfo": {
                         "content": [{
-                            "locale": "es-ES",
-                            "text": "Oye! Que echan la peli esa que te gusta con el calvo y el sofá en Pornhub!"
+                            "locale": 'en-US',
+                            "text": 'time to get up and dance',
                         }]
                     }
                 },
@@ -77,6 +77,7 @@ module.exports = vodafonePermisosHandler = {
                 const response = responseBuilder.speak("hay un error"+error).getResponse();
                 return response;
             }else{
+                console.log("error", error);
                 return responseBuilder.speak("hay un error generico").getResponse();
             }
             //throw error;
