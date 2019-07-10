@@ -41,11 +41,10 @@ const skillBuilder = Alexa.SkillBuilders.custom();
 exports.handler = skillBuilder
   .addRequestHandlers(
     LaunchRequestHandler,
+      vodafonePermisosHandler,
     parrillaHandler,
     ...vodafoneTerminalesInitHandler,
     ...vodafonePrecioHandler,
-    vodafoneTarifasMovilesInitHandler,
-    vodafonePermisosHandler,
     vodafoneTarifasMovilesInitHandler,
     vodafoneJuegaOnlineIntentHandler,
     vodafoneNoJuegaOnlineIntentHandler,

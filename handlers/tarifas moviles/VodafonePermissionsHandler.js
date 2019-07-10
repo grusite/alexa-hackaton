@@ -6,13 +6,14 @@ const PERMISSIONS = [
 ];
 const axios = require("axios");
 
-module.exports = LaunchRequestHandler = {
+module.exports = vodafonePermisosHandler = {
     canHandle(handlerInput) {
         const { request } = handlerInput.requestEnvelope;
         return handlerInput.requestEnvelope.request.type === 'IntentRequest'
             && handlerInput.requestEnvelope.request.intent.name === 'vodafonePermissions';
     },
     async handle(handlerInput) {
+        console.log("vodafonePermisosHandler");
         //let accessToken = this.event.context.System.apiAccessToken;
         const speechText = 'Bienvenido a Vodafone Skill';
         const { requestEnvelope, serviceClientFactory, responseBuilder } = handlerInput;
@@ -76,6 +77,7 @@ module.exports = LaunchRequestHandler = {
                 const response = responseBuilder.speak("hay un error"+error).getResponse();
                 return response;
             }else{
+                console.log("error", error);
                 return responseBuilder.speak("hay un error generico").getResponse();
             }
             //throw error;

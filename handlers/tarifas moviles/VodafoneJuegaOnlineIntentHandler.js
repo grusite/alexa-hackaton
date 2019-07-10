@@ -7,8 +7,8 @@ module.export = VodafoneJuegaOnlineIntentHandler = {
       handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value &&
       handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value ===
         "si" &&
-      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === null &&
-      handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value === null
+      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value == null &&
+      handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value == null
     );
   },
   handle(handlerInput) {
