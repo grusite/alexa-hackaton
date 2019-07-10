@@ -208,7 +208,7 @@ search = slot => {
 		return result;
 	};
 	//getData(url+jsonFile);
-	return 'return tonto';
+	return slot;
 };
 
 
