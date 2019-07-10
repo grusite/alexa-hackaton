@@ -16,6 +16,7 @@ const VodafoneTarifasMovilesInitHandler = {
 };
 
 const VodafoneJuegaOnlineIntentHandler = {
+
   canHandle(handlerInput) {
     return (
       handlerInput.requestEnvelope.request.type === "IntentRequest" &&
@@ -30,13 +31,13 @@ const VodafoneJuegaOnlineIntentHandler = {
   },
   handle(handlerInput) {
 
-    console.log("Entro en JuegasOnline")
+    //console.log("Entro en JuegasOnline")
 
-    const text = "Como buen Gamer, creo que la tarifa que más se adapta es la Ilimitada Movil Total porque lleva la fibra con un 1Gbps simétrico para todos tus dispositivos y datos ilimitados 5G para jugar con la Switch donde queráis"
+    //const text = "Como buen Gamer, creo que la tarifa que más se adapta es la Ilimitada Movil Total porque lleva la fibra con un 1Gbps simétrico para todos tus dispositivos y datos ilimitados 5G para jugar con la Switch donde queráis";
 
     return handlerInput.responseBuilder
-      .speak(text)
-      .reprompt(text)
+      .speak("Hola")
+      .reprompt("Hola")
       //.addElicitSlotDirective("juegasOnline")
       .getResponse();
   }
@@ -55,7 +56,7 @@ const VodafoneNoJuegaOnlineIntentHandler = {
   },
   handle(handlerInput) {
 
-    const text = "De media la gente suele pasar 3h al día en redes sociales. ¿Es tu caso o te fundes los datos?"
+    const text = "De media la gente suele pasar 3h al día en redes sociales. ¿Es tu caso o te fundes los datos?";
 
     return handlerInput.responseBuilder
       .speak(text)
@@ -78,7 +79,7 @@ const VodafoneUsoDatosIntentHandler = {
   },
   handle(handlerInput) {
 
-    const text = "Lo tengo, vas a disfrutar de manera ilimitada con la tarifa móvil Ilimitada Super"
+    const text = "Lo tengo, vas a disfrutar de manera ilimitada con la tarifa móvil Ilimitada Super";
 
     return handlerInput.responseBuilder
       .speak(text)
@@ -101,7 +102,7 @@ const VodafoneNoUsoDatosIntentHandler = {
   },
   handle(handlerInput) {
 
-    const text = "Perfecto. Y en cuanto a llamadas, ¿hablas más de 6 minutos al día?"
+    const text = "Perfecto. Y en cuanto a llamadas, ¿hablas más de 6 minutos al día?";
 
     return handlerInput.responseBuilder
       .speak(text)
@@ -124,7 +125,7 @@ const VodafoneLlamadasSeisMinutosIntentHandler = {
   },
   handle(handlerInput) {
 
-    const text = "Tenemos la tarifa que mejor se adapta a ti. La tarifa Movil Ilimitada"
+    const text = "Tenemos la tarifa que mejor se adapta a ti. La tarifa Movil Ilimitada";
 
     return handlerInput.responseBuilder
       .speak(text)
@@ -147,7 +148,7 @@ const VodafoneNoLlamadasSeisMinutosIntentHandler = {
   },
   handle(handlerInput) {
 
-    const text = "Tenemos la tarifa que mejor se adapta a ti. La tarifa móvil Mini con 200 minutos de llamadas al mes y 3GB de datos para navegar y Chat Pass para usar apps de mensajería sin gastar datos de tu tarifa"
+    const text = "Tenemos la tarifa que mejor se adapta a ti. La tarifa móvil Mini con 200 minutos de llamadas al mes y 3GB de datos para navegar y Chat Pass para usar apps de mensajería sin gastar datos de tu tarifa";
 
     return handlerInput.responseBuilder
       .speak(text)
