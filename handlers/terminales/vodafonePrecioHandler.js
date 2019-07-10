@@ -25,7 +25,8 @@ const vodafonePrecioHandler = {
                 handlerInput.requestEnvelope.request.intent.name === "vodafoneTerminalesInit" &&
                 handlerInput.requestEnvelope.request.intent.slots.precioMarca.value &&
                 handlerInput.requestEnvelope.request.intent.slots.precioMarca.value === "precio" &&
-                handlerInput.requestEnvelope.request.intent.slots.precio.value
+                handlerInput.requestEnvelope.request.intent.slots.precio.value &&
+                handlerInput.requestEnvelope.request.intent.slots.interes.value == null
         );
     },
     handle(handlerInput) {
