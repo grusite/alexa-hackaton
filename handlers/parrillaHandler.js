@@ -6,7 +6,7 @@ module.exports = tarifasVodafoneHandler = {
 	handle(handlerInput) {
 		const speechText = 'Estás en la parrilla';
 
-		const slots = handlerInput.requestEnvelope.request.slots;
+		const slots = handlerInput.requestEnvelope.request.intent.slots;
 
 		// "dime que {tipo} de {subgenre} {orden} {tiempo} a las {horario}"
 
