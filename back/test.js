@@ -87,7 +87,33 @@ const slots =   {
   }
 }
 
+const slotsAhora =  {
+  "tipo": {
+    "name": "tipo",
+        "value": "series",
+        "resolutions": {
+      "resolutionsPerAuthority": [
+        {
+          "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.b904acd8-832e-4fb6-b64e-b95281ea5174.tipo",
+          "status": {
+            "code": "ER_SUCCESS_MATCH"
+          },
+          "values": [
+            {
+              "value": {
+                "name": "series",
+                "id": "bef99584217af744e404ed44a33af589"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "confirmationStatus": "NONE",
+        "source": "USER"
+  }
+}
 
-const result = search(slots)
+const result = search(slotsAhora)
 
 console.log(result)
