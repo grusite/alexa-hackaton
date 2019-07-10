@@ -5,7 +5,7 @@ module.exports = parrillaHandler = {
 		return handlerInput.requestEnvelope.request.type === 'IntentRequest'
 				&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTv';
 	},
-	async handle(handlerInput) {
+	handle(handlerInput) {
 		const slots = handlerInput.requestEnvelope.request.intent.slots;
 		//const speechText = `Tipo: ${slots['tipo'].value}; Subgenre: ${slots['subgenre'].value}; Tiempo: ${slots['tiempo'].value}; Horario: ${slots['horario'].value}`;
 		let searchResult, speechText;
@@ -15,7 +15,7 @@ module.exports = parrillaHandler = {
 			"noche" => ['2100', '0600']
 		*/
 
-		const kk = await search(slots);
+		const kk =  search(slots);
 
 		return handlerInput.responseBuilder
 		.speak(kk)

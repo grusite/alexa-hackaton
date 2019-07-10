@@ -1,7 +1,11 @@
 
 const data = require('./data.json');
 
+
 class Terminales{
+	constructor(){
+
+	}
 	getTerminalsByPricesLessThan(amount){
 		return data.items[0].listTerminals.map(x => ({
 			marca: x.marca,
