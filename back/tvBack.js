@@ -195,21 +195,20 @@ search = slot => {
     }
   };
 
-  const main = data => {
-    const result = R.pipe(
-        objectFlatten,
-        startAt(rangeGap(timeView)),    // comienzo de hora exacta
-        // startAt(rangeView), // rango de horas
-        // endsBefore(endView), // termina antes de la hora indicada
-        genderType(toLowerCase(gender)), // hace una búsqueda con like
-        subGenderType(subGender),
-        // orderBy(orderField)
-    )(data);
-    return result;
-  };
-  //getData(url+jsonFile);
-
-  return 'hola caracola';
+	const main = data => {
+		const result = R.pipe(
+			objectFlatten,
+			startAt(rangeGap(timeView)),    // comienzo de hora exacta
+			// startAt(rangeView), // rango de horas
+			// endsBefore(endView), // termina antes de la hora indicada
+			genderType(toLowerCase(gender)), // hace una búsqueda con like
+			subGenderType(subGender),
+			// orderBy(orderField)
+		)(data);
+		return result;
+	};
+	//getData(url+jsonFile);
+	return slots;
 };
 
 
