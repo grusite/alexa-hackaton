@@ -7,7 +7,7 @@ const Alexa = require("ask-sdk-core");
 const LaunchRequestHandler = require("./handlers/LaunchRequestHandler");
 
 // Nuestros Handler
-const VodadoneTestOneHandler = require("./handlers/VodafoneTestOnerHandler");
+const vodafoneTerminalesInitHandler = require("./handlers/vodafoneTerminalesInitHandler");
 const DefaultOneHandler = require("./handlers/DefaultOneHandler");
 
 // Built-in core
@@ -21,7 +21,7 @@ const skillBuilder = Alexa.SkillBuilders.custom();
 exports.handler = skillBuilder
   .addRequestHandlers(
     LaunchRequestHandler,
-    VodadoneTestOneHandler,
+    vodafoneTerminalesInitHandler,
     HelpIntentHandler,
     CancelAndStopIntentHandler,
     SessionEndedRequestHandler,
