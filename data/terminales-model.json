@@ -23,12 +23,21 @@
           "name": "vodafoneTerminalesInit",
           "slots": [
             {
+              "name": "precioMarca",
+              "type": "precioMarca",
+              "samples": ["marca", "precio"]
+            },
+            {
               "name": "marca",
-              "type": "marca"
+              "type": "marcaContent"
             },
             {
               "name": "precio",
-              "type": "precio"
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "modelo",
+              "type": "modeloContent"
             }
           ],
           "samples": ["necesito un movil nuevo"]
@@ -55,8 +64,8 @@
             },
             {
               "name": {
-                "value": "iPhone",
-                "synonyms": ["ios", "apple"]
+                "value": "apple",
+                "synonyms": ["iphone", "ios"]
               }
             },
             {
@@ -102,16 +111,6 @@
           ]
         },
         {
-          "name": "marca",
-          "values": [
-            {
-              "name": {
-                "value": "marca"
-              }
-            }
-          ]
-        },
-        {
           "name": "modelo",
           "values": [
             {
@@ -122,8 +121,13 @@
           ]
         },
         {
-          "name": "precio",
+          "name": "precioMarca",
           "values": [
+            {
+              "name": {
+                "value": "marca"
+              }
+            },
             {
               "name": {
                 "value": "precio"
@@ -132,6 +136,113 @@
           ]
         }
       ]
-    }
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "vodafoneTerminalesInit",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "precioMarca",
+              "type": "precioMarca",
+              "confirmationRequired": false,
+              "elicitationRequired": true,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1282128361574.1464316861328"
+              },
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "Slot.Validation.1282128361574.1464316861328.519581113030"
+                }
+              ]
+            },
+            {
+              "name": "marca",
+              "type": "marcaContent",
+              "confirmationRequired": false,
+              "elicitationRequired": false,
+              "prompts": {},
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "Slot.Validation.785579904323.694155932895.536924519364"
+                }
+              ]
+            },
+            {
+              "name": "precio",
+              "type": "AMAZON.NUMBER",
+              "confirmationRequired": false,
+              "elicitationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "modelo",
+              "type": "modeloContent",
+              "confirmationRequired": false,
+              "elicitationRequired": false,
+              "prompts": {},
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "Slot.Validation.550635832351.1013727094752.679929708377"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.1282128361574.1464316861328",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Cuando buscas un nuevo movil en que te fijas, en el precio o en la marca?"
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.1282128361574.1464316861328.519581113030",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Por favor, ciñete a decirme precio o marca"
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.785579904323.694155932895.536924519364",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Por favor, ciñete a decirme una marca"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.785579904323.694155932895",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Tienes alguna marca en mente, Apple, Samsung?"
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.550635832351.1013727094752.679929708377",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Por favor, ciñete a lo modelos que te he ofrecido"
+          }
+        ]
+      }
+    ]
   }
 }
