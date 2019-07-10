@@ -52,6 +52,7 @@ module.exports = LaunchRequestHandler = {
             };
 
             await ReminderManagementServiceClient.createReminder(reminderPayload);
+            return responseBuilder.speak('<speak>Te acabo de crear un recordatorio</speak>').getResponse();
 /*
             let nro = '610513459';
             console.log("Iniciamos llamada al "+nro);
