@@ -36,7 +36,7 @@
       ],
       "types": [
         {
-          "name": "marca",
+          "name": "marcaContent",
           "values": [
             {
               "name": {
@@ -72,42 +72,7 @@
           ]
         },
         {
-          "name": "precio",
-          "values": [
-            {
-              "name": {
-                "value": "1000"
-              }
-            },
-            {
-              "name": {
-                "value": "700"
-              }
-            },
-            {
-              "name": {
-                "value": "500"
-              }
-            },
-            {
-              "name": {
-                "value": "400"
-              }
-            },
-            {
-              "name": {
-                "value": "300"
-              }
-            },
-            {
-              "name": {
-                "value": "200"
-              }
-            }
-          ]
-        },
-        {
-          "name": "modelo",
+          "name": "modeloContent",
           "values": [
             {
               "name": {
@@ -132,6 +97,36 @@
             {
               "name": {
                 "value": "S10"
+              }
+            }
+          ]
+        },
+        {
+          "name": "marca",
+          "values": [
+            {
+              "name": {
+                "value": "marca"
+              }
+            }
+          ]
+        },
+        {
+          "name": "modelo",
+          "values": [
+            {
+              "name": {
+                "value": "modelo"
+              }
+            }
+          ]
+        },
+        {
+          "name": "precio",
+          "values": [
+            {
+              "name": {
+                "value": "precio"
               }
             }
           ]
