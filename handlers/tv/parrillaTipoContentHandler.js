@@ -8,32 +8,20 @@ module.exports = parrillaTipoContentHandler = {
 	},
 	handle(handlerInput) {
 		const slots = handlerInput.requestEnvelope.request.intent.slots;
-		let searchResult, searchLength, speechText;
+		let searchResult, speechText, maxSplice;
 
 		searchResult = search(slots);
-		searchLength = searchLength.length
-
-		if(searchResult && searchLength > 0) {
-			let random = 0;
-			speechText = 'Tenemos el siguiente resultado: ';
-
-			for(let i = 3; i > 0 && i < searchLength - 1; i--) {
-				random = parseInt(Math.random() + searchLength);
-				speechText += `${searchResult[random].title} en ${pos.canal}, `;
-				searchResult.splice(random, 1);
-			}
-
-			speechText += searchResult.length > 3 ? `quiere ver más ${slots.tipo.value}?` : '';
-			handlerInput.attributesManager.setSessionAttributes({searchResult});
-
-		} else {
-			speechText = 'No hemos encontrado nada';
-		}
+		speechText = searchResult && searchResult.length > 0 ? 'Tenemos el siguiente resultado: ' : 'No hemos encontrado nada';
 		
+		for(let i = 0; i < searchResult.length && i < 3; i++) {
+			speechText += `${searchResult[i].title} en ${searchResult[i].canal}, `;
+		}
 
-		/*searchResult.forEach(pos => {
-			speechText += `${pos.title} en ${pos.canal}, `;
-		});*/
+		maxSplice = searchResult.length > 3 ? 3 : searchResult.length;
+
+		searchResult.splice(0, maxSplice);
+
+		handlerInput.attributesManager.setSessionAttributes({searchResult});
 
 		return handlerInput.responseBuilder
 			.speak(speechText)
