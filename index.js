@@ -11,10 +11,15 @@ const vodafoneTerminalesInitHandler = require("./handlers/terminales/vodafoneTer
 const vodafoneMarcaIntentHandler = require("./handlers/terminales/vodafoneMarcaIntentHandler");
 const vodafonePrecioIntentHandler = require("./handlers/terminales/vodafonePrecioIntentHandler");
 const vodafoneModeloIntentHandler = require("./handlers/terminales/vodafoneModeloIntentHandler");
+const vodafoneModeloContentHandler = require("./handlers/terminales/vodafoneModeloContentHandler");
 
 // TV Handlers
 const ParrillaHandler = require("./handlers/parrillaHandler");
-const vodafoneTarifasMovilesInitHandler = require("./handlers/VodafoneTarifasMovilesInitHandler");
+
+// Tarifas Moviles Handler
+const vodafoneTarifasMovilesInitHandler = require("./handlers/tarifas moviles/VodafoneTarifasMovilesInitHandler");
+const vodafonePermisosHandler = require("./handlers/tarifas moviles/VodafonePermissionsHandler");
+//const vodafoneJuegaOnlineIntentHandler = require("./handlers/vodafoneJuegaOnlineIntentHandler");
 
 // Default one
 const DefaultOneHandler = require("./handlers/DefaultOneHandler");
@@ -32,7 +37,9 @@ exports.handler = skillBuilder
     LaunchRequestHandler,
     ParrillaHandler,
     vodafoneTerminalesInitHandler,
-    VodafoneTarifasMovilesInitHandler,
+    vodafoneTarifasMovilesInitHandler,
+    vodafonePermisosHandler,
+    vodafoneJuegaOnlineIntentHandler,
     vodafoneMarcaIntentHandler,
     vodafonePrecioIntentHandler,
     vodafoneModeloIntentHandler,

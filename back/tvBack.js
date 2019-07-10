@@ -187,10 +187,12 @@ search = slot => {
   const jsonFile = dateFile(dateView);
   const getData = async url => {
     try {
-      const response = await axios.get(url);
-      main(response.data);
-      // return response.data;
+	  const response = await axios.get(url);
+	  // main(response.data);
+	  return 'okey mackey';
+	  // response.data;
     } catch (error) {
+		return 'erroraco del dragón';
       console.log(error);
     }
   };
@@ -205,10 +207,10 @@ search = slot => {
 			subGenderType(subGender),
 			// orderBy(orderField)
 		)(data);
-		return result;
+		return result[0].title;
 	};
-	//getData(url+jsonFile);
-	return slot;
+	getData(url+jsonFile);
+	//return 'oka';
 };
 
 

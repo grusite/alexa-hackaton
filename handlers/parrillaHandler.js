@@ -16,7 +16,9 @@ module.exports = parrillaHandler = {
 			"noche" => ['2100', '0600']
 		*/
 
-		speechText = search(slots);
+		speechText = 'Lo más tonto del pueblo';
+
+		//speechText = search(slots);
 
 		/*searchResult = search(slots);
 
