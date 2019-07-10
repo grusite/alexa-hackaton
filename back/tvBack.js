@@ -205,7 +205,7 @@ search = slot => {
         subGenderType(subGender),
         // orderBy(orderField)
     )(data);
-    return result;
+    return result[0].title;
     // console.log(result)
   };
 
