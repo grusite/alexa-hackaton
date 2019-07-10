@@ -1,4 +1,4 @@
-modules.esport = vodafoneTerminalesInitHandler = {
+module.exports = vodafoneTerminalesInitHandler = {
   canHandle(handlerInput) {
     return (
       handlerInput.requestEnvelope.request.type === "IntentRequest" &&

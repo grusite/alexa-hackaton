@@ -1,4 +1,4 @@
-module.export = vodafonePrecioIntentHandler = {
+module.exports = vodafonePrecioIntentHandler = {
   canHandle(handlerInput) {
     return (
       handlerInput.requestEnvelope.request.type === "IntentRequest" &&
