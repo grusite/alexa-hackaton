@@ -35,8 +35,8 @@ module.exports = vodafonePermisosHandler = {
             const ReminderManagementServiceClient = serviceClientFactory.getReminderManagementServiceClient();
             const reminderPayload = {
                 "trigger": {
-                    "type": 'SCHEDULED_ABSOLUTE',
-                    "scheduledTime": '2019-07-10T18:58:00.672',
+                    "type": 'SCHEDULED_RELATIVE',
+                    "offsetInSeconds": '30',
                     "timeZoneId": 'Europe/Madrid'
                 },
                 "alertInfo": {

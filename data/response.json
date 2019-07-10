@@ -1,0 +1,86 @@
+[
+  {
+    "marca": "LG",
+    "modelo": "G8s ThinQ",
+    "cuotaMensualConIva": 25.41,
+    "pagoAlContadoConIva": 609.84,
+    "nombreTarifa": "Ilimitada Súper"
+  },
+  {
+    "marca": "Samsung",
+    "modelo": "Galaxy S10e",
+    "cuotaMensualConIva": 25.41,
+    "pagoAlContadoConIva": 609.84,
+    "nombreTarifa": "Ilimitada Súper"
+  },
+  {
+    "marca": "Sony",
+    "modelo": "Xperia XZ2",
+    "cuotaMensualConIva": 25.41,
+    "pagoAlContadoConIva": 609.84,
+    "nombreTarifa": "Ilimitada Súper"
+  },
+  {
+    "marca": "Apple",
+    "modelo": "iPhone XR",
+    "cuotaMensualConIva": 25.41,
+    "pagoAlContadoConIva": 923.23,
+    "nombreTarifa": "Ilimitada Súper"
+  },
+  {
+    "marca": "Apple",
+    "modelo": "iPhone XR",
+    "cuotaMensualConIva": 25.41,
+    "pagoAlContadoConIva": 911.13,
+    "nombreTarifa": "Ilimitada Súper"
+  },
+  {
+    "marca": "Apple",
+    "modelo": "iPhone 8",
+    "cuotaMensualConIva": 24.2,
+    "pagoAlContadoConIva": 580.8,
+    "nombreTarifa": "Ilimitada Súper"
+  },
+  {
+    "marca": "Huawei",
+    "modelo": "Mate 20 Pro",
+    "cuotaMensualConIva": 26.62,
+    "pagoAlContadoConIva": 638.88,
+    "nombreTarifa": "Ilimitada Súper"
+  },
+  {
+    "marca": "Apple",
+    "modelo": "iPhone X",
+    "cuotaMensualConIva": 26.62,
+    "pagoAlContadoConIva": 915.97,
+    "nombreTarifa": "Ilimitada Súper"
+  },
+  {
+    "marca": "Apple",
+    "modelo": "iPhone XS",
+    "cuotaMensualConIva": 29.04,
+    "pagoAlContadoConIva": 1017.61,
+    "nombreTarifa": "Ilimitada Súper"
+  },
+  {
+    "marca": "Apple",
+    "modelo": "iPhone XS",
+    "cuotaMensualConIva": 29.04,
+    "pagoAlContadoConIva": 1017.61,
+    "nombreTarifa": "Ilimitada Súper"
+  },
+  {
+    "marca": "Xiaomi",
+    "modelo": "Mi MIX 3 5G",
+    "cuotaMensualConIva": 29.04,
+    "pagoAlContadoConIva": 696.96,
+    "nombreTarifa": "Ilimitada Súper"
+  },
+  {
+    "marca": "Apple",
+    "modelo": "iPhone XS",
+    "cuotaMensualConIva": 29.04,
+    "pagoAlContadoConIva": 1017.61,
+    "nombreTarifa": "Ilimitada Súper"
+  }
+]
