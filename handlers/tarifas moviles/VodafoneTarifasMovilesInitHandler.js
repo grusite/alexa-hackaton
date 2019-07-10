@@ -33,12 +33,12 @@ const VodafoneJuegaOnlineIntentHandler = {
 
     //console.log("Entro en JuegasOnline")
 
-    //const text = "Como buen Gamer, creo que la tarifa que más se adapta es la Ilimitada Movil Total porque lleva la fibra con un 1Gbps simétrico para todos tus dispositivos y datos ilimitados 5G para jugar con la Switch donde queráis";
+    const text = "Como buen Gamer, creo que la tarifa que más se adapta es la Ilimitada Movil Total porque lleva la fibra con un 1Gbps simétrico para todos tus dispositivos y datos ilimitados 5G para jugar con la Switch donde queráis";
 
     return handlerInput.responseBuilder
-      .speak("Hola")
-      .reprompt("Hola")
-      //.addElicitSlotDirective("juegasOnline")
+      .speak(text)
+      .reprompt(text)
+      .addElicitSlotDirective("juegasOnline")
       .getResponse();
   }
 };
@@ -77,7 +77,7 @@ const VodafoneUsoDatosIntentHandler = {
       handlerInput.requestEnvelope.request.intent.slots.usoDatos.value &&
       handlerInput.requestEnvelope.request.intent.slots.usoDatos.value ===
         "si" &&
-      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value == null &&
+      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value == "no" &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value == null
     );
   },
@@ -102,7 +102,7 @@ const VodafoneNoUsoDatosIntentHandler = {
       handlerInput.requestEnvelope.request.intent.slots.usoDatos.value &&
       handlerInput.requestEnvelope.request.intent.slots.usoDatos.value ===
         "no" &&
-      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value == null &&
+      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value == "no" &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value == null
     );
   },
@@ -127,8 +127,8 @@ const VodafoneLlamadasSeisMinutosIntentHandler = {
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value ===
         "si" &&
-      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value == null &&
-      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value == null
+      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value == "no" &&
+      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value == "no"
     );
   },
   handle(handlerInput) {
@@ -152,8 +152,8 @@ const VodafoneNoLlamadasSeisMinutosIntentHandler = {
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value ===
         "no" &&
-      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value == null &&
-      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value == null
+      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value == "no" &&
+      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value == "no"
     );
   },
   handle(handlerInput) {
