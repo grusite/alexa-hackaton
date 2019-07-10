@@ -6,6 +6,7 @@ const VodafoneOrderIntentHandler = {
         return (
             handlerInput.requestEnvelope.request.type === "IntentRequest" &&
             handlerInput.requestEnvelope.request.intent.name === "vodafoneTerminalesInit" &&
+            handlerInput.requestEnvelope.request.intent.slots.precioMarca.value &&
             handlerInput.requestEnvelope.request.intent.slots.interes.value === "si"
         );
     },
@@ -116,7 +117,7 @@ const vodafonePrecioHandler = {
                 return handlerInput.responseBuilder
                     .speak(text)
                     .reprompt(text)
-                    .addElicitSlotDirective("contratarTarifa")
+                    .addElicitSlotDirective("interes")
                     .getResponse();
             }
             else{
