@@ -1,4 +1,5 @@
 const search = require('../back/tvBack');
+const channelData = require('../data/sta.json');
 
 module.exports = parrillaHandler = {
 	canHandle(handlerInput) {
