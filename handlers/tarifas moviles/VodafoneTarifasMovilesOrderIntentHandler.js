@@ -4,6 +4,7 @@ module.export = VodafoneTarifasMovilesOrderIntentHandler = {
     return (
         handlerInput.requestEnvelope.request.type === "IntentRequest" &&
         handlerInput.requestEnvelope.request.intent.name === "vodafoneTarifasMovilesInit" &&
+        handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value === "si" &&
         handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value === "si"
     );
   },
