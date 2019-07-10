@@ -16,8 +16,8 @@ module.exports = parrillaHandler = {
 		});
 
 		return handlerInput.responseBuilder
-		.speak(speechText)
-		.withSimpleCard('Hello World', speechText)
-		.getResponse()
+			.speak(speechText)
+			.withSimpleCard('Hello World', speechText)
+			.getResponse()
 	},
 };
