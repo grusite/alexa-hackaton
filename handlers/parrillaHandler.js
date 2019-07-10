@@ -1,4 +1,5 @@
 const search = require('../back/tvBack');
+const channelData = require('../data/sta.json');
 
 module.exports = parrillaHandler = {
 	canHandle(handlerInput) {
@@ -21,13 +22,12 @@ module.exports = parrillaHandler = {
 		searchResult = search(slots);
 		speechText = searchResult.length > 0 ? 'Tenemos el siguiente resultado: ' : 'No hemos encontrado nada';
 		searchResult.forEach(pos => {
-			speechText += pos.title + ', ';
+			speechText += `${pos.title} en ${channelData[pos.canal].name}, `;
 		});
 
 		return handlerInput.responseBuilder
 		.speak(speechText)
 		.withSimpleCard('Hello World', speechText)
 		.getResponse()
-		// "dime que {tipo} de {subgenre} {orden} {tiempo} a las {horario}"
 	},
 };

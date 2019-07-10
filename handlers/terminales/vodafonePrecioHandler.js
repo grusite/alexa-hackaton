@@ -5,7 +5,8 @@ const vodafonePrecioHandler = {
       return (handlerInput.requestEnvelope.request.type === "IntentRequest" &&
               handlerInput.requestEnvelope.request.intent.name === "vodafoneTerminalesInit" &&
               handlerInput.requestEnvelope.request.intent.slots.precioMarca.value &&
-              handlerInput.requestEnvelope.request.intent.slots.precioMarca.value === "precio"
+              handlerInput.requestEnvelope.request.intent.slots.precioMarca.value === "precio" &&
+              handlerInput.requestEnvelope.request.intent.slots.precio.value == null
       );
     },
 
@@ -29,19 +30,29 @@ const vodafonePrecioHandler = {
     },
     handle(handlerInput) {
       let precio = handlerInput.requestEnvelope.request.intent.slots.precio.value;
-      const query = terminales.getTerminals(marca,modelo);
-      const terminal = query[0];
-      const text = `He encontrado el terminal ${terminal.marca} ${terminal.modelo} a un precio de ${terminal.cuotaMensualConIva} euros, 
-      con la tarifa ${query.nombreTarifa}, te interesa?`;
-
-      return handlerInput.responseBuilder
-              .speak(text)
-              .reprompt(text)
-              .getResponse();
+      const text = `El precio seleccionado es: ${precio}`;
+      
+      try
+      {
+        const query = terminales.getTerminalsByPrice(parseFloat(precio));
+        const terminal = query[0];
+        const text = `He encontrado el terminal ${terminal.marca} ${terminal.modelo} a un precio de ${terminal.cuotaMensualConIva} euros, 
+        con la tarifa ${query.nombreTarifa}, te interesa?`;
+  
+        return handlerInput.responseBuilder
+                .speak(text)
+                .reprompt(text)
+                .getResponse();
+      }
+      catch (e)
+      {
+        return handlerInput.responseBuilder
+        .speak(e.toString())
+        .reprompt(e.toString())
+        .getResponse();
+      }
     }
   };
-
-
 
 module.exports = [vodafonePrecioHandler, vodafonePrecioMovilHandler]
 
