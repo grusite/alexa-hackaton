@@ -11,9 +11,10 @@ const vodafoneTerminalesInitHandler = require("./handlers/terminales/vodafoneTer
 const vodafoneMarcaIntentHandler = require("./handlers/terminales/vodafoneMarcaIntentHandler");
 const vodafonePrecioIntentHandler = require("./handlers/terminales/vodafonePrecioIntentHandler");
 const vodafoneModeloIntentHandler = require("./handlers/terminales/vodafoneModeloIntentHandler");
+const vodafoneModeloContentHandler = require("./handlers/terminales/vodafoneModeloContentHandler");
 
 // TV Handlers
-const ParrillaHandler = require("./handlers/parrillaHandler");
+const parrillaHandler = require("./handlers/parrillaHandler");
 
 // Tarifas Moviles Handler
 const vodafoneTarifasMovilesInitHandler = require("./handlers/tarifas moviles/VodafoneTarifasMovilesInitHandler");
@@ -34,7 +35,7 @@ const skillBuilder = Alexa.SkillBuilders.custom();
 exports.handler = skillBuilder
   .addRequestHandlers(
     LaunchRequestHandler,
-    ParrillaHandler,
+    parrillaHandler,
     vodafoneTerminalesInitHandler,
     vodafoneTarifasMovilesInitHandler,
     vodafonePermisosHandler,
@@ -46,6 +47,6 @@ exports.handler = skillBuilder
     CancelAndStopIntentHandler,
     SessionEndedRequestHandler,
     DefaultOneHandler
-  )
+  ).withApiClient(new Alexa.DefaultApiClient())
   .addErrorHandlers(ErrorHandler)
   .lambda();
