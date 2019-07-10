@@ -30,12 +30,6 @@ const vodafonePrecioHandler = {
     },
     handle(handlerInput) {
       let precio = handlerInput.requestEnvelope.request.intent.slots.precio.value;
-      const text = `El precio seleccionado es: ${precio}`;
-      
-      return handlerInput.responseBuilder
-                .speak(text)
-                .reprompt(text)
-                .getResponse();
 
       try
       {
