@@ -11,6 +11,7 @@ const vodafoneTerminalesInitHandler = require("./handlers/terminales/vodafoneTer
 const vodafoneMarcaIntentHandler = require("./handlers/terminales/vodafoneMarcaIntentHandler");
 const vodafonePrecioIntentHandler = require("./handlers/terminales/vodafonePrecioIntentHandler");
 const vodafoneModeloIntentHandler = require("./handlers/terminales/vodafoneModeloIntentHandler");
+const vodafoneModeloContentHandler = require("./handlers/terminales/vodafoneModeloContentHandler");
 
 // TV Handlers
 const ParrillaHandler = require("./handlers/parrillaHandler");
