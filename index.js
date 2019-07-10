@@ -37,7 +37,7 @@ exports.handler = skillBuilder
     ParrillaHandler,
     vodafoneTerminalesInitHandler,
     vodafoneTarifasMovilesInitHandler,
-    vodafoneJuegaOnlineIntentHandler
+    vodafoneJuegaOnlineIntentHandler,
     vodafoneMarcaIntentHandler,
     vodafonePrecioIntentHandler,
     vodafoneModeloIntentHandler,
