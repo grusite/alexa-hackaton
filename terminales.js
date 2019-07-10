@@ -21,7 +21,8 @@ class Terminales{
 	getTerminals(brand,model){
 		return data.items
 				.reduce((accumulator, currentValue) => accumulator.concat(currentValue.listTerminals),[])
-				.filter(x => x.marca.toLowerCase == brand.toLowerCase())
+				.filter(x => x.marca.toLowerCase() == brand.toLowerCase())
+				.filter(x => x.modelo.toLowerCase() == model.toLowerCase())
 				.map(x => ({
 					marca: x.marca,
 					modelo: x.modelo,
