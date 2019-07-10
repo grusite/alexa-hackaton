@@ -156,3 +156,13 @@ const VodafoneNoLlamadasSeisMinutosIntentHandler = {
       .getResponse();
   }
 };
+
+module.exports = [
+  VodafoneTarifasMovilesInitHandler,
+  VodafoneJuegaOnlineIntentHandler,
+  VodafoneNoJuegaOnlineIntentHandler,
+  VodafoneUsoDatosIntentHandler,
+  VodafoneNoUsoDatosIntentHandler,
+  VodafoneLlamadasSeisMinutosIntentHandler,
+  VodafoneNoLlamadasSeisMinutosIntentHandler
+];
