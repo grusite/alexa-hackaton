@@ -8,7 +8,6 @@ const axios = require("axios");
 
 module.exports = vodafonePermisosHandler = {
     canHandle(handlerInput) {
-        const { request } = handlerInput.requestEnvelope;
         return handlerInput.requestEnvelope.request.type === 'IntentRequest'
             && handlerInput.requestEnvelope.request.intent.name === 'vodafonePermissions';
     },
@@ -18,14 +17,14 @@ module.exports = vodafonePermisosHandler = {
         const speechText = 'Bienvenido a Vodafone Skill';
         const { requestEnvelope, serviceClientFactory, responseBuilder } = handlerInput;
 
-        const consentToken = requestEnvelope.context.System.user.permissions
-            && requestEnvelope.context.System.user.permissions.consentToken;
-        if (!consentToken) {
+        /*const consentToken = requestEnvelope.context.System.user.permissions
+            && requestEnvelope.context.System.user.permissions.consentToken;*/
+        /*if (!consentToken) {
             return responseBuilder
                 .speak('Nos das permiso a tu nombre?')
                 .withAskForPermissionsConsentCard(PERMISSIONS)
                 .getResponse();
-        }
+        }*/
         try {
             const { deviceId } = requestEnvelope.context.System.device;
             const UpsServiceClient = serviceClientFactory.getUpsServiceClient();
@@ -36,14 +35,14 @@ module.exports = vodafonePermisosHandler = {
             const reminderPayload = {
                 "trigger": {
                     "type": 'SCHEDULED_RELATIVE',
-                    "offsetInSeconds": '30',
+                    "offsetInSeconds": '300',
                     "timeZoneId": 'Europe/Madrid'
                 },
                 "alertInfo": {
                     "spokenInfo": {
                         "content": [{
-                            "locale": 'en-US',
-                            "text": 'time to get up and dance',
+                            "locale": 'es-ES',
+                            "text": 'fuc iu',
                         }]
                     }
                 },
