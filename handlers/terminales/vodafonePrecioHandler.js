@@ -1,3 +1,4 @@
+/*
 const terminales = require('../../terminales');
 const callToOwner = require("../../utils/callToOwner");
 
@@ -59,7 +60,7 @@ const vodafonePrecioHandler = {
         const query = terminales.getTerminalsByPrice(parseFloat(precio));
         if(query.length > 0) {
             const terminal = query[0];
-            const text = `He encontrado el terminal ${terminal.marca} ${terminal.modelo} 
+            const text = `He encontrado el terminal ${terminal.marca} ${terminal.modelo}
             a un precio de ${terminal.cuotaMensualConIva} euros, con la tarifa ${terminal.nombreTarifa}, ¿te interesa?`;
             return handlerInput.responseBuilder
                 .speak(text)
@@ -113,7 +114,7 @@ const vodafonePrecioHandler = {
             const query = terminales.getTerminalsByPrice(parseFloat(precio));
             if(query.length > sessionAttributes.intentos) {
                 const terminal = query[sessionAttributes.intentos];
-                const text = `He encontrado el terminal ${terminal.marca} ${terminal.modelo} 
+                const text = `He encontrado el terminal ${terminal.marca} ${terminal.modelo}
                 a un precio de ${terminal.cuotaMensualConIva} euros, con la tarifa ${terminal.nombreTarifa}, ¿te interesa?`;
                 return handlerInput.responseBuilder
                     .speak(text)
@@ -132,7 +133,7 @@ const vodafonePrecioHandler = {
 };
 
 module.exports = [vodafonePrecioHandler, vodafonePrecioMovilHandler, vodafoneInteresHandler, VodafoneOrderIntentHandler]
-
+*/
 
 
 
