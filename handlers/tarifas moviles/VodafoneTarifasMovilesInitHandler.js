@@ -23,8 +23,8 @@ const VodafoneJuegaOnlineIntentHandler = {
       handlerInput.requestEnvelope.request.type === "IntentRequest" &&
       handlerInput.requestEnvelope.request.intent.name === "vodafoneTarifasMovilesInit" &&
       handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value &&
-      (handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value.id === "si" ||
-          handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value.name === "si" ||
+      (
+          handlerInput.requestEnvelope.request.intent.slots.juegasOnline.resolutions.resolutionsPerAuthority[0].values.value.id === "si" ||
           handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "si"
       ) &&
       handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value == null &&
