@@ -4,7 +4,7 @@ module.exports = DefaultOneHandler = {
 	},
 	handle(handlerInput) {
 		const speechText = 'No te entiendo';
-		console.log("Prueba no entiendo",handlerInput.requestEnvelope.request);
+		console.log("Prueba no entiendo",JSON.stringify(handlerInput.requestEnvelope.request));
 		return handlerInput.responseBuilder
 				.speak(speechText)
 				.withSimpleCard('Default', speechText)
