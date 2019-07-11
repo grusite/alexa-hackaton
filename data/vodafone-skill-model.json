@@ -328,7 +328,7 @@
                 "variations": [
                     {
                         "type": "PlainText",
-                        "value": "Tienes alguna marca en mente, Apple, Samsung?"
+                        "value": "¿Tienes alguna marca en mente, Apple, Samsung?"
                     }
                 ]
             },
@@ -349,10 +349,6 @@
                         "value": "No te entiendo, si o no"
                     }
                 ]
-            },
-            {
-                "id": "Slot.Validation.1086623587311.693817380922.1232375791679",
-                "variations": []
             }
         ]
     }
