@@ -109,7 +109,7 @@
                         },
                         {
                             "name": {
-                                "value": "si",
+                                "value": "sí",
                                 "synonyms": [
                                     "juego mucho en casa",
                                     "a veces",
@@ -126,7 +126,7 @@
                     "values": [
                         {
                             "name": {
-                                "value": "Si",
+                                "value": "sí",
                                 "synonyms": [
                                     "si, me quedo sin datos",
                                     "me fundo los datos",
@@ -136,7 +136,7 @@
                         },
                         {
                             "name": {
-                                "value": "No",
+                                "value": "no",
                                 "synonyms": [
                                     "no, me los fundo",
                                     "gasto poco",
@@ -151,7 +151,7 @@
                     "values": [
                         {
                             "name": {
-                                "value": "No",
+                                "value": "no",
                                 "synonyms": [
                                     "para nada",
                                     "nada",
@@ -162,7 +162,7 @@
                         },
                         {
                             "name": {
-                                "value": "Si",
+                                "value": "sí",
                                 "synonyms": [
                                     "un montón",
                                     "no paro",
