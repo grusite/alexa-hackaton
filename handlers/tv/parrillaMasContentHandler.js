@@ -1,9 +1,10 @@
 const parrillaMasSiContentHandler = {
 	canHandle(handlerInput) {
 		return handlerInput.requestEnvelope.request.type === 'IntentRequest'
-				&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTv'
-				&& handlerInput.requestEnvelope.request.intent.slots.tipo.value
-				&& handlerInput.requestEnvelope.request.intent.slots.mas.value === 'si';
+			&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTv'
+			&& handlerInput.requestEnvelope.request.intent.slots.tipo.value
+			&& (handlerInput.requestEnvelope.request.intent.slots.mas.value === 'si'
+				&& !handlerInput.requestEnvelope.request.intent.slots.volver.value)
 	},
 	handle(handlerInput) {
 		const tipo = handlerInput.requestEnvelope.request.intent.slots.tipo.value;
@@ -43,7 +44,9 @@ const parrillaMasNoContentHandler = {
 		return handlerInput.requestEnvelope.request.type === 'IntentRequest'
 				&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTv'
 				&& (handlerInput.requestEnvelope.request.intent.slots.mas.value === 'no' ||
-					handlerInput.requestEnvelope.request.intent.slots.volver.value === 'no');
+					handlerInput.requestEnvelope.request.intent.slots.volver.value === 'no'
+					(handlerInput.requestEnvelope.request.intent.slots.mas.value === 'si' &&
+					handlerInput.requestEnvelope.request.intent.slots.volver.value === 'no'));
 	},
 	handle(handlerInput) {
 		let speechText = 'Pues ya estaríamos';
