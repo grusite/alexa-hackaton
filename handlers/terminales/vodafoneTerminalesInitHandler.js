@@ -85,7 +85,7 @@ const vodafoneModeloIntentHandler = {
     const terminal = query[0];
     const text = `<speak>
             <emphasis level="strong">Vale</emphasis> <break time="0.5s"/>He encontrado el terminal <lang xml:lang=\"en-US\">${terminal.marca} ${terminal.modelo}</lang>
-       a un precio de <say as="number">${terminal.cuotaMensualConIva}</say> euros
+       a un precio de <say-as interpret-as="number">${terminal.cuotaMensualConIva}</say-as> euros
        con la tarifa ${terminal.nombreTarifa}.
        ¿Te interesa?</speak>`;
     return handlerInput.responseBuilder
@@ -151,8 +151,8 @@ const vodafoneInteresSiIntentHandler = {
                 .getResponse();
       } else {
         return handlerInput.responseBuilder
-                .speak('Un asesor de Vodafone se pondrá en contacto contigo. Pero mientras... ¡disfruta!')
-                .reprompt('Un asesor de Vodafone se pondrá en contacto contigo. Pero mientras... ¡disfruta!')
+                .speak('Un asesor de Vodafone se pondrá en contacto contigo. Pero de mientras... ¡disfruta!')
+                .reprompt('Un asesor de Vodafone se pondrá en contacto contigo. Pero de mientras... ¡disfruta!')
                 .getResponse();
       }
     }
