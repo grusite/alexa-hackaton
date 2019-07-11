@@ -82,7 +82,7 @@ const VodafoneNoJuegaOnlineIntentHandler = {
   },
   handle(handlerInput) {
 
-    const text = {"type": "SSML", "SSML": "<speak>Vale,<break time='0.1s' strength='weak'/> vamos con otra cosa."+ 
+    const text = {"type": "SSML", "ssml": "<speak>Vale,<break time='0.1s' strength='weak'/> vamos con otra cosa."+ 
     "De media la gente suele estar 3 horas al día en redes sociales,<break time='1s' strength='strong'/>"+ 
     "¿Navegas poco, o te fundes los datos?</speak>"}
 
@@ -137,7 +137,7 @@ const VodafoneNoUsoDatosIntentHandler = {
   },
   handle(handlerInput) {
 
-    const text = {"type": "SSML", "SSML": "<speak>Y en cuanto a llamadas, <break time='0.1s' strength='weak'/> ¿Hablas más de 6 minutos al día?"+
+    const text = {"type": "SSML", "ssml": "<speak>Y en cuanto a llamadas, <break time='0.1s' strength='weak'/> ¿Hablas más de 6 minutos al día?"+
     "</speak>"}
 
     return handlerInput.responseBuilder
@@ -162,7 +162,7 @@ const VodafoneLlamadasSeisMinutosIntentHandler = {
   },
   handle(handlerInput) {
 
-    const text = {"type": "SSML", "SSML": "<speak><prosody volume='x-loud'>Lo tengo,</prosody><break time='0.1s' strength='weak'/>"+
+    const text = {"type": "SSML", "ssml": "<speak><prosody volume='x-loud'>Lo tengo,</prosody><break time='0.1s' strength='weak'/>"+
     "con la tarifa Móvil Ilimitada por <say-as interpret-as='cardinal'>40</say-as> euros con"+
     "<say-as interpret-as='cardinal'>99</say-asaal mes<break time='0.1s' strength='weak'/>"+
     "no volverás a preocuparte de esos días en los hablas por los codos porque tienes llamadas y datos ilimitados."+
@@ -190,7 +190,7 @@ const VodafoneNoLlamadasSeisMinutosIntentHandler = {
   },
   handle(handlerInput) {
 
-    const text = {"type": "SSML", "SSML": "<speak>Tengo la tarifa que mejor se adapta a ti. La Móvil Mini por <say-as interpret-as='cardinal'>19"+
+    const text = {"type": "SSML", "ssml": "<speak>Tengo la tarifa que mejor se adapta a ti. La Móvil Mini por <say-as interpret-as='cardinal'>19"+
     "</say-as> euros con <say-as interpret-as='cardinal'>99</say-as> al mes con doscientos minutos,"+
     "<break time='0.1s' strength='strong'/> 3 Gigas para navegar<emphasis level='strong'>y</emphasis>"+
     "<break time='0.1s' strength='strong'/> ¡ojo!<voice><lang xml:lang='en-US'>Chat Pass</lang></voice>"+
