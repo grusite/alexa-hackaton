@@ -107,7 +107,8 @@ const vodafoneInteresSiIntentHandler = {
       handlerInput.requestEnvelope.request.intent.slots.marca.value &&
       handlerInput.requestEnvelope.request.intent.slots.modelo.value &&
       handlerInput.requestEnvelope.request.intent.slots.interes.value &&
-      handlerInput.requestEnvelope.request.intent.slots.interes.value
+      handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value ==
+      null
     );
   },
   async handle(handlerInput) {
@@ -171,8 +172,8 @@ const vodafoneInteresNoIntentHandler = {
       handlerInput.requestEnvelope.request.intent.slots.marca.value &&
       handlerInput.requestEnvelope.request.intent.slots.modelo.value &&
       handlerInput.requestEnvelope.request.intent.slots.interes.value &&
-      handlerInput.requestEnvelope.request.intent.slots.interes.value ===
-        "no" &&
+      (handlerInput.requestEnvelope.request.intent.slots.interes.value === "no" ||
+              handlerInput.requestEnvelope.request.intent.slots.interes.value === "nó") &&
       handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value ==
         null
     );
@@ -206,8 +207,8 @@ const vodafoneSegundoInteresSiIntentHandler = {
         "marca" &&
       handlerInput.requestEnvelope.request.intent.slots.marca.value &&
       handlerInput.requestEnvelope.request.intent.slots.modelo.value &&
-      handlerInput.requestEnvelope.request.intent.slots.interes.value ===
-        "no" &&
+      (handlerInput.requestEnvelope.request.intent.slots.interes.value === "no" ||
+              handlerInput.requestEnvelope.request.intent.slots.interes.value === "nó") &&
       handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value &&
 
       (handlerInput.requestEnvelope.request.intent.slots.interes.value === "si" ||
@@ -234,11 +235,11 @@ const vodafoneSegundoInteresNoIntentHandler = {
         "marca" &&
       handlerInput.requestEnvelope.request.intent.slots.marca.value &&
       handlerInput.requestEnvelope.request.intent.slots.modelo.value &&
-      handlerInput.requestEnvelope.request.intent.slots.interes.value ===
-        "no" &&
+      (handlerInput.requestEnvelope.request.intent.slots.interes.value === "no" ||
+              handlerInput.requestEnvelope.request.intent.slots.interes.value === "nó") &&
       handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value &&
-      handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value ===
-        "no"
+      (handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value === "no" ||
+              handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value === "nó")
     );
   },
   async handle(handlerInput) {
