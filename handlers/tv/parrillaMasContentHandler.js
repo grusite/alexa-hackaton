@@ -1,9 +1,11 @@
 const parrillaMasSiContentHandler = {
 	canHandle(handlerInput) {
+		const slots = handlerInput.requestEnvelope.request.intent.slots;
+
 		return handlerInput.requestEnvelope.request.type === 'IntentRequest'
 			&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTv'
-			&& handlerInput.requestEnvelope.request.intent.slots.tipo.value
-			&& handlerInput.requestEnvelope.request.intent.slots.mas.value === 'si'
+			&& slots.tipo.value
+			&& slots.mas.value === 'si'
 	},
 	handle(handlerInput) {
 		const slots = handlerInput.requestEnvelope.request.intent.slots; 
@@ -45,10 +47,12 @@ const parrillaMasSiContentHandler = {
 
 const parrillaMasNoContentHandler = {
 	canHandle(handlerInput) {
+		const slots = handlerInput.requestEnvelope.request.intent.slots;
+
 		return handlerInput.requestEnvelope.request.type === 'IntentRequest'
 				&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTv'
-				&& (handlerInput.requestEnvelope.request.intent.slots.mas.value === 'no'
-					|| handlerInput.requestEnvelope.request.intent.slots.volver.value == 'no');
+				&& ((slots.mas.value === 'si' && slots.volver.value === 'no') ||
+					(slots.mas.value === 'no' || slots.volver.value === 'no'))
 	},
 	handle(handlerInput) {
 		let speechText = 'Pues ya estaríamos';
