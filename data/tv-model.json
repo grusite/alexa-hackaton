@@ -129,6 +129,20 @@
                                     "prompt": "Slot.Validation.961558360117.1434594198162.351824262667"
                                 }
                             ]
+                        },
+                        {
+                            "name": "mas",
+                            "type": "mas",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "volver",
+                            "type": "volver",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
                         }
                     ]
                 }
@@ -140,8 +154,8 @@
                 "id": "Elicit.Slot.961558360117.1434594198162",
                 "variations": [
                     {
-                        "type": "PlainText",
-                        "value": "Que te apetece ver, series, cine o documentales"
+                        "type": "SSML",
+                        "value": "<speak>¿Qué te apetece ver? <break time='0.3s'/>¿Eres más de series, documentales, o cine?</speak>"
                     }
                 ]
             },
@@ -149,8 +163,8 @@
                 "id": "Slot.Validation.961558360117.1434594198162.351824262667",
                 "variations": [
                     {
-                        "type": "PlainText",
-                        "value": "Por favor, dime si es serie, documental o cine"
+                        "type": "SSML",
+                        "value": "<speak><emphasis level='strong'>uuhhhh</emphasis><break time='0.3s'/>Son todas <prosody rate='slow'>muy </prosody> buenas, ya lo se.<break time='0.3s'/> ¿Con cuál de ellas te quedas?</speak>"
                     }
                 ]
             },
