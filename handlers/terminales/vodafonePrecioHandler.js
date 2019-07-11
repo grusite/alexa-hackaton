@@ -211,7 +211,7 @@ const vodafoneInteresHandler = {
             handlerInput.requestEnvelope.request.intent.slots.precioMarca.value &&
             handlerInput.requestEnvelope.request.intent.slots.precioMarca.value === "precio" &&
             handlerInput.requestEnvelope.request.intent.slots.precio.value &&
-            handlerInput.requestEnvelope.request.intent.slots.interes.value
+            handlerInput.requestEnvelope.request.intent.slots.interes.value !== "si"
         );
     },
     handle(handlerInput) {

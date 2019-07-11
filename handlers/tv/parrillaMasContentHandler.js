@@ -32,7 +32,7 @@ const parrillaMasSiContentHandler = {
 			
 			return handlerInput.responseBuilder
 				.speak(speechText)
-				.reprompt(speechText)
+				.withShouldEndSession(true)
 				.getResponse();
 		}
 	},
@@ -42,13 +42,15 @@ const parrillaMasNoContentHandler = {
 	canHandle(handlerInput) {
 		return handlerInput.requestEnvelope.request.type === 'IntentRequest'
 				&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTv'
-				&& handlerInput.requestEnvelope.request.intent.slots.mas.value === 'no';
+				&& (handlerInput.requestEnvelope.request.intent.slots.mas.value === 'no' ||
+					handlerInput.requestEnvelope.request.intent.slots.volver.value === 'no');
 	},
 	handle(handlerInput) {
-		let speechText = 'Pues ya estaría';
+		let speechText = 'Pues ya estaríamos';
 
 		return handlerInput.responseBuilder
 			.speak(speechText)
+			.withShouldEndSession(true)
 			.getResponse();
 	},
 };
