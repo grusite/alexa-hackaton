@@ -32,7 +32,7 @@ const parrillaMasSiContentHandler = {
 			
 			return handlerInput.responseBuilder
 				.speak(speechText)
-				.reprompt(speechText)
+				.withShouldEndSession(true)
 				.getResponse();
 		}
 	},
@@ -45,10 +45,11 @@ const parrillaMasNoContentHandler = {
 				&& handlerInput.requestEnvelope.request.intent.slots.mas.value === 'no';
 	},
 	handle(handlerInput) {
-		let speechText = 'Pues ya estaría';
+		let speechText = 'Pues ya estaríamos';
 
 		return handlerInput.responseBuilder
 			.speak(speechText)
+			.withShouldEndSession(true)
 			.getResponse();
 	},
 };
