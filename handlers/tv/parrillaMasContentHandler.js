@@ -3,7 +3,8 @@ const parrillaMasSiContentHandler = {
 		return handlerInput.requestEnvelope.request.type === 'IntentRequest'
 				&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTv'
 				&& handlerInput.requestEnvelope.request.intent.slots.tipo.value
-				&& handlerInput.requestEnvelope.request.intent.slots.mas.value === 'si';
+				&& handlerInput.requestEnvelope.request.intent.slots.mas.value === 'si'
+				&& handlerInput.requestEnvelope.request.intent.slots.volver.value === 'si';
 	},
 	handle(handlerInput) {
 		const tipo = handlerInput.requestEnvelope.request.intent.slots.tipo.value;
