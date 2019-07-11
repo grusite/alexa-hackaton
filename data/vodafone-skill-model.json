@@ -20,38 +20,6 @@
                     "samples": []
                 },
                 {
-                    "name": "vodafoneTarifasMovilesInit",
-                    "slots": [
-                        {
-                            "name": "juegasOnline",
-                            "type": "juegasOnline",
-                            "samples": [
-                                "No",
-                                "Sí"
-                            ]
-                        },
-                        {
-                            "name": "usoDatos",
-                            "type": "usoDatos"
-                        },
-                        {
-                            "name": "isLlamadasMasSeisMinutos",
-                            "type": "isLlamadasMasSeisMinutos"
-                        },
-                        {
-                            "name": "contratarTarifa",
-                            "type": "interes"
-                        }
-                    ],
-                    "samples": [
-                        "quiero tarifas moviles",
-                        "dime una tarifa movil",
-                        "quiero una tarifa movil",
-                        "me gustaría una tarifa movil",
-                        "necesito una tarifa movil"
-                    ]
-                },
-                {
                     "name": "vodafoneTerminalesInit",
                     "slots": [
                         {
@@ -93,87 +61,6 @@
                 }
             ],
             "types": [
-                {
-                    "name": "juegasOnline",
-                    "values": [
-                        {
-                            "name": {
-                                "value": "no",
-                                "synonyms": [
-                                    "no mucho",
-                                    "nada",
-                                    "poco",
-                                    "nop"
-                                ]
-                            }
-                        },
-                        {
-                            "name": {
-                                "value": "si",
-                                "synonyms": [
-                                    "juego mucho en casa",
-                                    "a veces",
-                                    "cada dia",
-                                    "sip",
-                                    "yes"
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "name": "usoDatos",
-                    "values": [
-                        {
-                            "name": {
-                                "value": "Si",
-                                "synonyms": [
-                                    "si, me quedo sin datos",
-                                    "me fundo los datos",
-                                    "a veces"
-                                ]
-                            }
-                        },
-                        {
-                            "name": {
-                                "value": "No",
-                                "synonyms": [
-                                    "no, me los fundo",
-                                    "gasto poco",
-                                    "nada"
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "name": "isLlamadasMasSeisMinutos",
-                    "values": [
-                        {
-                            "name": {
-                                "value": "No",
-                                "synonyms": [
-                                    "para nada",
-                                    "nada",
-                                    "qué va",
-                                    "no, hablo más por whatsapp"
-                                ]
-                            }
-                        },
-                        {
-                            "name": {
-                                "value": "Si",
-                                "synonyms": [
-                                    "un montón",
-                                    "no paro",
-                                    "mazo",
-                                    "mogollon",
-                                    "hablo mucho"
-                                ]
-                            }
-                        }
-                    ]
-                },
                 {
                     "name": "marcaContent",
                     "values": [
@@ -313,58 +200,7 @@
         "dialog": {
             "intents": [
                 {
-                    "name": "vodafoneTarifasMovilesInit",
-                    "delegationStrategy": "SKILL_RESPONSE",
-                    "confirmationRequired": false,
-                    "prompts": {},
-                    "slots": [
-                        {
-                            "name": "juegasOnline",
-                            "type": "juegasOnline",
-                            "confirmationRequired": false,
-                            "elicitationRequired": true,
-                            "prompts": {
-                                "elicitation": "Elicit.Slot.157571340357.1189799002864"
-                            },
-                            "validations": [
-                                {
-                                    "type": "hasEntityResolutionMatch",
-                                    "prompt": "Slot.Validation.157571340357.1189799002864.1439548450615"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "usoDatos",
-                            "type": "usoDatos",
-                            "confirmationRequired": false,
-                            "elicitationRequired": false,
-                            "prompts": {}
-                        },
-                        {
-                            "name": "isLlamadasMasSeisMinutos",
-                            "type": "isLlamadasMasSeisMinutos",
-                            "confirmationRequired": false,
-                            "elicitationRequired": false,
-                            "prompts": {}
-                        },
-                        {
-                            "name": "contratarTarifa",
-                            "type": "interes",
-                            "confirmationRequired": false,
-                            "elicitationRequired": false,
-                            "prompts": {},
-                            "validations": [
-                                {
-                                    "type": "hasEntityResolutionMatch",
-                                    "prompt": "Slot.Validation.585268145324.589160704831.1227499814466"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
                     "name": "vodafoneTerminalesInit",
-                    "delegationStrategy": "SKILL_RESPONSE",
                     "confirmationRequired": false,
                     "prompts": {},
                     "slots": [
@@ -434,7 +270,13 @@
                             "type": "segundoInteres",
                             "confirmationRequired": false,
                             "elicitationRequired": false,
-                            "prompts": {}
+                            "prompts": {},
+                            "validations": [
+                                {
+                                    "type": "hasEntityResolutionMatch",
+                                    "prompt": "Slot.Validation.1484012625414.154837375765.893887070987"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -442,33 +284,6 @@
             "delegationStrategy": "ALWAYS"
         },
         "prompts": [
-            {
-                "id": "Slot.Validation.848785484152.444239059388.194611684330",
-                "variations": [
-                    {
-                        "type": "PlainText",
-                        "value": "Por favor, dime si eres particular o autónomos"
-                    }
-                ]
-            },
-            {
-                "id": "Elicit.Slot.157571340357.1189799002864",
-                "variations": [
-                    {
-                        "type": "PlainText",
-                        "value": "Genial. Vamos a ver qué tarifa móvil se adapta mejor a ti. ¿Sueles jugar cada día online?"
-                    }
-                ]
-            },
-            {
-                "id": "Slot.Validation.157571340357.1189799002864.1439548450615",
-                "variations": [
-                    {
-                        "type": "PlainText",
-                        "value": "Dime sí o no, por favor"
-                    }
-                ]
-            },
             {
                 "id": "Elicit.Slot.1282128361574.1464316861328",
                 "variations": [
@@ -483,7 +298,7 @@
                 "variations": [
                     {
                         "type": "PlainText",
-                        "value": "Por favor, ciñete a decirme precio o marca"
+                        "value": "No te he entenido, las opciones son por precio o por marca"
                     }
                 ]
             },
@@ -492,7 +307,7 @@
                 "variations": [
                     {
                         "type": "PlainText",
-                        "value": "Por favor, ciñete a decirme una marca"
+                        "value": "No conozco esa marca, prueba con otra"
                     }
                 ]
             },
@@ -510,7 +325,7 @@
                 "variations": [
                     {
                         "type": "PlainText",
-                        "value": "Por favor, ciñete a los modelos que te he ofrecido"
+                        "value": "No conozco ese modelo, prueba con otro"
                     }
                 ]
             },
@@ -519,25 +334,16 @@
                 "variations": [
                     {
                         "type": "PlainText",
-                        "value": "Por favor, ciñete a decir si o no"
+                        "value": "No te entiendo, si o no"
                     }
                 ]
             },
             {
-                "id": "Elicit.Slot.585268145324.589160704831",
+                "id": "Slot.Validation.1484012625414.154837375765.893887070987",
                 "variations": [
                     {
                         "type": "PlainText",
-                        "value": "Perfecto, ¿quieres que te llamemos para contratar esta tarifa?"
-                    }
-                ]
-            },
-            {
-                "id": "Slot.Validation.585268145324.589160704831.1227499814466",
-                "variations": [
-                    {
-                        "type": "PlainText",
-                        "value": "Sí o no?"
+                        "value": "No te entiendo, si o no"
                     }
                 ]
             }
