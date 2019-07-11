@@ -56,6 +56,7 @@ const parrillaMasNoContentHandler = {
 					(slots.mas.value === 'no' || slots.volver.value === 'no'))
 	},
 	handle(handlerInput) {
+		const slots = handlerInput.requestEnvelope.request.intent.slots;
 		const isPlural = /s$/.test(slots.tipo.value);
 
 		let speechText = `Disfruta de ${isPlural ? 'tus' : 'tu'} ${slots.tipo.value}!`;
