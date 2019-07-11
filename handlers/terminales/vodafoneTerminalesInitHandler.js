@@ -28,9 +28,13 @@ const vodafoneMarcaIntentHandler = {
     );
   },
   handle(handlerInput) {
+    const text = "<speak>\n" +
+            "¿Tienes alguna marca en mente?\n" +
+            "Lo que más me piden es <lang xml:lang=\"en-US\">Apple</lang> o Samsung <break time=\"0.75s\"/> pero tú decides.\n" +
+            "</speak>"
     return handlerInput.responseBuilder
-      .speak("Tienes alguna marca en mente? Apple, Samsung")
-      .reprompt("Tienes alguna marca en mente? Apple, Samsung")
+      .speak(text)
+      .reprompt(text)
       .addElicitSlotDirective("marca")
       .getResponse();
   }
@@ -50,9 +54,12 @@ const vodafoneMarcaContentHandler = {
     );
   },
   handle(handlerInput) {
+    const text = "<speak>\n" +
+            "<emphasis level=\"strong\">Genial</emphasis> <break time=\"0.5s\"/> ¿Qué modelo quieres?\n" +
+            "</speak>";
     return handlerInput.responseBuilder
-      .speak("¿Qué modelo quieres?")
-      .reprompt("¿Qué modelo quieres?")
+      .speak(text)
+      .reprompt(text)
       .addElicitSlotDirective("modelo")
       .getResponse();
   }
@@ -76,10 +83,11 @@ const vodafoneModeloIntentHandler = {
     let modelo = handlerInput.requestEnvelope.request.intent.slots.modelo.value;
     const query = terminales.getTerminals(marca, modelo);
     const terminal = query[0];
-    const text = `He encontrado el terminal ${terminal.marca} ${terminal.modelo}
-       a un precio de ${terminal.cuotaMensualConIva} euros
+    const text = `<speak>
+            <emphasis level="strong">Vale</emphasis> <break time="0.5s"/>He encontrado el terminal ${terminal.marca} ${terminal.modelo}
+       a un precio de <lang xml:lang=\"en-US\">${terminal.cuotaMensualConIva}</lang> euros
        con la tarifa ${terminal.nombreTarifa}.
-       ¿Te interesa?`;
+       ¿Te interesa?</speak>`;
     return handlerInput.responseBuilder
       .speak(text)
       .addElicitSlotDirective("interes")
@@ -109,7 +117,11 @@ const vodafoneInteresSiIntentHandler = {
     await callToOwner(handlerInput);
 
     return handlerInput.responseBuilder
-        .speak("<speak>Estamos poniendote en contacto con un agente, atento a tu móvil... <audio src=\"https://hackathon-vf.s3-eu-west-1.amazonaws.com/jingle.mp3\"></audio></speak>")
+        .speak("<speak>\n" +
+                "Genial!\n" +
+                "En unos instantes un asesor de Vodafone se pondrá en contacto contigo.\n" +
+                "Mientas tanto, ¡disfruta!\n" +
+                "<audio src=\"https://hackathon-vf.s3-eu-west-1.amazonaws.com/jingle.mp3\"></audio></speak>")
         .withShouldEndSession(true)
         .getResponse();
   }
@@ -138,11 +150,11 @@ const vodafoneInteresNoIntentHandler = {
     let modelo = handlerInput.requestEnvelope.request.intent.slots.modelo.value;
     const query = terminales.getTerminals(marca, modelo);
     const terminal = query[1];
-    const text = `Vale! Te interesa entonces el  ${terminal.marca} ${
-      terminal.modelo
-    }
+
+    const text = `<speak><emphasis level="strong">¡Vale!</emphasis>¿Te interesa entonces el  ${terminal.marca} ${terminal.modelo}
     a un precio de ${terminal.cuotaMensualConIva} euros
-    con la tarifa ${terminal.nombreTarifa}?`;
+    con la tarifa ${terminal.nombreTarifa}?</speak>`;
+
     return handlerInput.responseBuilder
       .speak(text)
       .reprompt(text)
