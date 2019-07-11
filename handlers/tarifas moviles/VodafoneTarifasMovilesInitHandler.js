@@ -34,7 +34,7 @@ const VodafoneJuegaOnlineIntentHandler = {
 
     //console.log("Entro en JuegasOnline")
 
-    const text = {"type": "SSML", "SSML": "<speak><prosody volume='loud'>Como buen <voice><lang xml:lang='en-US'>Gamer</lang></voice>" +
+    const text = {"type": "SSML", "ssml": "<speak><prosody volume='loud'>Como buen <voice><lang xml:lang='en-US'>Gamer</lang></voice>" +
     "que eres,</prosody> creo que la tarifa que más se adapta a ti es la Ilimitada Móvil Total" +
     "<break time='0.1s' strength='weak'/> por <say-as interpret-as='cardinal'>49</say-as> euros con" +
     "<say-as interpret-as='cardinal'>99</say-as>al mes<break time='0.1s' strength='weak'/>" +
@@ -108,7 +108,7 @@ const VodafoneUsoDatosIntentHandler = {
   },
   handle(handlerInput) {
 
-    const text = {"type": "SSML", "SSML": "<speak><prosody volume='x-loud'>Lo tengo,</prosody><break time='0.1s' strength='weak'/>"+  
+    const text = {"type": "SSML", "ssml": "<speak><prosody volume='x-loud'>Lo tengo,</prosody><break time='0.1s' strength='weak'/>"+  
     "vas a disfrutar sin límites con la tarifa Ilimitada Móvil Super <break time='0.1s' strength='weak'/>" +
     "por <say-as interpret-as='cardinal'>45</say-as> euros con <say-as interpret-as='cardinal'>99</say-as>al"+
     "mes<break time='0.1s' strength='weak'/>que lleva  <break time='0.1s' strength='strong'/> datos ilimitados 5 G"+
