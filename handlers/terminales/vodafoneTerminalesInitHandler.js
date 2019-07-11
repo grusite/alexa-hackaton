@@ -84,8 +84,8 @@ const vodafoneModeloIntentHandler = {
     const query = terminales.getTerminals(marca, modelo);
     const terminal = query[0];
     const text = `<speak>
-            <emphasis level="strong">Vale</emphasis> <break time="0.5s"/>He encontrado el terminal ${terminal.marca} ${terminal.modelo}
-       a un precio de <lang xml:lang=\"en-US\">${terminal.cuotaMensualConIva}</lang> euros
+            <emphasis level="strong">Vale</emphasis> <break time="0.5s"/>He encontrado el terminal <lang xml:lang=\"en-US\">${terminal.marca} ${terminal.modelo}</lang>
+       a un precio de <say as="number">${terminal.cuotaMensualConIva}</say> euros
        con la tarifa ${terminal.nombreTarifa}.
        ¿Te interesa?</speak>`;
     return handlerInput.responseBuilder
