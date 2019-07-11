@@ -4,7 +4,8 @@ module.exports = parrillaTipoContentHandler = {
 	canHandle(handlerInput) {
 		return handlerInput.requestEnvelope.request.type === 'IntentRequest'
 				&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTv'
-				&& handlerInput.requestEnvelope.request.intent.slots.tipo.value;
+				&& handlerInput.requestEnvelope.request.intent.slots.tipo.value
+				&& handlerInput.requestEnvelope.request.intent.slots.mas.value === null;
 	},
 	handle(handlerInput) {
 		const slots = handlerInput.requestEnvelope.request.intent.slots;
@@ -19,16 +20,24 @@ module.exports = parrillaTipoContentHandler = {
 
 		searchResult.splice(0, 3);
 
-		if(searchResult.length > 3) {
+		if(searchResult.length > 0) {
 			speechText += 'quieres ver mas?';
+			
+			handlerInput.attributesManager.setSessionAttributes({searchResult});
+			return handlerInput.responseBuilder
+				.speak(speechText)
+				.reprompt(speechText)
+				.addElicitSlotDirective("mas")
+				.getResponse();
+		} else {
+			speechText += 'quieres ver otra cosa?';
+			
+			return handlerInput.responseBuilder
+				.speak(speechText)
+				.reprompt(speechText)
+				.addElicitSlotDirective("tipo")
+				.getResponse();
 		}
 
-		//handlerInput.attributesManager.setSessionAttributes({searchResult});
-
-		return handlerInput.responseBuilder
-			.speak(speechText)
-			.reprompt(speechText)
-        	.addElicitSlotDirective("tipo")
-			.getResponse();
 	},
 };
