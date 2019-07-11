@@ -28,11 +28,11 @@ const parrillaMasSiContentHandler = {
 				.addElicitSlotDirective("mas")
 				.getResponse();
 		} else {
-			speechText += `ya no tenemos mas ${tipo} que mostrarte. Si te interesa el contenido puedes verlo en Vodafone TV.`;
+			speechText += `ya no tenemos mas ${tipo} que mostrarte. Quieres ver otra cosa?.`;
 			
 			return handlerInput.responseBuilder
 				.speak(speechText)
-				.withShouldEndSession(true)
+				.addElicitSlotDirective("volver")
 				.getResponse();
 		}
 	},
