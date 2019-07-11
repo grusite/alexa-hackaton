@@ -233,7 +233,7 @@ const vodafoneInteresHandler = {
             handlerInput.requestEnvelope.request.intent.slots.interes.value
         );
     },
-    async handle(handlerInput) {
+    handle(handlerInput) {
         const interes = handlerInput.requestEnvelope.request.intent.slots.interes.value;
         let precio = handlerInput.requestEnvelope.request.intent.slots.precio.value;
 
@@ -242,12 +242,10 @@ const vodafoneInteresHandler = {
         const sessionAttributes = attributesManager.getSessionAttributes()
         sessionAttributes.intentos = sessionAttributes.intentos ? sessionAttributes.intentos + 1 : 1
         if(interes == "si" || interes == "sí") {
-            await callToOwner(handlerInput);
-
             return handlerInput.responseBuilder
-                    .speak("<speak>Estamos poniendote en contacto con un agente, atento a tu móvil... <audio src=\"https://hackathon-vf.s3-eu-west-1.amazonaws.com/jingle.mp3\"></audio></speak>")
-                    .withShouldEndSession(true)
-                    .getResponse();
+                .speak("¡Genial! En unos instantes un asesor de Vodafone se pondrá en contacto contigo. Pero mientras... ¡disfruta!")
+                .reprompt("¡Genial! En unos instantes un asesor de Vodafone se pondrá en contacto contigo. Pero mientras... ¡disfruta!")
+                .getResponse();
         } else {
             const query = terminales.getTerminalsByPrice(parseFloat(precio));
             if(query.length > sessionAttributes.intentos) {
@@ -261,12 +259,10 @@ const vodafoneInteresHandler = {
                     .getResponse();
             }
             else{
-                await callToOwner(handlerInput);
-
                 return handlerInput.responseBuilder
-                        .speak("<speak>Estamos poniendote en contacto con un agente, atento a tu móvil... <audio src=\"https://hackathon-vf.s3-eu-west-1.amazonaws.com/jingle.mp3\"></audio></speak>")
-                        .withShouldEndSession(true)
-                        .getResponse();
+                    .speak('Un asesor de Vodafone se pondrá en contacto contigo. Pero mientras... ¡disfruta!')
+                    .reprompt('Un asesor de Vodafone se pondrá en contacto contigo. Pero mientras... ¡disfruta!')
+                    .getResponse();
             }
         }
     }
