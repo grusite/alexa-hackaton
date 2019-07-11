@@ -5,7 +5,7 @@ module.exports = parrillaTipoContentHandler = {
 		return handlerInput.requestEnvelope.request.type === 'IntentRequest'
 				&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTv'
 				&& handlerInput.requestEnvelope.request.intent.slots.tipo.value
-				&& handlerInput.requestEnvelope.request.intent.slots.mas.value === null;
+				&& !handlerInput.requestEnvelope.request.intent.slots.mas.value;
 	},
 	handle(handlerInput) {
 		const slots = handlerInput.requestEnvelope.request.intent.slots;
