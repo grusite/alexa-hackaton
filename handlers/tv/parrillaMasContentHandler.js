@@ -28,11 +28,11 @@ const parrillaMasSiContentHandler = {
 				.addElicitSlotDirective("mas")
 				.getResponse();
 		} else {
-			speechText += `ya no tenemos mas ${tipo} que mostrarte. Si te interesa el contenido puedes verlo en Vodafone TV.`;
+			speechText += `ya no tenemos mas ${tipo} que mostrarte. Quieres ver otra cosa?.`;
 			
 			return handlerInput.responseBuilder
 				.speak(speechText)
-				.withShouldEndSession(true)
+				.addElicitSlotDirective("volver")
 				.getResponse();
 		}
 	},
@@ -42,7 +42,8 @@ const parrillaMasNoContentHandler = {
 	canHandle(handlerInput) {
 		return handlerInput.requestEnvelope.request.type === 'IntentRequest'
 				&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTv'
-				&& handlerInput.requestEnvelope.request.intent.slots.mas.value === 'no';
+				&& (handlerInput.requestEnvelope.request.intent.slots.mas.value === 'no' ||
+					handlerInput.requestEnvelope.request.intent.slots.volver.value === 'no');
 	},
 	handle(handlerInput) {
 		let speechText = 'Pues ya estaríamos';
