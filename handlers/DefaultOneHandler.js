@@ -3,8 +3,8 @@ module.exports = DefaultOneHandler = {
 		return handlerInput.requestEnvelope.request.type === 'IntentRequest'
 	},
 	handle(handlerInput) {
-		const speechText = 'No te entiento, para más ayuda di help';
-
+		const speechText = 'No te entiendo';
+		console.log("Prueba no entiendo",JSON.stringify(handlerInput.requestEnvelope.request));
 		return handlerInput.responseBuilder
 				.speak(speechText)
 				.withSimpleCard('Default', speechText)
