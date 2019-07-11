@@ -107,23 +107,55 @@ const vodafoneInteresSiIntentHandler = {
       handlerInput.requestEnvelope.request.intent.slots.marca.value &&
       handlerInput.requestEnvelope.request.intent.slots.modelo.value &&
       handlerInput.requestEnvelope.request.intent.slots.interes.value &&
-      handlerInput.requestEnvelope.request.intent.slots.interes.value ===
-        "si" &&
-      handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value ==
-        null
+      handlerInput.requestEnvelope.request.intent.slots.interes.value
     );
   },
   async handle(handlerInput) {
-    await callToOwner(handlerInput);
 
-    return handlerInput.responseBuilder
-        .speak("<speak>\n" +
-                "Genial!\n" +
-                "En unos instantes un asesor de Vodafone se pondrá en contacto contigo.\n" +
-                "Mientas tanto, ¡disfruta!\n" +
-                "<audio src=\"https://hackathon-vf.s3-eu-west-1.amazonaws.com/jingle.mp3\"></audio></speak>")
-        .withShouldEndSession(true)
-        .getResponse();
+    const interes = handlerInput.requestEnvelope.request.intent.slots.interes.value;
+
+    const sessionAttributes = attributesManager.getSessionAttributes()
+    sessionAttributes.intentos = sessionAttributes.intentos ? sessionAttributes.intentos + 1 : 1
+
+    await callToOwner(handlerInput);
+    if (interes == "si") {
+      return handlerInput.responseBuilder
+              .speak("<speak>\n" +
+                      "Genial!\n" +
+                      "En unos instantes un asesor de Vodafone se pondrá en contacto contigo.\n" +
+                      "Mientas tanto, ¡disfruta!\n" +
+                      "<audio src=\"https://hackathon-vf.s3-eu-west-1.amazonaws.com/jingle.mp3\"></audio></speak>")
+              .withShouldEndSession(true)
+              .getResponse();
+    } else {
+
+      let marca = handlerInput.requestEnvelope.request.intent.slots.marca.value;
+      let modelo = handlerInput.requestEnvelope.request.intent.slots.modelo.value;
+
+
+      const query = terminales.getTerminals(marca, modelo);
+
+      if (query.length > sessionAttributes.intentos) {
+        const terminal = query[sessionAttributes.intentos];
+
+        const text = `<speak>
+            <emphasis level="strong">Vale</emphasis> <break time="0.5s"/>También he encontrado el terminal <lang xml:lang=\"en-US\">${terminal.marca} ${terminal.modelo}</lang>
+       a un precio de <say-as interpret-as="number">${terminal.cuotaMensualConIva}</say-as> euros
+       con la tarifa ${terminal.nombreTarifa}.
+       ¿Te interesa este?</speak>`;
+        
+        return handlerInput.responseBuilder
+                .speak(text)
+                .reprompt(text)
+                .addElicitSlotDirective("interes")
+                .getResponse();
+      } else {
+        return handlerInput.responseBuilder
+                .speak('Un asesor de Vodafone se pondrá en contacto contigo. Pero mientras... ¡disfruta!')
+                .reprompt('Un asesor de Vodafone se pondrá en contacto contigo. Pero mientras... ¡disfruta!')
+                .getResponse();
+      }
+    }
   }
 };
 
