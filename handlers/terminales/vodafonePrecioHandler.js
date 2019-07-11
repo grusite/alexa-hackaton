@@ -209,7 +209,8 @@ const vodafoneInteresCompraHandler = {
         return (handlerInput.requestEnvelope.request.type === "IntentRequest" &&
             handlerInput.requestEnvelope.request.intent.name === "vodafoneTerminalesInit" &&
             handlerInput.requestEnvelope.request.intent.slots.interes &&
-            handlerInput.requestEnvelope.request.intent.slots.interes.value === "si"
+            (handlerInput.requestEnvelope.request.intent.slots.interes.value === "si" ||
+                handlerInput.requestEnvelope.request.intent.slots.interes.value === "sí")
         );
     },
     async handle(handlerInput) {
@@ -240,7 +241,7 @@ const vodafoneInteresHandler = {
 
         const sessionAttributes = attributesManager.getSessionAttributes()
         sessionAttributes.intentos = sessionAttributes.intentos ? sessionAttributes.intentos + 1 : 1
-        if(interes == "si") {
+        if(interes == "si" || interes == "sí") {
             return handlerInput.responseBuilder
                 .speak("¡Genial! En unos instantes un asesor de Vodafone se pondrá en contacto contigo. Pero mientras... ¡disfruta!")
                 .reprompt("¡Genial! En unos instantes un asesor de Vodafone se pondrá en contacto contigo. Pero mientras... ¡disfruta!")

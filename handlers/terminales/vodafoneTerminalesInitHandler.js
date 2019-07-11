@@ -118,7 +118,7 @@ const vodafoneInteresSiIntentHandler = {
     sessionAttributes.intentos = sessionAttributes.intentos ? sessionAttributes.intentos + 1 : 1
 
     await callToOwner(handlerInput);
-    if (interes == "si") {
+    if (interes == "si" || interes == "sí") {
       return handlerInput.responseBuilder
               .speak("<speak>\n" +
                       "Genial!\n" +
@@ -209,8 +209,9 @@ const vodafoneSegundoInteresSiIntentHandler = {
       handlerInput.requestEnvelope.request.intent.slots.interes.value ===
         "no" &&
       handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value &&
-      handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value ===
-        "si"
+
+      (handlerInput.requestEnvelope.request.intent.slots.interes.value === "si" ||
+              handlerInput.requestEnvelope.request.intent.slots.interes.value === "sí")
     );
   },
   async handle(handlerInput) {
