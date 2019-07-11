@@ -7,7 +7,8 @@ const parrillaMasSiContentHandler = {
 				&& !handlerInput.requestEnvelope.request.intent.slots.volver.value)
 	},
 	handle(handlerInput) {
-		const tipo = handlerInput.requestEnvelope.request.intent.slots.tipo.value;
+		const slots = handlerInput.requestEnvelope.request.intent.slots; 
+		const tipo = slots.tipo.value;
 		const sessionContent = handlerInput.attributesManager.getSessionAttributes().searchResult;
 		let speechText;
 
