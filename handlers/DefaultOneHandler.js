@@ -12,7 +12,7 @@ module.exports = DefaultOneHandler = {
 			handlerInput.requestEnvelope.request.intent.slots.usoDatos.value == null &&
 			handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value == null);
 		console.log("Prueba no entiendo",JSON.stringify(handlerInput.requestEnvelope.request));
-		console.log("test",test));
+		console.log("test",test);
 		return handlerInput.responseBuilder
 				.speak(speechText)
 				.withSimpleCard('Default', speechText)
