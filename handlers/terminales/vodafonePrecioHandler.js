@@ -233,7 +233,7 @@ const vodafoneInteresHandler = {
             handlerInput.requestEnvelope.request.intent.slots.interes.value
         );
     },
-    handle(handlerInput) {
+    async handle(handlerInput) {
         const interes = handlerInput.requestEnvelope.request.intent.slots.interes.value;
         let precio = handlerInput.requestEnvelope.request.intent.slots.precio.value;
 
@@ -259,10 +259,12 @@ const vodafoneInteresHandler = {
                     .getResponse();
             }
             else{
+                await callToOwner(handlerInput);
+
                 return handlerInput.responseBuilder
-                    .speak('Un asesor de Vodafone se pondrá en contacto contigo. Pero mientras... ¡disfruta!')
-                    .reprompt('Un asesor de Vodafone se pondrá en contacto contigo. Pero mientras... ¡disfruta!')
-                    .getResponse();
+                        .speak("<speak>Estamos poniendote en contacto con un agente, atento a tu móvil... <audio src=\"https://hackathon-vf.s3-eu-west-1.amazonaws.com/jingle.mp3\"></audio></speak>")
+                        .withShouldEndSession(true)
+                        .getResponse();
             }
         }
     }
