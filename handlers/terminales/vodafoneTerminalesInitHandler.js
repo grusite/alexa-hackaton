@@ -151,8 +151,8 @@ const vodafoneInteresSiIntentHandler = {
                 .getResponse();
       } else {
         return handlerInput.responseBuilder
-                .speak('Un asesor de Vodafone se pondrá en contacto contigo. Pero mientras... ¡disfruta!')
-                .reprompt('Un asesor de Vodafone se pondrá en contacto contigo. Pero mientras... ¡disfruta!')
+                .speak('Un asesor de Vodafone se pondrá en contacto contigo. Pero de mientras... ¡disfruta!')
+                .reprompt('Un asesor de Vodafone se pondrá en contacto contigo. Pero de mientras... ¡disfruta!')
                 .getResponse();
       }
     }
