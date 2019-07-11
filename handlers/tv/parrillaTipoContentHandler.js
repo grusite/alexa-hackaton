@@ -21,7 +21,7 @@ module.exports = parrillaTipoContentHandler = {
 		searchResult.splice(0, 3);
 
 		if(searchResult.length > 0) {
-			speechText += 'quieres ver mas?';
+			speechText += `quieres ver mas ${slots.tipo.value}?`;
 			
 			handlerInput.attributesManager.setSessionAttributes({searchResult});
 			return handlerInput.responseBuilder
@@ -30,7 +30,7 @@ module.exports = parrillaTipoContentHandler = {
 				.addElicitSlotDirective("mas")
 				.getResponse();
 		} else {
-			speechText += 'quieres ver otra cosa?';
+			speechText += `no hay más ${slots.tipo.value} en este momento. Quieres ver otra cosa?`;
 			
 			return handlerInput.responseBuilder
 				.speak(speechText)
