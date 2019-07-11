@@ -34,13 +34,13 @@ const VodafoneJuegaOnlineIntentHandler = {
 
     //console.log("Entro en JuegasOnline")
 
-    const text = "<speak><prosody volume='loud'>Como buen <voice><lang xml:lang='en-US'>Gamer</lang></voice>" +
+    const text = {"type": "SSML", "SSML": "<speak><prosody volume='loud'>Como buen <voice><lang xml:lang='en-US'>Gamer</lang></voice>" +
     "que eres,</prosody> creo que la tarifa que más se adapta a ti es la Ilimitada Móvil Total" +
     "<break time='0.1s' strength='weak'/> por <say-as interpret-as='cardinal'>49</say-as> euros con" +
     "<say-as interpret-as='cardinal'>99</say-as>al mes<break time='0.1s' strength='weak'/>" +
     "<break time='0.1s' strength='strong'/> y ¡ojo!" +
     "datos ilimitados 5 G para jugar con la <voice><lang xml:lang='en-US'>Switch</lang></voice> donde quieras."+
-    "<break time='0.1s' strength='weak'/> ¿Lo ponemos en marcha?</speak>"
+    "<break time='0.1s' strength='weak'/> ¿Lo ponemos en marcha?</speak>"}
 
     return handlerInput.responseBuilder
       .speak(text)
@@ -83,9 +83,9 @@ const VodafoneNoJuegaOnlineIntentHandler = {
   },
   handle(handlerInput) {
 
-    const text = "<speak>Vale,<break time='0.1s' strength='weak'/> vamos con otra cosa."+ 
+    const text = {"type": "SSML", "SSML": "<speak>Vale,<break time='0.1s' strength='weak'/> vamos con otra cosa."+ 
     "De media la gente suele estar 3 horas al día en redes sociales,<break time='1s' strength='strong'/>"+ 
-    "¿Navegas poco, o te fundes los datos?</speak>"
+    "¿Navegas poco, o te fundes los datos?</speak>"}
 
     return handlerInput.responseBuilder
       .speak(text)
@@ -109,12 +109,12 @@ const VodafoneUsoDatosIntentHandler = {
   },
   handle(handlerInput) {
 
-    const text = "<speak><prosody volume='x-loud'>Lo tengo,</prosody><break time='0.1s' strength='weak'/>"+  
+    const text = {"type": "SSML", "SSML": "<speak><prosody volume='x-loud'>Lo tengo,</prosody><break time='0.1s' strength='weak'/>"+  
     "vas a disfrutar sin límites con la tarifa Ilimitada Móvil Super <break time='0.1s' strength='weak'/>" +
     "por <say-as interpret-as='cardinal'>45</say-as> euros con <say-as interpret-as='cardinal'>99</say-as>al"+
     "mes<break time='0.1s' strength='weak'/>que lleva  <break time='0.1s' strength='strong'/> datos ilimitados 5 G"+
     "para utilizar <voice><lang xml:lang='en-US'>Instagram,</lang></voice> <voice><lang xml:lang='en-US'>Facebook,"+
-    "</lang></voice> y <voice><lang xml:lang='en-US'>Twitter</lang></voice> sin límites. ¿Quieres contratarla?</speak>"
+    "</lang></voice> y <voice><lang xml:lang='en-US'>Twitter</lang></voice> sin límites. ¿Quieres contratarla?</speak>"}
 
     return handlerInput.responseBuilder
       .speak(text)
@@ -139,8 +139,8 @@ const VodafoneNoUsoDatosIntentHandler = {
   },
   handle(handlerInput) {
 
-    const text = "<speak>Y en cuanto a llamadas, <break time='0.1s' strength='weak'/> ¿Hablas más de 6 minutos al día?"+
-    "</speak>"
+    const text = {"type": "SSML", "SSML": "<speak>Y en cuanto a llamadas, <break time='0.1s' strength='weak'/> ¿Hablas más de 6 minutos al día?"+
+    "</speak>"}
 
     return handlerInput.responseBuilder
       .speak(text)
@@ -164,11 +164,11 @@ const VodafoneLlamadasSeisMinutosIntentHandler = {
   },
   handle(handlerInput) {
 
-    const text = "<speak><prosody volume='x-loud'>Lo tengo,</prosody><break time='0.1s' strength='weak'/>"+
+    const text = {"type": "SSML", "SSML": "<speak><prosody volume='x-loud'>Lo tengo,</prosody><break time='0.1s' strength='weak'/>"+
     "con la tarifa Móvil Ilimitada por <say-as interpret-as='cardinal'>40</say-as> euros con"+
     "<say-as interpret-as='cardinal'>99</say-asaal mes<break time='0.1s' strength='weak'/>"+
     "no volverás a preocuparte de esos días en los hablas por los codos porque tienes llamadas y datos ilimitados."+
-    "¿La contratamos?</speak>"
+    "¿La contratamos?</speak>"}
 
     return handlerInput.responseBuilder
       .speak(text)
@@ -192,11 +192,11 @@ const VodafoneNoLlamadasSeisMinutosIntentHandler = {
   },
   handle(handlerInput) {
 
-    const text = "<speak>Tengo la tarifa que mejor se adapta a ti. La Móvil Mini por <say-as interpret-as='cardinal'>19"+
+    const text = {"type": "SSML", "SSML": "<speak>Tengo la tarifa que mejor se adapta a ti. La Móvil Mini por <say-as interpret-as='cardinal'>19"+
     "</say-as> euros con <say-as interpret-as='cardinal'>99</say-as> al mes con doscientos minutos,"+
     "<break time='0.1s' strength='strong'/> 3 Gigas para navegar<emphasis level='strong'>y</emphasis>"+
     "<break time='0.1s' strength='strong'/> ¡ojo!<voice><lang xml:lang='en-US'>Chat Pass</lang></voice>"+
-    "para chatear sin gastar datos de tu tarifa. ¿Quieres contratarla?</speak>"
+    "para chatear sin gastar datos de tu tarifa. ¿Quieres contratarla?</speak>"}
 
     return handlerInput.responseBuilder
       .speak(text)
