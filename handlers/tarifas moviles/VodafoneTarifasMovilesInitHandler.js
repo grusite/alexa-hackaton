@@ -12,7 +12,7 @@ const VodafoneTarifasMovilesInitHandler = {
 
 		return handlerInput.responseBuilder
       			.addDelegateDirective()
-      			.getResponse();
+      			.getResponse();	
 	}
 };
 
@@ -25,7 +25,7 @@ const VodafoneJuegaOnlineIntentHandler = {
       handlerInput.requestEnvelope.request.intent.slots.juegasOnline &&
       //handlerInput.requestEnvelope.request.intent.slots.juegasOnline.resolutions.resolutionsPerAuthority[0].values.value.id === "si" &&
       handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value == null &&
-        (handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "sí" || handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "si") &&
+      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "sí" &&
       handlerInput.requestEnvelope.request.intent.slots.usoDatos.value == null &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value == null
     );
@@ -34,13 +34,13 @@ const VodafoneJuegaOnlineIntentHandler = {
 
     //console.log("Entro en JuegasOnline")
 
-    const text = {"type": "SSML", "ssml": "<speak><prosody volume='loud'>Como buen <voice><lang xml:lang='en-US'>Gamer</lang></voice>" +
+    const text = "<speak><prosody volume='loud'>Como buen <voice><lang xml:lang='en-US'>Gamer</lang></voice>" +
     "que eres,</prosody> creo que la tarifa que más se adapta a ti es la Ilimitada Móvil Total" +
     "<break time='0.1s' strength='weak'/> por <say-as interpret-as='cardinal'>49</say-as> euros con" +
     "<say-as interpret-as='cardinal'>99</say-as>al mes<break time='0.1s' strength='weak'/>" +
     "<break time='0.1s' strength='strong'/> y ¡ojo!" +
     "datos ilimitados 5 G para jugar con la <voice><lang xml:lang='en-US'>Switch</lang></voice> donde quieras."+
-    "<break time='0.1s' strength='weak'/> ¿Lo ponemos en marcha?</speak>"}
+    "<break time='0.1s' strength='weak'/> ¿Lo ponemos en marcha?</speak>"
 
     return handlerInput.responseBuilder
       .speak(text)
@@ -54,7 +54,7 @@ const VodafoneTarifasMovilesOrderIntentHandler = {
     return (
         handlerInput.requestEnvelope.request.type === "IntentRequest" &&
         handlerInput.requestEnvelope.request.intent.name === "vodafoneTarifasMovilesInit" &&
-        (handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value === "sí" || handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value === "si")
+        handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value === "sí"
     );
   },
   async handle(handlerInput){
@@ -75,16 +75,17 @@ const VodafoneNoJuegaOnlineIntentHandler = {
       handlerInput.requestEnvelope.request.intent.name ===
         "vodafoneTarifasMovilesInit" &&
       handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value &&
-        (handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "no" || handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "nó") &&
+      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value ===
+        "no" && 
       handlerInput.requestEnvelope.request.intent.slots.usoDatos.value == null &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value == null
     );
   },
   handle(handlerInput) {
 
-    const text = {"type": "SSML", "ssml": "<speak>Vale,<break time='0.1s' strength='weak'/> vamos con otra cosa."+ 
+    const text = "<speak>Vale,<break time='0.1s' strength='weak'/> vamos con otra cosa "+ 
     "De media la gente suele estar 3 horas al día en redes sociales,<break time='1s' strength='strong'/>"+ 
-    "¿Navegas poco, o te fundes los datos?</speak>"}
+    "¿Navegas poco, o te fundes los datos?</speak>"
 
     return handlerInput.responseBuilder
       .speak(text)
@@ -100,20 +101,20 @@ const VodafoneUsoDatosIntentHandler = {
       handlerInput.requestEnvelope.request.type === "IntentRequest" &&
       handlerInput.requestEnvelope.request.intent.name === "vodafoneTarifasMovilesInit" &&
       handlerInput.requestEnvelope.request.intent.slots.usoDatos.value &&
-      (handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "sí" || handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "si") &&
-        (handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "no" || handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "nó") &&
+      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "sí" &&
+      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "no" &&
       handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value == null &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value == null
     );
   },
   handle(handlerInput) {
 
-    const text = {"type": "SSML", "ssml": "<speak><prosody volume='x-loud'>Lo tengo,</prosody><break time='0.1s' strength='weak'/>"+  
+    const text = "<speak><prosody volume='x-loud'>Lo tengo,</prosody><break time='0.1s' strength='weak'/>"+  
     "vas a disfrutar sin límites con la tarifa Ilimitada Móvil Super <break time='0.1s' strength='weak'/>" +
     "por <say-as interpret-as='cardinal'>45</say-as> euros con <say-as interpret-as='cardinal'>99</say-as>al"+
-    "mes<break time='0.1s' strength='weak'/>que lleva  <break time='0.1s' strength='strong'/> datos ilimitados 5 G"+
+    "mes<break time='0.1s' strength='weak'/>que lleva  <break time='0.1s' strength='strong'/> datos ilimitados 5 GE"+
     "para utilizar <voice><lang xml:lang='en-US'>Instagram,</lang></voice> <voice><lang xml:lang='en-US'>Facebook,"+
-    "</lang></voice> y <voice><lang xml:lang='en-US'>Twitter</lang></voice> sin límites. ¿Quieres contratarla?</speak>"}
+    "</lang></voice> y <voice><lang xml:lang='en-US'>Twitter</lang></voice> sin límites. ¿Quieres contratarla?</speak>"
 
     return handlerInput.responseBuilder
       .speak(text)
@@ -130,15 +131,16 @@ const VodafoneNoUsoDatosIntentHandler = {
       handlerInput.requestEnvelope.request.intent.name ===
         "vodafoneTarifasMovilesInit" &&
       handlerInput.requestEnvelope.request.intent.slots.usoDatos.value &&
-        (handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "no" || handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "nó") &&
-        (handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value == "no" || handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value == "nó") &&
+      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value ===
+        "no" &&
+      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value == "no" &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value == null
     );
   },
   handle(handlerInput) {
 
-    const text = {"type": "SSML", "ssml": "<speak>Y en cuanto a llamadas, <break time='0.1s' strength='weak'/> ¿Hablas más de 6 minutos al día?"+
-    "</speak>"}
+    const text = "<speak>Y en cuanto a llamadas, <break time='0.1s' strength='weak'/> ¿Hablas más de 6 minutos al día?"+
+    "</speak>"
 
     return handlerInput.responseBuilder
       .speak(text)
@@ -154,19 +156,19 @@ const VodafoneLlamadasSeisMinutosIntentHandler = {
       handlerInput.requestEnvelope.request.type === "IntentRequest" &&
       handlerInput.requestEnvelope.request.intent.name === "vodafoneTarifasMovilesInit" &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value &&
-        (handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value === "sí" || handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value === "si") &&
-        (handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "no" || handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "nó") &&
+      handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value === "sí" &&
+      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "no" &&
       handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value == null &&
-        (handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "no" || handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "nó")
+      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "no"
     );
   },
   handle(handlerInput) {
 
-    const text = {"type": "SSML", "ssml": "<speak><prosody volume='x-loud'>Lo tengo,</prosody><break time='0.1s' strength='weak'/>"+
+    const text = "<speak><prosody volume='x-loud'>Lo tengo,</prosody><break time='0.1s' strength='weak'/>"+
     "con la tarifa Móvil Ilimitada por <say-as interpret-as='cardinal'>40</say-as> euros con"+
     "<say-as interpret-as='cardinal'>99</say-asaal mes<break time='0.1s' strength='weak'/>"+
     "no volverás a preocuparte de esos días en los hablas por los codos porque tienes llamadas y datos ilimitados."+
-    "¿La contratamos?</speak>"}
+    "¿La contratamos?</speak>"
 
     return handlerInput.responseBuilder
       .speak(text)
@@ -182,19 +184,19 @@ const VodafoneNoLlamadasSeisMinutosIntentHandler = {
       handlerInput.requestEnvelope.request.type === "IntentRequest" &&
       handlerInput.requestEnvelope.request.intent.name === "vodafoneTarifasMovilesInit" &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value &&
-        (handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value === "no" || handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value === "nó") &&
-        (handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "no" || handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "nó") &&
+      handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value === "no" &&
+      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "no" &&
       handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value == null &&
-        (handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "no" || handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "nó")
+      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "no"
     );
   },
   handle(handlerInput) {
 
-    const text = {"type": "SSML", "ssml": "<speak>Tengo la tarifa que mejor se adapta a ti. La Móvil Mini por <say-as interpret-as='cardinal'>19"+
+    const text = "<speak>Tengo la tarifa que mejor se adapta a ti. La Móvil Mini por <say-as interpret-as='cardinal'>19"+
     "</say-as> euros con <say-as interpret-as='cardinal'>99</say-as> al mes con doscientos minutos,"+
     "<break time='0.1s' strength='strong'/> 3 Gigas para navegar<emphasis level='strong'>y</emphasis>"+
     "<break time='0.1s' strength='strong'/> ¡ojo!<voice><lang xml:lang='en-US'>Chat Pass</lang></voice>"+
-    "para chatear sin gastar datos de tu tarifa. ¿Quieres contratarla?</speak>"}
+    "para chatear sin gastar datos de tu tarifa. ¿Quieres contratarla?</speak>"
 
     return handlerInput.responseBuilder
       .speak(text)
