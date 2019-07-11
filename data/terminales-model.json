@@ -25,7 +25,10 @@
             {
               "name": "precioMarca",
               "type": "precioMarca",
-              "samples": ["marca", "precio"]
+              "samples": [
+                "marca",
+                "precio"
+              ]
             },
             {
               "name": "marca",
@@ -255,20 +258,7 @@
               "validations": [
                 {
                   "type": "hasEntityResolutionMatch",
-                  "prompt": "Slot.Validation.1378702721901.1394293964289.453410997825"
-                }
-              ]
-            },
-            {
-              "name": "segundoInteres",
-              "type": "segundoInteres",
-              "confirmationRequired": false,
-              "elicitationRequired": false,
-              "prompts": {},
-              "validations": [
-                {
-                  "type": "hasEntityResolutionMatch",
-                  "prompt": "Slot.Validation.1484012625414.154837375765.893887070987"
+                  "prompt": "Slot.Validation.447490204375.708179034712.232560366658"
                 }
               ]
             }
