@@ -3,11 +3,11 @@ const parrillaMasSiContentHandler = {
 		return handlerInput.requestEnvelope.request.type === 'IntentRequest'
 			&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTv'
 			&& handlerInput.requestEnvelope.request.intent.slots.tipo.value
-			&& (handlerInput.requestEnvelope.request.intent.slots.mas.value === 'si'
-				&& !handlerInput.requestEnvelope.request.intent.slots.volver.value)
+			&& handlerInput.requestEnvelope.request.intent.slots.mas.value === 'si'
 	},
 	handle(handlerInput) {
-		const tipo = handlerInput.requestEnvelope.request.intent.slots.tipo.value;
+		const slots = handlerInput.requestEnvelope.request.intent.slots; 
+		const tipo = slots.tipo.value;
 		const sessionContent = handlerInput.attributesManager.getSessionAttributes().searchResult;
 		let speechText;
 
@@ -47,8 +47,8 @@ const parrillaMasNoContentHandler = {
 	canHandle(handlerInput) {
 		return handlerInput.requestEnvelope.request.type === 'IntentRequest'
 				&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTv'
-				&& !handlerInput.requestEnvelope.request.intent.slots.mas.value
-				&& handlerInput.requestEnvelope.request.intent.slots.volver.value === 'no';
+				&& (handlerInput.requestEnvelope.request.intent.slots.mas.value === 'no'
+					|| handlerInput.requestEnvelope.request.intent.slots.volver.value == 'no');
 	},
 	handle(handlerInput) {
 		let speechText = 'Pues ya estaríamos';
