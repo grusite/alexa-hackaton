@@ -9,7 +9,6 @@ module.exports = HelpIntentHandler = {
 		return handlerInput.responseBuilder
 				.speak(speechText)
 				.reprompt(speechText)
-				.withSimpleCard('Hello World', speechText)
 				.getResponse();
 	},
 };
