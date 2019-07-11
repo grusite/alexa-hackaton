@@ -2,11 +2,13 @@ const search = require('../../back/tvBack');
 
 module.exports = parrillaTipoContentHandler = {
 	canHandle(handlerInput) {
+		const slots = handlerInput.requestEnvelope.request.intent.slots;
+
 		return handlerInput.requestEnvelope.request.type === 'IntentRequest'
 				&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTv'
-				&& handlerInput.requestEnvelope.request.intent.slots.tipo.value
-				&& (!handlerInput.requestEnvelope.request.intent.slots.mas.value
-					|| handlerInput.requestEnvelope.request.intent.slots.volver.value === 'si');
+				&& slots.tipo.value
+				&& ((!slots.mas.value || slots.volver.value === 'si') ||
+					(slots.mas.value === 'si' && slots.volver.value === 'si'));
 	},
 	handle(handlerInput) {
 		const slots = handlerInput.requestEnvelope.request.intent.slots;
