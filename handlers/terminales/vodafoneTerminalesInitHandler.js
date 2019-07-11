@@ -107,7 +107,8 @@ const vodafoneInteresSiIntentHandler = {
       handlerInput.requestEnvelope.request.intent.slots.marca.value &&
       handlerInput.requestEnvelope.request.intent.slots.modelo.value &&
       handlerInput.requestEnvelope.request.intent.slots.interes.value &&
-      handlerInput.requestEnvelope.request.intent.slots.interes.value
+      handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value ==
+      null
     );
   },
   async handle(handlerInput) {
