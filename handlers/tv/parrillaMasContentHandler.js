@@ -6,6 +6,7 @@ const parrillaMasSiContentHandler = {
 			&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTv'
 			&& slots.tipo.value
 			&& slots.mas.value === 'si'
+			&& !slots.volver.value
 	},
 	handle(handlerInput) {
 		const slots = handlerInput.requestEnvelope.request.intent.slots; 
