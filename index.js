@@ -16,6 +16,7 @@ const vodafonePrecioHandler = require("./handlers/terminales/vodafonePrecioHandl
 // TV Handlers
 const parrillaInitHandler = require("./handlers/tv/parrillaInitHandler");
 const parrillaTipoContentHandler = require("./handlers/tv/parrillaTipoContentHandler");
+const parrillaMasContentHandler = require("./handlers/tv/parrillaMasContentHandler");
 
 // Tarifas Moviles Handler
 const vodafoneTarifasMovilesInitHandler = require("./handlers/tarifas moviles/VodafoneTarifasMovilesInitHandler");
@@ -44,6 +45,7 @@ exports.handler = skillBuilder
     LaunchRequestHandler,
     parrillaInitHandler,
     parrillaTipoContentHandler,
+    ...parrillaMasContentHandler,
     vodafonePermisosHandler,
     ...vodafoneTerminalesInitHandler,
     ...vodafonePrecioHandler,
