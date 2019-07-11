@@ -255,13 +255,7 @@
                             "type": "interes",
                             "confirmationRequired": false,
                             "elicitationRequired": false,
-                            "prompts": {},
-                            "validations": [
-                                {
-                                    "type": "hasEntityResolutionMatch",
-                                    "prompt": "Slot.Validation.1086623587311.693817380922.1232375791679"
-                                }
-                            ]
+                            "prompts": {}
                         }
                     ]
                 }
