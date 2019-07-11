@@ -5,9 +5,8 @@ module.exports = parrillaTipoContentHandler = {
 		return handlerInput.requestEnvelope.request.type === 'IntentRequest'
 				&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTv'
 				&& handlerInput.requestEnvelope.request.intent.slots.tipo.value
-				&& !handlerInput.requestEnvelope.request.intent.slots.mas.value
-				&& (handlerInput.requestEnvelope.request.intent.slots.volver.value === 'si' ||
-					!handlerInput.requestEnvelope.request.intent.slots.volver.value);
+				&& (!handlerInput.requestEnvelope.request.intent.slots.mas.value
+					|| handlerInput.requestEnvelope.request.intent.slots.volver.value === 'si');
 	},
 	handle(handlerInput) {
 		const slots = handlerInput.requestEnvelope.request.intent.slots;
@@ -24,6 +23,8 @@ module.exports = parrillaTipoContentHandler = {
 
 		if(searchResult.length > 0) {
 			speechText += `quieres ver mas ${slots.tipo.value}?`;
+
+			slots.volver.value = null;
 			
 			handlerInput.attributesManager.setSessionAttributes({searchResult});
 

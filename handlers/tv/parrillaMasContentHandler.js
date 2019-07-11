@@ -23,6 +23,8 @@ const parrillaMasSiContentHandler = {
 			speechText += `quieres ver mas ${tipo}?`;
 			handlerInput.attributesManager.setSessionAttributes({"searchResult": sessionContent});
 
+			slots.volver.value = null;
+
 			return handlerInput.responseBuilder
 				.speak(speechText)
 				.reprompt(speechText)
@@ -30,6 +32,8 @@ const parrillaMasSiContentHandler = {
 				.getResponse();
 		} else {
 			speechText += `ya no tenemos mas ${tipo} que mostrarte. Quieres ver otra cosa?.`;
+
+			slots.mas.value = null;
 			
 			return handlerInput.responseBuilder
 				.speak(speechText)
@@ -43,10 +47,8 @@ const parrillaMasNoContentHandler = {
 	canHandle(handlerInput) {
 		return handlerInput.requestEnvelope.request.type === 'IntentRequest'
 				&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTv'
-				&& (handlerInput.requestEnvelope.request.intent.slots.mas.value === 'no' ||
-					handlerInput.requestEnvelope.request.intent.slots.volver.value === 'no'
-					(handlerInput.requestEnvelope.request.intent.slots.mas.value === 'si' &&
-					handlerInput.requestEnvelope.request.intent.slots.volver.value === 'no'));
+				&& !handlerInput.requestEnvelope.request.intent.slots.mas.value
+				&& handlerInput.requestEnvelope.request.intent.slots.volver.value === 'no';
 	},
 	handle(handlerInput) {
 		let speechText = 'Pues ya estaríamos';
