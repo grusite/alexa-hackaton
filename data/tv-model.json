@@ -1,0 +1,177 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "vodafone",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "vodafoneTv",
+                    "slots": [
+                        {
+                            "name": "tipo",
+                            "type": "tipo",
+                            "samples": [
+                                "cine",
+                                "documentales",
+                                "series"
+                            ]
+                        },
+                        {
+                            "name": "mas",
+                            "type": "mas"
+                        },
+                        {
+                            "name": "volver",
+                            "type": "volver"
+                        }
+                    ],
+                    "samples": [
+                        "dime que estan echando en la tele",
+                        "dime que estan dando en la tele",
+                        "dime que echan en la tele"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "tipo",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "cine",
+                                "synonyms": [
+                                    "peliculas",
+                                    "pelis"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "documentales"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "series"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "mas",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "no"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "si",
+                                "synonyms": [
+                                    "vale"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "volver",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "no"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "si"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "vodafoneTv",
+                    "delegationStrategy": "SKILL_RESPONSE",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "tipo",
+                            "type": "tipo",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.961558360117.1434594198162"
+                            },
+                            "validations": [
+                                {
+                                    "type": "hasEntityResolutionMatch",
+                                    "prompt": "Slot.Validation.961558360117.1434594198162.351824262667"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "delegationStrategy": "ALWAYS"
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.961558360117.1434594198162",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Que te apetece ver, series, cine o documentales"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.961558360117.1434594198162.351824262667",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Por favor, dime si es serie, documental o cine"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1128055928801.1243777098651",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "quieres ver mas contenido?"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.1128055928801.1243777098651.719446451999",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "te apetece ver mas contenido?"
+                    }
+                ]
+            }
+        ]
+    }
+}
