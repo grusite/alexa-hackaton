@@ -48,7 +48,7 @@
                         },
                         {
                             "name": "segundoInteres",
-                            "type": "segundoInteres"
+                            "type": "interes"
                         }
                     ],
                     "samples": [
@@ -179,21 +179,6 @@
                             }
                         }
                     ]
-                },
-                {
-                    "name": "segundoInteres",
-                    "values": [
-                        {
-                            "name": {
-                                "value": "no"
-                            }
-                        },
-                        {
-                            "name": {
-                                "value": "si"
-                            }
-                        }
-                    ]
                 }
             ]
         },
@@ -267,14 +252,14 @@
                         },
                         {
                             "name": "segundoInteres",
-                            "type": "segundoInteres",
+                            "type": "interes",
                             "confirmationRequired": false,
                             "elicitationRequired": false,
                             "prompts": {},
                             "validations": [
                                 {
                                     "type": "hasEntityResolutionMatch",
-                                    "prompt": "Slot.Validation.1484012625414.154837375765.893887070987"
+                                    "prompt": "Slot.Validation.1086623587311.693817380922.1232375791679"
                                 }
                             ]
                         }
@@ -339,13 +324,8 @@
                 ]
             },
             {
-                "id": "Slot.Validation.1484012625414.154837375765.893887070987",
-                "variations": [
-                    {
-                        "type": "PlainText",
-                        "value": "No te entiendo, si o no"
-                    }
-                ]
+                "id": "Slot.Validation.1086623587311.693817380922.1232375791679",
+                "variations": []
             }
         ]
     }
