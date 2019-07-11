@@ -270,6 +270,33 @@
         },
         "prompts": [
             {
+                "id": "Slot.Validation.848785484152.444239059388.194611684330",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Por favor, dime si eres particular o autónomos"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.157571340357.1189799002864",
+                "variations": [
+                    {
+                        "type": "SSML",
+                        "value": "<speak><prosody volume=""x-loud"">Genial! </prosody><break time=""0.1s"" strength=""weak""/>Vamos a ver qué tarifa móvil se adapta mejor a ti.<break time=""0.5s""/>¿Sueles jugar <voice><lang xml:lang=""en-US"">online</lang></voice> cada día?</speak>"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.157571340357.1189799002864.1439548450615",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Dime sí o no, por favor"
+                    }
+                ]
+            },
+            {
                 "id": "Elicit.Slot.1282128361574.1464316861328",
                 "variations": [
                     {
