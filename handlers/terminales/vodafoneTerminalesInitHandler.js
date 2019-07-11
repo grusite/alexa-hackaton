@@ -95,68 +95,32 @@ const vodafoneModeloIntentHandler = {
   }
 };
 
+
 const vodafoneInteresSiIntentHandler = {
   canHandle(handlerInput) {
     return (
-      handlerInput.requestEnvelope.request.type === "IntentRequest" &&
-      handlerInput.requestEnvelope.request.intent.name ===
-        "vodafoneTerminalesInit" &&
-      handlerInput.requestEnvelope.request.intent.slots.precioMarca.value &&
-      handlerInput.requestEnvelope.request.intent.slots.precioMarca.value ===
-        "marca" &&
-      handlerInput.requestEnvelope.request.intent.slots.marca.value &&
-      handlerInput.requestEnvelope.request.intent.slots.modelo.value &&
-      handlerInput.requestEnvelope.request.intent.slots.interes.value &&
-      handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value ==
-      null
+            handlerInput.requestEnvelope.request.type === "IntentRequest" &&
+            handlerInput.requestEnvelope.request.intent.name ===
+            "vodafoneTerminalesInit" &&
+            handlerInput.requestEnvelope.request.intent.slots.precioMarca.value &&
+            handlerInput.requestEnvelope.request.intent.slots.precioMarca.value ===
+            "marca" &&
+            handlerInput.requestEnvelope.request.intent.slots.marca.value &&
+            handlerInput.requestEnvelope.request.intent.slots.modelo.value &&
+            handlerInput.requestEnvelope.request.intent.slots.interes.value &&
+            (handlerInput.requestEnvelope.request.intent.slots.interes.value ===
+            "si" || handlerInput.requestEnvelope.request.intent.slots.interes.value ===
+            "sí") &&
+            handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value ==
+            null
     );
   },
   async handle(handlerInput) {
-
-    const interes = handlerInput.requestEnvelope.request.intent.slots.interes.value;
-
-    const sessionAttributes = attributesManager.getSessionAttributes()
-    sessionAttributes.intentos = sessionAttributes.intentos ? sessionAttributes.intentos + 1 : 1
-
     await callToOwner(handlerInput);
-    if (interes == "si" || interes == "sí") {
-      return handlerInput.responseBuilder
-              .speak("<speak>\n" +
-                      "Genial!\n" +
-                      "En unos instantes un asesor de Vodafone se pondrá en contacto contigo.\n" +
-                      "Mientas tanto, ¡disfruta!\n" +
-                      "<audio src=\"https://hackathon-vf.s3-eu-west-1.amazonaws.com/jingle.mp3\"></audio></speak>")
-              .withShouldEndSession(true)
-              .getResponse();
-    } else {
 
-      let marca = handlerInput.requestEnvelope.request.intent.slots.marca.value;
-      let modelo = handlerInput.requestEnvelope.request.intent.slots.modelo.value;
-
-
-      const query = terminales.getTerminals(marca, modelo);
-
-      if (query.length > sessionAttributes.intentos) {
-        const terminal = query[sessionAttributes.intentos];
-
-        const text = `<speak>
-            <emphasis level="strong">Vale</emphasis> <break time="0.5s"/>También he encontrado el terminal <lang xml:lang=\"en-US\">${terminal.marca} ${terminal.modelo}</lang>
-       a un precio de <say-as interpret-as="number">${terminal.cuotaMensualConIva}</say-as> euros
-       con la tarifa ${terminal.nombreTarifa}.
-       ¿Te interesa este?</speak>`;
-        
-        return handlerInput.responseBuilder
-                .speak(text)
-                .reprompt(text)
-                .addElicitSlotDirective("interes")
-                .getResponse();
-      } else {
-        return handlerInput.responseBuilder
-                .speak('Un asesor de Vodafone se pondrá en contacto contigo. Pero de mientras... ¡disfruta!')
-                .reprompt('Un asesor de Vodafone se pondrá en contacto contigo. Pero de mientras... ¡disfruta!')
-                .getResponse();
-      }
-    }
+    return handlerInput.responseBuilder
+            .speak("<speak>Estamos poniendote en contacto con un agente, atento a tu móvil... <audio src=\"https://hackathon-vf.s3-eu-west-1.amazonaws.com/jingle.mp3\"></audio></speak>")
+            .getResponse();
   }
 };
 
