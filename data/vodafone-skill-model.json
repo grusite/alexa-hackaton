@@ -109,7 +109,7 @@
                         },
                         {
                             "name": {
-                                "value": "si",
+                                "value": "sí",
                                 "synonyms": [
                                     "juego mucho en casa",
                                     "a veces",
@@ -126,7 +126,7 @@
                     "values": [
                         {
                             "name": {
-                                "value": "Si",
+                                "value": "sí",
                                 "synonyms": [
                                     "si, me quedo sin datos",
                                     "me fundo los datos",
@@ -136,7 +136,7 @@
                         },
                         {
                             "name": {
-                                "value": "No",
+                                "value": "no",
                                 "synonyms": [
                                     "no, me los fundo",
                                     "gasto poco",
@@ -151,7 +151,7 @@
                     "values": [
                         {
                             "name": {
-                                "value": "No",
+                                "value": "no",
                                 "synonyms": [
                                     "para nada",
                                     "nada",
@@ -162,7 +162,7 @@
                         },
                         {
                             "name": {
-                                "value": "Si",
+                                "value": "sí",
                                 "synonyms": [
                                     "un montón",
                                     "no paro",
@@ -310,13 +310,7 @@
                             "elicitationRequired": true,
                             "prompts": {
                                 "elicitation": "Elicit.Slot.157571340357.1189799002864"
-                            },
-                            "validations": [
-                                {
-                                    "type": "hasEntityResolutionMatch",
-                                    "prompt": "Slot.Validation.157571340357.1189799002864.1439548450615"
-                                }
-                            ]
+                            }
                         },
                         {
                             "name": "usoDatos",
@@ -337,13 +331,7 @@
                             "type": "interes",
                             "confirmationRequired": false,
                             "elicitationRequired": false,
-                            "prompts": {},
-                            "validations": [
-                                {
-                                    "type": "hasEntityResolutionMatch",
-                                    "prompt": "Slot.Validation.585268145324.589160704831.1227499814466"
-                                }
-                            ]
+                            "prompts": {}
                         }
                     ]
                 },
@@ -406,13 +394,7 @@
                             "type": "interes",
                             "confirmationRequired": false,
                             "elicitationRequired": false,
-                            "prompts": {},
-                            "validations": [
-                                {
-                                    "type": "hasEntityResolutionMatch",
-                                    "prompt": "Slot.Validation.1378702721901.1394293964289.453410997825"
-                                }
-                            ]
+                            "prompts": {}
                         },
                         {
                             "name": "segundoInteres",
@@ -442,15 +424,6 @@
                     {
                         "type": "PlainText",
                         "value": "Genial. Vamos a ver qué tarifa móvil se adapta mejor a ti. ¿Sueles jugar cada día online?"
-                    }
-                ]
-            },
-            {
-                "id": "Slot.Validation.157571340357.1189799002864.1439548450615",
-                "variations": [
-                    {
-                        "type": "PlainText",
-                        "value": "Dime sí o no, por favor"
                     }
                 ]
             },
@@ -500,29 +473,11 @@
                 ]
             },
             {
-                "id": "Slot.Validation.1378702721901.1394293964289.453410997825",
-                "variations": [
-                    {
-                        "type": "PlainText",
-                        "value": "No te entiendo, si o no"
-                    }
-                ]
-            },
-            {
                 "id": "Elicit.Slot.585268145324.589160704831",
                 "variations": [
                     {
                         "type": "PlainText",
                         "value": "Perfecto, ¿quieres que te llamemos para contratar esta tarifa?"
-                    }
-                ]
-            },
-            {
-                "id": "Slot.Validation.585268145324.589160704831.1227499814466",
-                "variations": [
-                    {
-                        "type": "PlainText",
-                        "value": "Sí o no?"
                     }
                 ]
             }

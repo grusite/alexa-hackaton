@@ -85,7 +85,7 @@ const vodafoneModeloIntentHandler = {
     const terminal = query[0];
     const text = `<speak>
             <emphasis level="strong">Vale</emphasis> <break time="0.5s"/>He encontrado el terminal <lang xml:lang=\"en-US\">${terminal.marca} ${terminal.modelo}</lang>
-       a un precio de <say-as interpret-as="number">${terminal.cuotaMensualConIva}</say-as> euros
+       a un precio de <say as="number">${terminal.cuotaMensualConIva}</say> euros
        con la tarifa ${terminal.nombreTarifa}.
        ¿Te interesa?</speak>`;
     return handlerInput.responseBuilder
@@ -118,7 +118,7 @@ const vodafoneInteresSiIntentHandler = {
     sessionAttributes.intentos = sessionAttributes.intentos ? sessionAttributes.intentos + 1 : 1
 
     await callToOwner(handlerInput);
-    if (interes == "si") {
+    if (interes == "si" || interes == "sí") {
       return handlerInput.responseBuilder
               .speak("<speak>\n" +
                       "Genial!\n" +
@@ -209,8 +209,9 @@ const vodafoneSegundoInteresSiIntentHandler = {
       handlerInput.requestEnvelope.request.intent.slots.interes.value ===
         "no" &&
       handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value &&
-      handlerInput.requestEnvelope.request.intent.slots.segundoInteres.value ===
-        "si"
+
+      (handlerInput.requestEnvelope.request.intent.slots.interes.value === "si" ||
+              handlerInput.requestEnvelope.request.intent.slots.interes.value === "sí")
     );
   },
   async handle(handlerInput) {
