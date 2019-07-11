@@ -34,13 +34,13 @@ const parrillaMasSiContentHandler = {
 				.addElicitSlotDirective("mas")
 				.getResponse();
 		} else {
-			speechText += `ya no tenemos mas ${tipo} que mostrarte. Quieres ver otra cosa?.`;
+			speechText += `ya no tenemos mas ${tipo} que mostrarte. .`;
 
 			slots.mas.value = null;
 			
 			return handlerInput.responseBuilder
 				.speak(speechText)
-				.addElicitSlotDirective("volver")
+				.withShouldEndSession(true)
 				.getResponse();
 		}
 	},
@@ -56,7 +56,10 @@ const parrillaMasNoContentHandler = {
 					(slots.mas.value === 'no' || slots.volver.value === 'no'))
 	},
 	handle(handlerInput) {
-		let speechText = 'Pues ya estaríamos';
+		const slots = handlerInput.requestEnvelope.request.intent.slots;
+		const isPlural = /s$/.test(slots.tipo.value);
+
+		let speechText = `Disfruta de ${isPlural ? 'tus' : 'tu'} ${slots.tipo.value}!`;
 
 		return handlerInput.responseBuilder
 			.speak(speechText)
