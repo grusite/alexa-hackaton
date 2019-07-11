@@ -455,8 +455,8 @@
                 "id": "Elicit.Slot.157571340357.1189799002864",
                 "variations": [
                     {
-                        "type": "PlainText",
-                        "value": "Genial. Vamos a ver qué tarifa móvil se adapta mejor a ti. ¿Sueles jugar cada día online?"
+                        "type": "SSML",
+                        "value": "<speak><prosody volume=""x-loud"">Genial! </prosody><break time=""0.1s"" strength=""weak""/>Vamos a ver qué tarifa móvil se adapta mejor a ti.<break time=""0.5s""/>¿Sueles jugar <voice><lang xml:lang=""en-US"">online</lang></voice> cada día?</speak>"
                     }
                 ]
             },
