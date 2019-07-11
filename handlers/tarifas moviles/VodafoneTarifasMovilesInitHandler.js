@@ -57,6 +57,7 @@ const VodafoneTarifasMovilesOrderIntentHandler = {
     return handlerInput.responseBuilder
         .speak("<speak>Estamos poniendote en contacto con un agente, atento a tu móvil... <audio src=\"https://hackathon-vf.s3-eu-west-1.amazonaws.com/jingle.mp3\"></audio></speak>")
         .addElicitSlotDirective("contratarTarifa")
+        .withShouldEndSession(true)
         .getResponse();
   }
 };
