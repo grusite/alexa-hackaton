@@ -45,7 +45,7 @@ exports.handler = skillBuilder
     LaunchRequestHandler,
     parrillaInitHandler,
     parrillaTipoContentHandler,
-    parrillaMasContentHandler,
+    ...parrillaMasContentHandler,
     vodafonePermisosHandler,
     ...vodafoneTerminalesInitHandler,
     ...vodafonePrecioHandler,
