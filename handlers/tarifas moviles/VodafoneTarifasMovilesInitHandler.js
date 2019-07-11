@@ -12,7 +12,7 @@ const VodafoneTarifasMovilesInitHandler = {
 
 		return handlerInput.responseBuilder
       			.addDelegateDirective()
-      			.getResponse();	
+      			.getResponse();
 	}
 };
 
@@ -25,7 +25,7 @@ const VodafoneJuegaOnlineIntentHandler = {
       handlerInput.requestEnvelope.request.intent.slots.juegasOnline &&
       //handlerInput.requestEnvelope.request.intent.slots.juegasOnline.resolutions.resolutionsPerAuthority[0].values.value.id === "si" &&
       handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value == null &&
-      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "sí" &&
+        (handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "sí" || handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "si") &&
       handlerInput.requestEnvelope.request.intent.slots.usoDatos.value == null &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value == null
     );
@@ -48,7 +48,7 @@ const VodafoneTarifasMovilesOrderIntentHandler = {
     return (
         handlerInput.requestEnvelope.request.type === "IntentRequest" &&
         handlerInput.requestEnvelope.request.intent.name === "vodafoneTarifasMovilesInit" &&
-        handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value === "sí"
+        (handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value === "sí" || handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value === "si")
     );
   },
   async handle(handlerInput){
@@ -69,8 +69,7 @@ const VodafoneNoJuegaOnlineIntentHandler = {
       handlerInput.requestEnvelope.request.intent.name ===
         "vodafoneTarifasMovilesInit" &&
       handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value &&
-      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value ===
-        "no" && 
+        (handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "no" || handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "nó") &&
       handlerInput.requestEnvelope.request.intent.slots.usoDatos.value == null &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value == null
     );
@@ -93,8 +92,8 @@ const VodafoneUsoDatosIntentHandler = {
       handlerInput.requestEnvelope.request.type === "IntentRequest" &&
       handlerInput.requestEnvelope.request.intent.name === "vodafoneTarifasMovilesInit" &&
       handlerInput.requestEnvelope.request.intent.slots.usoDatos.value &&
-      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "sí" &&
-      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "no" &&
+      (handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "sí" || handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "si") &&
+        (handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "no" || handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "nó") &&
       handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value == null &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value == null
     );
@@ -118,9 +117,8 @@ const VodafoneNoUsoDatosIntentHandler = {
       handlerInput.requestEnvelope.request.intent.name ===
         "vodafoneTarifasMovilesInit" &&
       handlerInput.requestEnvelope.request.intent.slots.usoDatos.value &&
-      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value ===
-        "no" &&
-      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value == "no" &&
+        (handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "no" || handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "nó") &&
+        (handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value == "no" || handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value == "nó") &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value == null
     );
   },
@@ -142,10 +140,10 @@ const VodafoneLlamadasSeisMinutosIntentHandler = {
       handlerInput.requestEnvelope.request.type === "IntentRequest" &&
       handlerInput.requestEnvelope.request.intent.name === "vodafoneTarifasMovilesInit" &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value &&
-      handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value === "sí" &&
-      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "no" &&
+        (handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value === "sí" || handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value === "si") &&
+        (handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "no" || handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "nó") &&
       handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value == null &&
-      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "no"
+        (handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "no" || handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "nó")
     );
   },
   handle(handlerInput) {
@@ -166,10 +164,10 @@ const VodafoneNoLlamadasSeisMinutosIntentHandler = {
       handlerInput.requestEnvelope.request.type === "IntentRequest" &&
       handlerInput.requestEnvelope.request.intent.name === "vodafoneTarifasMovilesInit" &&
       handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value &&
-      handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value === "no" &&
-      handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "no" &&
+        (handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value === "no" || handlerInput.requestEnvelope.request.intent.slots.isLlamadasMasSeisMinutos.value === "nó") &&
+        (handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "no" || handlerInput.requestEnvelope.request.intent.slots.juegasOnline.value === "nó") &&
       handlerInput.requestEnvelope.request.intent.slots.contratarTarifa.value == null &&
-      handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "no"
+        (handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "no" || handlerInput.requestEnvelope.request.intent.slots.usoDatos.value === "nó")
     );
   },
   handle(handlerInput) {
