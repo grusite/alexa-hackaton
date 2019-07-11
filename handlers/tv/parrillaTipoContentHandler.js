@@ -7,8 +7,8 @@ module.exports = parrillaTipoContentHandler = {
 		return handlerInput.requestEnvelope.request.type === 'IntentRequest'
 				&& handlerInput.requestEnvelope.request.intent.name === 'vodafoneTv'
 				&& slots.tipo.value
-				&& ((!slots.mas.value || slots.volver.value === 'si') ||
-					(slots.mas.value === 'si' && slots.volver.value === 'si'));
+				&& ((!slots.mas.value || (slots.volver.value === 'sí' || slots.volver.value === 'si')) ||
+					((slots.mas.value === 'si' || slots.mas.value === 'sí') && (slots.volver.value === 'sí' || slots.volver.value === 'si')));
 	},
 	handle(handlerInput) {
 		const slots = handlerInput.requestEnvelope.request.intent.slots;
@@ -27,7 +27,7 @@ module.exports = parrillaTipoContentHandler = {
 			speechText += `quieres ver mas ${slots.tipo.value}?`;
 
 			slots.volver.value = null;
-			
+
 			handlerInput.attributesManager.setSessionAttributes({searchResult});
 
 			return handlerInput.responseBuilder
@@ -36,8 +36,8 @@ module.exports = parrillaTipoContentHandler = {
 				.addElicitSlotDirective("mas")
 				.getResponse();
 		} else {
-			speechText += `no hay más ${slots.tipo.value} en este momento. Quieres ver otra cosa?`;	
-			
+			speechText += `no hay más ${slots.tipo.value} en este momento. Quieres ver otra cosa?`;
+
 			return handlerInput.responseBuilder
 				.speak(speechText)
 				.reprompt(speechText)
